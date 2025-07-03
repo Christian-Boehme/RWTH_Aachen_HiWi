@@ -1,0 +1,61 @@
+[INFO] Module intel/2022a loaded.
+[INFO] Module GCC/11.3.0 loaded.
+FlameMaster written by Heinz Pitsch
+
+version                  4.4.0
+executed command         '/rwthfs/rz/cluster/home/cb376114/Programs/FlameMaster/FlameMaster_Branch_jl_dco_activated/Bin/bin/../bin/FlameMan -i Simulations/ThermalDeNOx/O2_50/FlameMaster1200.input -r MechNOx.pre -o Simulations/ThermalDeNOx/O2_50/Output'
+git sha1                 2a5f34190d01ea4406b2bf62549b54a510a08f31
+operating system         Linux, version 4.18.0-553.34.1.el8_10.x86_64
+target architechture     x86_64
+c++ compiler             Intel, version 2021.6.0.20220226
+c   compiler             Intel, version 2021.6.0.20220226
+bla/lapack vendor        
+index size               32 bit
+
+use mechanism file 'MechNOx.pre'
+model has 1065 species
+        6 spherical
+       29 linear
+     1030 non-linear
+    -----
+     1065 / 1065 geometry parameters expected
+
+The used model has 6629 reactions (reactions for which the forward and backward
+direction are specified as separate irreversible reactions are counted twice)
+
+outpath is 'Simulations/ThermalDeNOx/O2_50/Output/'
+initial pressure is 1.013 bar
+mixture-averaged transport coefficient evaluation
+use mono atomic species transport model
+Using the SUNDIALS linear solver implementation
+#warning: ignoring Jacbian routine without COMBUSTION_LIBS.
+
+start computation
+
+
+
+p = 1.013 bar	phi = 0.0015	T = 1200 K
+
+Start measuring execution time
+
+step = 100	ord = 5	t = 7.61056 ms	T = 1201.1 K
+step = 200	ord = 4	t = 17.6106 ms	T = 1204.19 K
+step = 300	ord = 5	t = 27.6106 ms	T = 1206.27 K
+step = 400	ord = 5	t = 37.6106 ms	T = 1207.69 K
+step = 500	ord = 5	t = 47.6106 ms	T = 1208.56 K
+step = 600	ord = 5	t = 57.6106 ms	T = 1209.03 K
+step = 700	ord = 5	t = 67.6106 ms	T = 1209.28 K
+
+Execution time 21101 ms
+
+
+** no ignition occured
+** final time is          73	ms
+** final temperature is   1209.35	K
+** Delta T is   9.35456	K
+** 754 steps needed
+
+T_0 [K]	t_ig [ms]
+1200	no ignition
+Execution time 24.7813 s
+

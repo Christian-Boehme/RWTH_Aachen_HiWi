@@ -1,0 +1,82 @@
+############
+# Numerics #
+############
+
+RelTol = 1.0e-12
+AbsTol = 1.0e-12
+
+TStart = 0.0 # ???
+Tend = 20.0  # ???
+TRes = 2.0   #[s] residence time
+
+# Enable (possibly parallel) LAPACK
+#SundialsLapack is TRUE
+
+########################
+# Sensitivity Analysis #
+########################
+
+
+#SensAnalReac is TRUE
+#SensAnalSpec is TRUE
+#SensFinal is TRUE
+#SensObjALL is TRUE
+#SensAnalFac = 2.0
+
+#######
+# I/O #
+#######
+
+WriteEverySolution is TRUE
+PrintMolarFractions is TRUE
+#AdditionalOutput is TRUE
+
+OutputPath is ./output
+NOutputs = 10000
+
+#############
+# Chemistry #
+#############
+
+MechanismFile is ../../Mechanisms/ITVCoalBiomass_RedGlarborg_C4H5Nmodule/ITVCoalBiomass_RedGlarborg_C4H5Nmodule.pre
+
+globalReaction is C4H5N + 6.25 O2 == 4 CO2 + 2.5 H2O + NO2;
+fuel is C4H5N
+oxidizer is O2
+
+#########
+# Flame #
+#########
+
+Flame is PSR
+Isothermal is TRUE
+
+#Isothermal is FALSE
+#HeatTransCoeff is 0.5
+#AmbientTemp is 300
+
+Pressure = 1.013E5
+
+#For a series of computations, when phi is not specified, first the value of phi is computed,
+#then the first run is performed with the specified InitialCond. The second run is then performed
+#with the mass fractions computed from phi assuming air as oxidizer.
+#KeepMassFracs is TRUE will compute initial composition from specified InitialCond for all runs
+#This is important when oxidizer is not air.
+KeepMassFracs is TRUE
+
+ExactBackward = TRUE
+
+######################
+# Boundary condition #
+######################
+
+ContInc = 25
+ContType is Temperature
+ContBound = 1300
+
+InitialCond {
+ X->AR    = 0.86000
+ X->O2    = 0.1295
+ X->C4H5N = 0.0105
+ t = 700
+}

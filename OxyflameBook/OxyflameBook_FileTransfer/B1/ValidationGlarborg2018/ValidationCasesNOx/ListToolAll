@@ -1,0 +1,18 @@
+#!/usr/bin/env bash 
+
+echo "ListTool Prompt NOx:"
+ListTool Simulations/Prompt/CH_Prompt_Lam/OutputCH4Rich/CH4_p00_1phi1_2500tu0325v0280 
+ListTool Simulations/Prompt/CH_Prompt_Lam/OutputCH4Lean/CH4_p00_1phi0_8000tu0342v0270    
+ListTool Simulations/Prompt/CH_Prompt_Lam/OutputCH4Stoch/CH4_p00_1phi1_0000tu0388v0280    
+ListTool Simulations/Prompt/CH_Prompt_Berg/OutputCH4Rich/CH4_p00_0phi1_2800tu0698v0300 
+ListTool Simulations/Prompt/CH_Prompt_Berg/OutputCH4Lean/CH4_p00_0phi0_8100tu0467v0189     
+ListTool Simulations/Prompt/CH_Prompt_Berg/OutputCH4Stoch/CH4_p00_0phi1_0700tu0664v0189  
+ListTool Simulations/Prompt/NCN_Prompt_Lam/OutputCH4Rich/CH4_p00_1phi1_2500tu0325v0280 
+ListTool Simulations/Prompt/NCN_Prompt_Lam/OutputCH4Lean/CH4_p00_1phi0_8000tu0342v0270    
+ListTool Simulations/Prompt/NCN_Prompt_Lam/OutputCH4Stoch/CH4_p00_1phi1_0000tu0388v0280
+echo "ListTool NNH:  " 
+ListTool Simulations/N2O_NNH/NNH/Output38Torr/H2_p00_1phi1_5000tu0351v0354
+ListTool Simulations/N2O_NNH/NNH/Output78Torr/H2_p00_1phi1_5000tu0364v0354 
+echo "ListTool Ammonia:" 
+ListTool Simulations/Ammonia/Flame/Output/NH3_p00_0phi0_7059tu1523v6000
+

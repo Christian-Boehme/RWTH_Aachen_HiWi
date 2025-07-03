@@ -1,0 +1,15 @@
+[INFO] Module intel/2022a loaded.
+[INFO] Module GCC/11.3.0 loaded.
+FlameMaster written by Heinz Pitsch
+
+version                  4.4.0
+executed command         '/rwthfs/rz/cluster/home/cb376114/Programs/FlameMaster/FlameMaster_Branch_jl_dco_activated/Bin/bin/../bin/FlameMan -i Simulations/NOxOut/FlameMaster1050.input -r MechNOx.pre -o Simulations/NOxOut/Output'
+git sha1                 2a5f34190d01ea4406b2bf62549b54a510a08f31
+operating system         Linux, version 4.18.0-553.34.1.el8_10.x86_64
+target architechture     x86_64
+c++ compiler             Intel, version 2021.6.0.20220226
+c   compiler             Intel, version 2021.6.0.20220226
+bla/lapack vendor        
+index size               32 bit
+
+#error: can't open specified input file 'Simulations/NOxOut/FlameMaster1050.input'

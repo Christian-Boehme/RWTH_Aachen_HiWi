@@ -1,0 +1,45 @@
+Plot{ 
+
+   Name: PlotHNCO_FR_1
+   Caption: HNCO oxidation in a quartz flow reactor;P=1.05 atm;HNCO=480 ppm CO=730 ppm O2 = 5.5% H2O = 0.5% balance N2;   
+   Flame: FR 
+   PlotType: MoleFraction
+   VOI: HNCO NO N2O     
+   SimulationsFile: Simulations/HNCO/Output  
+   Legend: HNCO NO N2O  
+   Color: black blue red 
+   ExperimentsFile: Experiments/HNCO/Plot1/HNCO_FR.txt Experiments/HNCO/Plot1/NO_FR.txt Experiments/HNCO/Plot1/N2O_FR.txt 
+   Marker: s s s 
+   Ylabel: Normalized Mole Fraction  
+   Xlabel: Temperature 
+   YUnit: [-]
+   YConvFac: 2083.34   
+   XUnit: [K] 
+   XConvFac: 1
+   PlotWith: 
+
+}
+ 
+Plot{ 
+
+   Name: PlotHNCO_FR_2
+   Caption: HNCO oxidation in a quartz flow reactor;P=1.05 atm;HNCO=480 ppm CO=730 ppm O2=5.5% H2O=0.5% balance N2;  
+   Flame: FR 
+   PlotType: MoleFraction
+   VOI: CO CO2    
+   SimulationsFile: Simulations/HNCO/Output  
+   Legend: CO CO2 
+   Color: green orange
+   ExperimentsFile: Experiments/HNCO/Plot1/CO_FR.txt Experiments/HNCO/Plot1/CO2_FR.txt
+   Marker: s s 
+   Ylabel: Normalized Mole Fraction  
+   Xlabel: Temperature 
+   YUnit: [-]
+   YConvFac: 826.45   
+   XUnit: [K] 
+   XConvFac: 1
+   PlotWith:  
+
+}
+ 
+

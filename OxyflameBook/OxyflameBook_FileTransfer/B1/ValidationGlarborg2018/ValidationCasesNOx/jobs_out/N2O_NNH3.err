@@ -1,0 +1,9 @@
+Mon Jan 20 17:04:02 CET 2025
+Number of threads is
+12
+---------------------
+PSR Model is Isothermal 
+CVode Solve successful (in 5299.04 s)
+Steady State reached at 20000 ms 
+KINSOL successful (initial guess already converged) (in 0.00 s).
+Newton iteration converged 

@@ -1,0 +1,22 @@
+#!/bin/bash
+
+# add all *.tex files to a list
+file_list=()
+target_dir="."
+for tex_file in "$target_dir"/*.tex; do
+    base_name="${tex_file::-4}"
+    if [ -f "${base_name}-inc.eps" ]; then
+        echo "$(basename "$tex_file")"
+        file_list+=("$(basename "$base_name")")
+    fi
+done
+
+# post-process
+for i in ${file_list[@]}; do
+    echo $i
+    #gnuplot $i.gnu
+    latex $i.tex
+    dvips -E  $i.dvi -o $i.eps
+    rm $i.dvi $i.log $i.aux $i-inc.eps
+done
+exit 0

@@ -1,0 +1,17 @@
+-i Simulations/ThermalDeNOx/O2_10/FlameMaster900.input -r MechNOx.pre -o Simulations/ThermalDeNOx/O2_10/Output 
+-i Simulations/ThermalDeNOx/O2_10/FlameMaster1000.input -r MechNOx.pre -o Simulations/ThermalDeNOx/O2_10/Output 
+-i Simulations/ThermalDeNOx/O2_10/FlameMaster1100.input -r MechNOx.pre -o Simulations/ThermalDeNOx/O2_10/Output 
+-i Simulations/ThermalDeNOx/O2_10/FlameMaster1200.input -r MechNOx.pre -o Simulations/ThermalDeNOx/O2_10/Output 
+-i Simulations/ThermalDeNOx/O2_10/FlameMaster1300.input -r MechNOx.pre -o Simulations/ThermalDeNOx/O2_10/Output 
+-i Simulations/ThermalDeNOx/O2_10/FlameMaster1400.input -r MechNOx.pre -o Simulations/ThermalDeNOx/O2_10/Output
+-i Simulations/ThermalDeNOx/O2_50/FlameMaster900.input -r MechNOx.pre -o Simulations/ThermalDeNOx/O2_50/Output 
+-i Simulations/ThermalDeNOx/O2_50/FlameMaster1000.input -r MechNOx.pre -o Simulations/ThermalDeNOx/O2_50/Output 
+-i Simulations/ThermalDeNOx/O2_50/FlameMaster1100.input -r MechNOx.pre -o Simulations/ThermalDeNOx/O2_50/Output 
+-i Simulations/ThermalDeNOx/O2_50/FlameMaster1200.input -r MechNOx.pre -o Simulations/ThermalDeNOx/O2_50/Output 
+-i Simulations/ThermalDeNOx/O2_50/FlameMaster1300.input -r MechNOx.pre -o Simulations/ThermalDeNOx/O2_50/Output 
+-i Simulations/ThermalDeNOx/O2_50/FlameMaster1400.input -r MechNOx.pre -o Simulations/ThermalDeNOx/O2_50/Output
+-i Simulations/ThermalDeNOx/Pure/FlameMaster1000.input -r MechNOx.pre -o Simulations/ThermalDeNOx/Pure/Output 
+-i Simulations/ThermalDeNOx/Pure/FlameMaster1100.input -r MechNOx.pre -o Simulations/ThermalDeNOx/Pure/Output 
+-i Simulations/ThermalDeNOx/Pure/FlameMaster1200.input -r MechNOx.pre -o Simulations/ThermalDeNOx/Pure/Output 
+-i Simulations/ThermalDeNOx/Pure/FlameMaster1300.input -r MechNOx.pre -o Simulations/ThermalDeNOx/Pure/Output 
+-i Simulations/ThermalDeNOx/Pure/FlameMaster1400.input -r MechNOx.pre -o Simulations/ThermalDeNOx/Pure/Output 

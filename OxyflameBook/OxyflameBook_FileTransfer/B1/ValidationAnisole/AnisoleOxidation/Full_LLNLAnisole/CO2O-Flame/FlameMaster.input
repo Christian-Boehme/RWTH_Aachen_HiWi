@@ -1,0 +1,227 @@
+############
+# Numerics #
+############
+
+# Give author name
+author = 
+
+#######################
+#### Newton solver ####
+#######################
+
+# Quasi-unsteady solver. Uses small time steps to increase chance of convergence for larger changes. Increases calculation time.
+# TimeDepFlag = TRUE
+# Alternative value: 1.0e-03 . Can lead to convergence issues in early time steps.
+DeltaTStart = 1.0e-4
+DeltaTMax = 1.0e5
+
+DampFlag = TRUE
+LambdaMin = 5.0e-3
+
+UseNumericalJac is TRUE
+UseModifiedNewton = TRUE
+
+# Number of iterations. If the solution has not converged at this point calculations will stop.
+MaxIter = 100
+# Residuum of solution
+TolRes = 1.0e-14
+# Relative error of solution -> smaller value gives increased accuracy
+TolDy = 1e-06
+
+
+##############
+#### Grid ####
+##############
+
+# Force generation of new grid:
+# option1: initialgridpoints < maxgridpoints < previous initialgridpoints
+# option2: previous maxgridpoints < initialgridpoints < maxgridpoints
+# Grid points at start of calculation. -->
+initialgridpoints = 495
+# Maximum number of grid points. Flame thickness should contain 20 grid points. 500 is minimum. -->
+maxgridpoints = 500
+# Iterations until new grid is generated. Too small might hinder convergence
+DeltaNewGrid = 15
+OneSoluOneGrid is TRUE
+
+# Change of nozzle distance requires a change in grid point
+# Nozzle position at fuel side / m
+left = 0.0
+# Nozzle position at oxidizer side / m . Previous value: e-03 . Final value: e-03
+right = 10.00e-03
+
+# Pos: max. allowed error for selected number of gridpoints. Neg: grid point number is unchanged when generating an adaptive grid
+q = -0.25
+# Ratio of delta_eta_max/delta_eta_mix
+R = 60
+
+#GridCorrStart = 0.021
+#GridCorrEnd = 0.022
+#GridCorrAlpha = 0.15
+#GridCorrStart = 0.0075
+#GridCorrEnd = 0.008
+#GridCorrAlpha = 0.35
+
+
+
+ 
+###########
+### I/O ###
+###########
+ 
+WriteFullRes is TRUE
+WriteRes is TRUE
+ 
+WriteEverySolution is TRUE
+PrintMolarFractions is TRUE
+AdditionalOutput is TRUE
+ 
+# Improves boundary solution calculation efficiency
+Boundaries_at_inner_grid_points = TRUE
+
+# Calculate equilibrium temperature for each mixture fraction Z. Output is written to job.*.out file
+# Calculate equilibrium temperature from StartProfilesFile. New StartProfilesFile is generated (the same as loaded).
+#WriteEquiTemp is TRUE
+# Calculate equilibrium temperature ONLY. Requires final StartProfilesFile to specified in this input file. --> Does not work
+#WriteEquiTempOnly is TRUE
+ 
+OutputPath is ./output
+StartProfilesFile is ./C6H5OCH3_p01a00072tf0433to0313
+
+############################
+### Sensitivity Analysis ###
+############################
+ 
+ExactBackward is TRUE
+ 
+# Enable sensitivity analysis
+# SensAnal is TRUE
+ 
+# Sensitivity of object for all grid points for all reactions (H+O2 = OH + O is always included) --> not working in jl_dco_activated
+# ATTENTION: no PLOG or pressure dependent (+M) reactions, only Arrhenius type reactions are implemented
+# Enable sensitivity analysis for all objects
+#SensObjAll is TRUE
+# Enable sensitivity analysis for specific object
+#SensObj is T
+#SensObj is CN
+# "Senm*": Maximum values of the sensitivity coefficients for each reaction []
+ 
+# Generates Flux* files containing absolute and relative consumption and formation rates of species and species/reaction
+# Used for rate of production (ROP) analysis
+# Used for pathway analysis
+# "Flux.*": Forward and backward reaction rates separated
+# "Fluxa.*": Net rate (added forward and backward reactions)
+#ReactionFluxAnal is TRUE
+# "Fluxa.spec.abs_*": Integrated production rate of each reaction involving the target species [g/m^3s]
+# "Fluxa.spec.rel_*": Relative production rate of each reaction involving the target species [%]
+#            (Normalized by the sum of the integrated production rates for the target species for production (+) or consumption (-) reactions)
+# "Fluxa.reac.abs_*": Integrated production rate of the involved species for each reaction [g/m^3s]
+# "Fluxa.reac.rel_*": Relative production rate of the involved species for each reaction [%]
+#            (Normalized by the sum of the integrated production rates of the target species for all reactions)
+
+#################
+### Chemistry ###
+#################
+
+MechanismFile is ../../../Mechanisms/LLNLAnisole/anisole_LLNL170923.inp.pre
+globalReaction is C6H5OCH3 + 8.5O2 == 7CO2 + 4H2O;
+
+fuel is C6H5OCH3
+oxidizer is O2
+
+#############
+### Flame ###
+#############
+
+# Flame configuration
+Flame is EigenValueDiffusion on physical coordinate
+# CFB has round ducts
+FlameIsAxisymmetric = TRUE
+
+ThermoDiffusion = TRUE
+ComputeWithRadiation is TRUE
+TransModel is MultiGeom
+#TransModel is MonoAtomic
+#Prefile is V3311
+
+# Pressure / Pa
+pressure = 1.01325e5
+
+#ConstantLewisNumber is TRUE
+#LewisNumberFile is ./LewsNumberFolder/LewisNumberN2
+
+
+###########################
+### Boundary conditions ###
+###########################
+
+#ContSteps = 100
+#ContinFlag = TRUE
+
+# Change from one species to another
+#ToSpecies is C2H4
+#FromSpecies is Ar
+#ContInc = 0.1
+# Make sure to select the correct boundary side. Fuel side is Left. Oxidizer side is Right
+#ContSide is Left
+# Final value of ToSpecies
+#ContBound = 0.369592
+
+#ContType is MOMENTUM
+#ContBound = 0.767
+
+# Change velocity (v / m/s) by changing mass flux (V / kg/s m2)
+# For example: change vRight by changing VRight
+# Both quantities are correlated by a factor, which can be determined in the start profiles file
+# The factor is boundary side specific, since V = m./A = rho*v
+#ContType is VELOCITY
+#ContInc = 0.02
+# Select the correct boundary side. Fuel side is Left. Oxidizer side is Right. bothSides is also an option
+#ContSide is Left
+# The quantity to be changed must have the value of the start profiles
+#ContBound = -1.40
+
+# Change temperature
+#ContType is TEMPERATURE
+#ContInc = 20
+# Select the correct boundary side. Fuel side is Left. Oxidizer side is Right. bothSides is also an option
+#ContSide is Left
+# The quantity to be changed must have the value of the start profiles
+#ContBound = 400.15
+
+# The first step during ContType calculation is the recalcualtion of the start solution.
+# Therefore, the first ContInc should be done in the fuel/oxidizer side input to save time.
+
+# Fuel side input --> Left
+Fuel Side {
+        dirichlet {
+                # Temperature / K
+                T = 433.00
+                # Velocity at set temperature / m/s . Previous value: 0.18259 . Final value: 0.178967
+                V = 0.180
+                # Mass fraction
+                # Previous value C2H4: 0.369579 . Final value C2H4: 0.262184 ->X=0.336
+                # Previous value Ar: 0.630404 . Final value Ar: 0.737816 ->X=0.664
+                epsilon->C6H5OCH3 = 0.13198
+                epsilon->CH4      = 0.03916
+		        epsilon->CO2      = 0.00000
+         	    epsilon->Ar       = 0.82886
+                }
+}
+
+# Oxidizer side input --> Right
+Oxidizer Side {
+        dirichlet {
+                # Temperature / K
+                T = 313.00
+                # Velocity at set temperature / m/s . Previous value: -0.150 . Final value: -0.150
+                V = -0.200
+                # Mass fraction
+                # Previous value O2: 0.1247 . Final value O2: 0.122147 ->X=0.148
+                # Previous value Ar: 0.8753 . Final value Ar: 0.877853 ->X=0.852
+                epsilon->O2  = 0.43494
+         	    epsilon->Ar  = 0.32579
+                epsilon->CO2 = 0.23928
+        	}
+}
+

@@ -1,0 +1,151 @@
+[INFO] Module intel/2022a loaded.
+[INFO] Module GCC/11.3.0 loaded.
+FlameMaster written by Heinz Pitsch
+
+version                  4.4.0
+executed command         '/rwthfs/rz/cluster/home/cb376114/Programs/FlameMaster/FlameMaster_Branch_jl_dco_activated/Bin/bin/../bin/FlameMan -i Simulations/Ammonia/FR/FlameMaster1400Rich.input -r MechNOx.pre -o Simulations/Ammonia/FR/OutputRich'
+git sha1                 2a5f34190d01ea4406b2bf62549b54a510a08f31
+operating system         Linux, version 4.18.0-553.34.1.el8_10.x86_64
+target architechture     x86_64
+c++ compiler             Intel, version 2021.6.0.20220226
+c   compiler             Intel, version 2021.6.0.20220226
+bla/lapack vendor        
+index size               32 bit
+
+use mechanism file 'MechNOx.pre'
+model has 1065 species
+        6 spherical
+       29 linear
+     1030 non-linear
+    -----
+     1065 / 1065 geometry parameters expected
+
+The used model has 6629 reactions (reactions for which the forward and backward
+direction are specified as separate irreversible reactions are counted twice)
+
+outpath is 'Simulations/Ammonia/FR/OutputRich/'
+initial pressure is 1.06391 bar
+mixture-averaged transport coefficient evaluation
+use mono atomic species transport model
+Using the SUNDIALS linear solver implementation
+#warning: ignoring Jacbian routine without COMBUSTION_LIBS.
+
+start computation
+
+
+
+p = 1.06391 bar	phi = 1.44138	T = 1400 K
+
+Start measuring execution time
+
+step = 100	ord = 5	t = 4.01649 ms	T = 1400 K
+step = 200	ord = 5	t = 14.0165 ms	T = 1400 K
+step = 300	ord = 5	t = 24.0165 ms	T = 1400.02 K
+step = 400	ord = 5	t = 34.0165 ms	T = 1400.06 K
+step = 500	ord = 5	t = 44.0165 ms	T = 1400.1 K
+step = 600	ord = 5	t = 54.0165 ms	T = 1400.16 K
+step = 700	ord = 5	t = 64.0165 ms	T = 1400.24 K
+step = 800	ord = 5	t = 74.0165 ms	T = 1400.32 K
+step = 900	ord = 5	t = 84.0165 ms	T = 1400.43 K
+step = 1000	ord = 5	t = 94.0165 ms	T = 1400.55 K
+step = 1100	ord = 5	t = 104.016 ms	T = 1400.69 K
+step = 1200	ord = 5	t = 114.016 ms	T = 1400.84 K
+step = 1300	ord = 5	t = 124.016 ms	T = 1401.02 K
+step = 1400	ord = 5	t = 134.016 ms	T = 1401.23 K
+step = 1500	ord = 5	t = 144.016 ms	T = 1401.46 K
+step = 1600	ord = 5	t = 154.016 ms	T = 1401.74 K
+step = 1700	ord = 5	t = 164.016 ms	T = 1402.07 K
+step = 1800	ord = 5	t = 174.016 ms	T = 1402.47 K
+step = 1900	ord = 5	t = 184.016 ms	T = 1402.95 K
+step = 2000	ord = 5	t = 194.016 ms	T = 1403.56 K
+step = 2100	ord = 5	t = 204.016 ms	T = 1404.36 K
+step = 2200	ord = 5	t = 214.016 ms	T = 1405.46 K
+step = 2300	ord = 5	t = 224.016 ms	T = 1407.08 K
+step = 2400	ord = 5	t = 234.016 ms	T = 1409.95 K
+step = 2500	ord = 5	t = 241.332 ms	T = 1414.72 K
+step = 2600	ord = 5	t = 244.646 ms	T = 1419.4 K
+step = 2700	ord = 5	t = 247.371 ms	T = 1425.06 K
+step = 2800	ord = 5	t = 249.159 ms	T = 1428.57 K
+step = 2900	ord = 4	t = 250.959 ms	T = 1430.82 K
+step = 3000	ord = 5	t = 253.525 ms	T = 1432 K
+step = 3100	ord = 5	t = 259.625 ms	T = 1432.67 K
+step = 3200	ord = 4	t = 268.23 ms	T = 1433.01 K
+step = 3300	ord = 4	t = 278.23 ms	T = 1433.22 K
+step = 3400	ord = 5	t = 288.23 ms	T = 1433.35 K
+step = 3500	ord = 4	t = 298.23 ms	T = 1433.43 K
+step = 3600	ord = 5	t = 308.23 ms	T = 1433.49 K
+step = 3700	ord = 5	t = 318.23 ms	T = 1433.54 K
+step = 3800	ord = 5	t = 328.23 ms	T = 1433.58 K
+step = 3900	ord = 5	t = 338.23 ms	T = 1433.61 K
+step = 4000	ord = 5	t = 348.23 ms	T = 1433.63 K
+step = 4100	ord = 5	t = 358.23 ms	T = 1433.65 K
+step = 4200	ord = 4	t = 368.23 ms	T = 1433.67 K
+step = 4300	ord = 4	t = 378.23 ms	T = 1433.68 K
+step = 4400	ord = 4	t = 388.23 ms	T = 1433.69 K
+step = 4500	ord = 4	t = 398.23 ms	T = 1433.71 K
+step = 4600	ord = 4	t = 408.23 ms	T = 1433.72 K
+step = 4700	ord = 4	t = 418.23 ms	T = 1433.72 K
+step = 4800	ord = 4	t = 428.23 ms	T = 1433.73 K
+step = 4900	ord = 4	t = 438.23 ms	T = 1433.74 K
+step = 5000	ord = 4	t = 448.23 ms	T = 1433.74 K
+step = 5100	ord = 4	t = 458.23 ms	T = 1433.75 K
+step = 5200	ord = 4	t = 468.23 ms	T = 1433.75 K
+step = 5300	ord = 4	t = 478.23 ms	T = 1433.76 K
+step = 5400	ord = 4	t = 488.23 ms	T = 1433.76 K
+step = 5500	ord = 4	t = 498.23 ms	T = 1433.77 K
+step = 5600	ord = 4	t = 508.23 ms	T = 1433.77 K
+step = 5700	ord = 4	t = 518.23 ms	T = 1433.77 K
+step = 5800	ord = 4	t = 528.23 ms	T = 1433.78 K
+step = 5900	ord = 4	t = 538.23 ms	T = 1433.78 K
+step = 6000	ord = 4	t = 548.23 ms	T = 1433.78 K
+step = 6100	ord = 4	t = 558.23 ms	T = 1433.78 K
+step = 6200	ord = 4	t = 568.23 ms	T = 1433.78 K
+step = 6300	ord = 4	t = 578.23 ms	T = 1433.79 K
+step = 6400	ord = 4	t = 588.23 ms	T = 1433.79 K
+step = 6500	ord = 4	t = 598.23 ms	T = 1433.79 K
+step = 6600	ord = 4	t = 608.23 ms	T = 1433.79 K
+step = 6700	ord = 4	t = 618.23 ms	T = 1433.79 K
+step = 6800	ord = 4	t = 628.23 ms	T = 1433.8 K
+step = 6900	ord = 4	t = 638.23 ms	T = 1433.8 K
+step = 7000	ord = 4	t = 648.23 ms	T = 1433.8 K
+step = 7100	ord = 4	t = 658.23 ms	T = 1433.8 K
+step = 7200	ord = 4	t = 668.23 ms	T = 1433.8 K
+step = 7300	ord = 4	t = 678.23 ms	T = 1433.8 K
+step = 7400	ord = 4	t = 688.23 ms	T = 1433.8 K
+step = 7500	ord = 4	t = 698.23 ms	T = 1433.8 K
+step = 7600	ord = 4	t = 708.23 ms	T = 1433.8 K
+step = 7700	ord = 4	t = 718.23 ms	T = 1433.81 K
+step = 7800	ord = 4	t = 728.23 ms	T = 1433.81 K
+step = 7900	ord = 4	t = 738.23 ms	T = 1433.81 K
+step = 8000	ord = 4	t = 748.23 ms	T = 1433.81 K
+step = 8100	ord = 4	t = 758.23 ms	T = 1433.81 K
+step = 8200	ord = 4	t = 768.23 ms	T = 1433.81 K
+step = 8300	ord = 4	t = 778.23 ms	T = 1433.81 K
+step = 8400	ord = 4	t = 788.23 ms	T = 1433.81 K
+step = 8500	ord = 4	t = 798.23 ms	T = 1433.81 K
+step = 8600	ord = 4	t = 808.23 ms	T = 1433.81 K
+step = 8700	ord = 4	t = 818.23 ms	T = 1433.81 K
+step = 8800	ord = 4	t = 828.23 ms	T = 1433.81 K
+step = 8900	ord = 4	t = 838.23 ms	T = 1433.81 K
+step = 9000	ord = 4	t = 848.23 ms	T = 1433.81 K
+step = 9100	ord = 4	t = 858.23 ms	T = 1433.81 K
+step = 9200	ord = 4	t = 868.23 ms	T = 1433.82 K
+step = 9300	ord = 4	t = 878.23 ms	T = 1433.82 K
+step = 9400	ord = 4	t = 888.23 ms	T = 1433.82 K
+step = 9500	ord = 4	t = 898.23 ms	T = 1433.82 K
+step = 9600	ord = 4	t = 908.23 ms	T = 1433.82 K
+step = 9700	ord = 4	t = 918.23 ms	T = 1433.82 K
+
+Execution time 270790 ms
+
+
+** no ignition occured
+** final time is          920	ms
+** final temperature is   1433.82	K
+** Delta T is   33.8174	K
+** 9718 steps needed
+
+T_0 [K]	t_ig [ms]
+1400	no ignition
+Execution time 277.127 s
+

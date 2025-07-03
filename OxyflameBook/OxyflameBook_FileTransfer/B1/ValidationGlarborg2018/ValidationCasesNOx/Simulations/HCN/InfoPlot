@@ -1,0 +1,87 @@
+Plot{ 
+
+   Name: PlotHCN_FR_1
+   Caption: HCN oxidation in a quartz flow reactor;P=1.05 atm ; HCN=337 ppm O2=2.6% H2O=3.1% balance N2; 
+   Flame: FR 
+   PlotType: MoleFraction
+   VOI: HCN NO N2O      
+   SimulationsFile: Simulations/HCN/FR/Plot1/Output   
+   Legend: HCN NO N2O 
+   Color:  orange green magenta  
+   ExperimentsFile: Experiments/HCN/Plot2/HCN_HCNFR.txt Experiments/HCN/Plot2/HCN_NOFR.txt Experiments/HCN/Plot2/HCN_N2OFR.txt  
+   Marker: s s s  
+   Ylabel: Mole Fraction  
+   Xlabel: Temperature 
+   YUnit: [ppm]
+   YConvFac: 1000000  
+   XUnit: [K] 
+   XConvFac: 1
+   PlotWith: 
+
+}
+Plot{ 
+
+   Name: PlotHCN_FR_4
+   Caption: HCN oxidation in a quartz flow reactor;P=1.05 atm  HCN=337 ppm O2=2.6% H2O=3.1% balance N2;   
+   Flame: FR 
+   PlotType: MoleFraction
+   VOI: CO CO2 HNCO      
+   SimulationsFile: Simulations/HCN/FR/Plot1/Output   
+   Legend: CO CO2 HNCO  
+   Color: black blue red  
+   ExperimentsFile: Experiments/HCN/Plot2/HCN_COFR.txt Experiments/HCN/Plot2/HCN_CO2FR.txt Experiments/HCN/Plot2/HCN_HNCOFR.txt   
+   Marker: s s s  
+   Ylabel: Mole Fraction  
+   Xlabel: Temperature 
+   YUnit: [ppm]
+   YConvFac: 1000000  
+   XUnit: [K] 
+   XConvFac: 1
+   PlotWith: 
+
+}
+Plot{ 
+
+   Name: PlotHCN_FR_2
+   Caption: HCN oxidation in a quartz flow reactor;CO in the inlet;P=1.05 atm; HCN=318 ppm CO=1710 ppm O2=2.4% H2O=2.8% balance N2;   
+   Flame: FR 
+   PlotType: MoleFraction
+   VOI: HCN NO N2O  
+   SimulationsFile: Simulations/HCN/FR/Plot2/Output   
+   Legend: HCN NO N2O    
+   Color: black blue red   
+   ExperimentsFile: Experiments/HCN/Plot3/HCN_HCNFR.txt Experiments/HCN/Plot3/HCN_NOFR.txt Experiments/HCN/Plot3/HCN_N2OFR.txt 
+   Marker: s s s s  
+   Ylabel: Mole Fraction  
+   Xlabel: Temperature 
+   YUnit: [ppm]
+   YConvFac: 1000000  
+   XUnit: [K] 
+   XConvFac: 1
+   PlotWith: 
+
+}
+
+Plot{ 
+
+   Name: PlotHCN_FR_3
+   Caption: HCN oxidation in a quartz flow reactor;CO in the inlet;P=1.05 atm; HCN=318 ppm CO=1710 ppm O2=2.4% H2O=2.8% balance N2;   
+   Flame: FR 
+   PlotType: MoleFraction
+   VOI: CO CO2       
+   SimulationsFile: Simulations/HCN/FR/Plot2/Output   
+   Legend: CO CO2    
+   Color: black blue   
+   ExperimentsFile: Experiments/HCN/Plot3/HCN_CO_10FR.txt Experiments/HCN/Plot3/HCN_CO2_10FR.txt 
+   Marker: s s 
+   Ylabel: Mole Fraction  
+   Xlabel: Temperature 
+   YUnit: [ppm]
+   YConvFac: 100000 
+   XUnit: [K] 
+   XConvFac: 1
+   PlotWith: 
+
+}
+ 
+

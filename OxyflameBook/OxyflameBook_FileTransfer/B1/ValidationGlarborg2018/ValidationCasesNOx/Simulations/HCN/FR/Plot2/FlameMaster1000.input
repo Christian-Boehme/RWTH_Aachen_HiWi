@@ -1,0 +1,78 @@
+ExactBackward is TRUE
+
+############
+# Numerics #
+############
+
+RelTol = 1.0e-11
+AbsTol = 1.0e-15
+
+TStart = 0
+TEnd = 0.064 
+#SundialsLapack is TRUE
+
+#######
+# I/O #
+#######
+
+#AdditionalOutput = TRUE
+WriteEverySolution = TRUE
+PrintMolarFractions = TRUE
+
+OutputPath is Det_MethanolEthanolOctanol_MIX/Output_0
+NOutputs = 500
+
+#############
+# Chemistry #
+#############
+
+#MechanismFile is Spec_196_Reac_1295.pre
+globalReaction is HCN + O2 == N2 + CO2 + H2O;
+
+Fuel is HCN 
+Oxidizer is O2
+
+########
+# Soot #
+########
+
+WithSoot is FALSE
+NSootMoments = 0
+PAHOHOxidation = TRUE
+Nucleation = TRUE
+Condensation = TRUE
+Coagulation = TRUE
+SurfaceGrowth = TRUE
+SurfaceOxidation = TRUE
+SootUpdateProdRate = TRUE
+SurfDepCoag = FALSE
+CoagFact = 1
+
+#########
+# Flame #
+#########
+
+Flame is Isobar Homo Reactor
+
+#phi = 0.25 
+
+Pressure = 1.063913e5
+
+#KeepMassFracs is FALSE
+#ContInc = 50
+#ContType is Temperature
+#ContBound = 1400
+
+
+#######################
+# Boundary conditions #
+#######################
+
+InitialCond {
+	T = 1000  
+        X->HCN = 3.18e-4 
+        X->CO = 1.71e-3
+        X->O2 = 0.024
+        X->H2O = 0.028  
+        X->N2 = 0.945972
+}

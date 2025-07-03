@@ -1,0 +1,87 @@
+# Generate from: GenerateLBVInputFile.py
+#Inputs:
+#XCH4 = 0.0
+#XCO2 = 0.65
+#XO2  = 0.35
+#XN2  = 0.0
+#XCH3OH 0 1.0
+#phi  = 1.35
+#Pres = 101325.0
+#Temp = 328.0
+
+############
+# Numerics #
+############
+
+#### Newton solver ####
+
+UseNumericalJac is TRUE
+UseSecondOrdJac is TRUE
+UseModifiedNewton = TRUE
+
+DampFlag = TRUE
+LambdaMin = 1.0e-2
+
+MaxIter = 5000
+TolRes = 1.0e-20
+TolDy = 1e-9
+
+#### grid ####
+
+DeltaNewGrid = 25
+OneSolutionOneGrid = TRUE
+initialgridpoints = 89
+maxgridpoints = 2500
+q = -0.25
+R = 60
+
+#######
+# I/O #
+#######
+
+WriteEverySolution = TRUE
+PrintMolarFractions is TRUE
+#AdditionalOutput is TRUE
+
+OutputPath is ./output
+StartProfilesFile is output/CH3OH_p01_0phi1_3000tu0328
+
+#############
+# Chemistry #
+#############
+
+MechanismFile is ../../../../Mechanism/ITV_Intermediate/ITVCoalBiomass.pre
+globalReaction is CH3OH + 1.5 O2 == 1 CO2 + 2 H2O;
+
+fuel is CH3OH
+oxidizer is O2
+
+#########
+# Flame #
+#########
+
+Flame is UnstretchedPremixed
+ExactBackward is TRUE
+
+#phi = 1.35
+
+pressure = 101325.0
+
+ComputeWithRadiation is FALSE
+Thermodiffusion is TRUE
+
+#######################
+# Boundary conditions #
+#######################
+
+Unburnt Side {
+	dirichlet {
+		t   = 328.0
+        X->CH4   = 0.00000
+        X->CO2   = 0.49430
+        X->O2    = 0.26616
+        X->N2    = 0.00000
+        X->CH3OH = 0.23954
+    }
+}
+

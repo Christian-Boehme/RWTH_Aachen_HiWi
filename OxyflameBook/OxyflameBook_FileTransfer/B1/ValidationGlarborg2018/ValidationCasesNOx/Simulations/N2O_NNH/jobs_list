@@ -1,0 +1,6 @@
+-i Simulations/N2O_NNH/NNH/FlameMaster38Torr.input -r MechNOx.pre -o Simulations/N2O_NNH/NNH/Output38Torr -s StartProfiles/NNH/Start38Torr  
+-i Simulations/N2O_NNH/NNH/FlameMaster78Torr.input -r MechNOx.pre -o Simulations/N2O_NNH/NNH/Output78Torr -s StartProfiles/NNH/Start78Torr  
+-i Simulations/N2O_NNH/N2O/FlameMaster1655.input -r MechNOx.pre -o Simulations/N2O_NNH/N2O/Output  
+-i Simulations/N2O_NNH/N2O/FlameMaster1678.input -r MechNOx.pre -o Simulations/N2O_NNH/N2O/Output  
+-i Simulations/N2O_NNH/N2O/FlameMaster1710.input -r MechNOx.pre -o Simulations/N2O_NNH/N2O/Output  
+-i Simulations/N2O_NNH/N2O/FlameMaster1726.input -r MechNOx.pre -o Simulations/N2O_NNH/N2O/Output  

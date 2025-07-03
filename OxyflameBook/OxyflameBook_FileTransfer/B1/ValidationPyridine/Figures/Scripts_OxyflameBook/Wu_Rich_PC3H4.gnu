@@ -1,0 +1,67 @@
+#!/usr/bin/gnuplot -persist
+
+#-------------------------------------------------------------
+# Gloabal settings
+#-------------------------------------------------------------
+load 'Setup.gnu'
+#-------------------------------------------------------------
+
+set term postscript size fw,fh eps font "Times, 36" color
+set out '../figures_OxyflameBook/Wu_Rich_PC3H4.eps'
+
+set termoption enhanced
+set encoding utf8
+
+set xtics 100,100,10000
+#set ytics 0,0.02,3000
+set mxtics 1
+set mytics 1
+
+#set title ''
+set xlabel 'T [K]'
+#set ylabel 'X_{P-C_3H_4} [ppm]'
+set border lw 2
+set xrange [700:1100]
+#set yrange [0:0.12]
+
+# Fix margins to ensure consistent box size
+set lmargin at screen 0.280
+set rmargin at screen 0.925
+set tmargin at screen 0.925
+set bmargin at screen 0.225
+
+set multiplot
+
+# Experiments
+f1 = '../ExperimentalData/Wu_Rich_PC3H4.txt'
+# FM simulations
+f3 = ARG1
+f4 = ARG2
+f5 = ARG3
+
+# Automatic Y-axis
+y_max = 6
+set ytics 0,2,y_max
+set yrange[0:y_max]
+
+# ylabel position at left border
+xpos = 0.0
+if (y_max >= 1E+04) {xpos = 1.5}
+if (y_max < 1E+04) {xpos = -0.5}
+if (y_max < 1E+03) {xpos = -1.5}
+if (y_max < 1E+02) {xpos = -2.5}
+if (y_max < 1E+01) {xpos = -3.5}
+set ylabel 'X_{P-C_3H_4} [ppm]' offset xpos,0
+
+# create figures
+p f1 u 1:($2*1E+00/0.2) notitle w p ps psizeWR lw plw pt 7 lc rgb lcsymWR\
+ ,f3 u 1:((column('X-P-C3H4'))*1E+06) notitle w l lt 1 lw lwrefWR lc rgb lcrefWR dashtype 2\
+ ,f4 u 1:((column('X-P-C3H4'))*1E+06) notitle w l lt 1 lw lwdetWR lc rgb lcdetWR dashtype 3\
+ ,f5 u 1:((column('X-P-C3H4'))*1E+06) notitle w l lt 1 lw lwnewWR lc rgb lcnewWR\
+
+# ,f1 u 1:($2*1E+00/0.2) notitle w p ps psizeWR lw plw pt 7 lc rgb lcsymWR\
+
+unset key
+unset multiplot
+#-------------------------------------------------------------
+

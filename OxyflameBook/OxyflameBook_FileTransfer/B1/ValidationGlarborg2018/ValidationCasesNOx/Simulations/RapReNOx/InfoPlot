@@ -1,0 +1,45 @@
+Plot{ 
+
+   Name: PlotRapReNOx_FR_1
+   Caption: RapReNOx in a quartz flow reactor;atmospheric pressure;HNCO=1410 ppm NO=330 ppm CO=1260 ppm O2=12.3% H2O=4.5% balance N2;   
+   Flame: FR 
+   PlotType: MoleFraction
+   VOI: HNCO NO N2O     
+   SimulationsFile: Simulations/RapReNOx/Output  
+   Legend: HNCO NO N2O  
+   Color: black blue red 
+   ExperimentsFile: Experiments/RapReNOx/Plot1/FR_HNCO.txt Experiments/RapReNOx/Plot1/FR_NO.txt Experiments/RapReNOx/Plot1/FR_N2O.txt 
+   Marker: s s s 
+   Ylabel: Mole Fraction  
+   Xlabel: Temperature 
+   YUnit: [ppm]
+   YConvFac: 1000000  
+   XUnit: [K] 
+   XConvFac: 1
+   PlotWith: 
+
+}
+ 
+Plot{ 
+
+   Name: PlotRapReNOx_FR_2
+   Caption: RapReNOx in a quartz flow reactor;atmospheric pressure;HNCO = 1410 ppm NO=330 ppm CO=1260 ppm O2=12.3% H2O=4.5% balance N2;   
+   Flame: FR 
+   PlotType: MoleFraction
+   VOI: CO CO2    
+   SimulationsFile: Simulations/RapReNOx/Output  
+   Legend: CO CO2 
+   Color: green orange
+   ExperimentsFile: Experiments/RapReNOx/Plot1/FR_CO.txt Experiments/RapReNOx/Plot1/FR_CO2.txt
+   Marker: s s 
+   Ylabel: Mole Fraction  
+   Xlabel: Temperature 
+   YUnit: [ppm]
+   YConvFac: 1000000   
+   XUnit: [K] 
+   XConvFac: 1
+   PlotWith:  
+
+}
+ 
+

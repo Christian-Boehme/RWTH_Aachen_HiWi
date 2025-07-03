@@ -1,0 +1,45 @@
+Plot{ 
+
+   Name: CHPlotLam1
+   Caption: Prompt;premixed methane/oxygen/nitrogen flame. fuel-air equivalence ratios of 0.80 (lean), 1.0 (stoichiometric) and 1.25 (rich); pressure 40 tor
+   Flame: McKenna 
+   PlotType: MoleFraction
+   VOI: CH
+   SimulationsFile: Simulations/Prompt/CH_Prompt_Lam/OutputCH4Lean Simulations/Prompt/CH_Prompt_Lam/OutputCH4Stoch Simulations/Prompt/CH_Prompt_Lam/OutputCH4Rich
+   Legend: lean stoch rich 
+   Color: red blue black 
+   ExperimentsFile:  Experiments/Prompt/Plot1/LeanCH.txt Experiments/Prompt/Plot1/StochCH.txt Experiments/Prompt/Plot1/RichCH.txt
+   Marker: s s s 
+   Ylabel: CH 
+   Xlabel: height
+   YUnit: [ppm]
+   YConvFac: 1000000  
+   XUnit: [cm] 
+   XConvFac: 100
+   PlotWith: 
+
+}
+ 
+Plot{ 
+
+   Name: CHPlotLam2 
+   Caption: Prompt;premixed methane/oxygen/nitrogen flame. fuel-air equivalence ratios of 0.80 (lean), 1.0 (stoichiometric) and 1.25 (rich); pressure 40 tor
+   Flame: McKenna 
+   PlotType: MoleFraction
+   VOI: NO 
+   SimulationsFile: Simulations/Prompt/CH_Prompt_Lam/OutputCH4Lean Simulations/Prompt/CH_Prompt_Lam/OutputCH4Stoch Simulations/Prompt/CH_Prompt_Lam/OutputCH4Rich
+   Legend: lean stoich rich
+   Color: red blue black 
+   ExperimentsFile:  Experiments/Prompt/Plot2/NOLean.txt Experiments/Prompt/Plot2/NOStoch.txt Experiments/Prompt/Plot2/NORich.txt
+   Marker: s s s 
+   Ylabel: NO  
+   Xlabel: height
+   YUnit: [ppm]
+   YConvFac: 1000000  
+   XUnit: [cm] 
+   XConvFac: 100
+   PlotWith: 
+
+}
+
+

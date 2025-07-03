@@ -1,0 +1,7 @@
+-i Simulations/RapReNOx/FlameMaster900.input -r MechNOx.pre -o  Simulations/RapReNOx/Output 
+-i Simulations/RapReNOx/FlameMaster1000.input -r MechNOx.pre -o Simulations/RapReNOx/Output 
+-i Simulations/RapReNOx/FlameMaster1050.input -r MechNOx.pre -o Simulations/RapReNOx/Output 
+-i Simulations/RapReNOx/FlameMaster1100.input -r MechNOx.pre -o Simulations/RapReNOx/Output 
+-i Simulations/RapReNOx/FlameMaster1200.input -r MechNOx.pre -o Simulations/RapReNOx/Output 
+-i Simulations/RapReNOx/FlameMaster1300.input -r MechNOx.pre -o Simulations/RapReNOx/Output 
+-i Simulations/RapReNOx/FlameMaster1400.input -r MechNOx.pre -o Simulations/RapReNOx/Output 

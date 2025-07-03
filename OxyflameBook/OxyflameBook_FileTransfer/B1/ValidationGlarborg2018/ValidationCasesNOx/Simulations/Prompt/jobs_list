@@ -1,0 +1,9 @@
+-i Simulations/Prompt/CH_Prompt_Berg/FlameMasterCH4Rich.input -r MechNOx.pre -o  Simulations/Prompt/CH_Prompt_Berg/OutputCH4Rich -s StartProfiles/CH_Prompt_Berg/StartCH4Rich   
+-i Simulations/Prompt/CH_Prompt_Berg/FlameMasterCH4Stoch.input -r MechNOx.pre -o Simulations/Prompt/CH_Prompt_Berg/OutputCH4Stoch -s StartProfiles/CH_Prompt_Berg/StartCH4Stoch 
+-i Simulations/Prompt/CH_Prompt_Berg/FlameMasterCH4Lean.input -r MechNOx.pre -o  Simulations/Prompt/CH_Prompt_Berg/OutputCH4Lean -s StartProfiles/CH_Prompt_Berg/StartCH4Lean 
+-i Simulations/Prompt/CH_Prompt_Lam/FlameMasterCH4Lean.input -r MechNOx.pre -o   Simulations/Prompt/CH_Prompt_Lam/OutputCH4Lean -s StartProfiles/CH_Prompt_Lam/StartCH4Lean
+-i Simulations/Prompt/CH_Prompt_Lam/FlameMasterCH4Rich.input -r MechNOx.pre -o Simulations/Prompt/CH_Prompt_Lam/OutputCH4Rich -s StartProfiles/CH_Prompt_Lam/StartCH4Rich 
+-i Simulations/Prompt/CH_Prompt_Lam/FlameMasterCH4Stoch.input -r MechNOx.pre -o  Simulations/Prompt/CH_Prompt_Lam/OutputCH4Stoch -s StartProfiles/CH_Prompt_Lam/StartCH4Stoch 
+-i Simulations/Prompt/NCN_Prompt_Lam/FlameMasterCH4Lean.input -r MechNOx.pre -o  Simulations/Prompt/NCN_Prompt_Lam/OutputCH4Lean -s StartProfiles/NCN_Prompt_Lam/StartCH4Lean   
+-i Simulations/Prompt/NCN_Prompt_Lam/FlameMasterCH4Stoch.input -r MechNOx.pre -o Simulations/Prompt/NCN_Prompt_Lam/OutputCH4Stoch -s StartProfiles/NCN_Prompt_Lam/StartCH4Stoch 
+-i Simulations/Prompt/NCN_Prompt_Lam/FlameMasterCH4Rich.input -r MechNOx.pre -o  Simulations/Prompt/NCN_Prompt_Lam/OutputCH4Rich -s StartProfiles/NCN_Prompt_Lam/StartCH4Rich 

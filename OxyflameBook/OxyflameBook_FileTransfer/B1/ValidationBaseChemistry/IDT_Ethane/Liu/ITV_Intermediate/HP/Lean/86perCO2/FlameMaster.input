@@ -1,0 +1,79 @@
+############
+# Numerics #
+############
+
+RelTol = 1.0e-9
+AbsTol = 1.0e-11
+
+TStart = 0.0
+TEnd = 5.0e0
+
+MaxTimeStep = 0.001
+
+#SundialsLapack is TRUE
+
+########################
+# Sensitivity Analysis #
+########################
+
+#SensAnalReac is TRUE
+#SensAnalSpec is TRUE
+
+#FirstSensRate = 5
+
+SensMax is TRUE
+#SensFinal is TRUE
+
+#SensObjAll is TRUE
+SensObj is OH
+SensObj is H
+
+SensAnalFac = 2.0
+
+#######
+# I/O #
+#######
+
+#AdditionalOutput is TRUE
+WriteEverySolution is TRUE
+PrintMolarFractions is TRUE
+
+OutputPath is ./output
+NOutputs = 50
+
+#############
+# Chemistry #
+#############
+
+MechanismFile is ../../../../../../Mechanism/ITV_Intermediate/ITVCoalBiomass.pre
+globalReaction is C2H6 + 3.5 O2 == 2 CO2 + 3 H2O;
+
+fuel is C2H6
+oxidizer is O2
+
+#########
+# Flame #
+#########
+
+Flame is Isochor Homo Reactor
+#Flame is Isobar Homo Reactor
+
+#phi = 1.0
+
+Pressure = 2.0265e5 # 2atm
+
+#######################
+# Boundary conditions #
+#######################
+
+ContInc = 25 # steps width
+ContType is Temperature
+ContBound = 1700
+
+InitialCond {
+    t = 1000
+	X->C2H6 = 0.02
+    X->O2   = 0.14
+    X->CO2  = 0.86
+    X->AR   = 0.00
+}

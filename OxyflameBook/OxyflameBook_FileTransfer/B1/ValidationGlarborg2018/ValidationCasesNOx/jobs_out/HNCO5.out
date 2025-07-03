@@ -1,0 +1,69 @@
+[INFO] Module intel/2022a loaded.
+[INFO] Module GCC/11.3.0 loaded.
+FlameMaster written by Heinz Pitsch
+
+version                  4.4.0
+executed command         '/rwthfs/rz/cluster/home/cb376114/Programs/FlameMaster/FlameMaster_Branch_jl_dco_activated/Bin/bin/../bin/FlameMan -i Simulations/HNCO/FlameMaster1300.input -r MechNOx.pre -o Simulations/HNCO/Output'
+git sha1                 2a5f34190d01ea4406b2bf62549b54a510a08f31
+operating system         Linux, version 4.18.0-553.34.1.el8_10.x86_64
+target architechture     x86_64
+c++ compiler             Intel, version 2021.6.0.20220226
+c   compiler             Intel, version 2021.6.0.20220226
+bla/lapack vendor        
+index size               32 bit
+
+use mechanism file 'MechNOx.pre'
+model has 1065 species
+        6 spherical
+       29 linear
+     1030 non-linear
+    -----
+     1065 / 1065 geometry parameters expected
+
+The used model has 6629 reactions (reactions for which the forward and backward
+direction are specified as separate irreversible reactions are counted twice)
+
+outpath is 'Simulations/HNCO/Output/'
+initial pressure is 1.06391 bar
+mixture-averaged transport coefficient evaluation
+use mono atomic species transport model
+Using the SUNDIALS linear solver implementation
+#warning: ignoring Jacbian routine without COMBUSTION_LIBS.
+
+start computation
+
+
+
+p = 1.06391 bar	phi = 0.00872727	T = 1300 K
+
+Start measuring execution time
+
+step = 100	ord = 5	t = 5.24571 ms	T = 1300.01 K
+step = 200	ord = 5	t = 12.3063 ms	T = 1300.95 K
+step = 300	ord = 5	t = 22.234 ms	T = 1304.53 K
+step = 400	ord = 5	t = 30.0318 ms	T = 1308.12 K
+step = 500	ord = 5	t = 39.4529 ms	T = 1309.93 K
+step = 600	ord = 5	t = 49.4529 ms	T = 1310.45 K
+step = 700	ord = 5	t = 59.4529 ms	T = 1310.63 K
+step = 800	ord = 5	t = 69.4529 ms	T = 1310.72 K
+step = 900	ord = 5	t = 79.4529 ms	T = 1310.77 K
+step = 1000	ord = 5	t = 89.4529 ms	T = 1310.8 K
+
+Execution time 35995 ms
+
+
+** no ignition occured
+** final time is          95	ms
+** final temperature is   1310.81	K
+** Delta T is   10.8084	K
+** 1056 steps needed
+print integrated production rates
+print reaction rates
+print detailed heat release
+print reaction rates in binary format
+print detailed heat release
+
+T_0 [K]	t_ig [ms]
+1300	no ignition
+Execution time 42.2014 s
+

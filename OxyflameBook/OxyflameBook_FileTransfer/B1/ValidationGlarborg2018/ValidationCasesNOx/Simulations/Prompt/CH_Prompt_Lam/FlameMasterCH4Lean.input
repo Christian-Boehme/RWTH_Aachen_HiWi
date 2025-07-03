@@ -1,0 +1,131 @@
+############
+# Numerics #
+############
+
+#### Newton solver ####
+
+UseNumericalJac is TRUE
+UseSecondOrdJac is TRUE
+UseModifiedNewton = TRUE
+
+DampFlag = TRUE
+LambdaMin = 1.0e-2
+ClipNegativeConcs is TRUE 
+#TimeDepFlag is TRUE
+DeltaTStart = 1e-5
+
+MaxIter = 5000
+TolRes = 1.0e-15
+TolDy = 1e-4
+
+#### grid ####
+
+DeltaNewGrid = 25
+OneSolutionOneGrid = TRUE
+initialgridpoints = 89
+maxgridpoints = 2100 
+q = -0.25
+R = 60
+
+########################
+# Sensitivity Analysis #
+########################
+
+#ReactionFluxAnal is TRUE
+
+#######
+# I/O #
+#######
+
+WriteEverySolution = TRUE
+PrintMolarFractions is TRUE
+
+OutputPath is ./Output
+StartProfilesFile is ./H2_p00_0phi1_9272tu0298v13100
+
+#############
+# Chemistry #
+#############
+
+MechanismFile is gri.30.pre
+globalReaction is CH4 + 2O2 ==  CO2 + 2H2O;
+
+fuel is CH4
+oxidizer is o2
+
+#########
+# Flame #
+#########
+
+Flame is UnstretchedPremixed
+ExactBackward is TRUE
+
+phi = 0.8        
+#phi = 1.1
+#phi = 1.9272
+
+#pressure = 1.0e5
+#pressure = 0.9e5
+#pressure = 0.8e5
+#pressure = 0.7e5
+#pressure = 0.6e5
+#pressure = 0.5e5
+#pressure = 0.4e5
+#pressure = 0.3e5
+#pressure = 0.2e5
+#pressure = 0.1e5
+#pressure = 0.09e5
+#pressure = 0.08e5
+#pressure = 0.07e5
+#pressure = 0.06e5
+#pressure = 0.053e5
+#pressure = 0.15e5
+#pressure = 0.1e5
+#pressure = 0.07e5
+#pressure = 0.06e5
+#pressure = 0.051e5
+pressure = 0.053e5
+
+#ComputeWithRadiation is TRUE
+#Thermodiffusion is TRUE
+TransModel is MultiGeom
+
+ExpTempFile is Simulations/Prompt/CH_Prompt_Lam/TempProfile/CH4Lean                    
+# location in mm 
+ToMeter=1.0e-2 
+
+#######################
+# Boundary conditions #
+#######################
+
+#ConstLewisNumber is TRUE
+ConstMassFlux is TRUE
+
+StandardTemperature = 273.15 
+# this is non-sense, but we keep it for now because
+# this is what was used previously 
+StandardPressure = 1.01325e5
+
+
+MassFlowRate = 0.026785187      
+#MassFlowRate = 0.0379  
+#MassFlowRate = 0.0354 
+
+Unburnt Side {
+	dirichlet {
+	       	t =   342.058        
+	}
+}
+
+#ContInc = 50 
+#ContSide is left
+#ContType is Temperature
+#ContBound = 700 
+#
+#ContBound = 1.0
+#ContInc = 0.02
+#ContSide is left
+#ToSpecies is CH4
+#FromSpecies is H2
+#
+

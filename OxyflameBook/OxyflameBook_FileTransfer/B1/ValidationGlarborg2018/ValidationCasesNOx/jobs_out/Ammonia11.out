@@ -1,0 +1,199 @@
+[INFO] Module intel/2022a loaded.
+[INFO] Module GCC/11.3.0 loaded.
+FlameMaster written by Heinz Pitsch
+
+version                  4.4.0
+executed command         '/rwthfs/rz/cluster/home/cb376114/Programs/FlameMaster/FlameMaster_Branch_jl_dco_activated/Bin/bin/../bin/FlameMan -i Simulations/Ammonia/FR/FlameMaster1000Stoch.input -r MechNOx.pre -o Simulations/Ammonia/FR/OutputStoch'
+git sha1                 2a5f34190d01ea4406b2bf62549b54a510a08f31
+operating system         Linux, version 4.18.0-553.34.1.el8_10.x86_64
+target architechture     x86_64
+c++ compiler             Intel, version 2021.6.0.20220226
+c   compiler             Intel, version 2021.6.0.20220226
+bla/lapack vendor        
+index size               32 bit
+
+a 'K' is a complete surprise for me in this context
+a 'e' is a complete surprise for me in this context
+a 'e' is a complete surprise for me in this context
+a 'p' is a complete surprise for me in this context
+a 'C' is a complete surprise for me in this context
+a 'o' is a complete surprise for me in this context
+a 'n' is a complete surprise for me in this context
+a 's' is a complete surprise for me in this context
+a 't' is a complete surprise for me in this context
+a 'T' is a complete surprise for me in this context
+a 'e' is a complete surprise for me in this context
+a 'm' is a complete surprise for me in this context
+a 'p' is a complete surprise for me in this context
+a '=' is a complete surprise for me in this context
+a 'T' is a complete surprise for me in this context
+a 'U' is a complete surprise for me in this context
+use mechanism file 'MechNOx.pre'
+model has 1065 species
+        6 spherical
+       29 linear
+     1030 non-linear
+    -----
+     1065 / 1065 geometry parameters expected
+
+The used model has 6629 reactions (reactions for which the forward and backward
+direction are specified as separate irreversible reactions are counted twice)
+
+outpath is 'Simulations/Ammonia/FR/OutputStoch/'
+initial pressure is 1.06391 bar
+mixture-averaged transport coefficient evaluation
+use mono atomic species transport model
+Using the SUNDIALS linear solver implementation
+#warning: ignoring Jacbian routine without COMBUSTION_LIBS.
+
+start computation
+
+
+
+p = 1.06391 bar	phi = 0.997222	T = 1000 K
+
+Start measuring execution time
+
+step = 100	ord = 2	t = 9.69168 ms	T = 1000 K
+step = 200	ord = 2	t = 19.6917 ms	T = 1000 K
+step = 300	ord = 2	t = 29.6917 ms	T = 1000 K
+step = 400	ord = 2	t = 39.6917 ms	T = 1000 K
+step = 500	ord = 2	t = 49.6917 ms	T = 1000 K
+step = 600	ord = 2	t = 59.6917 ms	T = 1000 K
+step = 700	ord = 2	t = 69.6917 ms	T = 1000 K
+step = 800	ord = 2	t = 79.6917 ms	T = 1000 K
+step = 900	ord = 2	t = 89.6917 ms	T = 1000 K
+step = 1000	ord = 2	t = 99.6917 ms	T = 1000 K
+step = 1100	ord = 2	t = 109.692 ms	T = 1000 K
+step = 1200	ord = 2	t = 119.692 ms	T = 1000 K
+step = 1300	ord = 2	t = 129.692 ms	T = 1000 K
+step = 1400	ord = 2	t = 139.692 ms	T = 1000 K
+step = 1500	ord = 2	t = 149.692 ms	T = 1000 K
+step = 1600	ord = 2	t = 159.692 ms	T = 1000 K
+step = 1700	ord = 2	t = 169.692 ms	T = 1000 K
+step = 1800	ord = 2	t = 179.692 ms	T = 1000 K
+step = 1900	ord = 2	t = 189.692 ms	T = 1000 K
+step = 2000	ord = 2	t = 199.692 ms	T = 1000 K
+step = 2100	ord = 2	t = 209.692 ms	T = 1000 K
+step = 2200	ord = 2	t = 219.692 ms	T = 1000 K
+step = 2300	ord = 2	t = 229.692 ms	T = 1000 K
+step = 2400	ord = 2	t = 239.692 ms	T = 1000 K
+step = 2500	ord = 2	t = 249.692 ms	T = 1000 K
+step = 2600	ord = 2	t = 259.692 ms	T = 1000 K
+step = 2700	ord = 2	t = 269.692 ms	T = 1000 K
+step = 2800	ord = 2	t = 279.692 ms	T = 1000 K
+step = 2900	ord = 2	t = 289.692 ms	T = 1000 K
+step = 3000	ord = 2	t = 299.692 ms	T = 1000 K
+step = 3100	ord = 2	t = 309.692 ms	T = 1000 K
+step = 3200	ord = 2	t = 319.692 ms	T = 1000 K
+step = 3300	ord = 2	t = 329.692 ms	T = 1000 K
+step = 3400	ord = 2	t = 339.692 ms	T = 1000 K
+step = 3500	ord = 2	t = 349.692 ms	T = 1000 K
+step = 3600	ord = 2	t = 359.692 ms	T = 1000 K
+step = 3700	ord = 2	t = 369.692 ms	T = 1000 K
+step = 3800	ord = 2	t = 379.692 ms	T = 1000 K
+step = 3900	ord = 2	t = 389.692 ms	T = 1000 K
+step = 4000	ord = 2	t = 399.692 ms	T = 1000 K
+step = 4100	ord = 2	t = 409.692 ms	T = 1000 K
+step = 4200	ord = 2	t = 419.692 ms	T = 1000 K
+step = 4300	ord = 2	t = 429.692 ms	T = 1000 K
+step = 4400	ord = 2	t = 439.692 ms	T = 1000 K
+step = 4500	ord = 2	t = 449.692 ms	T = 1000 K
+step = 4600	ord = 2	t = 459.692 ms	T = 1000 K
+step = 4700	ord = 2	t = 469.692 ms	T = 1000 K
+step = 4800	ord = 2	t = 479.692 ms	T = 1000 K
+step = 4900	ord = 2	t = 489.692 ms	T = 1000 K
+step = 5000	ord = 2	t = 499.692 ms	T = 1000 K
+step = 5100	ord = 2	t = 509.692 ms	T = 1000 K
+step = 5200	ord = 2	t = 519.692 ms	T = 1000 K
+step = 5300	ord = 2	t = 529.692 ms	T = 1000 K
+step = 5400	ord = 2	t = 539.692 ms	T = 1000 K
+step = 5500	ord = 2	t = 549.692 ms	T = 1000 K
+step = 5600	ord = 2	t = 559.692 ms	T = 1000 K
+step = 5700	ord = 2	t = 569.692 ms	T = 1000 K
+step = 5800	ord = 2	t = 579.692 ms	T = 1000 K
+step = 5900	ord = 2	t = 589.692 ms	T = 1000 K
+step = 6000	ord = 2	t = 599.692 ms	T = 1000 K
+step = 6100	ord = 2	t = 609.692 ms	T = 1000 K
+step = 6200	ord = 2	t = 619.692 ms	T = 1000 K
+step = 6300	ord = 2	t = 629.692 ms	T = 1000 K
+step = 6400	ord = 2	t = 639.692 ms	T = 1000 K
+step = 6500	ord = 2	t = 649.692 ms	T = 1000 K
+step = 6600	ord = 2	t = 659.692 ms	T = 1000 K
+step = 6700	ord = 2	t = 669.692 ms	T = 1000 K
+step = 6800	ord = 2	t = 679.692 ms	T = 1000 K
+step = 6900	ord = 2	t = 689.692 ms	T = 1000 K
+step = 7000	ord = 2	t = 699.692 ms	T = 1000 K
+step = 7100	ord = 2	t = 709.692 ms	T = 1000 K
+step = 7200	ord = 2	t = 719.692 ms	T = 1000 K
+step = 7300	ord = 2	t = 729.692 ms	T = 1000 K
+step = 7400	ord = 2	t = 739.692 ms	T = 1000 K
+step = 7500	ord = 2	t = 749.692 ms	T = 1000 K
+step = 7600	ord = 2	t = 759.692 ms	T = 1000 K
+step = 7700	ord = 2	t = 769.692 ms	T = 1000 K
+step = 7800	ord = 2	t = 779.692 ms	T = 1000 K
+step = 7900	ord = 2	t = 789.692 ms	T = 1000 K
+step = 8000	ord = 2	t = 799.692 ms	T = 1000 K
+step = 8100	ord = 2	t = 809.692 ms	T = 1000 K
+step = 8200	ord = 2	t = 819.692 ms	T = 1000 K
+step = 8300	ord = 2	t = 829.692 ms	T = 1000 K
+step = 8400	ord = 2	t = 839.692 ms	T = 1000 K
+step = 8500	ord = 2	t = 849.692 ms	T = 1000 K
+step = 8600	ord = 2	t = 859.692 ms	T = 1000 K
+step = 8700	ord = 2	t = 869.692 ms	T = 1000 K
+step = 8800	ord = 2	t = 879.692 ms	T = 1000 K
+step = 8900	ord = 2	t = 889.692 ms	T = 1000 K
+step = 9000	ord = 2	t = 899.692 ms	T = 1000 K
+step = 9100	ord = 2	t = 909.692 ms	T = 1000 K
+step = 9200	ord = 2	t = 919.692 ms	T = 1000 K
+step = 9300	ord = 2	t = 929.692 ms	T = 1000 K
+step = 9400	ord = 2	t = 939.692 ms	T = 1000 K
+step = 9500	ord = 2	t = 949.692 ms	T = 1000 K
+step = 9600	ord = 2	t = 959.692 ms	T = 1000 K
+step = 9700	ord = 2	t = 969.692 ms	T = 1000 K
+step = 9800	ord = 2	t = 979.692 ms	T = 1000 K
+step = 9900	ord = 2	t = 989.692 ms	T = 1000 K
+step = 10000	ord = 2	t = 999.692 ms	T = 1000 K
+step = 10100	ord = 2	t = 1009.69 ms	T = 1000 K
+step = 10200	ord = 2	t = 1019.69 ms	T = 1000 K
+step = 10300	ord = 2	t = 1029.69 ms	T = 1000 K
+step = 10400	ord = 2	t = 1039.69 ms	T = 1000 K
+step = 10500	ord = 2	t = 1049.69 ms	T = 1000 K
+step = 10600	ord = 2	t = 1059.69 ms	T = 1000 K
+step = 10700	ord = 2	t = 1069.69 ms	T = 1000 K
+step = 10800	ord = 2	t = 1079.69 ms	T = 1000 K
+step = 10900	ord = 2	t = 1089.69 ms	T = 1000 K
+step = 11000	ord = 2	t = 1099.69 ms	T = 1000 K
+step = 11100	ord = 2	t = 1109.69 ms	T = 1000 K
+step = 11200	ord = 2	t = 1119.69 ms	T = 1000 K
+step = 11300	ord = 2	t = 1129.69 ms	T = 1000 K
+step = 11400	ord = 2	t = 1139.69 ms	T = 1000 K
+step = 11500	ord = 2	t = 1149.69 ms	T = 1000 K
+step = 11600	ord = 2	t = 1159.69 ms	T = 1000 K
+step = 11700	ord = 2	t = 1169.69 ms	T = 1000 K
+step = 11800	ord = 2	t = 1179.69 ms	T = 1000 K
+step = 11900	ord = 2	t = 1189.69 ms	T = 1000 K
+step = 12000	ord = 2	t = 1199.69 ms	T = 1000 K
+step = 12100	ord = 2	t = 1209.69 ms	T = 1000 K
+step = 12200	ord = 2	t = 1219.69 ms	T = 1000 K
+step = 12300	ord = 2	t = 1229.69 ms	T = 1000 K
+step = 12400	ord = 2	t = 1239.69 ms	T = 1000 K
+step = 12500	ord = 2	t = 1249.69 ms	T = 1000 K
+step = 12600	ord = 2	t = 1259.69 ms	T = 1000 K
+step = 12700	ord = 2	t = 1269.69 ms	T = 1000 K
+step = 12800	ord = 2	t = 1279.69 ms	T = 1000 K
+step = 12900	ord = 2	t = 1289.69 ms	T = 1000 K
+
+Execution time 373486 ms
+
+
+** no ignition occured
+** final time is          1296	ms
+** final temperature is   1000	K
+** Delta T is   0.00190036	K
+** 12964 steps needed
+
+T_0 [K]	t_ig [ms]
+1000	no ignition
+Execution time 377.854 s
+

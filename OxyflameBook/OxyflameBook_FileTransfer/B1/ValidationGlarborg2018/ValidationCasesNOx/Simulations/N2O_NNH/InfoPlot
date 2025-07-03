@@ -1,0 +1,43 @@
+Plot{ 
+
+   Name: PlotN2O_JSR_1
+   Caption: NO from N2O;atm pressure; CO =17.4% , Air = 82%, H2 = 0.25-0.69%; Residence Time = 4 ms
+   Flame: JSR
+   PlotType: MoleFraction
+   VOI: NO       
+   SimulationsFile: Simulations/N2O_NNH/N2O/Output   
+   Legend: NO   
+   Color:  orange    
+   ExperimentsFile: Experiments/N2O_NNH/Plot1/JSR_NO.txt
+   Marker: s  
+   Ylabel: Mole Fraction  
+   Xlabel: Temperature 
+   YUnit: [ppm]
+   YConvFac: 1000000  
+   XUnit: [K] 
+   XConvFac: 1
+   PlotWith: 
+
+}
+Plot{ 
+
+   Name: PlotN2O_JSR_2
+   Caption: NO from N2O;atm pressure; CO=17.4%  Air=82% H2 = 0.25-0.69%; Residence Time = 4 ms
+   Flame: JSR
+   PlotType: MoleFraction
+   VOI: N2O       
+   SimulationsFile: Simulations/N2O_NNH/N2O/Output   
+   Legend: N2Ox5 
+   Color:  blue   
+   ExperimentsFile: Experiments/N2O_NNH/Plot1/JSR_N2O.txt  
+   Marker: s   
+   Ylabel: Mole Fraction  
+   Xlabel: Temperature 
+   YUnit: [ppm]
+   YConvFac: 5000000  
+   XUnit: [K] 
+   XConvFac: 1
+   PlotWith: PlotN2O_JSR_1
+
+}
+

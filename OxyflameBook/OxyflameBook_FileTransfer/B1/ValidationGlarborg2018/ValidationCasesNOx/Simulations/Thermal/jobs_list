@@ -1,0 +1,2 @@
+-i Simulations/Thermal/FlameMasterLean.input -r MechNOx.pre -o Simulations/Thermal/OutputLean  
+-i Simulations/Thermal/FlameMasterRich.input -r MechNOx.pre -o Simulations/Thermal/OutputRich  

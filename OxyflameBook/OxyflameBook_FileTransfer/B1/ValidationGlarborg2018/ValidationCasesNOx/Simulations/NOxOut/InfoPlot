@@ -1,0 +1,23 @@
+Plot{ 
+
+   Name: PlotNOxOut_JSR_1
+   Caption: NOxOut process in JSR;atm pressure; urea=300 ppm NO=500 ppm O2=4% H2O=19%  balance N2, Residence Time (s)=200/T(K) 
+   Flame: JSR
+   PlotType: MoleFraction
+   VOI: NO       
+   SimulationsFile: Simulations/NOxOut/Output   
+   Legend: NO   
+   Color:  orange    
+   ExperimentsFile: Experiments/NOxOut/Plot1/NO_JSR.txt
+   Marker: s  
+   Ylabel: Mole Fraction  
+   Xlabel: Temperature 
+   YUnit: [ppm]
+   YConvFac: 1000000  
+   XUnit: [K] 
+   XConvFac: 1
+   PlotWith: 
+
+}
+
+

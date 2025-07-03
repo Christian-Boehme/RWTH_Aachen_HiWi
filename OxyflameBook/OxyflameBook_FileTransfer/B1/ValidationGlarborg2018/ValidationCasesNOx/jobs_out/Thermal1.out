@@ -1,0 +1,83 @@
+[INFO] Module intel/2022a loaded.
+[INFO] Module GCC/11.3.0 loaded.
+FlameMaster written by Heinz Pitsch
+
+version                  4.4.0
+executed command         '/rwthfs/rz/cluster/home/cb376114/Programs/FlameMaster/FlameMaster_Branch_jl_dco_activated/Bin/bin/../bin/FlameMan -i Simulations/Thermal/FlameMasterLean.input -r MechNOx.pre -o Simulations/Thermal/OutputLean'
+git sha1                 2a5f34190d01ea4406b2bf62549b54a510a08f31
+operating system         Linux, version 4.18.0-553.34.1.el8_10.x86_64
+target architechture     x86_64
+c++ compiler             Intel, version 2021.6.0.20220226
+c   compiler             Intel, version 2021.6.0.20220226
+bla/lapack vendor        
+index size               32 bit
+
+use mechanism file 'MechNOx.pre'
+model has 1065 species
+        6 spherical
+       29 linear
+     1030 non-linear
+    -----
+     1065 / 1065 geometry parameters expected
+
+The used model has 6629 reactions (reactions for which the forward and backward
+direction are specified as separate irreversible reactions are counted twice)
+
+outpath is 'Simulations/Thermal/OutputLean/'
+initial pressure is 2.09743 bar
+mixture-averaged transport coefficient evaluation
+use mono atomic species transport model
+Using the SUNDIALS linear solver implementation
+#warning: ignoring Jacbian routine without COMBUSTION_LIBS.
+
+start computation
+
+
+
+p = 2.09743 bar	phi = 0.166667	T = 2560 K
+
+Start measuring execution time
+
+#warning: clipping temperature or pressure in a chebyshev interpolation to avoid undefined behavior.
+The temperature (2560 K) exceeds the upper temperature limit
+#warning: clipping temperature or pressure in a chebyshev interpolation to avoid undefined behavior.
+The temperature (2560 K) exceeds the upper temperature limit
+#warning: clipping temperature or pressure in a chebyshev interpolation to avoid undefined behavior.
+The temperature (2560 K) exceeds the upper temperature limit
+#warning: clipping temperature or pressure in a chebyshev interpolation to avoid undefined behavior.
+The temperature (2560 K) exceeds the upper temperature limit
+#warning: clipping temperature or pressure in a chebyshev interpolation to avoid undefined behavior.
+The temperature (2560 K) exceeds the upper temperature limit
+#warning: clipping temperature or pressure in a chebyshev interpolation to avoid undefined behavior.
+The temperature (2560 K) exceeds the upper temperature limit
+#warning: clipping temperature or pressure in a chebyshev interpolation to avoid undefined behavior.
+The temperature (2560 K) exceeds the upper temperature limit
+#warning: clipping temperature or pressure in a chebyshev interpolation to avoid undefined behavior.
+The temperature (2560 K) exceeds the upper temperature limit
+#warning: clipping temperature or pressure in a chebyshev interpolation to avoid undefined behavior.
+The temperature (2560 K) exceeds the upper temperature limit
+#warning: clipping temperature or pressure in a chebyshev interpolation to avoid undefined behavior.
+The temperature (2560 K) exceeds the upper temperature limit
+#warning: the above warnings for chebyshev interpolation reactions will not be printed anymore
+step = 100	ord = 5	t = 0.000549249 ms	T = 2559.76 K
+step = 200	ord = 5	t = 0.00205877 ms	T = 2558.72 K
+step = 300	ord = 5	t = 0.0035254 ms	T = 2554.3 K
+step = 400	ord = 5	t = 0.0048738 ms	T = 2551.23 K
+step = 500	ord = 5	t = 0.0071994 ms	T = 2551.75 K
+step = 600	ord = 5	t = 0.0178501 ms	T = 2555.58 K
+step = 700	ord = 5	t = 0.237642 ms	T = 2603.03 K
+step = 800	ord = 5	t = 0.57945 ms	T = 2626.06 K
+
+Execution time 36681 ms
+
+
+** no ignition occured
+** final time is          1	ms
+** final temperature is   2631.12	K
+** Delta T is   71.12	K
+** 891 steps needed
+
+T_0 [K]	t_ig [ms]
+2560	no ignition
+Execution time 40.9803 s
+

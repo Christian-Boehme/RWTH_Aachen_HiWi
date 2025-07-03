@@ -1,0 +1,87 @@
+############
+# Numerics #
+############
+
+RelTol = 1.0e-11
+AbsTol = 1.0e-13
+
+TStart = 0.0
+TEnd   = 0.350 #0.28571 # [s] residence time
+
+MaxTimeStep = 0.001
+
+#SundialsLapack is TRUE
+
+########################
+# Sensitivity Analysis #
+########################
+
+#SensAnalReac is TRUE
+#SensAnalSpec is TRUE
+
+#FirstSensRate = 5
+
+#SensMax is TRUE
+#SensFinal is TRUE
+
+#SensObjAll is TRUE
+#SensObj is OH
+#SensObj is H
+
+#SensAnalFac = 2.0
+
+# ReactionFluxAnalysis
+#ReactionFluxAnal = TRUE
+
+#######
+# I/O #
+#######
+
+WriteFullRes is TRUE
+WriteRes is TRUE
+
+#AdditionalOutput is TRUE
+WriteEverySolution is TRUE
+PrintMolarFractions is TRUE
+
+OutputPath is ./output
+NOutputs = 50
+
+#############
+# Chemistry #
+#############
+
+MechanismFile is ../../../../Mechanisms/CRECK-NOx/kinetics.CHEMKIN.CKI.pre
+globalReaction is C5H5N + 6.75 O2 == 5 CO2 + 2.5 H2O + NO;
+
+fuel is C5H5N
+oxidizer is O2
+
+#########
+# Flame #
+#########
+
+#Flame is Isochor Homo Reactor
+Flame is Isobar Homo Reactor
+
+#phi = 16.667
+
+Pressure = 1.01325e5 # 1 atm
+
+ExactBackward = TRUE
+
+#######################
+# Boundary conditions #
+#######################
+
+ContInc = 25
+ContType is Temperature
+ContBound = 1500
+
+InitialCond {
+	t = 600 # [K]
+	X->C5H5N = 0.000105
+    X->O2    = 0.001450
+    X->NO    = 0.000000
+    X->N2    = 0.998445
+}

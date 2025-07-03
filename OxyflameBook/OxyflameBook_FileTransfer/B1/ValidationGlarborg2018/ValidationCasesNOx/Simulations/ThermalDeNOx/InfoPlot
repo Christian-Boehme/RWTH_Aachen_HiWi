@@ -1,0 +1,70 @@
+Plot{ 
+
+   Name: PlotThermalDeNOx_JSR
+   Caption: ThermalDeNOx in a JSR;atmospheric pressure;NH3=960 ppm NO=400 ppm O2=0.8% balance N2;   
+   Flame: JSR
+   PlotType: MoleFraction
+   VOI: NO     
+   SimulationsFile: Simulations/ThermalDeNOx/Pure/Output  
+   Legend: NO
+   Color: blue  
+   ExperimentsFile: Experiments/ThermalDeNOx/Plot1/JSR_NO.txt
+   Marker: s  
+   Ylabel: Mole Fraction  
+   Xlabel: Temperature 
+   YUnit: [ppm]
+   YConvFac: 1000000  
+   XUnit: [K] 
+   XConvFac: 1
+   PlotWith: 
+
+}
+
+ 
+Plot{ 
+
+   Name: PlotThermalDeNOx_FR_1
+   Caption:ThermalDeNOx in a quartz flow reactor, 10% O2;atmospheric pressure;NH3 = 1000 ppm, NO = 500 ppm, O2 = 10%, H2O = 5%, balance N2;  
+   Flame: FR 
+   PlotType: MoleFraction
+   VOI: NO 
+   SimulationsFile: Simulations/ThermalDeNOx/O2_10/Output  
+   Legend: NO  
+   Color: black
+   ExperimentsFile: Experiments/ThermalDeNOx/Plot2/FR_NO_10O.txt
+   Marker: s 
+   Ylabel: Mole Fraction  
+   Xlabel: Temperature 
+   YUnit: [ppm]
+   YConvFac: 1000000   
+   XUnit: [K] 
+   XConvFac: 1
+   PlotWith:  
+
+}
+ 
+
+ 
+Plot{ 
+
+   Name: PlotThermalDeNOx_FR_2
+   Caption: ThermalDeNOx in a quartz flow reactor, 50% O2;atmospheric pressure;NH3=1000 ppm NO=500 ppm O2=50% H2O=5% balance N2;   
+   Flame: FR 
+   PlotType: MoleFraction
+   VOI: NO 
+   SimulationsFile: Simulations/ThermalDeNOx/O2_50/Output  
+   Legend: NO  
+   Color: black
+   ExperimentsFile: Experiments/ThermalDeNOx/Plot3/FR_NO_50O.txt
+   Marker: s 
+   Ylabel: Mole Fraction  
+   Xlabel: Temperature 
+   YUnit: [ppm]
+   YConvFac: 1000000   
+   XUnit: [K] 
+   XConvFac: 1
+   PlotWith:  
+
+}
+ 
+

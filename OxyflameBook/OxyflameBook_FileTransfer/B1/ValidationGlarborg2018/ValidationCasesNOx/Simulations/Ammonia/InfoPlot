@@ -1,0 +1,71 @@
+Plot{ 
+
+   Name: PlotAmmonia_FR_1
+   Caption: NH3;CH4=2515 ppm  NH3=468 ppm O2=40100 ppm balance N2 (lean);Residence Time (s) = 1296/T(K); P=1.05 atm   
+   Flame: FR  
+   PlotType: MoleFraction
+   VOI: NO NH3    
+   SimulationsFile: Simulations/Ammonia/FR/OutputLean    
+   Legend: NO NH3 
+   Color:  blue red 
+   ExperimentsFile: Experiments/Ammonia/FR/Plot1/FR_NO_Lean.txt Experiments/Ammonia/FR/Plot1/FR_NH3_Lean.txt
+   Marker: s s 
+   Ylabel: Mole Fraction  
+   Xlabel: Temperature 
+   YUnit: [ppm]
+   YConvFac: 1000000   
+   XUnit: [K] 
+   XConvFac: 1
+   PlotWith: 
+
+}
+Plot{ 
+
+   Name: PlotAmmonia_FR_2
+   Caption: NH3; CH4=2513 ppm  NH3=468 ppm O2=5040 ppm balance N2 (stoch);Residence Time (s) = 1296/T(K); P=1.05 atm    
+   Flame: FR  
+   PlotType: MoleFraction
+   VOI: NO NH3    
+   SimulationsFile: Simulations/Ammonia/FR/OutputStoch 
+   Legend: NO NH3 
+   Color:  blue red 
+   ExperimentsFile: Experiments/Ammonia/FR/Plot2/FR_NO_Stoch.txt Experiments/Ammonia/FR/Plot2/FR_NH3_Stoch.txt
+   Marker: s s 
+   Ylabel: Mole Fraction  
+   Xlabel: Temperature 
+   YUnit: [ppm]
+   YConvFac: 1000000   
+   XUnit: [K] 
+   XConvFac: 1
+   PlotWith: 
+
+}
+
+Plot{ 
+
+   Name: PlotAmmonia_FR_3
+   Caption: NH3;CH4=2508 ppm NH3=484 ppm O2=3480 ppm balance N2 (rich);Residence Time (s) = 1296/T(K); P=1.05 atm   
+   Flame: FR  
+   PlotType: MoleFraction
+   VOI: NO NH3    
+   SimulationsFile: Simulations/Ammonia/FR/OutputRich    
+   Legend: NO NH3 
+   Color:  blue red 
+   ExperimentsFile: Experiments/Ammonia/FR/Plot3/FR_NO_Rich.txt Experiments/Ammonia/FR/Plot3/FR_NH3_Rich.txt
+   Marker: s s 
+   Ylabel: Mole Fraction  
+   Xlabel: Temperature 
+   YUnit: [ppm]
+   YConvFac: 1000000   
+   XUnit: [K] 
+   XConvFac: 1
+   PlotWith: 
+}
+
+
+
+
+
+
+
+

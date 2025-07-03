@@ -1,0 +1,12 @@
+#!/bin/bash
+
+file_list=(Figure_6a Figure_6f Figure_8b)
+
+for i in ${file_list[@]}; do
+    echo $i
+    #gnuplot $i.gnu
+    latex $i.tex
+    dvips -E  $i.dvi -o $i.eps
+    rm $i.dvi $i.log $i.aux $i-inc.eps
+done
+exit 0

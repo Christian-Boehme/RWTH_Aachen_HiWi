@@ -1,0 +1,10 @@
+# Overview
+
+Validation case:    https://linkinghub.elsevier.com/retrieve/pii/S174396711930861X
+
+
+Example folder contains all cases
+=> cp -r Example NewMech
+=> run FlameMaster.input
+
+run PP_IDT.sh to post-process all simulations

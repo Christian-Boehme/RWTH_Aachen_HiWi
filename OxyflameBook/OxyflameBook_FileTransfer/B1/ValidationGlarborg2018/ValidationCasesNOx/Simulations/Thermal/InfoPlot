@@ -1,0 +1,27 @@
+Plot{ 
+
+   Name: PlotThermal_ST_Lean  
+   Caption: Thermal; H2=2% O2=6% N2=92%; T = 2560 K; P = 2.07 atm   
+   Flame: ST
+   PlotType: Concentration   
+   VOI:  NO OH 
+   SimulationsFile: Simulations/Thermal/OutputLean     
+   Legend: NO OH   
+   Color:  blue red 
+   ExperimentsFile: Experiments/Thermal/Plot3/ThermalNO_Lean.txt Experiments/Thermal/Plot3/ThermalOH_Lean.txt  
+   Marker: s s
+   Ylabel: C   
+   Xlabel: time 
+   YUnit: [mol/cm3]
+   YConvFac: 1e-3                
+   XUnit: [ms] 
+   XConvFac: 1
+   SetLogScaleY: 1 
+   PlotWith:
+
+}
+ 
+
+
+
+

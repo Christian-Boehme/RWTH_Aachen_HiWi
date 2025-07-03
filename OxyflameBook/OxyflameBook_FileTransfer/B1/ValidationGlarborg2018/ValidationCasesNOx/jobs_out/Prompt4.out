@@ -1,0 +1,31 @@
+[INFO] Module intel/2022a loaded.
+[INFO] Module GCC/11.3.0 loaded.
+FlameMaster written by Heinz Pitsch
+
+version                  4.4.0
+executed command         '/rwthfs/rz/cluster/home/cb376114/Programs/FlameMaster/FlameMaster_Branch_jl_dco_activated_ConstTemp/Bin/bin/../bin/FlameMan -i Simulations/Prompt/CH_Prompt_Lam/FlameMasterCH4Lean.input -r MechNOx.pre -o Simulations/Prompt/CH_Prompt_Lam/OutputCH4Lean -s StartProfiles/CH_Prompt_Lam/StartCH4Lean'
+git sha1                 2a5f34190d01ea4406b2bf62549b54a510a08f31
+operating system         Linux, version 4.18.0-553.27.1.el8_10.x86_64
+target architechture     x86_64
+c++ compiler             Intel, version 2021.6.0.20220226
+c   compiler             Intel, version 2021.6.0.20220226
+bla/lapack vendor        
+index size               32 bit
+
+use mechanism file 'MechNOx.pre'
+model has 1065 species
+        6 spherical
+       29 linear
+     1030 non-linear
+    -----
+     1065 / 1065 geometry parameters expected
+
+The used model has 6629 reactions (reactions for which the forward and backward
+direction are specified as separate irreversible reactions are counted twice)
+
+outpath is 'Simulations/Prompt/CH_Prompt_Lam/OutputCH4Lean/'
+initial pressure is 0.053 bar
+mixture-averaged transport coefficient evaluation
+allocate size 18446744058449949032
+###  Fatal error: Memory exhausted.
+File "/home/cb376114/Programs/FlameMaster/FlameMaster_Branch_jl_dco_activated_ConstTemp/Repository/src/libraries/ArrayMan/AM_alloc.C"; Line 261

@@ -1,0 +1,65 @@
+[INFO] Module intel/2022a loaded.
+[INFO] Module GCC/11.3.0 loaded.
+FlameMaster written by Heinz Pitsch
+
+version                  4.4.0
+executed command         '/rwthfs/rz/cluster/home/cb376114/Programs/FlameMaster/FlameMaster_Branch_jl_dco_activated/Bin/bin/../bin/FlameMan -i Simulations/HCN/FR/Plot1/FlameMaster1400.input -r MechNOx.pre -o Simulations/HCN/FR/Plot1/Output'
+git sha1                 2a5f34190d01ea4406b2bf62549b54a510a08f31
+operating system         Linux, version 4.18.0-553.34.1.el8_10.x86_64
+target architechture     x86_64
+c++ compiler             Intel, version 2021.6.0.20220226
+c   compiler             Intel, version 2021.6.0.20220226
+bla/lapack vendor        
+index size               32 bit
+
+use mechanism file 'MechNOx.pre'
+model has 1065 species
+        6 spherical
+       29 linear
+     1030 non-linear
+    -----
+     1065 / 1065 geometry parameters expected
+
+The used model has 6629 reactions (reactions for which the forward and backward
+direction are specified as separate irreversible reactions are counted twice)
+
+outpath is 'Simulations/HCN/FR/Plot1/Output/'
+initial pressure is 1.06391 bar
+mixture-averaged transport coefficient evaluation
+use mono atomic species transport model
+Using the SUNDIALS linear solver implementation
+#warning: ignoring Jacbian routine without COMBUSTION_LIBS.
+
+start computation
+
+
+
+p = 1.06391 bar	phi = 0.0129615	T = 1400 K
+
+Start measuring execution time
+
+step = 100	ord = 5	t = 0.14187 ms	T = 1399.99 K
+step = 200	ord = 5	t = 4.42227 ms	T = 1399.99 K
+step = 300	ord = 5	t = 13.6572 ms	T = 1400.02 K
+step = 400	ord = 5	t = 19.7038 ms	T = 1401.01 K
+step = 500	ord = 5	t = 28.9083 ms	T = 1403.36 K
+step = 600	ord = 5	t = 38.9083 ms	T = 1404.69 K
+step = 700	ord = 5	t = 48.9083 ms	T = 1405.21 K
+step = 800	ord = 5	t = 58.9083 ms	T = 1405.43 K
+step = 900	ord = 5	t = 68.9083 ms	T = 1405.55 K
+step = 1000	ord = 5	t = 78.9083 ms	T = 1405.62 K
+step = 1100	ord = 5	t = 88.9083 ms	T = 1405.67 K
+
+Execution time 33815 ms
+
+
+** no ignition occured
+** final time is          96	ms
+** final temperature is   1405.69	K
+** Delta T is   5.69317	K
+** 1171 steps needed
+
+T_0 [K]	t_ig [ms]
+1400	no ignition
+Execution time 37.5736 s
+
