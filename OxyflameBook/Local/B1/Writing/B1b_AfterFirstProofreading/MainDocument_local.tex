@@ -1,0 +1,79 @@
+\documentclass[
+	fontsize=10pt 		% Schriftgröße
+	,paper=155mm:235mm, pagesize	% Papierformat
+	,bibliography=nottotoc % Literaturverzeichnis im Inhaltsverzeichnis (oder nicht)
+	,DIV=18				% für Seitenaufteilung; je größer die Zahl, desto kleiner die Ränder
+	,BCOR=5mm			% Bindekorrektur
+	,twoside			% ein-/zweiseitiger Druck (oneside/twoside)
+	,openright			% neues Kapitel auf beliebiger Seite (nicht zwingend rechts)
+	,headings=big		% Größe von Kapitelüberschriften (small/normal/big)
+	%, draft			% Entwurfsmodus (Platzhalter für Bilder, Markierungen bei überstehenden Zeilen)
+	,captions=tableheading
+	,captions=nooneline
+	,captions=bottombeside
+]{scrbook}
+
+\renewcommand{\floatpagefraction}{0.8}
+
+%	Loading Praeambel
+\input{../../../General_Files/included_packages}
+\usepackage{../../../General_Files/chapterthumbSFB}
+
+%\usepackage[lm, slantedGreek]{../../General_Files/sfmath}
+%\input{../../General_Files/unit_definitions}
+
+%	Variable für die Literaturangaben. Wird genau hier benötigt
+\newcommand{\BibPath}{../../../}
+\input{../../../General_Files/own_commands}
+\newcommand{\BibOtherResearcherPath}{../../../Literature}
+ \addbibresource{Literature/Literature.bib}
+
+%	Angabe zum Pfad. Im globalen Hauptdokument stehen hier andere Werte.
+\newcommand{\ThisPath}{}
+\usepackage{verbatim}
+
+\setlength{\textwidth}{117mm}
+\setlength{\textheight}{191mm}
+\setlength{\voffset}{12mm}
+\setlength{\hoffset}{7mm}
+
+% CHRISTIAN
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+
+% Begin of document
+\begin{document}
+
+%	KOMA-Script Options
+\pagestyle{scrheadings}
+\setkomafont{pageheadfoot}{\normalfont}
+
+
+% Put thumbs
+%\lohead[\putchapterthumb]{\putchapterthumb} % old package
+%\AddLayersToPageStyle{@everystyle@}{chapterthumb}
+%\setkomafont{chapterthumb}{\bfseries}
+%\newcounter{thumb}
+%\setcounter{thumb}{1}
+
+\addtocounter{chapter}{0}
+
+
+% Including general information
+%\input{../General_Infomation_Projects}
+%\clearpage
+
+
+\part{Book part. e.g. "Solid fuel conversion kinetics"}
+\addtocontents{toc}{\protect\setcounter{tocdepth}{0}}
+%\rohead{Project \ProjectLabel}
+\clearpairofpagestyles
+\lehead{\pagemark \qquad \ChapterTitle}
+\rohead{\chapterauthors \qquad \pagemark}
+
+%	Including project file
+\input{B1b}
+\clearpage\addtocounter{section}{-7}
+
+
+\end{document}
