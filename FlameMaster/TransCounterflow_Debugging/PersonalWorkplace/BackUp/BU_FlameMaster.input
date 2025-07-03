@@ -1,0 +1,98 @@
+############
+# Numerics #
+############
+
+MaxIter = 5000
+RelTol = 1.0e-6
+AbsTol = 1e-9
+
+#### grid ####
+
+initialgridpoints = 203
+maxgridpoints = 203
+equidistant is true
+
+#######
+# I/O #
+#######
+
+#PrintMolarFractions is TRUE
+OutputPath is ./Outputs
+StartProfilesFile is ./CH4_p01a00028tf0300to0400
+
+#############
+# Chemistry #
+#############
+
+#MechanismFile is H2.allstar3.pre
+#globalReaction is H2 + 0.5O2 == H2O;
+#MechanismFile is  /Users/hpitsch/FlameMaster/Build/../Data/CH4.72back.pre
+#MechanismFile is  /Users/hpitsch/FlameMaster/Build/../Data/gri.211.check.pre
+MechanismFile is ../../KineticModels/GRI30/grimech30.dat.pre
+globalReaction is CH4 + 2O2 == CO2 + 2H2O;
+#TransModel is MonoAtomic
+
+#fuel is H2
+fuel is CH4
+oxidizer is o2
+
+#########
+# Flame #
+#########
+
+Flame is Transient Counterflow
+
+#ExactBackward is TRUE
+
+pressure = 1.0e5
+
+#ConstantLewisNumber is TRUE
+#LewisNumberFile is LewisFile
+
+#ComputeWithRadiation is TRUE
+#Thermodiffusion is TRUE
+
+#######################
+# Boundary conditions #
+#######################
+
+leftbc {
+	neumann {
+#		V = 0.12
+		V = 0.0310075
+		t = 300
+		Y->CH4 = 1.0
+	}
+}
+
+rightbc {
+	neumann {
+		t = 400
+		V = -0.0758633
+#		V = 0
+		X->N2 = 0.79
+		X->O2 = 0.21
+	}
+}
+
+##################
+# Trans1DIsoChor #
+##################
+
+TStart			= 0.0								# Startzeit
+TEnd			= 500.0e-3							# Dauer in [ms]*10^3
+NOutputs		= 100								# Anzahl Outputs pro Zeit
+
+Left			= 0.0								# Nozzle position left
+Right			= 16.e-3							# Nozzle position right
+
+DeltaTStart		= 1.00e-6							# Startwert (relativ variabel waehlbar, da direkt angepasst)
+
+#Gamma			= 1								# Exponent alpha in Warnatz-Paper ( = 1 fuer Kreis, = 2 fuer Kugel)
+Kappa			= 2								# Groessenverhaeltnis benachbarter Zellen
+Tau			= 0.001								# Mass fuer die Schritte die die Rechnung "nachlaeuft" [ 0 < Tau < 1 ]
+
+#EquilibRadius           = 5e-3
+#IgnitionEnergy		= 8.0e5
+#IgnitionTime		= 1e-4
+#IgnitionRadius		= 3e-3

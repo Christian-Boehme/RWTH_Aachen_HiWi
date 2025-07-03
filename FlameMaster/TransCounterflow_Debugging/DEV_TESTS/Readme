@@ -1,0 +1,266 @@
+# FlameMaster: tmp_Counterflow debugging
+
+A step-by-step documentation about all the debugging-steps can be found in the following
+
+## Debugging
+Step-by-step protocol
+
+### To get a more detailed error message:
+mkdir build_Debug && cd build_Debug
+CC=clang CXX=clang++ cmake ../Repository -DCMAKE_BUILD_TYPE=Debug -DEIGEN_INTEGRATION=ON -DCOMBUSTION_LIBS=ON -DCMAKE_CXX_FLAGS_DEBUG="-fPIE -g -O0 -gdwarf-4" -DCMAKE_C_FLAGS_DEBUG="-fPIE -g -O0 -gdwarf-4" -DCMAKE_C_FLAGS="" -DCMAKE_Fortran_FLAGS_DEBUG="-fPIE -g -O0" -DINSTALL_SUNDIALS=ON -DSUNDIALS_LAPACK=ON -DDCO_CPP_BASE_DIR=~/Documents/ITV/dco/dco_repository/dco_cpp_dev/dco_cpp_dev/ -DCHEMKIN_TROE=ON -DSENSITIVITY_COMP_MODE=passive -DCOMPILE_FORTRAN_SRC=ON -DTESTS=ON
+make install -j12
+
+### 0: run the code - fix warnings
+=> to fix the warnings - modification of the StartProfileFile (new file has the suffix "_Modified")
+added "time = 0.00001 [ms]" and "CurrTimeStep = 0.00001 [ms]"
+=> Note: random numbers
+
+### 1: run the code (git version: d50e79cf)
+~~~~~~~~~~{sh}
+FlameMaster -i FlameMaster.input
+~~~~~~~~~~
+Output:
+~~~~~~~~~~{sh}
+FlameMaster written by Heinz Pitsch
+
+version                  4.4.0
+executed command         '/rwthfs/rz/cluster/home/cb376114/Programs/FlameMaster/FlameMaster_Branch_tmp_TranCounterflow_GitVersion/Bin/bin/../bin/FlameMan -i FlameMaster.input'
+git sha1                 d50e79cf18a8c6736e57183e8d0f37f139f43afc
+operating system         Linux, version 4.18.0-553.54.1.el8_10.x86_64
+target architechture     x86_64
+c++ compiler             Clang, version 15.0.5
+c   compiler             Clang, version 15.0.5
+bla/lapack vendor        
+index size               32 bit
+
+use mechanism file './Mech/N2Diffusion.chmech.pre'
+model has 2 species
+        0 spherical
+        2 linear
+        0 non-linear
+    -----
+        2 / 2 geometry parameters expected
+
+The used model has 0 reactions (reactions for which the forward and backward
+direction are specified as separate irreversible reactions are counted twice)
+
+outpath is './Output/'
+initial pressure is 1 bar
+mixture-averaged transport coefficient evaluation
+use multi geometry species transport model
+Initialize external thermodynamics model for 2 species
+Instantiate external transport model for 2 species
+constructed egc mixture-averaged transport model
+Use StaticGrid
+write output to 'stderr'
+
+Use IDA solver
+
+=================================================================
+==155273==ERROR: AddressSanitizer: heap-buffer-overflow on address 0x602000012515 at pc 0x5636af307b95 bp 0x7ffe2f38b790 sp 0x7ffe2f38af58
+WRITE of size 7 at 0x602000012515 thread T0
+    #0 0x5636af307b94  (/rwthfs/rz/cluster/home/cb376114/Programs/FlameMaster/FlameMaster_Branch_tmp_TranCounterflow_GitVersion/Bin/bin/FlameMan+0x1979b94)
+    #1 0x5636b1a5076d  (/rwthfs/rz/cluster/home/cb376114/Programs/FlameMaster/FlameMaster_Branch_tmp_TranCounterflow_GitVersion/Bin/bin/FlameMan+0x40c276d)
+    #2 0x5636b1a86a5a  (/rwthfs/rz/cluster/home/cb376114/Programs/FlameMaster/FlameMaster_Branch_tmp_TranCounterflow_GitVersion/Bin/bin/FlameMan+0x40f8a5a)
+    #3 0x5636af36854c  (/rwthfs/rz/cluster/home/cb376114/Programs/FlameMaster/FlameMaster_Branch_tmp_TranCounterflow_GitVersion/Bin/bin/FlameMan+0x19da54c)
+    #4 0x5636af35cb5c  (/rwthfs/rz/cluster/home/cb376114/Programs/FlameMaster/FlameMaster_Branch_tmp_TranCounterflow_GitVersion/Bin/bin/FlameMan+0x19ceb5c)
+    #5 0x5636af35e044  (/rwthfs/rz/cluster/home/cb376114/Programs/FlameMaster/FlameMaster_Branch_tmp_TranCounterflow_GitVersion/Bin/bin/FlameMan+0x19d0044)
+    #6 0x1544ea7f37e4  (/lib64/libc.so.6+0x3a7e4) (BuildId: 8d342f47b7e17a0675aa81230629eb08aeb3e893)
+    #7 0x5636af29828d  (/rwthfs/rz/cluster/home/cb376114/Programs/FlameMaster/FlameMaster_Branch_tmp_TranCounterflow_GitVersion/Bin/bin/FlameMan+0x190a28d)
+
+0x602000012515 is located 0 bytes to the right of 5-byte region [0x602000012510,0x602000012515)
+allocated by thread T0 here:
+    #0 0x5636af35a56d  (/rwthfs/rz/cluster/home/cb376114/Programs/FlameMaster/FlameMaster_Branch_tmp_TranCounterflow_GitVersion/Bin/bin/FlameMan+0x19cc56d)
+    #1 0x5636b1a501ab  (/rwthfs/rz/cluster/home/cb376114/Programs/FlameMaster/FlameMaster_Branch_tmp_TranCounterflow_GitVersion/Bin/bin/FlameMan+0x40c21ab)
+    #2 0x5636b1a86a5a  (/rwthfs/rz/cluster/home/cb376114/Programs/FlameMaster/FlameMaster_Branch_tmp_TranCounterflow_GitVersion/Bin/bin/FlameMan+0x40f8a5a)
+    #3 0x5636af36854c  (/rwthfs/rz/cluster/home/cb376114/Programs/FlameMaster/FlameMaster_Branch_tmp_TranCounterflow_GitVersion/Bin/bin/FlameMan+0x19da54c)
+    #4 0x5636af35cb5c  (/rwthfs/rz/cluster/home/cb376114/Programs/FlameMaster/FlameMaster_Branch_tmp_TranCounterflow_GitVersion/Bin/bin/FlameMan+0x19ceb5c)
+    #5 0x5636af35e044  (/rwthfs/rz/cluster/home/cb376114/Programs/FlameMaster/FlameMaster_Branch_tmp_TranCounterflow_GitVersion/Bin/bin/FlameMan+0x19d0044)
+    #6 0x1544ea7f37e4  (/lib64/libc.so.6+0x3a7e4) (BuildId: 8d342f47b7e17a0675aa81230629eb08aeb3e893)
+
+SUMMARY: AddressSanitizer: heap-buffer-overflow (/rwthfs/rz/cluster/home/cb376114/Programs/FlameMaster/FlameMaster_Branch_tmp_TranCounterflow_GitVersion/Bin/bin/FlameMan+0x1979b94) 
+Shadow bytes around the buggy address:
+  0x0c047fffa450: fa fa 00 00 fa fa 00 00 fa fa 00 00 fa fa 00 00
+  0x0c047fffa460: fa fa 00 00 fa fa 00 00 fa fa 00 00 fa fa 00 00
+  0x0c047fffa470: fa fa 02 fa fa fa 02 fa fa fa 02 fa fa fa 07 fa
+  0x0c047fffa480: fa fa 02 fa fa fa 02 fa fa fa 07 fa fa fa 06 fa
+  0x0c047fffa490: fa fa 00 00 fa fa 02 fa fa fa 02 fa fa fa 02 fa
+=>0x0c047fffa4a0: fa fa[05]fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x0c047fffa4b0: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x0c047fffa4c0: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x0c047fffa4d0: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x0c047fffa4e0: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x0c047fffa4f0: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+Shadow byte legend (one shadow byte represents 8 application bytes):
+  Addressable:           00
+  Partially addressable: 01 02 03 04 05 06 07 
+  Heap left redzone:       fa
+  Freed heap region:       fd
+  Stack left redzone:      f1
+  Stack mid redzone:       f2
+  Stack right redzone:     f3
+  Stack after return:      f5
+  Stack use after scope:   f8
+  Global redzone:          f9
+  Global init order:       f6
+  Poisoned by user:        f7
+  Container overflow:      fc
+  Array cookie:            ac
+  Intra object redzone:    bb
+  ASan internal:           fe
+  Left alloca redzone:     ca
+  Right alloca redzone:    cb
+==155273==ABORTING
+~~~~~~~~~~
+
+#### What is the error?
+Run the following command:
+~~~~~~~~~~{sh}
+gdb ~/Programs/FlameMaster/FlameMaster_Branch_tmp_TranCounterflow_GitVersion/Bin/bin/FlameMan
+~~~~~~~~~~
+Output: 
+~~~~~~~~~~{sh}
+=================================================================
+==45758==ERROR: AddressSanitizer: heap-buffer-overflow on address 0x602000012515 at pc 0x555556ecdb95 bp 0x7ffffffd9e30 sp 0x7ffffffd95f8
+WRITE of size 7 at 0x602000012515 thread T0
+[Detaching after fork from child process 47082]
+/home/cb376114/Programs/Others/LLVM/bin//llvm-symbolizer: /lib64/libtinfo.so.6: no version information available (required by /home/cb376114/Programs/Others/LLVM/bin//llvm-symbolizer)
+    #0 0x555556ecdb94 in __interceptor_strcpy /dev/shm/easybuild/Clang/15.0.5/GCCcore-11.3.0/llvm-project-15.0.5.src/compiler-rt/lib/asan/asan_interceptors.cpp:440:5
+    #1 0x55555961676d in TTransCounterflow<T0DSpecies<TMultiGeometryTransportModel>>::InitTTransCounterflow() /rwthfs/rz/cluster/home/cb376114/Programs/FlameMaster/FlameMaster_Branch_tmp_TranCounterflow_GitVersion/Repository/src/FlameMan/TTransCounterflow.hpp:51:2
+~~~~~~~~~~
+
+#### How to fix it?
+=> File: Repository/src/FlameMan/TTransCounterflow.hpp:51
+    -> strcpy( fVariableNames[fP], "PPrime" );
+    -> PPrime is not defined in the StartProfileFile
+    => replaced P with PPrime in the StartProfileFile
+    => modified in the line above "fVariableNames[fP] = new char[5];" to "fVariableNames[fPressure] = new char[7];"
+    => Noted an inconsistancy in the code (fP vs fPressure)
+        => fPressure is the correct variable -> fP replaced everywhere by fPressure
+        => NOTE: this was remodified by Mr. Pitsch to "fP" (see commit: 9ac26be1)
+
+
+### 2: fixed step 1 and run FlameMaster again
+~~~~~~~~~~{sh}
+FlameMaster -i FlameMaster.input
+~~~~~~~~~~
+
+#### What is the error?
+Run the following command:
+~~~~~~~~~~{sh}
+gbd ~/Programs/FlameMaster/FlameMaster_Branch_tmp_TranCounterflow_GitVersion/Bin/bin/FlameMan
+~~~~~~~~~~
+Output:
+~~~~~~~~~~{sh}
+=================================================================
+==111909==ERROR: AddressSanitizer: alloc-dealloc-mismatch (operator new [] vs operator delete) on 0x604000010b10
+/home/cb376114/Programs/Others/LLVM/bin//llvm-symbolizer: /lib64/libtinfo.so.6: no version information available (required by /home/cb376114/Programs/Others/LLVM/bin//llvm-symbolizer)
+    #0 0x564ec4b6ccbd in operator delete(void*) /dev/shm/easybuild/Clang/15.0.5/GCCcore-11.3.0/llvm-project-15.0.5.src/compiler-rt/lib/asan/asan_new_delete.cpp:152:3
+    #1 0x564ec72908c9 in TTransCounterflow<T0DSpecies<TMultiGeometryTransportModel>>::ReadStartProfiles(TInputData*) /rwthfs/rz/cluster/home/cb376114/Programs/FlameMaster/FlameMaster_Branch_tmp_TranCounterflow_GitVersion/Repository/src/FlameMan/TTransCounterflow.hpp:322:2
+~~~~~~~~~~
+
+#### How to fix it?
+    => File: Repository/src/FlameMan/TTransCounterflow.hpp:322
+        => "delete filename"; to "delete[] filename;"
+
+### 3: fixed step 1-3 and run FlameMaster again
+~~~~~~~~~~{sh}
+error message:
+[IDA ERROR]  IDACalcIC
+  The linesearch algorithm failed: step too small or too many backtracks.
+
+#error in IDACalcIC
+~~~~~~~~~~
+
+#### How to fix it?
+This error results from the IDASolver::CalcIC (T0DCVode.cpp)
+-> called in InitIDA (TTransCounterflowSolver.hpp)
+=> check Initiatize and InitIDA function
+    -> 1: fTStart is not correctly initialized (added fTStart = timeStart to the Initialize function - compare with 1DIsoChorSolver.hpp function)
+    -> 2: "NaN" in several arrays such as d.yC[...] after second function call of "ResIDA1D"
+        -> "hnenn" can be zero. hnenn is used in the denominator in the function "SecondDerivDiffusion"
+        -> simplified expression to fix the bug preliminary: "const Double hnenn = (hg*ws->hm(k) * (hg-ws->hm(k))) ? (hg*ws->hm(k) * (hg-ws->hm(k))) : 1E-10;"
+
+### 4: pulled modifications from Mr. Pitsch (commit: 862a575a) & added preliminary definition of hnenn to commit 862a575a
+- NOTE: some equations were deactivated for debuggin
+- output:
+~~~~~~~~~~{sh}
+stp =    61    dt = 9.76e-05 s    ord = 2    time =   5.0023 ms    temp =  300.0 K    VRight = 0.102816
+dump output
+#error: ComputeEmissionIndex not implemented
+~~~~~~~~~~
+
+### 5: pulled modifications from Mr. Pitsch (commit: d7860453)
+- NOTE: not all equations are solved ("#undef SOLVEV" and "#undef SOLVE")
+- simulation crashes with memory error ...
+~~~~~~~~~sh}
+=================================================================
+==189716==ERROR: AddressSanitizer: alloc-dealloc-mismatch (operator new [] vs operator delete) on 0x602000002b70
+    #0 0x5599032a8cbd  (/rwthfs/rz/cluster/home/cb376114/Programs/FlameMaster/FlameMaster_Branch_tmp_TranCounterflow_GitVersion/Bin/bin/FlameMan+0x19cecbd)
+    #1 0x5599059a97aa  (/rwthfs/rz/cluster/home/cb376114/Programs/FlameMaster/FlameMaster_Branch_tmp_TranCounterflow_GitVersion/Bin/bin/FlameMan+0x40cf7aa)
+    #2 0x5599059dbd2d  (/rwthfs/rz/cluster/home/cb376114/Programs/FlameMaster/FlameMaster_Branch_tmp_TranCounterflow_GitVersion/Bin/bin/FlameMan+0x4101d2d)
+    #3 0x559905929fff  (/rwthfs/rz/cluster/home/cb376114/Programs/FlameMaster/FlameMaster_Branch_tmp_TranCounterflow_GitVersion/Bin/bin/FlameMan+0x404ffff)
+    #4 0x5599032b6606  (/rwthfs/rz/cluster/home/cb376114/Programs/FlameMaster/FlameMaster_Branch_tmp_TranCounterflow_GitVersion/Bin/bin/FlameMan+0x19dc606)
+    #5 0x5599032aab5c  (/rwthfs/rz/cluster/home/cb376114/Programs/FlameMaster/FlameMaster_Branch_tmp_TranCounterflow_GitVersion/Bin/bin/FlameMan+0x19d0b5c)
+    #6 0x5599032ac044  (/rwthfs/rz/cluster/home/cb376114/Programs/FlameMaster/FlameMaster_Branch_tmp_TranCounterflow_GitVersion/Bin/bin/FlameMan+0x19d2044)
+    #7 0x153b7049f7e4  (/lib64/libc.so.6+0x3a7e4) (BuildId: 8d342f47b7e17a0675aa81230629eb08aeb3e893)
+    #8 0x5599031e628d  (/rwthfs/rz/cluster/home/cb376114/Programs/FlameMaster/FlameMaster_Branch_tmp_TranCounterflow_GitVersion/Bin/bin/FlameMan+0x190c28d)
+
+0x602000002b70 is located 0 bytes inside of 2-byte region [0x602000002b70,0x602000002b72)
+allocated by thread T0 here:
+    #0 0x5599032a856d  (/rwthfs/rz/cluster/home/cb376114/Programs/FlameMaster/FlameMaster_Branch_tmp_TranCounterflow_GitVersion/Bin/bin/FlameMan+0x19ce56d)
+    #1 0x5599059c3991  (/rwthfs/rz/cluster/home/cb376114/Programs/FlameMaster/FlameMaster_Branch_tmp_TranCounterflow_GitVersion/Bin/bin/FlameMan+0x40e9991)
+    #2 0x55990599f96a  (/rwthfs/rz/cluster/home/cb376114/Programs/FlameMaster/FlameMaster_Branch_tmp_TranCounterflow_GitVersion/Bin/bin/FlameMan+0x40c596a)
+    #3 0x5599059d9382  (/rwthfs/rz/cluster/home/cb376114/Programs/FlameMaster/FlameMaster_Branch_tmp_TranCounterflow_GitVersion/Bin/bin/FlameMan+0x40ff382)
+    #4 0x5599032b6555  (/rwthfs/rz/cluster/home/cb376114/Programs/FlameMaster/FlameMaster_Branch_tmp_TranCounterflow_GitVersion/Bin/bin/FlameMan+0x19dc555)
+    #5 0x5599032aab5c  (/rwthfs/rz/cluster/home/cb376114/Programs/FlameMaster/FlameMaster_Branch_tmp_TranCounterflow_GitVersion/Bin/bin/FlameMan+0x19d0b5c)
+    #6 0x5599032ac044  (/rwthfs/rz/cluster/home/cb376114/Programs/FlameMaster/FlameMaster_Branch_tmp_TranCounterflow_GitVersion/Bin/bin/FlameMan+0x19d2044)
+    #7 0x153b7049f7e4  (/lib64/libc.so.6+0x3a7e4) (BuildId: 8d342f47b7e17a0675aa81230629eb08aeb3e893)
+
+SUMMARY: AddressSanitizer: alloc-dealloc-mismatch (/rwthfs/rz/cluster/home/cb376114/Programs/FlameMaster/FlameMaster_Branch_tmp_TranCounterflow_GitVersion/Bin/bin/FlameMan+0x19cecbd) 
+==189716==HINT: if you don't care about these errors you may set ASAN_OPTIONS=alloc_dealloc_mismatch=0
+==189716==ABORTING
+~~~~~~~~~
+
+#### How to fix it?
+allocate:   fVariableNames[xyz] = new char[zyx];
+deallocate: delete fVariableNames;
+=> in TTransCounterflowSolver.hpp: deallocate with delete[] fVaribleNames; line 328 and 330 (compare TTrans1DIsoChor.hpp)
+
+### 6: fixed it and run again
+error
+~~~~~~~~~{sh}
+/rwthfs/rz/cluster/home/cb376114/Programs/FlameMaster/FlameMaster_Branch_tmp_TranCounterflow_GitVersion/Repository/src/FlameMan/TTransCounterflowSolver.hpp:337:17: runtime error: applying non-zero offset 18446744073709551608 to null pointer
+SUMMARY: UndefinedBehaviorSanitizer: undefined-behavior /rwthfs/rz/cluster/home/cb376114/Programs/FlameMaster/FlameMaster_Branch_tmp_TranCounterflow_GitVersion/Repository/src/FlameMan/TTransCounterflowSolver.hpp:337:17 in 
+AddressSanitizer:DEADLYSIGNAL
+=================================================================
+==106913==ERROR: AddressSanitizer: SEGV on unknown address 0xffffffffffffffe8 (pc 0x5649a5415572 bp 0x000000000000 sp 0x7ffc3942d810 T0)
+==106913==The signal is caused by a WRITE memory access.
+    #0 0x5649a5415572  (/rwthfs/rz/cluster/home/cb376114/Programs/FlameMaster/FlameMaster_Branch_tmp_TranCounterflow_GitVersion/Bin/bin/FlameMan+0x190d572)
+    #1 0x5649a5498866  (/rwthfs/rz/cluster/home/cb376114/Programs/FlameMaster/FlameMaster_Branch_tmp_TranCounterflow_GitVersion/Bin/bin/FlameMan+0x1990866)
+    #2 0x5649a8308f54  (/rwthfs/rz/cluster/home/cb376114/Programs/FlameMaster/FlameMaster_Branch_tmp_TranCounterflow_GitVersion/Bin/bin/FlameMan+0x4800f54)
+    #3 0x5649a814a499  (/rwthfs/rz/cluster/home/cb376114/Programs/FlameMaster/FlameMaster_Branch_tmp_TranCounterflow_GitVersion/Bin/bin/FlameMan+0x4642499)
+    #4 0x5649a7bdc768  (/rwthfs/rz/cluster/home/cb376114/Programs/FlameMaster/FlameMaster_Branch_tmp_TranCounterflow_GitVersion/Bin/bin/FlameMan+0x40d4768)
+    #5 0x5649a7c08c6d  (/rwthfs/rz/cluster/home/cb376114/Programs/FlameMaster/FlameMaster_Branch_tmp_TranCounterflow_GitVersion/Bin/bin/FlameMan+0x4100c6d)
+    #6 0x5649a7b56fff  (/rwthfs/rz/cluster/home/cb376114/Programs/FlameMaster/FlameMaster_Branch_tmp_TranCounterflow_GitVersion/Bin/bin/FlameMan+0x404efff)
+    #7 0x5649a54e3606  (/rwthfs/rz/cluster/home/cb376114/Programs/FlameMaster/FlameMaster_Branch_tmp_TranCounterflow_GitVersion/Bin/bin/FlameMan+0x19db606)
+    #8 0x5649a54d7b5c  (/rwthfs/rz/cluster/home/cb376114/Programs/FlameMaster/FlameMaster_Branch_tmp_TranCounterflow_GitVersion/Bin/bin/FlameMan+0x19cfb5c)
+    #9 0x5649a54d9044  (/rwthfs/rz/cluster/home/cb376114/Programs/FlameMaster/FlameMaster_Branch_tmp_TranCounterflow_GitVersion/Bin/bin/FlameMan+0x19d1044)
+    #10 0x15079a56f7e4  (/lib64/libc.so.6+0x3a7e4) (BuildId: 8d342f47b7e17a0675aa81230629eb08aeb3e893)
+    #11 0x5649a541328d  (/rwthfs/rz/cluster/home/cb376114/Programs/FlameMaster/FlameMaster_Branch_tmp_TranCounterflow_GitVersion/Bin/bin/FlameMan+0x190b28d)
+
+AddressSanitizer can not provide additional info.
+SUMMARY: AddressSanitizer: SEGV (/rwthfs/rz/cluster/home/cb376114/Programs/FlameMaster/FlameMaster_Branch_tmp_TranCounterflow_GitVersion/Bin/bin/FlameMan+0x190d572) 
+==106913==ABORTING
+~~~~~~~~~
+
+#### How to fix it?
+Needs to be done ...
+
+
+### 7: activate SOLVEV and SOLVEP and run FM
+error
+~~~~~~~~~{sh}
+Using the SUNDIALS linear solver implementation
+gp = 0	lambdaOverCp = nan	T=nan
+~~~~~~~~~

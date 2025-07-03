@@ -1,0 +1,2 @@
+# How to compile?
+ScanMan -i grimech30.dat -t thermo30.dat -m transport.dat -f chemkin
