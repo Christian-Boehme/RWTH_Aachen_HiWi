@@ -1,0 +1,47 @@
+Hallo Christian,
+
+ 
+
+In der nächsten Zeit müssen wir einige Prozesse, wie wir mit Gefahrstoffen umgehen, überarbeiten. Grundlage dafür ist ein Gefahrstoffkataster, auf das wir immer wieder zurück greifen werden.
+
+Daher ist ein erster Schritt die Chemikalienbestandsliste in ein Kataster zu überführen.
+
+ 
+
+Im Anhang sind zwei Excel-Mappen; die Liste wie wir sie bisher führen und das neu angelegte Kataster. Chemikalienbestandsliste – Tabelle 1 ist die untere Hälfte dir zugeordnet.
+
+Kataster soll befüllt werden.
+
+ 
+
+Die meisten Informationen findest du fast immer über https://gestis.dguv.de/search.
+
+ 
+
+Für Methanol und n-Dodecan wurde das Katster schonmal ausgefüllt.
+
+ 
+
+Fehlen In der Kategorie H und P Sätze Spalten mit den entsprechenden H/P Sätzen diese bitte nachtragen.
+
+ 
+
+ 
+
+Ich weiß nicht ob du das ganze mit einem Python scraping tool erledigen möchtest oder ob dazu die Stoffdatenbank nicht homogen genug aufgebaut ist.
+
+ 
+
+Wenn du einen Stoff nicht in der Datenbank findest, dann nur den Namen ins Kataster übernehmen.
+
+ 
+
+Ich habe einen Gast Acount of Microsoft Teams mit deinem Namen gefunden. Kannst du auf diesen noch zugreifen? Bei Zoom sehe ich die Nachrichten nicht immer direkt.
+
+ 
+
+Bei Fragen kannst du mir gerne schreiben oder wir besprechen es in einem Anruf.
+
+ 
+
+Viele grüße
