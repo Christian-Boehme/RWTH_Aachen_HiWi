@@ -1,2 +1,0 @@
-# How to compile?
-ScanMan -i Nonreactive.chmech -t Nonreactive.chthermo -m Nonreactive.chtrans -f chemkin

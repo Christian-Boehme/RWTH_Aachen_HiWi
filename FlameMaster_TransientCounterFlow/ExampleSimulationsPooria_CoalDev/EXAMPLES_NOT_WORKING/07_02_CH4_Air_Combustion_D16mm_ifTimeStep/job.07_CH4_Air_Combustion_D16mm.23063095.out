@@ -1,516 +1,0 @@
-Starting 07_CH4_Air_Combustion_D16mm ...
-Tue Sep  7 19:11:14 CEST 2021
-FlameMaster written by Heinz Pitsch
-
-version                  4.2.1
-executed command         './FlameMaster -i 07_CH4_Air_Combustion_D16mm.input'
-git sha1                 ca6e9c0a924e12ee83b51474e29e0e1fb959ad97
-operating system         Linux, version 3.10.0-1160.41.1.el7.x86_64
-target architechture     x86_64
-c++ compiler             Intel, version 19.0.0.20181018
-c   compiler             Intel, version 19.0.0.20181018
-
-a '' is a complete surprise for me in this context
-a '' is a complete surprise for me in this context
-a '' is a complete surprise for me in this context
-a '' is a complete surprise for me in this context
-a '' is a complete surprise for me in this context
-a '' is a complete surprise for me in this context
-a '' is a complete surprise for me in this context
-a '' is a complete surprise for me in this context
-a '' is a complete surprise for me in this context
-a '' is a complete surprise for me in this context
-a '' is a complete surprise for me in this context
-a '' is a complete surprise for me in this context
-a '' is a complete surprise for me in this context
-a '' is a complete surprise for me in this context
-a '' is a complete surprise for me in this context
-a '' is a complete surprise for me in this context
-a '' is a complete surprise for me in this context
-a '' is a complete surprise for me in this context
-a '' is a complete surprise for me in this context
-a '' is a complete surprise for me in this context
-a '' is a complete surprise for me in this context
-a '' is a complete surprise for me in this context
-a '' is a complete surprise for me in this context
-a '' is a complete surprise for me in this context
-a '' is a complete surprise for me in this context
-a '' is a complete surprise for me in this context
-a '' is a complete surprise for me in this context
-a '' is a complete surprise for me in this context
-a '' is a complete surprise for me in this context
-a '' is a complete surprise for me in this context
-a '' is a complete surprise for me in this context
-a '' is a complete surprise for me in this context
-a '' is a complete surprise for me in this context
-a '' is a complete surprise for me in this context
-a '' is a complete surprise for me in this context
-a '' is a complete surprise for me in this context
-a '' is a complete surprise for me in this context
-a '' is a complete surprise for me in this context
-a '' is a complete surprise for me in this context
-a '' is a complete surprise for me in this context
-a '' is a complete surprise for me in this context
-a '' is a complete surprise for me in this context
-a '' is a complete surprise for me in this context
-a '' is a complete surprise for me in this context
-a '' is a complete surprise for me in this context
-a '' is a complete surprise for me in this context
-a '' is a complete surprise for me in this context
-a '' is a complete surprise for me in this context
-a '' is a complete surprise for me in this context
-a '' is a complete surprise for me in this context
-a '' is a complete surprise for me in this context
-a '' is a complete surprise for me in this context
-a '' is a complete surprise for me in this context
-a '' is a complete surprise for me in this context
-a '' is a complete surprise for me in this context
-a '' is a complete surprise for me in this context
-a '' is a complete surprise for me in this context
-a '' is a complete surprise for me in this context
-a '' is a complete surprise for me in this context
-a '' is a complete surprise for me in this context
-use mechanism file './../Mechanisms/GRI3/gri.30.pre'
-outpath is 'Outputs/'
-initial pressure is 1.01325 bar
-use multi geometry species transport model
-model has 77 species
-        7 spherical
-       20 linear
-       50 non-linear
-    -----
-       77 / 77 geometry parameters expected
-initial pressure is 1.01325 bar
-write output to 'stderr'
-
-Use DASSL solver
-
-Coal solid species COALSOLIDCOAL1 found.
-Coal solid species COALSOLIDGCOAL1 found.
-Coal solid species COALSOLIDGCH2 found.
-Coal solid species COALSOLIDCHAR found.
-Coal solid species COALSOLIDCHARH found.
-Coal solid species COALSOLIDTAR1 found.
-Coal solid species COALSOLIDCOAL2 found.
-Coal solid species COALSOLIDGBTX2 found.
-Coal solid species COALSOLIDGCH4 found.
-Coal solid species COALSOLIDGCOH2 found.
-Coal solid species COALSOLIDGCO2S found.
-Coal solid species COALSOLIDGH2O found.
-Coal solid species COALSOLIDGCOL found.
-Coal solid species COALSOLIDTAR2 found.
-Coal solid species COALSOLIDGCO2TS found.
-Coal solid species COALSOLIDCOAL3 found.
-Coal solid species COALSOLIDGCOAL3 found.
-Coal solid species COALSOLIDTAR3 found.
-Coal solid species COALSOLIDGCO2 found.
-Coal solid species COALSOLIDCHARG found.
-Couldn't open "LewisNumbers"---all Lewis numbers will be set to 1.0
-
-Species O2 specified on the left boundary!
-
-Species N2 specified on the left boundary!
-
-Species CH4 specified on the left boundary!
-interpolate initial solution from boundary conditions
-Initial time step is 1e-12 s
-gp: 0, Temp: 300.000000, Pressure: 101325.000000, MixMolarMass: 24.881244
-gp: 1, Temp: 300.000000, Pressure: 101325.000000, MixMolarMass: 24.881244
-gp: 2, Temp: 300.000000, Pressure: 101325.000000, MixMolarMass: 24.881244
-gp: 3, Temp: 300.000000, Pressure: 101325.000000, MixMolarMass: 24.881244
-gp: 4, Temp: 300.000000, Pressure: 101325.000000, MixMolarMass: 24.881244
-gp: 5, Temp: 300.000000, Pressure: 101325.000000, MixMolarMass: 24.881244
-gp: 6, Temp: 300.000000, Pressure: 101325.000000, MixMolarMass: 24.881244
-gp: 7, Temp: 300.000000, Pressure: 101325.000000, MixMolarMass: 24.881244
-gp: 8, Temp: 300.000000, Pressure: 101325.000000, MixMolarMass: 24.881244
-gp: 9, Temp: 300.000000, Pressure: 101325.000000, MixMolarMass: 24.881244
-gp: 10, Temp: 300.000000, Pressure: 101325.000000, MixMolarMass: 24.881244
-gp: 11, Temp: 300.000000, Pressure: 101325.000000, MixMolarMass: 24.881244
-gp: 12, Temp: 300.000000, Pressure: 101325.000000, MixMolarMass: 24.881244
-gp: 13, Temp: 300.000000, Pressure: 101325.000000, MixMolarMass: 24.881244
-gp: 14, Temp: 300.000000, Pressure: 101325.000000, MixMolarMass: 24.881244
-gp: 15, Temp: 300.000000, Pressure: 101325.000000, MixMolarMass: 24.881244
-gp: 16, Temp: 300.000000, Pressure: 101325.000000, MixMolarMass: 24.881244
-gp: 17, Temp: 300.000000, Pressure: 101325.000000, MixMolarMass: 24.881244
-gp: 18, Temp: 300.000000, Pressure: 101325.000000, MixMolarMass: 24.881244
-gp: 19, Temp: 300.000000, Pressure: 101325.000000, MixMolarMass: 24.881244
-gp: 20, Temp: 300.000000, Pressure: 101325.000000, MixMolarMass: 24.881244
-gp: 21, Temp: 300.000000, Pressure: 101325.000000, MixMolarMass: 24.881244
-gp: 22, Temp: 300.000000, Pressure: 101325.000000, MixMolarMass: 24.881244
-gp: 23, Temp: 300.000000, Pressure: 101325.000000, MixMolarMass: 24.881244
-gp: 24, Temp: 300.000000, Pressure: 101325.000000, MixMolarMass: 24.881244
-gp: 25, Temp: 300.000000, Pressure: 101325.000000, MixMolarMass: 24.881244
-gp: 26, Temp: 300.000000, Pressure: 101325.000000, MixMolarMass: 24.881244
-gp: 27, Temp: 300.000000, Pressure: 101325.000000, MixMolarMass: 24.881244
-gp: 28, Temp: 300.000000, Pressure: 101325.000000, MixMolarMass: 24.881244
-gp: 29, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
-gp: 30, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
-gp: 31, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
-gp: 32, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
-gp: 33, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
-gp: 34, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
-gp: 35, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
-gp: 36, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
-gp: 37, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
-gp: 38, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
-gp: 39, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
-gp: 40, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
-gp: 41, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
-gp: 42, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
-gp: 43, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
-gp: 44, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
-gp: 45, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
-gp: 46, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
-gp: 47, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
-gp: 48, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
-gp: 49, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
-gp: 50, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
-gp: 51, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
-gp: 52, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
-gp: 53, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
-gp: 54, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
-gp: 55, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
-gp: 56, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
-gp: 57, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
-gp: 58, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
-gp: 59, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
-gp: 60, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
-gp: 61, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
-gp: 62, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
-gp: 63, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
-gp: 64, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
-gp: 65, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
-gp: 66, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
-gp: 67, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
-gp: 68, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
-gp: 69, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
-gp: 70, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
-gp: 71, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
-gp: 72, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
-gp: 73, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
-gp: 74, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
-gp: 75, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
-gp: 76, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
-gp: 77, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
-gp: 78, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
-gp: 79, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
-gp: 80, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
-gp: 81, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
-gp: 82, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
-gp: 83, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
-gp: 84, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
-gp: 85, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
-gp: 86, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
-gp: 87, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
-gp: 88, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
-gp: 89, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
-gp: 90, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
-gp: 91, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
-gp: 92, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
-gp: 93, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
-gp: 94, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
-gp: 95, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
-gp: 96, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
-gp: 97, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
-gp: 98, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
-
-Initial particle mass is 0 g and radius is 16000 micron
-
-Using linear solver method to initialize time terms
-
-
-dump output
-
-start computation
-
-solve system from t = 0 ms with p = 1.01325 bar	T_p_c = 300 K T_p_s = 300 K	 m_Coal = 0 mg	
-             to t = 1 ms with p = 1.01325 bar
-stp =     1    dt = 1.00e-12 s    ord = 1    time = 1.00e-09 ms    Tp_s =   300.00 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-#warning: integration carried out beyond tEnd
-info[4] = 1
-fIdid = 1
-OldStep before loop =     1
-if condition stp =     0
-stp =     2    dt = 1.21e-12 s    ord = 1    time = 2.21e-09 ms    Tp_s =   300.00 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =     1
-stp =     3    dt = 1.09e-12 s    ord = 1    time = 3.30e-09 ms    Tp_s =   300.00 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =     2
-stp =     4    dt = 2.18e-12 s    ord = 1    time = 5.48e-09 ms    Tp_s =   300.00 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =     3
-stp =     5    dt = 4.36e-12 s    ord = 1    time = 9.83e-09 ms    Tp_s =   300.00 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =     4
-stp =     6    dt = 8.71e-12 s    ord = 1    time = 1.85e-08 ms    Tp_s =   300.00 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =     5
-stp =     7    dt = 1.74e-11 s    ord = 1    time = 3.60e-08 ms    Tp_s =   300.00 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =     6
-stp =     8    dt = 3.48e-11 s    ord = 1    time = 7.08e-08 ms    Tp_s =   300.00 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =     7
-stp =     9    dt = 6.97e-11 s    ord = 1    time = 1.40e-07 ms    Tp_s =   300.00 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =     8
-stp =    10    dt = 1.39e-10 s    ord = 1    time = 2.80e-07 ms    Tp_s =   300.00 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =     9
-stp =    11    dt = 2.79e-10 s    ord = 1    time = 5.59e-07 ms    Tp_s =   300.00 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =    10
-stp =    12    dt = 5.57e-10 s    ord = 1    time = 1.12e-06 ms    Tp_s =   300.00 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =    11
-stp =    13    dt = 1.11e-09 s    ord = 1    time = 2.23e-06 ms    Tp_s =   300.00 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =    12
-stp =    14    dt = 2.23e-09 s    ord = 1    time = 4.46e-06 ms    Tp_s =   300.00 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =    13
-stp =    15    dt = 4.46e-09 s    ord = 1    time = 8.92e-06 ms    Tp_s =   300.00 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =    14
-stp =    16    dt = 8.92e-09 s    ord = 1    time = 1.78e-05 ms    Tp_s =   300.00 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =    15
-stp =    17    dt = 1.78e-08 s    ord = 1    time = 3.57e-05 ms    Tp_s =   300.01 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =    16
-stp =    18    dt = 3.57e-08 s    ord = 1    time = 7.14e-05 ms    Tp_s =   300.01 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =    17
-stp =    19    dt = 7.14e-08 s    ord = 1    time = 1.43e-04 ms    Tp_s =   300.02 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =    18
-stp =    20    dt = 1.43e-07 s    ord = 1    time = 2.85e-04 ms    Tp_s =   300.05 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =    19
-stp =    21    dt = 2.85e-07 s    ord = 1    time = 5.71e-04 ms    Tp_s =   300.09 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =    20
-stp =    22    dt = 5.71e-07 s    ord = 1    time = 1.14e-03 ms    Tp_s =   300.18 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =    21
-stp =    23    dt = 1.14e-06 s    ord = 1    time = 2.28e-03 ms    Tp_s =   300.37 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =    22
-stp =    24    dt = 2.28e-06 s    ord = 1    time = 4.57e-03 ms    Tp_s =   300.74 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =    23
-stp =    25    dt = 4.57e-06 s    ord = 1    time = 9.13e-03 ms    Tp_s =   301.47 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =    24
-stp =    26    dt = 9.13e-06 s    ord = 1    time = 1.83e-02 ms    Tp_s =   302.90 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =    25
-stp =    27    dt = 1.83e-05 s    ord = 1    time = 3.65e-02 ms    Tp_s =   305.70 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =    26
-stp =    28    dt = 1.83e-05 s    ord = 1    time = 5.48e-02 ms    Tp_s =   308.40 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =    27
-stp =    29    dt = 1.83e-05 s    ord = 1    time = 7.31e-02 ms    Tp_s =   311.02 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =    28
-stp =    30    dt = 3.65e-05 s    ord = 2    time = 1.10e-01 ms    Tp_s =   316.17 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =    29
-stp =    31    dt = 3.65e-05 s    ord = 2    time = 1.46e-01 ms    Tp_s =   321.07 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =    30
-stp =    32    dt = 3.65e-05 s    ord = 2    time = 1.83e-01 ms    Tp_s =   325.71 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =    31
-stp =    33    dt = 7.31e-05 s    ord = 2    time = 2.56e-01 ms    Tp_s =   334.48 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =    32
-stp =    34    dt = 6.36e-05 s    ord = 2    time = 3.19e-01 ms    Tp_s =   341.46 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =    33
-stp =    35    dt = 6.36e-05 s    ord = 2    time = 3.83e-01 ms    Tp_s =   347.95 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =    34
-stp =    36    dt = 6.36e-05 s    ord = 2    time = 4.46e-01 ms    Tp_s =   354.00 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =    35
-stp =    37    dt = 6.36e-05 s    ord = 2    time = 5.10e-01 ms    Tp_s =   359.68 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =    36
-stp =    38    dt = 1.27e-04 s    ord = 3    time = 6.37e-01 ms    Tp_s =   370.13 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =    37
-stp =    39    dt = 1.27e-04 s    ord = 3    time = 7.64e-01 ms    Tp_s =   379.59 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =    38
-stp =    40    dt = 1.27e-04 s    ord = 3    time = 8.91e-01 ms    Tp_s =   388.29 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =    39
-stp =    41    dt = 1.70e-06 s    ord = 3    time = 8.93e-01 ms    Tp_s =   388.40 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =    40
-stp =    42    dt = 3.40e-06 s    ord = 3    time = 8.96e-01 ms    Tp_s =   388.62 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =    41
-stp =    43    dt = 6.11e-06 s    ord = 3    time = 9.03e-01 ms    Tp_s =   389.01 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =    42
-stp =    44    dt = 5.50e-06 s    ord = 2    time = 9.08e-01 ms    Tp_s =   389.36 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =    43
-stp =    45    dt = 1.10e-05 s    ord = 1    time = 9.19e-01 ms    Tp_s =   390.05 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =    44
-stp =    46    dt = 2.20e-05 s    ord = 1    time = 9.41e-01 ms    Tp_s =   391.41 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =    45
-stp =    47    dt = 4.40e-05 s    ord = 1    time = 9.85e-01 ms    Tp_s =   394.07 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =    46
-stp =    48    dt = 1.49e-05 s    ord = 1    time = 1.00e+00 ms    Tp_s =   394.96 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-OldStep after loop =    48
-t 1 = 1.00e-03 
-t 2 = 1.00e-03 
-dump output
-solve system from t = 1 ms with p = 1.01325 bar	T_p_c = 300 K T_p_s = 394.959 K	 m_Coal = 0 mg	
-             to t = 2 ms with p = 1.01325 bar
-OldStep before loop =    48
-if condition stp =     0
-stp =    49    dt = 2.99e-05 s    ord = 1    time = 1.03e+00 ms    Tp_s =   396.71 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =     1
-stp =    50    dt = 5.98e-05 s    ord = 1    time = 1.09e+00 ms    Tp_s =   400.09 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =     2
-stp =    51    dt = 5.98e-05 s    ord = 1    time = 1.15e+00 ms    Tp_s =   403.36 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =     3
-stp =    52    dt = 5.98e-05 s    ord = 1    time = 1.21e+00 ms    Tp_s =   406.51 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =     4
-stp =    53    dt = 1.20e-04 s    ord = 2    time = 1.33e+00 ms    Tp_s =   412.63 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =     5
-stp =    54    dt = 1.20e-04 s    ord = 2    time = 1.45e+00 ms    Tp_s =   418.40 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =     6
-stp =    55    dt = 1.20e-04 s    ord = 2    time = 1.57e+00 ms    Tp_s =   423.82 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =     7
-stp =    56    dt = 7.47e-06 s    ord = 2    time = 1.58e+00 ms    Tp_s =   424.14 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =     8
-stp =    57    dt = 1.49e-05 s    ord = 2    time = 1.59e+00 ms    Tp_s =   424.79 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =     9
-stp =    58    dt = 7.47e-06 s    ord = 2    time = 1.60e+00 ms    Tp_s =   425.11 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =    10
-stp =    59    dt = 3.74e-06 s    ord = 2    time = 1.60e+00 ms    Tp_s =   425.27 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =    11
-stp =    60    dt = 7.47e-06 s    ord = 2    time = 1.61e+00 ms    Tp_s =   425.59 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =    12
-stp =    61    dt = 7.47e-06 s    ord = 2    time = 1.62e+00 ms    Tp_s =   425.91 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =    13
-stp =    62    dt = 4.67e-07 s    ord = 2    time = 1.62e+00 ms    Tp_s =   425.93 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =    14
-stp =    63    dt = 9.34e-07 s    ord = 2    time = 1.62e+00 ms    Tp_s =   425.97 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =    15
-stp =    64    dt = 3.21e-07 s    ord = 2    time = 1.62e+00 ms    Tp_s =   425.98 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =    16
-stp =    65    dt = 6.43e-07 s    ord = 2    time = 1.62e+00 ms    Tp_s =   426.01 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =    17
-stp =    66    dt = 6.43e-07 s    ord = 2    time = 1.62e+00 ms    Tp_s =   426.04 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =    18
-stp =    67    dt = 1.45e-07 s    ord = 2    time = 1.62e+00 ms    Tp_s =   426.04 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =    19
-stp =    68    dt = 2.02e-07 s    ord = 2    time = 1.62e+00 ms    Tp_s =   426.05 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =    20
-stp =    69    dt = 1.21e-07 s    ord = 2    time = 1.62e+00 ms    Tp_s =   426.06 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =    21
-stp =    70    dt = 1.21e-07 s    ord = 2    time = 1.62e+00 ms    Tp_s =   426.06 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =    22
-stp =    71    dt = 1.09e-07 s    ord = 2    time = 1.62e+00 ms    Tp_s =   426.07 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =    23
-stp =    72    dt = 5.63e-08 s    ord = 2    time = 1.62e+00 ms    Tp_s =   426.07 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =    24
-stp =    73    dt = 5.63e-08 s    ord = 2    time = 1.62e+00 ms    Tp_s =   426.07 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =    25
-stp =    74    dt = 3.35e-08 s    ord = 2    time = 1.62e+00 ms    Tp_s =   426.08 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =    26
-stp =    75    dt = 3.35e-08 s    ord = 2    time = 1.62e+00 ms    Tp_s =   426.08 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =    27
-stp =    76    dt = 3.35e-08 s    ord = 2    time = 1.62e+00 ms    Tp_s =   426.08 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =    28
-stp =    77    dt = 2.72e-08 s    ord = 2    time = 1.62e+00 ms    Tp_s =   426.08 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =    29
-stp =    78    dt = 2.33e-08 s    ord = 2    time = 1.62e+00 ms    Tp_s =   426.08 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =    30
-stp =    79    dt = 2.09e-08 s    ord = 2    time = 1.62e+00 ms    Tp_s =   426.08 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =    31
-stp =    80    dt = 1.71e-08 s    ord = 2    time = 1.62e+00 ms    Tp_s =   426.08 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =    32
-stp =    81    dt = 1.54e-08 s    ord = 2    time = 1.62e+00 ms    Tp_s =   426.08 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =    33
-stp =    82    dt = 1.37e-08 s    ord = 2    time = 1.62e+00 ms    Tp_s =   426.09 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =    34
-stp =    83    dt = 1.37e-08 s    ord = 2    time = 1.62e+00 ms    Tp_s =   426.09 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =    35
-stp =    84    dt = 1.19e-08 s    ord = 2    time = 1.62e+00 ms    Tp_s =   426.09 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =    36
-stp =    85    dt = 1.19e-08 s    ord = 2    time = 1.62e+00 ms    Tp_s =   426.09 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =    37
-stp =    86    dt = 7.56e-09 s    ord = 2    time = 1.62e+00 ms    Tp_s =   426.09 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =    38
-stp =    87    dt = 8.19e-10 s    ord = 1    time = 1.62e+00 ms    Tp_s =   426.09 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =    39
-stp =    88    dt = 3.06e-10 s    ord = 1    time = 1.62e+00 ms    Tp_s =   426.09 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =    40
-stp =    89    dt = 3.06e-10 s    ord = 1    time = 1.62e+00 ms    Tp_s =   426.09 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =    41
-stp =    90    dt = 3.06e-10 s    ord = 1    time = 1.62e+00 ms    Tp_s =   426.09 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =    42
-stp =    91    dt = 6.12e-10 s    ord = 1    time = 1.62e+00 ms    Tp_s =   426.09 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =    43
-stp =    92    dt = 6.12e-10 s    ord = 1    time = 1.62e+00 ms    Tp_s =   426.09 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =    44
-stp =    93    dt = 6.12e-10 s    ord = 1    time = 1.62e+00 ms    Tp_s =   426.09 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =    45
-stp =    94    dt = 1.22e-09 s    ord = 1    time = 1.62e+00 ms    Tp_s =   426.09 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =    46
-stp =    95    dt = 9.43e-10 s    ord = 1    time = 1.62e+00 ms    Tp_s =   426.09 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =    47
-stp =    96    dt = 9.43e-10 s    ord = 1    time = 1.62e+00 ms    Tp_s =   426.09 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =    48
-stp =    97    dt = 9.43e-10 s    ord = 1    time = 1.62e+00 ms    Tp_s =   426.09 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =    49
-stp =    98    dt = 1.89e-09 s    ord = 1    time = 1.62e+00 ms    Tp_s =   426.09 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =    50
-stp =    99    dt = 1.89e-09 s    ord = 1    time = 1.62e+00 ms    Tp_s =   426.09 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =    51
-stp =   100    dt = 1.70e-09 s    ord = 1    time = 1.62e+00 ms    Tp_s =   426.09 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =    52
-stp =   101    dt = 1.70e-09 s    ord = 1    time = 1.62e+00 ms    Tp_s =   426.09 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =    53
-stp =   102    dt = 1.69e-09 s    ord = 1    time = 1.62e+00 ms    Tp_s =   426.09 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =    54
-stp =   103    dt = 1.69e-09 s    ord = 1    time = 1.62e+00 ms    Tp_s =   426.09 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =    55
-stp =   104    dt = 1.69e-09 s    ord = 1    time = 1.62e+00 ms    Tp_s =   426.09 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =    56
-stp =   105    dt = 3.38e-09 s    ord = 2    time = 1.62e+00 ms    Tp_s =   426.09 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =    57
-stp =   106    dt = 1.98e-09 s    ord = 2    time = 1.62e+00 ms    Tp_s =   426.09 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =    58
-stp =   107    dt = 1.78e-09 s    ord = 2    time = 1.62e+00 ms    Tp_s =   426.09 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =    59
-stp =   108    dt = 1.78e-09 s    ord = 2    time = 1.62e+00 ms    Tp_s =   426.09 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =    60
-stp =   109    dt = 1.78e-09 s    ord = 2    time = 1.62e+00 ms    Tp_s =   426.09 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =    61
-stp =   110    dt = 1.78e-09 s    ord = 2    time = 1.62e+00 ms    Tp_s =   426.09 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =    62
-stp =   111    dt = 1.78e-09 s    ord = 3    time = 1.62e+00 ms    Tp_s =   426.09 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =    63
-stp =   112    dt = 1.78e-09 s    ord = 3    time = 1.62e+00 ms    Tp_s =   426.09 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =    64
-stp =   113    dt = 1.78e-09 s    ord = 3    time = 1.62e+00 ms    Tp_s =   426.09 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =    65
-stp =   114    dt = 1.78e-09 s    ord = 3    time = 1.62e+00 ms    Tp_s =   426.09 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =    66
-stp =   115    dt = 1.78e-09 s    ord = 3    time = 1.62e+00 ms    Tp_s =   426.09 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =    67
-stp =   116    dt = 2.05e-09 s    ord = 3    time = 1.62e+00 ms    Tp_s =   426.09 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =    68
-stp =   117    dt = 2.05e-09 s    ord = 3    time = 1.62e+00 ms    Tp_s =   426.09 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =    69
-stp =   118    dt = 2.05e-09 s    ord = 3    time = 1.62e+00 ms    Tp_s =   426.09 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =    70
-stp =   119    dt = 2.05e-09 s    ord = 3    time = 1.62e+00 ms    Tp_s =   426.09 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =    71
-stp =   120    dt = 2.05e-09 s    ord = 3    time = 1.62e+00 ms    Tp_s =   426.09 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =    72
-stp =   121    dt = 2.05e-09 s    ord = 4    time = 1.62e+00 ms    Tp_s =   426.09 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =    73
-stp =   122    dt = 2.05e-09 s    ord = 4    time = 1.62e+00 ms    Tp_s =   426.09 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =    74
-stp =   123    dt = 2.05e-09 s    ord = 4    time = 1.62e+00 ms    Tp_s =   426.09 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =    75
-stp =   124    dt = 1.58e-09 s    ord = 4    time = 1.62e+00 ms    Tp_s =   426.09 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =    76
-stp =   125    dt = 1.00e-09 s    ord = 3    time = 1.62e+00 ms    Tp_s =   426.09 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =    77
-stp =   126    dt = 6.60e-10 s    ord = 3    time = 1.62e+00 ms    Tp_s =   426.09 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-if condition stp =    78
- ***MESSAGE FROM ROUTINE DDASSL IN LIBRARY SLATEC.
- ***POTENTIALLY RECOVERABLE ERROR, PROGRAM CONTINUES.
- *  AT T =    3.794603D+01  AND STEPSIZE H =    3.897031D-14  THE ERROR TEST
- *  FAILED REPEATEDLY OR WITH ABS(H)=HMIN
- *  ERROR NUMBER = -6
- *   
- ***END OF MESSAGE
- 
-stp =   126    dt = 6.60e-10 s    ord = 3    time = 1.62e+00 ms    Tp_s =   426.09 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
-#error: ddassl error no. -6 occured at timestep no. 126
-number of error test failures is 32
-number of convergence test failures is 12
-dassl suggested order 1 and stepsize 3.89703e-14 for the next step
-OldStep after loop =   126
-t 2 = 2.00e-03 
-t 3 = 2.00e-03 
-dump output
-done
-Tue Sep  7 19:16:10 CEST 2021
-### Nodes assigned to job #####################################
-lnih019
-### Number of cores per node ################################
-1
-### Total number of tasks for job ##############################
-1
-------------------------------------------------------------------------------
