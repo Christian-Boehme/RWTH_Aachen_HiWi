@@ -1,0 +1,15 @@
+Images: RegimeDiagram_OHmax_variable
+=> simulation case: OHmax (=0.65ms)
+=> one point in the regime diagram refers to one DE (which has Zst inside)
+=> x-axis: gprime = g / gq
+    g: DNS data (DE gradient)
+    gq: global value from flamelet
+=> y-axis: dZprime = dZ / dZr
+    dZ: DNS data (dZ from DE)
+    dZr: reaction zone thickness from flamelet (global value, since T > 1500K)
+
+gq calculation
+=> see: DE_Analysis/Flamelets/Cantera/PostProcessingMATLAB/CreateFigures_TemperatureOverInverseDissipationRate.m
+=> image: TemperatureOverInverseDissipationRate.png
+=> all post-processed figures from the flamelets are in DE_Analysis/Flamelets/Cantera/PostProcessingMATLAB/Figures
+
