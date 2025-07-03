@@ -1,0 +1,802 @@
+FlameMaster written by Heinz Pitsch
+
+version                  4.2.1
+executed command         './FlameMaster -i 01_Gas_HeatUp.input'
+git sha1                 a4ee66ef01db6513f927c65c2dd6b33bc0b8f9a0
+operating system         Linux, version 3.10.0-1160.36.2.el7.x86_64
+target architechture     x86_64
+c++ compiler             Intel, version 19.0.0.20181018
+c   compiler             Intel, version 19.0.0.20181018
+
+use mechanism file './../Mechanisms/GRI3/gri.30.pre'
+outpath is './Outputs/'
+initial pressure is 1.01325 bar
+use multi geometry species transport model
+model has 77 species
+        7 spherical
+       20 linear
+       50 non-linear
+    -----
+       77 / 77 geometry parameters expected
+initial pressure is 1.01325 bar
+write output to 'stderr'
+
+Use DASSL solver
+
+Coal solid species COALSOLIDCOAL1 found.
+Coal solid species COALSOLIDGCOAL1 found.
+Coal solid species COALSOLIDGCH2 found.
+Coal solid species COALSOLIDCHAR found.
+Coal solid species COALSOLIDCHARH found.
+Coal solid species COALSOLIDTAR1 found.
+Coal solid species COALSOLIDCOAL2 found.
+Coal solid species COALSOLIDGBTX2 found.
+Coal solid species COALSOLIDGCH4 found.
+Coal solid species COALSOLIDGCOH2 found.
+Coal solid species COALSOLIDGCO2S found.
+Coal solid species COALSOLIDGH2O found.
+Coal solid species COALSOLIDGCOL found.
+Coal solid species COALSOLIDTAR2 found.
+Coal solid species COALSOLIDGCO2TS found.
+Coal solid species COALSOLIDCOAL3 found.
+Coal solid species COALSOLIDGCOAL3 found.
+Coal solid species COALSOLIDTAR3 found.
+Coal solid species COALSOLIDGCO2 found.
+Coal solid species COALSOLIDCHARG found.
+
+Species O2 specified on the left boundary!
+
+Species N2 specified on the left boundary!
+interpolate initial solution from boundary conditions
+Initial time step is 1e-10 s
+gp: 0, Temp: 900.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 1, Temp: 900.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 2, Temp: 900.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 3, Temp: 900.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 4, Temp: 900.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 5, Temp: 900.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 6, Temp: 900.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 7, Temp: 900.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 8, Temp: 900.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 9, Temp: 900.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 10, Temp: 900.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 11, Temp: 900.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 12, Temp: 900.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 13, Temp: 900.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 14, Temp: 900.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 15, Temp: 900.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 16, Temp: 900.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 17, Temp: 900.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 18, Temp: 900.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 19, Temp: 900.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 20, Temp: 900.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 21, Temp: 900.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 22, Temp: 900.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 23, Temp: 900.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 24, Temp: 900.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 25, Temp: 900.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 26, Temp: 900.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 27, Temp: 900.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 28, Temp: 900.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 29, Temp: 900.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 30, Temp: 900.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 31, Temp: 900.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 32, Temp: 900.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 33, Temp: 900.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 34, Temp: 900.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 35, Temp: 900.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 36, Temp: 900.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 37, Temp: 900.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 38, Temp: 900.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 39, Temp: 900.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 40, Temp: 900.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 41, Temp: 900.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 42, Temp: 900.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 43, Temp: 900.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 44, Temp: 900.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 45, Temp: 900.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 46, Temp: 900.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 47, Temp: 900.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 48, Temp: 900.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 49, Temp: 900.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 50, Temp: 900.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 51, Temp: 900.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 52, Temp: 900.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 53, Temp: 900.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 54, Temp: 900.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 55, Temp: 900.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 56, Temp: 900.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 57, Temp: 900.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 58, Temp: 900.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 59, Temp: 900.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 60, Temp: 900.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 61, Temp: 900.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 62, Temp: 900.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 63, Temp: 900.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 64, Temp: 900.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 65, Temp: 900.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 66, Temp: 900.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 67, Temp: 900.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 68, Temp: 900.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 69, Temp: 900.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 70, Temp: 900.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 71, Temp: 900.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 72, Temp: 900.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 73, Temp: 900.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 74, Temp: 900.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 75, Temp: 900.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 76, Temp: 900.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 77, Temp: 900.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 78, Temp: 900.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 79, Temp: 900.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 80, Temp: 900.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 81, Temp: 900.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 82, Temp: 900.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 83, Temp: 900.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 84, Temp: 900.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 85, Temp: 900.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 86, Temp: 900.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 87, Temp: 900.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 88, Temp: 900.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 89, Temp: 900.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 90, Temp: 900.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 91, Temp: 900.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 92, Temp: 900.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 93, Temp: 900.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 94, Temp: 900.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 95, Temp: 900.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 96, Temp: 900.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 97, Temp: 900.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 98, Temp: 900.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+
+Initial particle mass is 0 g and radius is 45 micron
+
+Using linear solver method to initialize time terms
+
+Including Species transport and energy equation at solid gas interface using central difference scheme
+
+
+dump output
+
+start computation
+
+solve system from t = 0 ms with p = 1.01325 bar	T_p_c = 900 K T_p_s = 900 K	 m_Coal = 0 mg	
+             to t = 5e-05 ms with p = 1.01325 bar
+stp =     1    dt = 1.00e-10 s    ord = 1    time = 1.00e-07 ms    Tp_s =   900.00 K    Tp_c =   900.00 K   temp =   900.00 K    mCoal = 0.0000e+00 mg	
+#warning: integration carried out beyond tEnd
+info[4] = 1
+fIdid = 1
+stp =     2    dt = 2.00e-10 s    ord = 2    time = 3.00e-07 ms    Tp_s =   900.00 K    Tp_c =   900.00 K   temp =   900.00 K    mCoal = 0.0000e+00 mg	
+#warning: integration carried out beyond tEnd
+info[4] = 1
+fIdid = 1
+stp =     3    dt = 4.00e-10 s    ord = 1    time = 7.00e-07 ms    Tp_s =   900.00 K    Tp_c =   900.00 K   temp =   900.00 K    mCoal = 0.0000e+00 mg	
+#warning: integration carried out beyond tEnd
+info[4] = 1
+fIdid = 1
+stp =     4    dt = 8.00e-10 s    ord = 1    time = 1.50e-06 ms    Tp_s =   900.00 K    Tp_c =   900.00 K   temp =   900.00 K    mCoal = 0.0000e+00 mg	
+#warning: integration carried out beyond tEnd
+info[4] = 1
+fIdid = 1
+stp =     5    dt = 1.60e-09 s    ord = 1    time = 3.10e-06 ms    Tp_s =   900.00 K    Tp_c =   900.00 K   temp =   900.00 K    mCoal = 0.0000e+00 mg	
+#warning: integration carried out beyond tEnd
+info[4] = 1
+fIdid = 1
+stp =     6    dt = 3.20e-09 s    ord = 1    time = 6.30e-06 ms    Tp_s =   900.00 K    Tp_c =   900.00 K   temp =   900.00 K    mCoal = 0.0000e+00 mg	
+#warning: integration carried out beyond tEnd
+info[4] = 1
+fIdid = 1
+stp =     7    dt = 6.40e-09 s    ord = 1    time = 1.27e-05 ms    Tp_s =   900.00 K    Tp_c =   900.00 K   temp =   900.00 K    mCoal = 0.0000e+00 mg	
+#warning: integration carried out beyond tEnd
+info[4] = 1
+fIdid = 1
+stp =     8    dt = 1.28e-08 s    ord = 1    time = 2.55e-05 ms    Tp_s =   900.00 K    Tp_c =   900.00 K   temp =   900.00 K    mCoal = 0.0000e+00 mg	
+#warning: integration carried out beyond tEnd
+info[4] = 1
+fIdid = 1
+stp =     9    dt = 2.45e-08 s    ord = 1    time = 5.00e-05 ms    Tp_s =   900.00 K    Tp_c =   900.00 K   temp =   900.00 K    mCoal = 0.0000e+00 mg	
+t 1 = 5.00e-08 
+t 2 = 5.00e-08 
+dump output
+solve system from t = 669.484 ms with p = 1.01325 bar	T_p_c = 900 K T_p_s = 900 K	 m_Coal = 0 mg	
+             to t = 0.0001 ms with p = 1.01325 bar
+stp =    10    dt = 4.90e-08 s    ord = 1    time = 9.90e-05 ms    Tp_s =   900.00 K    Tp_c =   900.00 K   temp =   900.00 K    mCoal = 0.0000e+00 mg	
+stp =    11    dt = 1.00e-09 s    ord = 1    time = 1.00e-04 ms    Tp_s =   900.00 K    Tp_c =   900.00 K   temp =   900.00 K    mCoal = 0.0000e+00 mg	
+t 2 = 1.00e-07 
+t 3 = 1.00e-07 
+dump output
+solve system from t = 1338.97 ms with p = 1.01325 bar	T_p_c = 900 K T_p_s = 900 K	 m_Coal = 0 mg	
+             to t = 0.00015 ms with p = 1.01325 bar
+stp =    12    dt = 2.00e-09 s    ord = 1    time = 1.02e-04 ms    Tp_s =   900.00 K    Tp_c =   900.00 K   temp =   900.00 K    mCoal = 0.0000e+00 mg	
+stp =    13    dt = 4.00e-09 s    ord = 1    time = 1.06e-04 ms    Tp_s =   900.00 K    Tp_c =   900.00 K   temp =   900.00 K    mCoal = 0.0000e+00 mg	
+stp =    14    dt = 8.00e-09 s    ord = 1    time = 1.14e-04 ms    Tp_s =   900.00 K    Tp_c =   900.00 K   temp =   900.00 K    mCoal = 0.0000e+00 mg	
+stp =    15    dt = 1.60e-08 s    ord = 1    time = 1.30e-04 ms    Tp_s =   900.00 K    Tp_c =   900.00 K   temp =   900.00 K    mCoal = 0.0000e+00 mg	
+stp =    16    dt = 2.00e-08 s    ord = 1    time = 1.50e-04 ms    Tp_s =   900.00 K    Tp_c =   900.00 K   temp =   900.00 K    mCoal = 0.0000e+00 mg	
+t 3 = 1.50e-07 
+t 4 = 1.50e-07 
+dump output
+solve system from t = 2008.45 ms with p = 1.01325 bar	T_p_c = 900 K T_p_s = 900 K	 m_Coal = 0 mg	
+             to t = 0.0002 ms with p = 1.01325 bar
+stp =    17    dt = 4.00e-08 s    ord = 1    time = 1.90e-04 ms    Tp_s =   900.00 K    Tp_c =   900.00 K   temp =   900.00 K    mCoal = 0.0000e+00 mg	
+stp =    18    dt = 1.00e-08 s    ord = 1    time = 2.00e-04 ms    Tp_s =   900.00 K    Tp_c =   900.00 K   temp =   900.00 K    mCoal = 0.0000e+00 mg	
+t 4 = 2.00e-07 
+t 5 = 2.00e-07 
+dump output
+solve system from t = 2677.93 ms with p = 1.01325 bar	T_p_c = 900 K T_p_s = 900 K	 m_Coal = 0 mg	
+             to t = 0.00025 ms with p = 1.01325 bar
+stp =    19    dt = 2.00e-08 s    ord = 1    time = 2.20e-04 ms    Tp_s =   900.00 K    Tp_c =   900.00 K   temp =   900.00 K    mCoal = 0.0000e+00 mg	
+stp =    20    dt = 3.00e-08 s    ord = 1    time = 2.50e-04 ms    Tp_s =   900.00 K    Tp_c =   900.00 K   temp =   900.00 K    mCoal = 0.0000e+00 mg	
+t 5 = 2.50e-07 
+t 6 = 2.50e-07 
+dump output
+solve system from t = 3347.42 ms with p = 1.01325 bar	T_p_c = 900 K T_p_s = 900 K	 m_Coal = 0 mg	
+             to t = 0.0003 ms with p = 1.01325 bar
+stp =    21    dt = 5.00e-08 s    ord = 1    time = 3.00e-04 ms    Tp_s =   900.00 K    Tp_c =   900.00 K   temp =   900.00 K    mCoal = 0.0000e+00 mg	
+t 6 = 3.00e-07 
+t 7 = 3.00e-07 
+dump output
+solve system from t = 4016.9 ms with p = 1.01325 bar	T_p_c = 900 K T_p_s = 900 K	 m_Coal = 0 mg	
+             to t = 0.00035 ms with p = 1.01325 bar
+stp =    22    dt = 5.00e-08 s    ord = 1    time = 3.50e-04 ms    Tp_s =   900.00 K    Tp_c =   900.00 K   temp =   900.00 K    mCoal = 0.0000e+00 mg	
+t 7 = 3.50e-07 
+t 8 = 3.50e-07 
+dump output
+solve system from t = 4686.39 ms with p = 1.01325 bar	T_p_c = 900 K T_p_s = 900 K	 m_Coal = 0 mg	
+             to t = 0.0004 ms with p = 1.01325 bar
+stp =    23    dt = 5.00e-08 s    ord = 1    time = 4.00e-04 ms    Tp_s =   900.00 K    Tp_c =   900.00 K   temp =   900.00 K    mCoal = 0.0000e+00 mg	
+t 8 = 4.00e-07 
+t 9 = 4.00e-07 
+dump output
+solve system from t = 5355.87 ms with p = 1.01325 bar	T_p_c = 900 K T_p_s = 900 K	 m_Coal = 0 mg	
+             to t = 0.00045 ms with p = 1.01325 bar
+stp =    24    dt = 5.00e-08 s    ord = 1    time = 4.50e-04 ms    Tp_s =   900.00 K    Tp_c =   900.00 K   temp =   900.00 K    mCoal = 0.0000e+00 mg	
+t 9 = 4.50e-07 
+t 10 = 4.50e-07 
+dump output
+solve system from t = 6025.35 ms with p = 1.01325 bar	T_p_c = 900 K T_p_s = 900 K	 m_Coal = 0 mg	
+             to t = 0.0005 ms with p = 1.01325 bar
+stp =    25    dt = 5.00e-08 s    ord = 1    time = 5.00e-04 ms    Tp_s =   900.00 K    Tp_c =   900.00 K   temp =   900.00 K    mCoal = 0.0000e+00 mg	
+t 10 = 5.00e-07 
+t 11 = 5.00e-07 
+dump output
+solve system from t = 6694.84 ms with p = 1.01325 bar	T_p_c = 900 K T_p_s = 900 K	 m_Coal = 0 mg	
+             to t = 0.00055 ms with p = 1.01325 bar
+stp =    26    dt = 5.00e-08 s    ord = 1    time = 5.50e-04 ms    Tp_s =   900.00 K    Tp_c =   900.00 K   temp =   900.00 K    mCoal = 0.0000e+00 mg	
+t 11 = 5.50e-07 
+t 12 = 5.50e-07 
+dump output
+solve system from t = 7364.32 ms with p = 1.01325 bar	T_p_c = 900 K T_p_s = 900 K	 m_Coal = 0 mg	
+             to t = 0.0006 ms with p = 1.01325 bar
+stp =    27    dt = 5.00e-08 s    ord = 1    time = 6.00e-04 ms    Tp_s =   900.00 K    Tp_c =   900.00 K   temp =   900.00 K    mCoal = 0.0000e+00 mg	
+t 12 = 6.00e-07 
+t 13 = 6.00e-07 
+dump output
+solve system from t = 8033.8 ms with p = 1.01325 bar	T_p_c = 900 K T_p_s = 900 K	 m_Coal = 0 mg	
+             to t = 0.00065 ms with p = 1.01325 bar
+stp =    28    dt = 5.00e-08 s    ord = 1    time = 6.50e-04 ms    Tp_s =   900.00 K    Tp_c =   900.00 K   temp =   900.00 K    mCoal = 0.0000e+00 mg	
+t 13 = 6.50e-07 
+t 14 = 6.50e-07 
+dump output
+solve system from t = 8703.29 ms with p = 1.01325 bar	T_p_c = 900 K T_p_s = 900 K	 m_Coal = 0 mg	
+             to t = 0.0007 ms with p = 1.01325 bar
+stp =    29    dt = 5.00e-08 s    ord = 1    time = 7.00e-04 ms    Tp_s =   900.00 K    Tp_c =   900.00 K   temp =   900.00 K    mCoal = 0.0000e+00 mg	
+t 14 = 7.00e-07 
+t 15 = 7.00e-07 
+dump output
+solve system from t = 9372.77 ms with p = 1.01325 bar	T_p_c = 900 K T_p_s = 900 K	 m_Coal = 0 mg	
+             to t = 0.00075 ms with p = 1.01325 bar
+stp =    30    dt = 5.00e-08 s    ord = 1    time = 7.50e-04 ms    Tp_s =   900.00 K    Tp_c =   900.00 K   temp =   900.00 K    mCoal = 0.0000e+00 mg	
+t 15 = 7.50e-07 
+t 16 = 7.50e-07 
+dump output
+solve system from t = 10042.3 ms with p = 1.01325 bar	T_p_c = 900 K T_p_s = 900 K	 m_Coal = 0 mg	
+             to t = 0.0008 ms with p = 1.01325 bar
+stp =    31    dt = 5.00e-08 s    ord = 1    time = 8.00e-04 ms    Tp_s =   900.00 K    Tp_c =   900.00 K   temp =   900.00 K    mCoal = 0.0000e+00 mg	
+t 16 = 8.00e-07 
+t 17 = 8.00e-07 
+dump output
+solve system from t = 10711.7 ms with p = 1.01325 bar	T_p_c = 900 K T_p_s = 900 K	 m_Coal = 0 mg	
+             to t = 0.00085 ms with p = 1.01325 bar
+stp =    32    dt = 5.00e-08 s    ord = 1    time = 8.50e-04 ms    Tp_s =   900.00 K    Tp_c =   900.00 K   temp =   900.00 K    mCoal = 0.0000e+00 mg	
+t 17 = 8.50e-07 
+t 18 = 8.50e-07 
+dump output
+solve system from t = 11381.2 ms with p = 1.01325 bar	T_p_c = 900 K T_p_s = 900 K	 m_Coal = 0 mg	
+             to t = 0.0009 ms with p = 1.01325 bar
+stp =    33    dt = 5.00e-08 s    ord = 1    time = 9.00e-04 ms    Tp_s =   900.00 K    Tp_c =   900.00 K   temp =   900.00 K    mCoal = 0.0000e+00 mg	
+t 18 = 9.00e-07 
+t 19 = 9.00e-07 
+dump output
+solve system from t = 12050.7 ms with p = 1.01325 bar	T_p_c = 900 K T_p_s = 900 K	 m_Coal = 0 mg	
+             to t = 0.00095 ms with p = 1.01325 bar
+stp =    34    dt = 5.00e-08 s    ord = 1    time = 9.50e-04 ms    Tp_s =   900.00 K    Tp_c =   900.00 K   temp =   900.00 K    mCoal = 0.0000e+00 mg	
+t 19 = 9.50e-07 
+t 20 = 9.50e-07 
+dump output
+solve system from t = 12720.2 ms with p = 1.01325 bar	T_p_c = 900 K T_p_s = 900 K	 m_Coal = 0 mg	
+             to t = 0.001 ms with p = 1.01325 bar
+stp =    35    dt = 5.00e-08 s    ord = 1    time = 1.00e-03 ms    Tp_s =   900.00 K    Tp_c =   900.00 K   temp =   900.00 K    mCoal = 0.0000e+00 mg	
+t 20 = 1.00e-06 
+t 21 = 1.00e-06 
+dump output
+solve system from t = 13389.7 ms with p = 1.01325 bar	T_p_c = 900 K T_p_s = 900 K	 m_Coal = 0 mg	
+             to t = 0.00105 ms with p = 1.01325 bar
+stp =    36    dt = 5.00e-08 s    ord = 1    time = 1.05e-03 ms    Tp_s =   900.00 K    Tp_c =   900.00 K   temp =   900.00 K    mCoal = 0.0000e+00 mg	
+t 21 = 1.05e-06 
+t 22 = 1.05e-06 
+dump output
+solve system from t = 14059.2 ms with p = 1.01325 bar	T_p_c = 900 K T_p_s = 900 K	 m_Coal = 0 mg	
+             to t = 0.0011 ms with p = 1.01325 bar
+stp =    37    dt = 5.00e-08 s    ord = 1    time = 1.10e-03 ms    Tp_s =   900.00 K    Tp_c =   900.00 K   temp =   900.00 K    mCoal = 0.0000e+00 mg	
+t 22 = 1.10e-06 
+t 23 = 1.10e-06 
+dump output
+solve system from t = 14728.6 ms with p = 1.01325 bar	T_p_c = 900 K T_p_s = 900 K	 m_Coal = 0 mg	
+             to t = 0.00115 ms with p = 1.01325 bar
+stp =    38    dt = 5.00e-08 s    ord = 1    time = 1.15e-03 ms    Tp_s =   900.00 K    Tp_c =   900.00 K   temp =   900.00 K    mCoal = 0.0000e+00 mg	
+t 23 = 1.15e-06 
+t 24 = 1.15e-06 
+dump output
+solve system from t = 15398.1 ms with p = 1.01325 bar	T_p_c = 900 K T_p_s = 900 K	 m_Coal = 0 mg	
+             to t = 0.0012 ms with p = 1.01325 bar
+stp =    39    dt = 5.00e-08 s    ord = 1    time = 1.20e-03 ms    Tp_s =   900.00 K    Tp_c =   900.00 K   temp =   900.00 K    mCoal = 0.0000e+00 mg	
+t 24 = 1.20e-06 
+t 25 = 1.20e-06 
+dump output
+solve system from t = 16067.6 ms with p = 1.01325 bar	T_p_c = 900 K T_p_s = 900 K	 m_Coal = 0 mg	
+             to t = 0.00125 ms with p = 1.01325 bar
+stp =    40    dt = 5.00e-08 s    ord = 1    time = 1.25e-03 ms    Tp_s =   900.00 K    Tp_c =   900.00 K   temp =   900.00 K    mCoal = 0.0000e+00 mg	
+t 25 = 1.25e-06 
+t 26 = 1.25e-06 
+dump output
+solve system from t = 16737.1 ms with p = 1.01325 bar	T_p_c = 900 K T_p_s = 900 K	 m_Coal = 0 mg	
+             to t = 0.0013 ms with p = 1.01325 bar
+stp =    41    dt = 5.00e-08 s    ord = 1    time = 1.30e-03 ms    Tp_s =   900.00 K    Tp_c =   900.00 K   temp =   900.00 K    mCoal = 0.0000e+00 mg	
+t 26 = 1.30e-06 
+t 27 = 1.30e-06 
+dump output
+solve system from t = 17406.6 ms with p = 1.01325 bar	T_p_c = 900 K T_p_s = 900 K	 m_Coal = 0 mg	
+             to t = 0.00135 ms with p = 1.01325 bar
+stp =    42    dt = 5.00e-08 s    ord = 1    time = 1.35e-03 ms    Tp_s =   900.00 K    Tp_c =   900.00 K   temp =   900.00 K    mCoal = 0.0000e+00 mg	
+t 27 = 1.35e-06 
+t 28 = 1.35e-06 
+dump output
+solve system from t = 18076.1 ms with p = 1.01325 bar	T_p_c = 900 K T_p_s = 900 K	 m_Coal = 0 mg	
+             to t = 0.0014 ms with p = 1.01325 bar
+stp =    43    dt = 5.00e-08 s    ord = 1    time = 1.40e-03 ms    Tp_s =   900.00 K    Tp_c =   900.00 K   temp =   900.00 K    mCoal = 0.0000e+00 mg	
+t 28 = 1.40e-06 
+t 29 = 1.40e-06 
+dump output
+solve system from t = 18745.5 ms with p = 1.01325 bar	T_p_c = 900 K T_p_s = 900 K	 m_Coal = 0 mg	
+             to t = 0.00145 ms with p = 1.01325 bar
+stp =    44    dt = 5.00e-08 s    ord = 1    time = 1.45e-03 ms    Tp_s =   900.00 K    Tp_c =   900.00 K   temp =   900.00 K    mCoal = 0.0000e+00 mg	
+t 29 = 1.45e-06 
+t 30 = 1.45e-06 
+dump output
+solve system from t = 19415 ms with p = 1.01325 bar	T_p_c = 900 K T_p_s = 900 K	 m_Coal = 0 mg	
+             to t = 0.0015 ms with p = 1.01325 bar
+stp =    45    dt = 5.00e-08 s    ord = 1    time = 1.50e-03 ms    Tp_s =   900.00 K    Tp_c =   900.00 K   temp =   900.00 K    mCoal = 0.0000e+00 mg	
+t 30 = 1.50e-06 
+t 31 = 1.50e-06 
+dump output
+solve system from t = 20084.5 ms with p = 1.01325 bar	T_p_c = 900 K T_p_s = 900 K	 m_Coal = 0 mg	
+             to t = 0.00155 ms with p = 1.01325 bar
+stp =    46    dt = 5.00e-08 s    ord = 1    time = 1.55e-03 ms    Tp_s =   900.00 K    Tp_c =   900.00 K   temp =   900.00 K    mCoal = 0.0000e+00 mg	
+t 31 = 1.55e-06 
+t 32 = 1.55e-06 
+dump output
+solve system from t = 20754 ms with p = 1.01325 bar	T_p_c = 900 K T_p_s = 900 K	 m_Coal = 0 mg	
+             to t = 0.0016 ms with p = 1.01325 bar
+stp =    47    dt = 5.00e-08 s    ord = 1    time = 1.60e-03 ms    Tp_s =   900.00 K    Tp_c =   900.00 K   temp =   900.00 K    mCoal = 0.0000e+00 mg	
+t 32 = 1.60e-06 
+t 33 = 1.60e-06 
+dump output
+solve system from t = 21423.5 ms with p = 1.01325 bar	T_p_c = 900 K T_p_s = 900 K	 m_Coal = 0 mg	
+             to t = 0.00165 ms with p = 1.01325 bar
+stp =    48    dt = 5.00e-08 s    ord = 1    time = 1.65e-03 ms    Tp_s =   900.00 K    Tp_c =   900.00 K   temp =   900.00 K    mCoal = 0.0000e+00 mg	
+t 33 = 1.65e-06 
+t 34 = 1.65e-06 
+dump output
+solve system from t = 22093 ms with p = 1.01325 bar	T_p_c = 900 K T_p_s = 900 K	 m_Coal = 0 mg	
+             to t = 0.0017 ms with p = 1.01325 bar
+stp =    49    dt = 5.00e-08 s    ord = 1    time = 1.70e-03 ms    Tp_s =   900.00 K    Tp_c =   900.00 K   temp =   900.00 K    mCoal = 0.0000e+00 mg	
+t 34 = 1.70e-06 
+t 35 = 1.70e-06 
+dump output
+solve system from t = 22762.4 ms with p = 1.01325 bar	T_p_c = 900 K T_p_s = 900 K	 m_Coal = 0 mg	
+             to t = 0.00175 ms with p = 1.01325 bar
+stp =    50    dt = 5.00e-08 s    ord = 1    time = 1.75e-03 ms    Tp_s =   900.00 K    Tp_c =   900.00 K   temp =   900.00 K    mCoal = 0.0000e+00 mg	
+t 35 = 1.75e-06 
+t 36 = 1.75e-06 
+dump output
+solve system from t = 23431.9 ms with p = 1.01325 bar	T_p_c = 900 K T_p_s = 900 K	 m_Coal = 0 mg	
+             to t = 0.0018 ms with p = 1.01325 bar
+stp =    51    dt = 5.00e-08 s    ord = 1    time = 1.80e-03 ms    Tp_s =   900.00 K    Tp_c =   900.00 K   temp =   900.00 K    mCoal = 0.0000e+00 mg	
+t 36 = 1.80e-06 
+t 37 = 1.80e-06 
+dump output
+solve system from t = 24101.4 ms with p = 1.01325 bar	T_p_c = 900 K T_p_s = 900 K	 m_Coal = 0 mg	
+             to t = 0.00185 ms with p = 1.01325 bar
+stp =    52    dt = 5.00e-08 s    ord = 1    time = 1.85e-03 ms    Tp_s =   900.00 K    Tp_c =   900.00 K   temp =   900.00 K    mCoal = 0.0000e+00 mg	
+t 37 = 1.85e-06 
+t 38 = 1.85e-06 
+dump output
+solve system from t = 24770.9 ms with p = 1.01325 bar	T_p_c = 900 K T_p_s = 900 K	 m_Coal = 0 mg	
+             to t = 0.0019 ms with p = 1.01325 bar
+stp =    53    dt = 5.00e-08 s    ord = 1    time = 1.90e-03 ms    Tp_s =   900.00 K    Tp_c =   900.00 K   temp =   900.00 K    mCoal = 0.0000e+00 mg	
+t 38 = 1.90e-06 
+t 39 = 1.90e-06 
+dump output
+solve system from t = 25440.4 ms with p = 1.01325 bar	T_p_c = 900 K T_p_s = 900 K	 m_Coal = 0 mg	
+             to t = 0.00195 ms with p = 1.01325 bar
+stp =    54    dt = 5.00e-08 s    ord = 1    time = 1.95e-03 ms    Tp_s =   900.00 K    Tp_c =   900.00 K   temp =   900.00 K    mCoal = 0.0000e+00 mg	
+t 39 = 1.95e-06 
+t 40 = 1.95e-06 
+dump output
+solve system from t = 26109.9 ms with p = 1.01325 bar	T_p_c = 900 K T_p_s = 900 K	 m_Coal = 0 mg	
+             to t = 0.002 ms with p = 1.01325 bar
+stp =    55    dt = 5.00e-08 s    ord = 1    time = 2.00e-03 ms    Tp_s =   900.00 K    Tp_c =   900.00 K   temp =   900.00 K    mCoal = 0.0000e+00 mg	
+t 40 = 2.00e-06 
+t 41 = 2.00e-06 
+dump output
+solve system from t = 26779.3 ms with p = 1.01325 bar	T_p_c = 900 K T_p_s = 900 K	 m_Coal = 0 mg	
+             to t = 0.00205 ms with p = 1.01325 bar
+stp =    56    dt = 5.00e-08 s    ord = 1    time = 2.05e-03 ms    Tp_s =   900.00 K    Tp_c =   900.00 K   temp =   900.00 K    mCoal = 0.0000e+00 mg	
+t 41 = 2.05e-06 
+t 42 = 2.05e-06 
+dump output
+solve system from t = 27448.8 ms with p = 1.01325 bar	T_p_c = 900 K T_p_s = 900 K	 m_Coal = 0 mg	
+             to t = 0.0021 ms with p = 1.01325 bar
+stp =    57    dt = 5.00e-08 s    ord = 1    time = 2.10e-03 ms    Tp_s =   900.00 K    Tp_c =   900.00 K   temp =   900.00 K    mCoal = 0.0000e+00 mg	
+t 42 = 2.10e-06 
+t 43 = 2.10e-06 
+dump output
+solve system from t = 28118.3 ms with p = 1.01325 bar	T_p_c = 900 K T_p_s = 900 K	 m_Coal = 0 mg	
+             to t = 0.00215 ms with p = 1.01325 bar
+stp =    58    dt = 5.00e-08 s    ord = 1    time = 2.15e-03 ms    Tp_s =   900.00 K    Tp_c =   900.00 K   temp =   900.00 K    mCoal = 0.0000e+00 mg	
+t 43 = 2.15e-06 
+t 44 = 2.15e-06 
+dump output
+solve system from t = 28787.8 ms with p = 1.01325 bar	T_p_c = 900 K T_p_s = 900 K	 m_Coal = 0 mg	
+             to t = 0.0022 ms with p = 1.01325 bar
+stp =    59    dt = 5.00e-08 s    ord = 1    time = 2.20e-03 ms    Tp_s =   900.00 K    Tp_c =   900.00 K   temp =   900.00 K    mCoal = 0.0000e+00 mg	
+t 44 = 2.20e-06 
+t 45 = 2.20e-06 
+dump output
+solve system from t = 29457.3 ms with p = 1.01325 bar	T_p_c = 900 K T_p_s = 900 K	 m_Coal = 0 mg	
+             to t = 0.00225 ms with p = 1.01325 bar
+stp =    60    dt = 5.00e-08 s    ord = 1    time = 2.25e-03 ms    Tp_s =   900.00 K    Tp_c =   900.00 K   temp =   900.00 K    mCoal = 0.0000e+00 mg	
+t 45 = 2.25e-06 
+t 46 = 2.25e-06 
+dump output
+solve system from t = 30126.8 ms with p = 1.01325 bar	T_p_c = 900 K T_p_s = 900 K	 m_Coal = 0 mg	
+             to t = 0.0023 ms with p = 1.01325 bar
+stp =    61    dt = 5.00e-08 s    ord = 1    time = 2.30e-03 ms    Tp_s =   900.00 K    Tp_c =   900.00 K   temp =   900.00 K    mCoal = 0.0000e+00 mg	
+t 46 = 2.30e-06 
+t 47 = 2.30e-06 
+dump output
+solve system from t = 30796.2 ms with p = 1.01325 bar	T_p_c = 900 K T_p_s = 900 K	 m_Coal = 0 mg	
+             to t = 0.00235 ms with p = 1.01325 bar
+stp =    62    dt = 5.00e-08 s    ord = 1    time = 2.35e-03 ms    Tp_s =   900.00 K    Tp_c =   900.00 K   temp =   900.00 K    mCoal = 0.0000e+00 mg	
+t 47 = 2.35e-06 
+t 48 = 2.35e-06 
+dump output
+solve system from t = 31465.7 ms with p = 1.01325 bar	T_p_c = 900 K T_p_s = 900 K	 m_Coal = 0 mg	
+             to t = 0.0024 ms with p = 1.01325 bar
+stp =    63    dt = 5.00e-08 s    ord = 1    time = 2.40e-03 ms    Tp_s =   900.00 K    Tp_c =   900.00 K   temp =   900.00 K    mCoal = 0.0000e+00 mg	
+t 48 = 2.40e-06 
+t 49 = 2.40e-06 
+dump output
+solve system from t = 32135.2 ms with p = 1.01325 bar	T_p_c = 900 K T_p_s = 900 K	 m_Coal = 0 mg	
+             to t = 0.00245 ms with p = 1.01325 bar
+stp =    64    dt = 5.00e-08 s    ord = 1    time = 2.45e-03 ms    Tp_s =   900.00 K    Tp_c =   900.00 K   temp =   900.00 K    mCoal = 0.0000e+00 mg	
+t 49 = 2.45e-06 
+t 50 = 2.45e-06 
+dump output
+solve system from t = 32804.7 ms with p = 1.01325 bar	T_p_c = 900 K T_p_s = 900 K	 m_Coal = 0 mg	
+             to t = 0.0025 ms with p = 1.01325 bar
+stp =    65    dt = 5.00e-08 s    ord = 1    time = 2.50e-03 ms    Tp_s =   900.00 K    Tp_c =   900.00 K   temp =   900.00 K    mCoal = 0.0000e+00 mg	
+t 50 = 2.50e-06 
+t 51 = 2.50e-06 
+dump output
+solve system from t = 33474.2 ms with p = 1.01325 bar	T_p_c = 900 K T_p_s = 900 K	 m_Coal = 0 mg	
+             to t = 0.00255 ms with p = 1.01325 bar
+stp =    66    dt = 5.00e-08 s    ord = 1    time = 2.55e-03 ms    Tp_s =   900.00 K    Tp_c =   900.00 K   temp =   900.00 K    mCoal = 0.0000e+00 mg	
+t 51 = 2.55e-06 
+t 52 = 2.55e-06 
+dump output
+solve system from t = 34143.7 ms with p = 1.01325 bar	T_p_c = 900 K T_p_s = 900 K	 m_Coal = 0 mg	
+             to t = 0.0026 ms with p = 1.01325 bar
+stp =    67    dt = 5.00e-08 s    ord = 1    time = 2.60e-03 ms    Tp_s =   900.00 K    Tp_c =   900.00 K   temp =   900.00 K    mCoal = 0.0000e+00 mg	
+t 52 = 2.60e-06 
+t 53 = 2.60e-06 
+dump output
+solve system from t = 34813.1 ms with p = 1.01325 bar	T_p_c = 900 K T_p_s = 900 K	 m_Coal = 0 mg	
+             to t = 0.00265 ms with p = 1.01325 bar
+stp =    68    dt = 5.00e-08 s    ord = 1    time = 2.65e-03 ms    Tp_s =   900.00 K    Tp_c =   900.00 K   temp =   900.00 K    mCoal = 0.0000e+00 mg	
+t 53 = 2.65e-06 
+t 54 = 2.65e-06 
+dump output
+solve system from t = 35482.6 ms with p = 1.01325 bar	T_p_c = 900 K T_p_s = 900 K	 m_Coal = 0 mg	
+             to t = 0.0027 ms with p = 1.01325 bar
+stp =    69    dt = 5.00e-08 s    ord = 1    time = 2.70e-03 ms    Tp_s =   900.00 K    Tp_c =   900.00 K   temp =   900.00 K    mCoal = 0.0000e+00 mg	
+t 54 = 2.70e-06 
+t 55 = 2.70e-06 
+dump output
+solve system from t = 36152.1 ms with p = 1.01325 bar	T_p_c = 900 K T_p_s = 900 K	 m_Coal = 0 mg	
+             to t = 0.00275 ms with p = 1.01325 bar
+stp =    70    dt = 5.00e-08 s    ord = 1    time = 2.75e-03 ms    Tp_s =   900.00 K    Tp_c =   900.00 K   temp =   900.00 K    mCoal = 0.0000e+00 mg	
+t 55 = 2.75e-06 
+t 56 = 2.75e-06 
+dump output
+solve system from t = 36821.6 ms with p = 1.01325 bar	T_p_c = 900 K T_p_s = 900 K	 m_Coal = 0 mg	
+             to t = 0.0028 ms with p = 1.01325 bar
+stp =    71    dt = 5.00e-08 s    ord = 1    time = 2.80e-03 ms    Tp_s =   900.00 K    Tp_c =   900.00 K   temp =   900.00 K    mCoal = 0.0000e+00 mg	
+t 56 = 2.80e-06 
+t 57 = 2.80e-06 
+dump output
+solve system from t = 37491.1 ms with p = 1.01325 bar	T_p_c = 900 K T_p_s = 900 K	 m_Coal = 0 mg	
+             to t = 0.00285 ms with p = 1.01325 bar
+stp =    72    dt = 5.00e-08 s    ord = 1    time = 2.85e-03 ms    Tp_s =   900.00 K    Tp_c =   900.00 K   temp =   900.00 K    mCoal = 0.0000e+00 mg	
+t 57 = 2.85e-06 
+t 58 = 2.85e-06 
+dump output
+solve system from t = 38160.6 ms with p = 1.01325 bar	T_p_c = 900 K T_p_s = 900 K	 m_Coal = 0 mg	
+             to t = 0.0029 ms with p = 1.01325 bar
+stp =    73    dt = 5.00e-08 s    ord = 1    time = 2.90e-03 ms    Tp_s =   900.00 K    Tp_c =   900.00 K   temp =   900.00 K    mCoal = 0.0000e+00 mg	
+t 58 = 2.90e-06 
+t 59 = 2.90e-06 
+dump output
+solve system from t = 38830 ms with p = 1.01325 bar	T_p_c = 900 K T_p_s = 900 K	 m_Coal = 0 mg	
+             to t = 0.00295 ms with p = 1.01325 bar
+stp =    74    dt = 5.00e-08 s    ord = 1    time = 2.95e-03 ms    Tp_s =   900.00 K    Tp_c =   900.00 K   temp =   900.00 K    mCoal = 0.0000e+00 mg	
+t 59 = 2.95e-06 
+t 60 = 2.95e-06 
+dump output
+solve system from t = 39499.5 ms with p = 1.01325 bar	T_p_c = 900 K T_p_s = 900 K	 m_Coal = 0 mg	
+             to t = 0.003 ms with p = 1.01325 bar
+stp =    75    dt = 5.00e-08 s    ord = 1    time = 3.00e-03 ms    Tp_s =   900.00 K    Tp_c =   900.00 K   temp =   900.00 K    mCoal = 0.0000e+00 mg	
+t 60 = 3.00e-06 
+t 61 = 3.00e-06 
+dump output
+solve system from t = 40169 ms with p = 1.01325 bar	T_p_c = 900 K T_p_s = 900 K	 m_Coal = 0 mg	
+             to t = 0.00305 ms with p = 1.01325 bar
+stp =    76    dt = 5.00e-08 s    ord = 1    time = 3.05e-03 ms    Tp_s =   900.00 K    Tp_c =   900.00 K   temp =   900.00 K    mCoal = 0.0000e+00 mg	
+t 61 = 3.05e-06 
+t 62 = 3.05e-06 
+dump output
+solve system from t = 40838.5 ms with p = 1.01325 bar	T_p_c = 900 K T_p_s = 900 K	 m_Coal = 0 mg	
+             to t = 0.0031 ms with p = 1.01325 bar
+stp =    77    dt = 5.00e-08 s    ord = 1    time = 3.10e-03 ms    Tp_s =   900.00 K    Tp_c =   900.00 K   temp =   900.00 K    mCoal = 0.0000e+00 mg	
+t 62 = 3.10e-06 
+t 63 = 3.10e-06 
+dump output
+solve system from t = 41508 ms with p = 1.01325 bar	T_p_c = 900 K T_p_s = 900 K	 m_Coal = 0 mg	
+             to t = 0.00315 ms with p = 1.01325 bar
+stp =    78    dt = 5.00e-08 s    ord = 1    time = 3.15e-03 ms    Tp_s =   900.00 K    Tp_c =   900.00 K   temp =   900.00 K    mCoal = 0.0000e+00 mg	
+t 63 = 3.15e-06 
+t 64 = 3.15e-06 
+dump output
+solve system from t = 42177.5 ms with p = 1.01325 bar	T_p_c = 900 K T_p_s = 900 K	 m_Coal = 0 mg	
+             to t = 0.0032 ms with p = 1.01325 bar
+stp =    79    dt = 5.00e-08 s    ord = 1    time = 3.20e-03 ms    Tp_s =   900.00 K    Tp_c =   900.00 K   temp =   900.00 K    mCoal = 0.0000e+00 mg	
+t 64 = 3.20e-06 
+t 65 = 3.20e-06 
+dump output
+solve system from t = 42847 ms with p = 1.01325 bar	T_p_c = 900 K T_p_s = 900 K	 m_Coal = 0 mg	
+             to t = 0.00325 ms with p = 1.01325 bar
+stp =    80    dt = 5.00e-08 s    ord = 1    time = 3.25e-03 ms    Tp_s =   900.00 K    Tp_c =   900.00 K   temp =   900.00 K    mCoal = 0.0000e+00 mg	
+t 65 = 3.25e-06 
+t 66 = 3.25e-06 
+dump output
+solve system from t = 43516.4 ms with p = 1.01325 bar	T_p_c = 900 K T_p_s = 900 K	 m_Coal = 0 mg	
+             to t = 0.0033 ms with p = 1.01325 bar
+stp =    81    dt = 5.00e-08 s    ord = 1    time = 3.30e-03 ms    Tp_s =   900.00 K    Tp_c =   900.00 K   temp =   900.00 K    mCoal = 0.0000e+00 mg	
+t 66 = 3.30e-06 
+t 67 = 3.30e-06 
+dump output
+solve system from t = 44185.9 ms with p = 1.01325 bar	T_p_c = 900 K T_p_s = 900 K	 m_Coal = 0 mg	
+             to t = 0.00335 ms with p = 1.01325 bar
+stp =    82    dt = 5.00e-08 s    ord = 1    time = 3.35e-03 ms    Tp_s =   900.00 K    Tp_c =   900.00 K   temp =   900.00 K    mCoal = 0.0000e+00 mg	
+t 67 = 3.35e-06 
+t 68 = 3.35e-06 
+dump output
+solve system from t = 44855.4 ms with p = 1.01325 bar	T_p_c = 900 K T_p_s = 900 K	 m_Coal = 0 mg	
+             to t = 0.0034 ms with p = 1.01325 bar
+stp =    83    dt = 5.00e-08 s    ord = 1    time = 3.40e-03 ms    Tp_s =   900.00 K    Tp_c =   900.00 K   temp =   900.00 K    mCoal = 0.0000e+00 mg	
+t 68 = 3.40e-06 
+t 69 = 3.40e-06 
+dump output
+solve system from t = 45524.9 ms with p = 1.01325 bar	T_p_c = 900 K T_p_s = 900 K	 m_Coal = 0 mg	
+             to t = 0.00345 ms with p = 1.01325 bar
+stp =    84    dt = 5.00e-08 s    ord = 1    time = 3.45e-03 ms    Tp_s =   900.00 K    Tp_c =   900.00 K   temp =   900.00 K    mCoal = 0.0000e+00 mg	
+t 69 = 3.45e-06 
+t 70 = 3.45e-06 
+dump output
+solve system from t = 46194.4 ms with p = 1.01325 bar	T_p_c = 900 K T_p_s = 900 K	 m_Coal = 0 mg	
+             to t = 0.0035 ms with p = 1.01325 bar
+stp =    85    dt = 5.00e-08 s    ord = 1    time = 3.50e-03 ms    Tp_s =   900.00 K    Tp_c =   900.00 K   temp =   900.00 K    mCoal = 0.0000e+00 mg	
+t 70 = 3.50e-06 
+t 71 = 3.50e-06 
+dump output
+solve system from t = 46863.9 ms with p = 1.01325 bar	T_p_c = 900 K T_p_s = 900 K	 m_Coal = 0 mg	
+             to t = 0.00355 ms with p = 1.01325 bar
+stp =    86    dt = 5.00e-08 s    ord = 1    time = 3.55e-03 ms    Tp_s =   900.00 K    Tp_c =   900.00 K   temp =   900.00 K    mCoal = 0.0000e+00 mg	
+t 71 = 3.55e-06 
+t 72 = 3.55e-06 
+dump output
+solve system from t = 47533.3 ms with p = 1.01325 bar	T_p_c = 900 K T_p_s = 900 K	 m_Coal = 0 mg	
+             to t = 0.0036 ms with p = 1.01325 bar
+stp =    87    dt = 5.00e-08 s    ord = 1    time = 3.60e-03 ms    Tp_s =   900.00 K    Tp_c =   900.00 K   temp =   900.00 K    mCoal = 0.0000e+00 mg	
+t 72 = 3.60e-06 
+t 73 = 3.60e-06 
+dump output
+solve system from t = 48202.8 ms with p = 1.01325 bar	T_p_c = 900 K T_p_s = 900 K	 m_Coal = 0 mg	
+             to t = 0.00365 ms with p = 1.01325 bar
+stp =    88    dt = 5.00e-08 s    ord = 1    time = 3.65e-03 ms    Tp_s =   900.00 K    Tp_c =   900.00 K   temp =   900.00 K    mCoal = 0.0000e+00 mg	
+t 73 = 3.65e-06 
+t 74 = 3.65e-06 
+dump output
+solve system from t = 48872.3 ms with p = 1.01325 bar	T_p_c = 900 K T_p_s = 900 K	 m_Coal = 0 mg	
+             to t = 0.0037 ms with p = 1.01325 bar
+stp =    89    dt = 5.00e-08 s    ord = 1    time = 3.70e-03 ms    Tp_s =   900.00 K    Tp_c =   900.00 K   temp =   900.00 K    mCoal = 0.0000e+00 mg	
+t 74 = 3.70e-06 
+t 75 = 3.70e-06 
+dump output
+solve system from t = 49541.8 ms with p = 1.01325 bar	T_p_c = 900 K T_p_s = 900 K	 m_Coal = 0 mg	
+             to t = 0.00375 ms with p = 1.01325 bar
+stp =    90    dt = 5.00e-08 s    ord = 1    time = 3.75e-03 ms    Tp_s =   900.00 K    Tp_c =   900.00 K   temp =   900.00 K    mCoal = 0.0000e+00 mg	
+t 75 = 3.75e-06 
+t 76 = 3.75e-06 
+dump output
+solve system from t = 50211.3 ms with p = 1.01325 bar	T_p_c = 900 K T_p_s = 900 K	 m_Coal = 0 mg	
+             to t = 0.0038 ms with p = 1.01325 bar
+stp =    91    dt = 5.00e-08 s    ord = 1    time = 3.80e-03 ms    Tp_s =   900.00 K    Tp_c =   900.00 K   temp =   900.00 K    mCoal = 0.0000e+00 mg	
+t 76 = 3.80e-06 
+t 77 = 3.80e-06 
+dump output
+solve system from t = 50880.8 ms with p = 1.01325 bar	T_p_c = 900 K T_p_s = 900 K	 m_Coal = 0 mg	
+             to t = 0.00385 ms with p = 1.01325 bar
+stp =    92    dt = 5.00e-08 s    ord = 1    time = 3.85e-03 ms    Tp_s =   900.00 K    Tp_c =   900.00 K   temp =   900.00 K    mCoal = 0.0000e+00 mg	
+t 77 = 3.85e-06 
+t 78 = 3.85e-06 
+dump output
+solve system from t = 51550.2 ms with p = 1.01325 bar	T_p_c = 900 K T_p_s = 900 K	 m_Coal = 0 mg	
+             to t = 0.0039 ms with p = 1.01325 bar
+stp =    93    dt = 5.00e-08 s    ord = 1    time = 3.90e-03 ms    Tp_s =   900.00 K    Tp_c =   900.00 K   temp =   900.00 K    mCoal = 0.0000e+00 mg	
+t 78 = 3.90e-06 
+t 79 = 3.90e-06 
+dump output
+solve system from t = 52219.7 ms with p = 1.01325 bar	T_p_c = 900 K T_p_s = 900 K	 m_Coal = 0 mg	
+             to t = 0.00395 ms with p = 1.01325 bar
+stp =    94    dt = 5.00e-08 s    ord = 1    time = 3.95e-03 ms    Tp_s =   900.00 K    Tp_c =   900.00 K   temp =   900.00 K    mCoal = 0.0000e+00 mg	
+t 79 = 3.95e-06 
+t 80 = 3.95e-06 
+dump output
+solve system from t = 52889.2 ms with p = 1.01325 bar	T_p_c = 900 K T_p_s = 900 K	 m_Coal = 0 mg	
+             to t = 0.004 ms with p = 1.01325 bar
+stp =    95    dt = 5.00e-08 s    ord = 1    time = 4.00e-03 ms    Tp_s =   900.00 K    Tp_c =   900.00 K   temp =   900.00 K    mCoal = 0.0000e+00 mg	
+t 80 = 4.00e-06 
+t 81 = 4.00e-06 
+dump output
+solve system from t = 53558.7 ms with p = 1.01325 bar	T_p_c = 900 K T_p_s = 900 K	 m_Coal = 0 mg	
+             to t = 0.00405 ms with p = 1.01325 bar
+stp =    96    dt = 5.00e-08 s    ord = 1    time = 4.05e-03 ms    Tp_s =   900.00 K    Tp_c =   900.00 K   temp =   900.00 K    mCoal = 0.0000e+00 mg	
+t 81 = 4.05e-06 
+t 82 = 4.05e-06 
+dump output
+solve system from t = 54228.2 ms with p = 1.01325 bar	T_p_c = 900 K T_p_s = 900 K	 m_Coal = 0 mg	
+             to t = 0.0041 ms with p = 1.01325 bar
+stp =    97    dt = 5.00e-08 s    ord = 1    time = 4.10e-03 ms    Tp_s =   900.00 K    Tp_c =   900.00 K   temp =   900.00 K    mCoal = 0.0000e+00 mg	
+t 82 = 4.10e-06 
+t 83 = 4.10e-06 
+dump output
+solve system from t = 54897.7 ms with p = 1.01325 bar	T_p_c = 900 K T_p_s = 900 K	 m_Coal = 0 mg	
+             to t = 0.00415 ms with p = 1.01325 bar
+stp =    98    dt = 5.00e-08 s    ord = 1    time = 4.15e-03 ms    Tp_s =   900.00 K    Tp_c =   900.00 K   temp =   900.00 K    mCoal = 0.0000e+00 mg	
+t 83 = 4.15e-06 
+t 84 = 4.15e-06 
+dump output
+solve system from t = 55567.1 ms with p = 1.01325 bar	T_p_c = 900 K T_p_s = 900 K	 m_Coal = 0 mg	
+             to t = 0.0042 ms with p = 1.01325 bar
+stp =    99    dt = 5.00e-08 s    ord = 1    time = 4.20e-03 ms    Tp_s =   900.00 K    Tp_c =   900.00 K   temp =   900.00 K    mCoal = 0.0000e+00 mg	
+t 84 = 4.20e-06 
+t 85 = 4.20e-06 
+dump output
+solve system from t = 56236.6 ms with p = 1.01325 bar	T_p_c = 900 K T_p_s = 900 K	 m_Coal = 0 mg	
+             to t = 0.00425 ms with p = 1.01325 bar
+stp =   100    dt = 5.00e-08 s    ord = 1    time = 4.25e-03 ms    Tp_s =   900.00 K    Tp_c =   900.00 K   temp =   900.00 K    mCoal = 0.0000e+00 mg	
+t 85 = 4.25e-06 
+t 86 = 4.25e-06 
+dump output
+solve system from t = 56906.1 ms with p = 1.01325 bar	T_p_c = 900 K T_p_s = 900 K	 m_Coal = 0 mg	
+             to t = 0.0043 ms with p = 1.01325 bar
+stp =   101    dt = 5.00e-08 s    ord = 1    time = 4.30e-03 ms    Tp_s =   900.00 K    Tp_c =   900.00 K   temp =   900.00 K    mCoal = 0.0000e+00 mg	
+t 86 = 4.30e-06 
+t 87 = 4.30e-06 
+dump output
+solve system from t = 57575.6 ms with p = 1.01325 bar	T_p_c = 900 K T_p_s = 900 K	 m_Coal = 0 mg	
+             to t = 0.00435 ms with p = 1.01325 bar
+stp =   102    dt = 5.00e-08 s    ord = 1    time = 4.35e-03 ms    Tp_s =   900.00 K    Tp_c =   900.00 K   temp =   900.00 K    mCoal = 0.0000e+00 mg	
+t 87 = 4.35e-06 
+t 88 = 4.35e-06 
+dump output
+solve system from t = 58245.1 ms with p = 1.01325 bar	T_p_c = 900 K T_p_s = 900 K	 m_Coal = 0 mg	
+             to t = 0.0044 ms with p = 1.01325 bar
+stp =   103    dt = 5.00e-08 s    ord = 1    time = 4.40e-03 ms    Tp_s =   900.00 K    Tp_c =   900.00 K   temp =   900.00 K    mCoal = 0.0000e+00 mg	
+t 88 = 4.40e-06 
+t 89 = 4.40e-06 
+dump output
+solve system from t = 58914.6 ms with p = 1.01325 bar	T_p_c = 900 K T_p_s = 900 K	 m_Coal = 0 mg	
+             to t = 0.00445 ms with p = 1.01325 bar
+stp =   104    dt = 5.00e-08 s    ord = 1    time = 4.45e-03 ms    Tp_s =   900.00 K    Tp_c =   900.00 K   temp =   900.00 K    mCoal = 0.0000e+00 mg	
+t 89 = 4.45e-06 
+t 90 = 4.45e-06 
+dump output
+solve system from t = 59584 ms with p = 1.01325 bar	T_p_c = 900 K T_p_s = 900 K	 m_Coal = 0 mg	
+             to t = 0.0045 ms with p = 1.01325 bar
+stp =   105    dt = 5.00e-08 s    ord = 1    time = 4.50e-03 ms    Tp_s =   900.00 K    Tp_c =   900.00 K   temp =   900.00 K    mCoal = 0.0000e+00 mg	
+t 90 = 4.50e-06 
+t 91 = 4.50e-06 
+dump output
+solve system from t = 60253.5 ms with p = 1.01325 bar	T_p_c = 900 K T_p_s = 900 K	 m_Coal = 0 mg	
+             to t = 0.00455 ms with p = 1.01325 bar
+stp =   106    dt = 5.00e-08 s    ord = 1    time = 4.55e-03 ms    Tp_s =   900.00 K    Tp_c =   900.00 K   temp =   900.00 K    mCoal = 0.0000e+00 mg	
+t 91 = 4.55e-06 
+t 92 = 4.55e-06 
+dump output
+solve system from t = 60923 ms with p = 1.01325 bar	T_p_c = 900 K T_p_s = 900 K	 m_Coal = 0 mg	
+             to t = 0.0046 ms with p = 1.01325 bar
+stp =   107    dt = 5.00e-08 s    ord = 1    time = 4.60e-03 ms    Tp_s =   900.00 K    Tp_c =   900.00 K   temp =   900.00 K    mCoal = 0.0000e+00 mg	
+t 92 = 4.60e-06 
+t 93 = 4.60e-06 
+dump output
+solve system from t = 61592.5 ms with p = 1.01325 bar	T_p_c = 900 K T_p_s = 900 K	 m_Coal = 0 mg	
+             to t = 0.00465 ms with p = 1.01325 bar
+stp =   108    dt = 5.00e-08 s    ord = 1    time = 4.65e-03 ms    Tp_s =   900.00 K    Tp_c =   900.00 K   temp =   900.00 K    mCoal = 0.0000e+00 mg	
+t 93 = 4.65e-06 
+t 94 = 4.65e-06 
+dump output
+solve system from t = 62262 ms with p = 1.01325 bar	T_p_c = 900 K T_p_s = 900 K	 m_Coal = 0 mg	
+             to t = 0.0047 ms with p = 1.01325 bar
+stp =   109    dt = 5.00e-08 s    ord = 1    time = 4.70e-03 ms    Tp_s =   900.00 K    Tp_c =   900.00 K   temp =   900.00 K    mCoal = 0.0000e+00 mg	
+t 94 = 4.70e-06 
+t 95 = 4.70e-06 
+dump output
+solve system from t = 62931.5 ms with p = 1.01325 bar	T_p_c = 900 K T_p_s = 900 K	 m_Coal = 0 mg	
+             to t = 0.00475 ms with p = 1.01325 bar
+stp =   110    dt = 5.00e-08 s    ord = 1    time = 4.75e-03 ms    Tp_s =   900.00 K    Tp_c =   900.00 K   temp =   900.00 K    mCoal = 0.0000e+00 mg	
+t 95 = 4.75e-06 
+t 96 = 4.75e-06 
+dump output
+solve system from t = 63600.9 ms with p = 1.01325 bar	T_p_c = 900 K T_p_s = 900 K	 m_Coal = 0 mg	
+             to t = 0.0048 ms with p = 1.01325 bar
+stp =   111    dt = 5.00e-08 s    ord = 1    time = 4.80e-03 ms    Tp_s =   900.00 K    Tp_c =   900.00 K   temp =   900.00 K    mCoal = 0.0000e+00 mg	
+t 96 = 4.80e-06 
+t 97 = 4.80e-06 
+dump output
+solve system from t = 64270.4 ms with p = 1.01325 bar	T_p_c = 900 K T_p_s = 900 K	 m_Coal = 0 mg	
+             to t = 0.00485 ms with p = 1.01325 bar
+stp =   112    dt = 5.00e-08 s    ord = 1    time = 4.85e-03 ms    Tp_s =   900.00 K    Tp_c =   900.00 K   temp =   900.00 K    mCoal = 0.0000e+00 mg	
+t 97 = 4.85e-06 
+t 98 = 4.85e-06 
+dump output
+solve system from t = 64939.9 ms with p = 1.01325 bar	T_p_c = 900 K T_p_s = 900 K	 m_Coal = 0 mg	
+             to t = 0.0049 ms with p = 1.01325 bar
+stp =   113    dt = 5.00e-08 s    ord = 1    time = 4.90e-03 ms    Tp_s =   900.00 K    Tp_c =   900.00 K   temp =   900.00 K    mCoal = 0.0000e+00 mg	
+t 98 = 4.90e-06 
+t 99 = 4.90e-06 
+dump output
+solve system from t = 65609.4 ms with p = 1.01325 bar	T_p_c = 900 K T_p_s = 900 K	 m_Coal = 0 mg	
+             to t = 0.00495 ms with p = 1.01325 bar
+stp =   114    dt = 5.00e-08 s    ord = 1    time = 4.95e-03 ms    Tp_s =   900.00 K    Tp_c =   900.00 K   temp =   900.00 K    mCoal = 0.0000e+00 mg	
+t 99 = 4.95e-06 
+t 100 = 4.95e-06 
+dump output
+solve system from t = 66278.9 ms with p = 1.01325 bar	T_p_c = 900 K T_p_s = 900 K	 m_Coal = 0 mg	
+             to t = 0.005 ms with p = 1.01325 bar
+stp =   115    dt = 5.00e-08 s    ord = 1    time = 5.00e-03 ms    Tp_s =   900.00 K    Tp_c =   900.00 K   temp =   900.00 K    mCoal = 0.0000e+00 mg	
+t 100 = 5.00e-06 
+t 101 = 5.00e-06 
+dump output
+done

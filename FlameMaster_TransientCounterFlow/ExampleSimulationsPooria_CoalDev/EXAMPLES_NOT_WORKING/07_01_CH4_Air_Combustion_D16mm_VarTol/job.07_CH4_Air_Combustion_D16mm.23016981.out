@@ -1,0 +1,292 @@
+Starting 07_CH4_Air_Combustion_D16mm ...
+Sun Sep  5 23:24:54 CEST 2021
+FlameMaster written by Heinz Pitsch
+
+version                  4.2.1
+executed command         './FlameMaster -i 07_CH4_Air_Combustion_D16mm.input -s ./Outputs/10_CH4_p01t1.00e+00ms.tout'
+git sha1                 ca6e9c0a924e12ee83b51474e29e0e1fb959ad97
+operating system         Linux, version 3.10.0-1160.36.2.el7.x86_64
+target architechture     x86_64
+c++ compiler             Intel, version 19.0.0.20181018
+c   compiler             Intel, version 19.0.0.20181018
+
+a '' is a complete surprise for me in this context
+a '' is a complete surprise for me in this context
+a '' is a complete surprise for me in this context
+a '' is a complete surprise for me in this context
+a '' is a complete surprise for me in this context
+a '' is a complete surprise for me in this context
+a '' is a complete surprise for me in this context
+a '' is a complete surprise for me in this context
+a '' is a complete surprise for me in this context
+a '' is a complete surprise for me in this context
+a '' is a complete surprise for me in this context
+a '' is a complete surprise for me in this context
+a '' is a complete surprise for me in this context
+a '' is a complete surprise for me in this context
+a '' is a complete surprise for me in this context
+a '' is a complete surprise for me in this context
+a '' is a complete surprise for me in this context
+a '' is a complete surprise for me in this context
+a '' is a complete surprise for me in this context
+a '' is a complete surprise for me in this context
+a '' is a complete surprise for me in this context
+a '' is a complete surprise for me in this context
+a '' is a complete surprise for me in this context
+a '' is a complete surprise for me in this context
+a '' is a complete surprise for me in this context
+a '' is a complete surprise for me in this context
+a '' is a complete surprise for me in this context
+a '' is a complete surprise for me in this context
+a '' is a complete surprise for me in this context
+a '' is a complete surprise for me in this context
+a '' is a complete surprise for me in this context
+a '' is a complete surprise for me in this context
+a '' is a complete surprise for me in this context
+a '' is a complete surprise for me in this context
+a '' is a complete surprise for me in this context
+a '' is a complete surprise for me in this context
+a '' is a complete surprise for me in this context
+a '' is a complete surprise for me in this context
+a '' is a complete surprise for me in this context
+a '' is a complete surprise for me in this context
+a '' is a complete surprise for me in this context
+a '' is a complete surprise for me in this context
+a '' is a complete surprise for me in this context
+a '' is a complete surprise for me in this context
+a '' is a complete surprise for me in this context
+a '' is a complete surprise for me in this context
+a '' is a complete surprise for me in this context
+a '' is a complete surprise for me in this context
+a '' is a complete surprise for me in this context
+a '' is a complete surprise for me in this context
+a '' is a complete surprise for me in this context
+a '' is a complete surprise for me in this context
+a '' is a complete surprise for me in this context
+a '' is a complete surprise for me in this context
+a '' is a complete surprise for me in this context
+a '' is a complete surprise for me in this context
+a '' is a complete surprise for me in this context
+a '' is a complete surprise for me in this context
+a '' is a complete surprise for me in this context
+a '' is a complete surprise for me in this context
+use mechanism file './../Mechanisms/GRI3/gri.30.pre'
+outpath is 'Outputs/'
+initial pressure is 1.01325 bar
+use multi geometry species transport model
+model has 77 species
+        7 spherical
+       20 linear
+       50 non-linear
+    -----
+       77 / 77 geometry parameters expected
+initial pressure is 1.01325 bar
+write output to 'stderr'
+
+Use DASSL solver
+
+Coal solid species COALSOLIDCOAL1 found.
+Coal solid species COALSOLIDGCOAL1 found.
+Coal solid species COALSOLIDGCH2 found.
+Coal solid species COALSOLIDCHAR found.
+Coal solid species COALSOLIDCHARH found.
+Coal solid species COALSOLIDTAR1 found.
+Coal solid species COALSOLIDCOAL2 found.
+Coal solid species COALSOLIDGBTX2 found.
+Coal solid species COALSOLIDGCH4 found.
+Coal solid species COALSOLIDGCOH2 found.
+Coal solid species COALSOLIDGCO2S found.
+Coal solid species COALSOLIDGH2O found.
+Coal solid species COALSOLIDGCOL found.
+Coal solid species COALSOLIDTAR2 found.
+Coal solid species COALSOLIDGCO2TS found.
+Coal solid species COALSOLIDCOAL3 found.
+Coal solid species COALSOLIDGCOAL3 found.
+Coal solid species COALSOLIDTAR3 found.
+Coal solid species COALSOLIDGCO2 found.
+Coal solid species COALSOLIDCHARG found.
+Couldn't open "LewisNumbers"---all Lewis numbers will be set to 1.0
+
+Species O2 specified on the left boundary!
+
+Species N2 specified on the left boundary!
+
+Species CH4 specified on the left boundary!
+read initial solution from file './Outputs/10_CH4_p01t1.00e+00ms.tout'
+
+Initial particle mass is 0 g and radius is 16000 micron
+Start profile done!!!
+choose inputGrid
+Initial time step is 4.20032e-05 s
+Start at time 0.001 s
+gp: 0, Temp: 300.000000, Pressure: 101325.000000, MixMolarMass: 24.881244
+gp: 1, Temp: 300.000000, Pressure: 101325.000000, MixMolarMass: 24.881244
+gp: 2, Temp: 300.000000, Pressure: 101325.000000, MixMolarMass: 24.881244
+gp: 3, Temp: 300.000000, Pressure: 101325.000000, MixMolarMass: 24.881244
+gp: 4, Temp: 300.000000, Pressure: 101325.000000, MixMolarMass: 24.881244
+gp: 5, Temp: 300.000000, Pressure: 101325.000000, MixMolarMass: 24.881244
+gp: 6, Temp: 300.000000, Pressure: 101325.000000, MixMolarMass: 24.881244
+gp: 7, Temp: 300.000000, Pressure: 101325.000000, MixMolarMass: 24.881244
+gp: 8, Temp: 300.000000, Pressure: 101325.000000, MixMolarMass: 24.881244
+gp: 9, Temp: 300.000000, Pressure: 101325.000000, MixMolarMass: 24.881244
+gp: 10, Temp: 300.000000, Pressure: 101325.000000, MixMolarMass: 24.881244
+gp: 11, Temp: 300.000000, Pressure: 101325.000000, MixMolarMass: 24.881244
+gp: 12, Temp: 300.000000, Pressure: 101325.000000, MixMolarMass: 24.881244
+gp: 13, Temp: 300.000000, Pressure: 101325.000000, MixMolarMass: 24.881244
+gp: 14, Temp: 300.000000, Pressure: 101325.000000, MixMolarMass: 24.881244
+gp: 15, Temp: 300.000000, Pressure: 101325.000000, MixMolarMass: 24.881244
+gp: 16, Temp: 300.000000, Pressure: 101325.000000, MixMolarMass: 24.881244
+gp: 17, Temp: 300.000000, Pressure: 101325.000000, MixMolarMass: 24.881244
+gp: 18, Temp: 300.000000, Pressure: 101325.000000, MixMolarMass: 24.881244
+gp: 19, Temp: 300.000000, Pressure: 101325.000000, MixMolarMass: 24.881244
+gp: 20, Temp: 300.000000, Pressure: 101325.000000, MixMolarMass: 24.881244
+gp: 21, Temp: 300.000000, Pressure: 101325.000000, MixMolarMass: 24.881244
+gp: 22, Temp: 300.000000, Pressure: 101325.000000, MixMolarMass: 24.881244
+gp: 23, Temp: 300.000000, Pressure: 101325.000000, MixMolarMass: 24.881244
+gp: 24, Temp: 300.000100, Pressure: 101325.000000, MixMolarMass: 24.881244
+gp: 25, Temp: 300.004100, Pressure: 101325.000000, MixMolarMass: 24.881256
+gp: 26, Temp: 300.162900, Pressure: 101325.000000, MixMolarMass: 24.881744
+gp: 27, Temp: 304.998000, Pressure: 101325.000000, MixMolarMass: 24.897187
+gp: 28, Temp: 393.062500, Pressure: 101325.000000, MixMolarMass: 25.193054
+gp: 29, Temp: 786.947600, Pressure: 101325.000000, MixMolarMass: 26.671118
+gp: 30, Temp: 1153.549000, Pressure: 101325.000000, MixMolarMass: 28.198613
+gp: 31, Temp: 1285.570000, Pressure: 101325.000000, MixMolarMass: 28.789558
+gp: 32, Temp: 1299.398000, Pressure: 101325.000000, MixMolarMass: 28.853383
+gp: 33, Temp: 1299.987000, Pressure: 101325.000000, MixMolarMass: 28.856171
+gp: 34, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856234
+gp: 35, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 36, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 37, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 38, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 39, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 40, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 41, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 42, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 43, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 44, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 45, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 46, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 47, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 48, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 49, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 50, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 51, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 52, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 53, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 54, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 55, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 56, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 57, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 58, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 59, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 60, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 61, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 62, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 63, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 64, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 65, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 66, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 67, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 68, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 69, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 70, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 71, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 72, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 73, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 74, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 75, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 76, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 77, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 78, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 79, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 80, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 81, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 82, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 83, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 84, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 85, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 86, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 87, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 88, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 89, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 90, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 91, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 92, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 93, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 94, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 95, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 96, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 97, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 98, Temp: 1300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+
+Using linear solver method to initialize time terms
+
+
+dump output
+
+start computation
+
+solve system from t = 1 ms with p = 1.01325 bar	T_p_c = 300 K T_p_s = 393.062 K	 m_Coal = 0 mg	
+             to t = 2.33333 ms with p = 1.01325 bar
+stp =     1    dt = 1.00e-10 s    ord = 1    time = 1.00e+00 ms    Tp_s =   393.06 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
+stp =     2    dt = 2.00e-10 s    ord = 2    time = 1.00e+00 ms    Tp_s =   393.06 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
+stp =     3    dt = 4.00e-10 s    ord = 1    time = 1.00e+00 ms    Tp_s =   393.06 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
+stp =     4    dt = 8.00e-10 s    ord = 1    time = 1.00e+00 ms    Tp_s =   393.06 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
+stp =     5    dt = 1.60e-09 s    ord = 1    time = 1.00e+00 ms    Tp_s =   393.06 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
+stp =     6    dt = 3.20e-09 s    ord = 1    time = 1.00e+00 ms    Tp_s =   393.06 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
+stp =     7    dt = 6.40e-09 s    ord = 1    time = 1.00e+00 ms    Tp_s =   393.06 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
+stp =     8    dt = 1.28e-08 s    ord = 1    time = 1.00e+00 ms    Tp_s =   393.06 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
+stp =     9    dt = 2.56e-08 s    ord = 1    time = 1.00e+00 ms    Tp_s =   393.07 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
+stp =    10    dt = 5.12e-08 s    ord = 1    time = 1.00e+00 ms    Tp_s =   393.07 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
+stp =    11    dt = 1.02e-07 s    ord = 1    time = 1.00e+00 ms    Tp_s =   393.08 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
+stp =    12    dt = 2.05e-07 s    ord = 1    time = 1.00e+00 ms    Tp_s =   393.09 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
+stp =    13    dt = 4.10e-07 s    ord = 1    time = 1.00e+00 ms    Tp_s =   393.11 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
+stp =    14    dt = 8.19e-07 s    ord = 1    time = 1.00e+00 ms    Tp_s =   393.16 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
+stp =    15    dt = 1.64e-06 s    ord = 1    time = 1.00e+00 ms    Tp_s =   393.26 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
+stp =    16    dt = 3.28e-06 s    ord = 1    time = 1.01e+00 ms    Tp_s =   393.46 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
+stp =    17    dt = 6.55e-06 s    ord = 1    time = 1.01e+00 ms    Tp_s =   393.86 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
+stp =    18    dt = 1.31e-05 s    ord = 1    time = 1.03e+00 ms    Tp_s =   394.66 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
+stp =    19    dt = 2.62e-05 s    ord = 1    time = 1.05e+00 ms    Tp_s =   396.22 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
+stp =    20    dt = 5.24e-05 s    ord = 1    time = 1.10e+00 ms    Tp_s =   399.24 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
+stp =    21    dt = 5.24e-05 s    ord = 1    time = 1.16e+00 ms    Tp_s =   402.16 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
+stp =    22    dt = 5.24e-05 s    ord = 1    time = 1.21e+00 ms    Tp_s =   405.00 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
+stp =    23    dt = 1.05e-04 s    ord = 2    time = 1.31e+00 ms    Tp_s =   410.52 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
+stp =    24    dt = 1.05e-04 s    ord = 2    time = 1.42e+00 ms    Tp_s =   415.76 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
+stp =    25    dt = 2.10e-04 s    ord = 2    time = 1.63e+00 ms    Tp_s =   425.42 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
+stp =    26    dt = 2.10e-04 s    ord = 2    time = 1.84e+00 ms    Tp_s =   434.03 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
+stp =    27    dt = 2.10e-04 s    ord = 2    time = 2.05e+00 ms    Tp_s =   441.69 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
+stp =    28    dt = 2.10e-04 s    ord = 2    time = 2.26e+00 ms    Tp_s =   448.52 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
+stp =    29    dt = 7.50e-05 s    ord = 3    time = 2.33e+00 ms    Tp_s =   450.77 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
+t 1 = 2.33e-03 
+t 2 = 2.33e-03 
+dump output
+solve system from t = 2.33333 ms with p = 1.01325 bar	T_p_c = 300 K T_p_s = 450.766 K	 m_Coal = 0 mg	
+             to t = 3.66667 ms with p = 1.01325 bar
+stp =    30    dt = 1.50e-04 s    ord = 3    time = 2.48e+00 ms    Tp_s =   454.99 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
+stp =    31    dt = 1.50e-04 s    ord = 3    time = 2.63e+00 ms    Tp_s =   458.89 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
+stp =    32    dt = 3.00e-04 s    ord = 3    time = 2.93e+00 ms    Tp_s =   465.90 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
+stp =    33    dt = 3.00e-04 s    ord = 3    time = 3.23e+00 ms    Tp_s =   472.01 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
+stp =    34    dt = 3.00e-04 s    ord = 3    time = 3.53e+00 ms    Tp_s =   477.37 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
+stp =    35    dt = 1.33e-04 s    ord = 3    time = 3.67e+00 ms    Tp_s =   479.52 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
+t 2 = 3.67e-03 
+t 3 = 3.67e-03 
+dump output
+solve system from t = 3.66667 ms with p = 1.01325 bar	T_p_c = 300 K T_p_s = 479.523 K	 m_Coal = 0 mg	
+             to t = 5 ms with p = 1.01325 bar
+stp =    36    dt = 2.65e-04 s    ord = 3    time = 3.93e+00 ms    Tp_s =   483.50 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
+stp =    37    dt = 2.65e-04 s    ord = 3    time = 4.20e+00 ms    Tp_s =   487.09 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
+stp =    38    dt = 2.65e-04 s    ord = 3    time = 4.46e+00 ms    Tp_s =   490.36 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
+stp =    39    dt = 5.31e-04 s    ord = 3    time = 4.99e+00 ms    Tp_s =   496.13 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
+stp =    40    dt = 6.76e-06 s    ord = 3    time = 5.00e+00 ms    Tp_s =   496.20 K    Tp_c =   300.00 K   temp =  1300.00 K    mCoal = 0.0000e+00 mg	
+t 3 = 5.00e-03 
+t 4 = 5.00e-03 
+dump output
+done
+Sun Sep  5 23:26:30 CEST 2021
+### Nodes assigned to job #####################################
+lnih075
+### Number of cores per node ################################
+1
+### Total number of tasks for job ##############################
+1
+------------------------------------------------------------------------------

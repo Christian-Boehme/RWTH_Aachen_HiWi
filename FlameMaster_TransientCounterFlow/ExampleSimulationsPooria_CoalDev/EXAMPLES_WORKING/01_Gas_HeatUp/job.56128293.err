@@ -1,0 +1,211 @@
+[INFO] Module intel/2022a loaded.
+[INFO] Module impi/2021.6.0 loaded.
+[INFO] Module imkl-FFTW/2022.1.0 loaded.
+Lmod has detected the following error: The following module(s) are unknown:
+"DEVELOP"
+
+Please check the spelling or version number. Also try "module spider ..."
+It is also possible your cache file is out-of-date; it may help to try:
+  $ module --ignore_cache load "DEVELOP"
+
+Also make sure that all modulefiles written in TCL start with the string
+#%Module
+
+
+
+Lmod has detected the following error: The following module(s) are unknown:
+"DEPRECATED"
+
+Please check the spelling or version number. Also try "module spider ..."
+It is also possible your cache file is out-of-date; it may help to try:
+  $ module --ignore_cache load "DEPRECATED"
+
+Also make sure that all modulefiles written in TCL start with the string
+#%Module
+
+
+
+Lmod has detected the following error: The following module(s) are unknown:
+"LIBRARIES"
+
+Please check the spelling or version number. Also try "module spider ..."
+It is also possible your cache file is out-of-date; it may help to try:
+  $ module --ignore_cache load "LIBRARIES"
+
+Also make sure that all modulefiles written in TCL start with the string
+#%Module
+
+
+
+FlameMaster written by Heinz Pitsch
+
+version                  4.2.1
+executed command         '/home/cb376114/Programs/FlameMaster/FlameMaster_Branch_CoalDev/Bin/bin/FlameMan -i 01_Gas_HeatUp.input'
+git sha1                 d14c223ed80b0c3f9b6a7aa994a04934ee84ee7e
+operating system         Linux, version 4.18.0-553.36.1.el8_10.x86_64
+target architechture     x86_64
+c++ compiler             Intel, version 2021.6.0.20220226
+c   compiler             Intel, version 2021.6.0.20220226
+
+use mechanism file './../Mechanisms/GRI3/gri.30.pre'
+outpath is './Outputs/'
+initial pressure is 1.01325 bar
+use multi geometry species transport model
+model has 77 species
+        7 spherical
+       20 linear
+       50 non-linear
+    -----
+       77 / 77 geometry parameters expected
+initial pressure is 1.01325 bar
+write output to 'stderr'
+
+Use DASSL solver
+
+No coal solid found in the mechanism !
+
+End of SolverInit
+
+
+Species O2 specified on the left boundary!
+
+Species N2 specified on the left boundary!
+interpolate initial solution from boundary conditions
+End-ReadStartProfiles
+Initialize_Beginn
+Initial time step is 1e-10 s
+SetInitial
+coalsolver
+SetParticleVolume in Initialize 
+set Prositiy
+
+Starting Newton iterations for temp/species correction
+iter: 1, T=833.94, grad_left=914.3128, grad_right=854.4095, delta=5.9903e+01
+iter: 2, T=813.94, grad_left=861.3410, grad_right=861.3410, delta=-1.1369e-13
+Final temperature Tp=813.9411
+
+set Density
+gp: 0, Temp: 300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 1, Temp: 300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 2, Temp: 300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 3, Temp: 300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 4, Temp: 300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 5, Temp: 300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 6, Temp: 300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 7, Temp: 300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 8, Temp: 300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 9, Temp: 300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 10, Temp: 300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 11, Temp: 300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 12, Temp: 300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 13, Temp: 300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 14, Temp: 300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 15, Temp: 300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 16, Temp: 300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 17, Temp: 300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 18, Temp: 300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 19, Temp: 300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 20, Temp: 300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 21, Temp: 300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 22, Temp: 300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 23, Temp: 300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 24, Temp: 300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 25, Temp: 300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 26, Temp: 300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 27, Temp: 300.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 28, Temp: 813.941089, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 29, Temp: 813.941089, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 30, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 31, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 32, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 33, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 34, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 35, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 36, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 37, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 38, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 39, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 40, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 41, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 42, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 43, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 44, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 45, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 46, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 47, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 48, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 49, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 50, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 51, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 52, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 53, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 54, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 55, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 56, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 57, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 58, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 59, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 60, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 61, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 62, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 63, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 64, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 65, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 66, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 67, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 68, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 69, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 70, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 71, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 72, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 73, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 74, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 75, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 76, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 77, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 78, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 79, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 80, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 81, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 82, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 83, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 84, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 85, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 86, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 87, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 88, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 89, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 90, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 91, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 92, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 93, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 94, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 95, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 96, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 97, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 98, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 99, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+set Initial Time
+End Initializing
+dump output
+
+start computation
+
+solve system from t = 0 ms with p = 1.01325 bar	T_p_c = 300 K T_p_s = 813.941 K	 m_Coal = 0 mg	
+             to t = 5e-05 ms with p = 1.01325 bar
+rightGrad = -2.30e+01    leftGrad =     -nan    TGradRatio =     -nan	
+stp =     0    dt = 0.00e+00 s    ord = 0    time = 0.00e+00 ms    Tp_s =   813.94 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = -6.4046e-15 mg	
+#error: ddassl error no. -8 occured at timestep no. 0
+number of error test failures is 0
+number of convergence test failures is 3
+dassl suggested order 1 and stepsize 1.9896e-05 for the next step
+dump output
+done
+
+TTrans Coal Solver1
+
+
+TTrans Coal Solver
+
+Execution time 9.83545 s
+

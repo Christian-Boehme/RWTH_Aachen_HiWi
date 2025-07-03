@@ -1,0 +1,1310 @@
+Starting 06_CH4_Air_Combustion ...
+Mon Aug 30 20:42:05 CEST 2021
+FlameMaster written by Heinz Pitsch
+
+version                  4.2.0
+executed command         './FlameMaster -i 06_CH4_Air_Combustion.input'
+git sha1                 2f6cf8faa680ac64a3b079373561e6f4912beda1
+working directory status CLEAN
+operating system         Linux, version 3.10.0-1160.36.2.el7.x86_64
+target architechture     x86_64
+c++ compiler             Intel, version 19.0.0.20181018
+c   compiler             Intel, version 19.0.0.20181018
+
+use mechanism file './../../Mechanisms/GRI3/gri.30.pre'
+outpath is './Outputs/'
+initial pressure is 1.01325 bar
+use multi geometry species transport model
+model has 77 species
+        7 spherical
+       20 linear
+       50 non-linear
+    -----
+       77 / 77 geometry parameters expected
+initial pressure is 1.01325 bar
+write output to 'stderr'
+
+Use DASSL solver
+
+Coal solid species COALSOLIDCOAL1 found.
+Coal solid species COALSOLIDGCOAL1 found.
+Coal solid species COALSOLIDGCH2 found.
+Coal solid species COALSOLIDCHAR found.
+Coal solid species COALSOLIDCHARH found.
+Coal solid species COALSOLIDTAR1 found.
+Coal solid species COALSOLIDCOAL2 found.
+Coal solid species COALSOLIDGBTX2 found.
+Coal solid species COALSOLIDGCH4 found.
+Coal solid species COALSOLIDGCOH2 found.
+Coal solid species COALSOLIDGCO2S found.
+Coal solid species COALSOLIDGH2O found.
+Coal solid species COALSOLIDGCOL found.
+Coal solid species COALSOLIDTAR2 found.
+Coal solid species COALSOLIDGCO2TS found.
+Coal solid species COALSOLIDCOAL3 found.
+Coal solid species COALSOLIDGCOAL3 found.
+Coal solid species COALSOLIDTAR3 found.
+Coal solid species COALSOLIDGCO2 found.
+Coal solid species COALSOLIDCHARG found.
+
+Species CH4 specified on the left boundary!
+interpolate initial solution from boundary conditions
+Initial time step is 1e-10 s
+gp: 0, Temp: 300.000000, Pressure: 101325.000000, MixMolarMass: 16.042000
+gp: 1, Temp: 300.000000, Pressure: 101325.000000, MixMolarMass: 16.042000
+gp: 2, Temp: 300.000000, Pressure: 101325.000000, MixMolarMass: 16.042000
+gp: 3, Temp: 300.000000, Pressure: 101325.000000, MixMolarMass: 16.042000
+gp: 4, Temp: 300.000000, Pressure: 101325.000000, MixMolarMass: 16.042000
+gp: 5, Temp: 300.000000, Pressure: 101325.000000, MixMolarMass: 16.042000
+gp: 6, Temp: 300.000000, Pressure: 101325.000000, MixMolarMass: 16.042000
+gp: 7, Temp: 300.000000, Pressure: 101325.000000, MixMolarMass: 16.042000
+gp: 8, Temp: 300.000000, Pressure: 101325.000000, MixMolarMass: 16.042000
+gp: 9, Temp: 300.000000, Pressure: 101325.000000, MixMolarMass: 16.042000
+gp: 10, Temp: 300.000000, Pressure: 101325.000000, MixMolarMass: 16.042000
+gp: 11, Temp: 300.000000, Pressure: 101325.000000, MixMolarMass: 16.042000
+gp: 12, Temp: 300.000000, Pressure: 101325.000000, MixMolarMass: 16.042000
+gp: 13, Temp: 300.000000, Pressure: 101325.000000, MixMolarMass: 16.042000
+gp: 14, Temp: 300.000000, Pressure: 101325.000000, MixMolarMass: 16.042000
+gp: 15, Temp: 300.000000, Pressure: 101325.000000, MixMolarMass: 16.042000
+gp: 16, Temp: 300.000000, Pressure: 101325.000000, MixMolarMass: 16.042000
+gp: 17, Temp: 300.000000, Pressure: 101325.000000, MixMolarMass: 16.042000
+gp: 18, Temp: 300.000000, Pressure: 101325.000000, MixMolarMass: 16.042000
+gp: 19, Temp: 300.000000, Pressure: 101325.000000, MixMolarMass: 16.042000
+gp: 20, Temp: 300.000000, Pressure: 101325.000000, MixMolarMass: 16.042000
+gp: 21, Temp: 300.000000, Pressure: 101325.000000, MixMolarMass: 16.042000
+gp: 22, Temp: 300.000000, Pressure: 101325.000000, MixMolarMass: 16.042000
+gp: 23, Temp: 300.000000, Pressure: 101325.000000, MixMolarMass: 16.042000
+gp: 24, Temp: 300.000000, Pressure: 101325.000000, MixMolarMass: 16.042000
+gp: 25, Temp: 300.000000, Pressure: 101325.000000, MixMolarMass: 16.042000
+gp: 26, Temp: 300.000000, Pressure: 101325.000000, MixMolarMass: 16.042000
+gp: 27, Temp: 300.000000, Pressure: 101325.000000, MixMolarMass: 16.042000
+gp: 28, Temp: 300.000000, Pressure: 101325.000000, MixMolarMass: 16.042000
+gp: 29, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 30, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 31, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 32, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 33, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 34, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 35, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 36, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 37, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 38, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 39, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 40, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 41, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 42, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 43, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 44, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 45, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 46, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 47, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 48, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 49, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 50, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 51, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 52, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 53, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 54, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 55, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 56, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 57, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 58, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 59, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 60, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 61, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 62, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 63, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 64, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 65, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 66, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 67, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 68, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 69, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 70, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 71, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 72, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 73, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 74, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 75, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 76, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 77, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 78, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 79, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 80, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 81, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 82, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 83, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 84, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 85, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 86, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 87, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 88, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 89, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 90, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 91, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 92, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 93, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 94, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 95, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 96, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 97, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 98, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 99, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 100, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 101, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 102, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 103, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 104, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 105, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 106, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 107, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 108, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 109, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 110, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 111, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 112, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 113, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 114, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 115, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 116, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 117, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 118, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 119, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 120, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 121, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 122, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 123, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 124, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 125, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 126, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 127, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 128, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 129, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 130, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 131, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 132, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 133, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 134, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 135, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 136, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 137, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 138, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 139, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 140, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 141, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 142, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 143, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 144, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 145, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 146, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 147, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+gp: 148, Temp: 1500.000000, Pressure: 101325.000000, MixMolarMass: 28.856236
+
+Initial particle mass is 0 g and radius is 45 micron
+
+Using linear solver method to initialize time terms
+
+Including Species transport and energy equation at solid gas interface using central difference scheme
+
+
+dump output
+
+start computation
+
+solve system from t = 0 ms with p = 1.01325 bar	T_p_c = 300 K T_p_s = 300 K	 m_Coal = 0 mg	
+             to t = 1e-05 ms with p = 1.01325 bar
+stp =     1    dt = 6.10e-15 s    ord = 1    time = 6.10e-12 ms    Tp_s =   300.00 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =     2    dt = 2.38e-17 s    ord = 1    time = 6.13e-12 ms    Tp_s =   300.00 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =     3    dt = 4.77e-17 s    ord = 1    time = 6.18e-12 ms    Tp_s =   300.00 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =     4    dt = 4.77e-17 s    ord = 1    time = 6.22e-12 ms    Tp_s =   300.00 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =     5    dt = 9.54e-17 s    ord = 1    time = 6.32e-12 ms    Tp_s =   300.00 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =     6    dt = 1.91e-16 s    ord = 1    time = 6.51e-12 ms    Tp_s =   300.00 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =     7    dt = 3.81e-16 s    ord = 1    time = 6.89e-12 ms    Tp_s =   300.00 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =     8    dt = 7.63e-16 s    ord = 1    time = 7.65e-12 ms    Tp_s =   300.00 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =     9    dt = 1.53e-15 s    ord = 1    time = 9.18e-12 ms    Tp_s =   300.00 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =    10    dt = 3.05e-15 s    ord = 1    time = 1.22e-11 ms    Tp_s =   300.00 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =    11    dt = 6.10e-15 s    ord = 1    time = 1.83e-11 ms    Tp_s =   300.00 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =    12    dt = 1.22e-14 s    ord = 1    time = 3.05e-11 ms    Tp_s =   300.00 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =    13    dt = 2.44e-14 s    ord = 1    time = 5.50e-11 ms    Tp_s =   300.00 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =    14    dt = 4.88e-14 s    ord = 1    time = 1.04e-10 ms    Tp_s =   300.00 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =    15    dt = 9.77e-14 s    ord = 1    time = 2.01e-10 ms    Tp_s =   300.01 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =    16    dt = 1.95e-13 s    ord = 1    time = 3.97e-10 ms    Tp_s =   300.01 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =    17    dt = 3.91e-13 s    ord = 1    time = 7.87e-10 ms    Tp_s =   300.02 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =    18    dt = 7.81e-13 s    ord = 1    time = 1.57e-09 ms    Tp_s =   300.04 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =    19    dt = 3.91e-13 s    ord = 1    time = 1.96e-09 ms    Tp_s =   300.05 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =    20    dt = 3.91e-13 s    ord = 1    time = 2.35e-09 ms    Tp_s =   300.07 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =    21    dt = 3.91e-13 s    ord = 1    time = 2.74e-09 ms    Tp_s =   300.08 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =    22    dt = 7.81e-13 s    ord = 1    time = 3.52e-09 ms    Tp_s =   300.10 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =    23    dt = 7.03e-13 s    ord = 1    time = 4.22e-09 ms    Tp_s =   300.12 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =    24    dt = 7.03e-13 s    ord = 1    time = 4.93e-09 ms    Tp_s =   300.14 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =    25    dt = 7.03e-13 s    ord = 1    time = 5.63e-09 ms    Tp_s =   300.16 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =    26    dt = 1.41e-12 s    ord = 1    time = 7.04e-09 ms    Tp_s =   300.20 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =    27    dt = 1.05e-12 s    ord = 1    time = 8.08e-09 ms    Tp_s =   300.23 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =    28    dt = 8.79e-13 s    ord = 1    time = 8.96e-09 ms    Tp_s =   300.25 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =    29    dt = 8.79e-13 s    ord = 1    time = 9.84e-09 ms    Tp_s =   300.27 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =    30    dt = 8.79e-13 s    ord = 1    time = 1.07e-08 ms    Tp_s =   300.30 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =    31    dt = 1.08e-12 s    ord = 1    time = 1.18e-08 ms    Tp_s =   300.33 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =    32    dt = 1.08e-12 s    ord = 1    time = 1.29e-08 ms    Tp_s =   300.36 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =    33    dt = 1.15e-12 s    ord = 1    time = 1.40e-08 ms    Tp_s =   300.39 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =    34    dt = 1.36e-12 s    ord = 1    time = 1.54e-08 ms    Tp_s =   300.43 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =    35    dt = 1.50e-12 s    ord = 1    time = 1.69e-08 ms    Tp_s =   300.47 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =    36    dt = 1.49e-12 s    ord = 1    time = 1.84e-08 ms    Tp_s =   300.51 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =    37    dt = 1.49e-12 s    ord = 1    time = 1.99e-08 ms    Tp_s =   300.55 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =    38    dt = 1.35e-12 s    ord = 1    time = 2.12e-08 ms    Tp_s =   300.59 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =    39    dt = 1.35e-12 s    ord = 1    time = 2.26e-08 ms    Tp_s =   300.63 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =    40    dt = 1.35e-12 s    ord = 1    time = 2.39e-08 ms    Tp_s =   300.67 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =    41    dt = 1.28e-12 s    ord = 1    time = 2.52e-08 ms    Tp_s =   300.70 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =    42    dt = 1.17e-12 s    ord = 1    time = 2.63e-08 ms    Tp_s =   300.74 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =    43    dt = 1.09e-12 s    ord = 1    time = 2.74e-08 ms    Tp_s =   300.77 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =    44    dt = 1.06e-12 s    ord = 1    time = 2.85e-08 ms    Tp_s =   300.80 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =    45    dt = 1.10e-12 s    ord = 1    time = 2.96e-08 ms    Tp_s =   300.83 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =    46    dt = 1.19e-12 s    ord = 1    time = 3.08e-08 ms    Tp_s =   300.86 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =    47    dt = 1.30e-12 s    ord = 1    time = 3.21e-08 ms    Tp_s =   300.90 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =    48    dt = 1.37e-12 s    ord = 1    time = 3.34e-08 ms    Tp_s =   300.93 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =    49    dt = 1.36e-12 s    ord = 1    time = 3.48e-08 ms    Tp_s =   300.97 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =    50    dt = 1.26e-12 s    ord = 1    time = 3.61e-08 ms    Tp_s =   301.01 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =    51    dt = 1.15e-12 s    ord = 1    time = 3.72e-08 ms    Tp_s =   301.04 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =    52    dt = 1.07e-12 s    ord = 1    time = 3.83e-08 ms    Tp_s =   301.07 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =    53    dt = 1.05e-12 s    ord = 1    time = 3.93e-08 ms    Tp_s =   301.10 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =    54    dt = 1.11e-12 s    ord = 1    time = 4.04e-08 ms    Tp_s =   301.13 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =    55    dt = 1.21e-12 s    ord = 1    time = 4.17e-08 ms    Tp_s =   301.17 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =    56    dt = 1.33e-12 s    ord = 1    time = 4.30e-08 ms    Tp_s =   301.20 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =    57    dt = 1.39e-12 s    ord = 1    time = 4.44e-08 ms    Tp_s =   301.24 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =    58    dt = 1.36e-12 s    ord = 1    time = 4.57e-08 ms    Tp_s =   301.28 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =    59    dt = 1.25e-12 s    ord = 1    time = 4.70e-08 ms    Tp_s =   301.32 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =    60    dt = 1.13e-12 s    ord = 1    time = 4.81e-08 ms    Tp_s =   301.35 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =    61    dt = 1.05e-12 s    ord = 1    time = 4.92e-08 ms    Tp_s =   301.38 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =    62    dt = 1.05e-12 s    ord = 1    time = 5.02e-08 ms    Tp_s =   301.41 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =    63    dt = 1.12e-12 s    ord = 1    time = 5.13e-08 ms    Tp_s =   301.44 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =    64    dt = 1.24e-12 s    ord = 1    time = 5.26e-08 ms    Tp_s =   301.47 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =    65    dt = 1.36e-12 s    ord = 1    time = 5.39e-08 ms    Tp_s =   301.51 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =    66    dt = 1.41e-12 s    ord = 1    time = 5.54e-08 ms    Tp_s =   301.55 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =    67    dt = 1.36e-12 s    ord = 1    time = 5.67e-08 ms    Tp_s =   301.59 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =    68    dt = 1.23e-12 s    ord = 1    time = 5.79e-08 ms    Tp_s =   301.62 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =    69    dt = 1.10e-12 s    ord = 1    time = 5.90e-08 ms    Tp_s =   301.66 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =    70    dt = 1.04e-12 s    ord = 1    time = 6.01e-08 ms    Tp_s =   301.69 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =    71    dt = 1.05e-12 s    ord = 1    time = 6.11e-08 ms    Tp_s =   301.72 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =    72    dt = 1.14e-12 s    ord = 1    time = 6.23e-08 ms    Tp_s =   301.75 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =    73    dt = 1.27e-12 s    ord = 1    time = 6.35e-08 ms    Tp_s =   301.78 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =    74    dt = 1.39e-12 s    ord = 1    time = 6.49e-08 ms    Tp_s =   301.82 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =    75    dt = 1.43e-12 s    ord = 1    time = 6.64e-08 ms    Tp_s =   301.86 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =    76    dt = 1.35e-12 s    ord = 1    time = 6.77e-08 ms    Tp_s =   301.90 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =    77    dt = 1.20e-12 s    ord = 1    time = 6.89e-08 ms    Tp_s =   301.94 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =    78    dt = 1.08e-12 s    ord = 1    time = 7.00e-08 ms    Tp_s =   301.97 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =    79    dt = 1.03e-12 s    ord = 1    time = 7.10e-08 ms    Tp_s =   302.00 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =    80    dt = 1.06e-12 s    ord = 1    time = 7.21e-08 ms    Tp_s =   302.03 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =    81    dt = 1.16e-12 s    ord = 1    time = 7.32e-08 ms    Tp_s =   302.06 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =    82    dt = 1.31e-12 s    ord = 1    time = 7.46e-08 ms    Tp_s =   302.10 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =    83    dt = 1.43e-12 s    ord = 1    time = 7.60e-08 ms    Tp_s =   302.14 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =    84    dt = 1.45e-12 s    ord = 1    time = 7.74e-08 ms    Tp_s =   302.18 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =    85    dt = 1.33e-12 s    ord = 1    time = 7.88e-08 ms    Tp_s =   302.22 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =    86    dt = 1.33e-12 s    ord = 1    time = 8.01e-08 ms    Tp_s =   302.25 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =    87    dt = 1.27e-12 s    ord = 1    time = 8.14e-08 ms    Tp_s =   302.29 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =    88    dt = 1.18e-12 s    ord = 1    time = 8.26e-08 ms    Tp_s =   302.32 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =    89    dt = 1.11e-12 s    ord = 1    time = 8.37e-08 ms    Tp_s =   302.35 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =    90    dt = 1.09e-12 s    ord = 1    time = 8.48e-08 ms    Tp_s =   302.39 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =    91    dt = 1.13e-12 s    ord = 1    time = 8.59e-08 ms    Tp_s =   302.42 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =    92    dt = 1.20e-12 s    ord = 1    time = 8.71e-08 ms    Tp_s =   302.45 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =    93    dt = 1.30e-12 s    ord = 1    time = 8.84e-08 ms    Tp_s =   302.49 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =    94    dt = 1.35e-12 s    ord = 1    time = 8.97e-08 ms    Tp_s =   302.53 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =    95    dt = 1.34e-12 s    ord = 1    time = 9.11e-08 ms    Tp_s =   302.57 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =    96    dt = 1.26e-12 s    ord = 1    time = 9.23e-08 ms    Tp_s =   302.60 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =    97    dt = 1.17e-12 s    ord = 1    time = 9.35e-08 ms    Tp_s =   302.63 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =    98    dt = 1.10e-12 s    ord = 1    time = 9.46e-08 ms    Tp_s =   302.67 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =    99    dt = 1.09e-12 s    ord = 1    time = 9.57e-08 ms    Tp_s =   302.70 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   100    dt = 1.14e-12 s    ord = 1    time = 9.68e-08 ms    Tp_s =   302.73 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   101    dt = 1.23e-12 s    ord = 1    time = 9.81e-08 ms    Tp_s =   302.76 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   102    dt = 1.32e-12 s    ord = 1    time = 9.94e-08 ms    Tp_s =   302.80 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   103    dt = 1.37e-12 s    ord = 1    time = 1.01e-07 ms    Tp_s =   302.84 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   104    dt = 1.34e-12 s    ord = 1    time = 1.02e-07 ms    Tp_s =   302.88 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   105    dt = 1.25e-12 s    ord = 1    time = 1.03e-07 ms    Tp_s =   302.92 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   106    dt = 1.15e-12 s    ord = 1    time = 1.05e-07 ms    Tp_s =   302.95 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   107    dt = 1.09e-12 s    ord = 1    time = 1.06e-07 ms    Tp_s =   302.98 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   108    dt = 1.09e-12 s    ord = 1    time = 1.07e-07 ms    Tp_s =   303.01 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   109    dt = 1.16e-12 s    ord = 1    time = 1.08e-07 ms    Tp_s =   303.04 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   110    dt = 1.26e-12 s    ord = 1    time = 1.09e-07 ms    Tp_s =   303.08 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   111    dt = 1.35e-12 s    ord = 1    time = 1.10e-07 ms    Tp_s =   303.12 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   112    dt = 1.39e-12 s    ord = 1    time = 1.12e-07 ms    Tp_s =   303.16 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   113    dt = 1.33e-12 s    ord = 1    time = 1.13e-07 ms    Tp_s =   303.20 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   114    dt = 1.23e-12 s    ord = 1    time = 1.14e-07 ms    Tp_s =   303.23 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   115    dt = 1.13e-12 s    ord = 1    time = 1.16e-07 ms    Tp_s =   303.26 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   116    dt = 1.08e-12 s    ord = 1    time = 1.17e-07 ms    Tp_s =   303.29 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   117    dt = 1.10e-12 s    ord = 1    time = 1.18e-07 ms    Tp_s =   303.33 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   118    dt = 1.18e-12 s    ord = 1    time = 1.19e-07 ms    Tp_s =   303.36 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   119    dt = 1.29e-12 s    ord = 1    time = 1.20e-07 ms    Tp_s =   303.40 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   120    dt = 1.38e-12 s    ord = 1    time = 1.22e-07 ms    Tp_s =   303.44 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   121    dt = 1.40e-12 s    ord = 1    time = 1.23e-07 ms    Tp_s =   303.48 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   122    dt = 1.32e-12 s    ord = 1    time = 1.24e-07 ms    Tp_s =   303.51 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   123    dt = 1.21e-12 s    ord = 1    time = 1.25e-07 ms    Tp_s =   303.55 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   124    dt = 1.11e-12 s    ord = 1    time = 1.27e-07 ms    Tp_s =   303.58 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   125    dt = 1.08e-12 s    ord = 1    time = 1.28e-07 ms    Tp_s =   303.61 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   126    dt = 1.11e-12 s    ord = 1    time = 1.29e-07 ms    Tp_s =   303.64 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   127    dt = 1.21e-12 s    ord = 1    time = 1.30e-07 ms    Tp_s =   303.68 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   128    dt = 1.32e-12 s    ord = 1    time = 1.31e-07 ms    Tp_s =   303.72 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   129    dt = 1.41e-12 s    ord = 1    time = 1.33e-07 ms    Tp_s =   303.76 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   130    dt = 1.40e-12 s    ord = 1    time = 1.34e-07 ms    Tp_s =   303.80 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   131    dt = 1.31e-12 s    ord = 1    time = 1.35e-07 ms    Tp_s =   303.83 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   132    dt = 1.19e-12 s    ord = 1    time = 1.37e-07 ms    Tp_s =   303.87 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   133    dt = 1.10e-12 s    ord = 1    time = 1.38e-07 ms    Tp_s =   303.90 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   134    dt = 1.08e-12 s    ord = 1    time = 1.39e-07 ms    Tp_s =   303.93 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   135    dt = 1.13e-12 s    ord = 1    time = 1.40e-07 ms    Tp_s =   303.96 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   136    dt = 1.24e-12 s    ord = 1    time = 1.41e-07 ms    Tp_s =   304.00 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   137    dt = 1.36e-12 s    ord = 1    time = 1.43e-07 ms    Tp_s =   304.04 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   138    dt = 1.44e-12 s    ord = 1    time = 1.44e-07 ms    Tp_s =   304.08 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   139    dt = 1.40e-12 s    ord = 1    time = 1.45e-07 ms    Tp_s =   304.12 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   140    dt = 1.29e-12 s    ord = 1    time = 1.47e-07 ms    Tp_s =   304.16 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   141    dt = 1.04e-12 s    ord = 1    time = 1.48e-07 ms    Tp_s =   304.19 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   142    dt = 1.04e-12 s    ord = 1    time = 1.49e-07 ms    Tp_s =   304.22 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   143    dt = 1.04e-12 s    ord = 1    time = 1.50e-07 ms    Tp_s =   304.25 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   144    dt = 1.13e-12 s    ord = 1    time = 1.51e-07 ms    Tp_s =   304.28 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   145    dt = 1.31e-12 s    ord = 1    time = 1.52e-07 ms    Tp_s =   304.32 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   146    dt = 1.48e-12 s    ord = 1    time = 1.54e-07 ms    Tp_s =   304.36 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   147    dt = 1.55e-12 s    ord = 1    time = 1.55e-07 ms    Tp_s =   304.41 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   148    dt = 1.45e-12 s    ord = 1    time = 1.57e-07 ms    Tp_s =   304.45 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   149    dt = 1.45e-12 s    ord = 1    time = 1.58e-07 ms    Tp_s =   304.49 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   150    dt = 1.34e-12 s    ord = 1    time = 1.59e-07 ms    Tp_s =   304.53 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   151    dt = 1.20e-12 s    ord = 1    time = 1.61e-07 ms    Tp_s =   304.56 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   152    dt = 1.09e-12 s    ord = 1    time = 1.62e-07 ms    Tp_s =   304.59 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   153    dt = 1.06e-12 s    ord = 1    time = 1.63e-07 ms    Tp_s =   304.62 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   154    dt = 1.12e-12 s    ord = 1    time = 1.64e-07 ms    Tp_s =   304.66 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   155    dt = 1.24e-12 s    ord = 1    time = 1.65e-07 ms    Tp_s =   304.69 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   156    dt = 1.39e-12 s    ord = 1    time = 1.67e-07 ms    Tp_s =   304.73 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   157    dt = 1.48e-12 s    ord = 1    time = 1.68e-07 ms    Tp_s =   304.78 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   158    dt = 1.46e-12 s    ord = 1    time = 1.70e-07 ms    Tp_s =   304.82 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   159    dt = 1.32e-12 s    ord = 1    time = 1.71e-07 ms    Tp_s =   304.86 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   160    dt = 1.17e-12 s    ord = 1    time = 1.72e-07 ms    Tp_s =   304.89 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   161    dt = 1.08e-12 s    ord = 1    time = 1.73e-07 ms    Tp_s =   304.92 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   162    dt = 1.07e-12 s    ord = 1    time = 1.74e-07 ms    Tp_s =   304.95 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   163    dt = 1.14e-12 s    ord = 1    time = 1.75e-07 ms    Tp_s =   304.98 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   164    dt = 1.28e-12 s    ord = 1    time = 1.77e-07 ms    Tp_s =   305.02 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   165    dt = 1.43e-12 s    ord = 1    time = 1.78e-07 ms    Tp_s =   305.06 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   166    dt = 1.51e-12 s    ord = 1    time = 1.80e-07 ms    Tp_s =   305.11 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   167    dt = 1.45e-12 s    ord = 1    time = 1.81e-07 ms    Tp_s =   305.15 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   168    dt = 1.45e-12 s    ord = 1    time = 1.82e-07 ms    Tp_s =   305.19 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   169    dt = 1.35e-12 s    ord = 1    time = 1.84e-07 ms    Tp_s =   305.23 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   170    dt = 1.21e-12 s    ord = 1    time = 1.85e-07 ms    Tp_s =   305.27 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   171    dt = 1.11e-12 s    ord = 1    time = 1.86e-07 ms    Tp_s =   305.30 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   172    dt = 1.08e-12 s    ord = 1    time = 1.87e-07 ms    Tp_s =   305.33 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   173    dt = 1.14e-12 s    ord = 1    time = 1.88e-07 ms    Tp_s =   305.36 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   174    dt = 1.25e-12 s    ord = 1    time = 1.90e-07 ms    Tp_s =   305.40 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   175    dt = 1.39e-12 s    ord = 1    time = 1.91e-07 ms    Tp_s =   305.44 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   176    dt = 1.48e-12 s    ord = 1    time = 1.92e-07 ms    Tp_s =   305.48 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   177    dt = 1.46e-12 s    ord = 1    time = 1.94e-07 ms    Tp_s =   305.52 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   178    dt = 1.34e-12 s    ord = 1    time = 1.95e-07 ms    Tp_s =   305.56 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   179    dt = 1.19e-12 s    ord = 1    time = 1.96e-07 ms    Tp_s =   305.60 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   180    dt = 1.10e-12 s    ord = 1    time = 1.98e-07 ms    Tp_s =   305.63 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   181    dt = 1.07e-12 s    ord = 1    time = 1.99e-07 ms    Tp_s =   305.66 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   182    dt = 1.14e-12 s    ord = 1    time = 2.00e-07 ms    Tp_s =   305.69 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   183    dt = 1.25e-12 s    ord = 1    time = 2.01e-07 ms    Tp_s =   305.73 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   184    dt = 1.34e-12 s    ord = 1    time = 2.02e-07 ms    Tp_s =   305.77 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   185    dt = 1.42e-12 s    ord = 1    time = 2.04e-07 ms    Tp_s =   305.81 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   186    dt = 1.42e-12 s    ord = 1    time = 2.05e-07 ms    Tp_s =   305.85 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   187    dt = 1.34e-12 s    ord = 1    time = 2.07e-07 ms    Tp_s =   305.89 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   188    dt = 1.23e-12 s    ord = 1    time = 2.08e-07 ms    Tp_s =   305.93 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   189    dt = 1.15e-12 s    ord = 1    time = 2.09e-07 ms    Tp_s =   305.96 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   190    dt = 1.13e-12 s    ord = 1    time = 2.10e-07 ms    Tp_s =   305.99 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   191    dt = 1.18e-12 s    ord = 1    time = 2.11e-07 ms    Tp_s =   306.03 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   192    dt = 1.27e-12 s    ord = 1    time = 2.12e-07 ms    Tp_s =   306.06 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   193    dt = 1.38e-12 s    ord = 1    time = 2.14e-07 ms    Tp_s =   306.11 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   194    dt = 1.44e-12 s    ord = 1    time = 2.15e-07 ms    Tp_s =   306.15 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   195    dt = 1.42e-12 s    ord = 1    time = 2.17e-07 ms    Tp_s =   306.19 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   196    dt = 1.32e-12 s    ord = 1    time = 2.18e-07 ms    Tp_s =   306.23 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   197    dt = 1.21e-12 s    ord = 1    time = 2.19e-07 ms    Tp_s =   306.26 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   198    dt = 6.03e-13 s    ord = 1    time = 2.20e-07 ms    Tp_s =   306.28 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   199    dt = 6.03e-13 s    ord = 1    time = 2.20e-07 ms    Tp_s =   306.30 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   200    dt = 5.42e-13 s    ord = 1    time = 2.21e-07 ms    Tp_s =   306.31 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   201    dt = 1.08e-12 s    ord = 1    time = 2.22e-07 ms    Tp_s =   306.34 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   202    dt = 8.29e-13 s    ord = 1    time = 2.23e-07 ms    Tp_s =   306.37 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   203    dt = 7.46e-13 s    ord = 1    time = 2.24e-07 ms    Tp_s =   306.39 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   204    dt = 7.46e-13 s    ord = 1    time = 2.24e-07 ms    Tp_s =   306.41 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   205    dt = 7.46e-13 s    ord = 1    time = 2.25e-07 ms    Tp_s =   306.43 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   206    dt = 7.46e-13 s    ord = 1    time = 2.26e-07 ms    Tp_s =   306.46 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   207    dt = 1.49e-12 s    ord = 1    time = 2.27e-07 ms    Tp_s =   306.50 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   208    dt = 1.18e-12 s    ord = 1    time = 2.29e-07 ms    Tp_s =   306.53 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   209    dt = 1.06e-12 s    ord = 1    time = 2.30e-07 ms    Tp_s =   306.56 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   210    dt = 1.07e-12 s    ord = 1    time = 2.31e-07 ms    Tp_s =   306.60 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   211    dt = 1.16e-12 s    ord = 1    time = 2.32e-07 ms    Tp_s =   306.63 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   212    dt = 1.33e-12 s    ord = 1    time = 2.33e-07 ms    Tp_s =   306.67 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   213    dt = 1.52e-12 s    ord = 1    time = 2.35e-07 ms    Tp_s =   306.71 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   214    dt = 1.62e-12 s    ord = 1    time = 2.36e-07 ms    Tp_s =   306.76 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   215    dt = 1.54e-12 s    ord = 1    time = 2.38e-07 ms    Tp_s =   306.81 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   216    dt = 1.54e-12 s    ord = 1    time = 2.39e-07 ms    Tp_s =   306.85 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   217    dt = 1.41e-12 s    ord = 1    time = 2.41e-07 ms    Tp_s =   306.89 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   218    dt = 1.24e-12 s    ord = 1    time = 2.42e-07 ms    Tp_s =   306.93 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   219    dt = 1.12e-12 s    ord = 1    time = 2.43e-07 ms    Tp_s =   306.96 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   220    dt = 1.09e-12 s    ord = 1    time = 2.44e-07 ms    Tp_s =   306.99 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   221    dt = 1.15e-12 s    ord = 1    time = 2.45e-07 ms    Tp_s =   307.03 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   222    dt = 1.29e-12 s    ord = 1    time = 2.47e-07 ms    Tp_s =   307.06 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   223    dt = 1.46e-12 s    ord = 1    time = 2.48e-07 ms    Tp_s =   307.11 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   224    dt = 1.58e-12 s    ord = 1    time = 2.50e-07 ms    Tp_s =   307.15 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   225    dt = 1.55e-12 s    ord = 1    time = 2.51e-07 ms    Tp_s =   307.20 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   226    dt = 1.55e-12 s    ord = 1    time = 2.53e-07 ms    Tp_s =   307.24 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   227    dt = 1.42e-12 s    ord = 1    time = 2.54e-07 ms    Tp_s =   307.28 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   228    dt = 1.25e-12 s    ord = 1    time = 2.56e-07 ms    Tp_s =   307.32 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   229    dt = 1.13e-12 s    ord = 1    time = 2.57e-07 ms    Tp_s =   307.35 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   230    dt = 1.10e-12 s    ord = 1    time = 2.58e-07 ms    Tp_s =   307.39 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   231    dt = 1.16e-12 s    ord = 1    time = 2.59e-07 ms    Tp_s =   307.42 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   232    dt = 1.30e-12 s    ord = 1    time = 2.60e-07 ms    Tp_s =   307.46 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   233    dt = 1.48e-12 s    ord = 1    time = 2.62e-07 ms    Tp_s =   307.50 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   234    dt = 1.59e-12 s    ord = 1    time = 2.63e-07 ms    Tp_s =   307.55 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   235    dt = 1.55e-12 s    ord = 1    time = 2.65e-07 ms    Tp_s =   307.59 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   236    dt = 1.55e-12 s    ord = 1    time = 2.66e-07 ms    Tp_s =   307.64 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   237    dt = 1.43e-12 s    ord = 1    time = 2.68e-07 ms    Tp_s =   307.68 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   238    dt = 1.26e-12 s    ord = 1    time = 2.69e-07 ms    Tp_s =   307.72 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   239    dt = 1.13e-12 s    ord = 1    time = 2.70e-07 ms    Tp_s =   307.75 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   240    dt = 1.10e-12 s    ord = 1    time = 2.71e-07 ms    Tp_s =   307.78 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   241    dt = 1.17e-12 s    ord = 1    time = 2.72e-07 ms    Tp_s =   307.82 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   242    dt = 1.31e-12 s    ord = 1    time = 2.74e-07 ms    Tp_s =   307.86 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   243    dt = 1.48e-12 s    ord = 1    time = 2.75e-07 ms    Tp_s =   307.90 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   244    dt = 1.59e-12 s    ord = 1    time = 2.77e-07 ms    Tp_s =   307.95 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   245    dt = 1.56e-12 s    ord = 1    time = 2.78e-07 ms    Tp_s =   307.99 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   246    dt = 1.56e-12 s    ord = 1    time = 2.80e-07 ms    Tp_s =   308.04 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   247    dt = 1.43e-12 s    ord = 1    time = 2.81e-07 ms    Tp_s =   308.08 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   248    dt = 1.27e-12 s    ord = 1    time = 2.83e-07 ms    Tp_s =   308.12 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   249    dt = 1.15e-12 s    ord = 1    time = 2.84e-07 ms    Tp_s =   308.15 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   250    dt = 1.11e-12 s    ord = 1    time = 2.85e-07 ms    Tp_s =   308.18 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   251    dt = 1.18e-12 s    ord = 1    time = 2.86e-07 ms    Tp_s =   308.22 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   252    dt = 1.32e-12 s    ord = 1    time = 2.87e-07 ms    Tp_s =   308.26 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   253    dt = 1.49e-12 s    ord = 1    time = 2.89e-07 ms    Tp_s =   308.30 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   254    dt = 1.59e-12 s    ord = 1    time = 2.90e-07 ms    Tp_s =   308.35 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   255    dt = 1.56e-12 s    ord = 1    time = 2.92e-07 ms    Tp_s =   308.39 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   256    dt = 1.56e-12 s    ord = 1    time = 2.94e-07 ms    Tp_s =   308.44 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   257    dt = 1.44e-12 s    ord = 1    time = 2.95e-07 ms    Tp_s =   308.48 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   258    dt = 1.28e-12 s    ord = 1    time = 2.96e-07 ms    Tp_s =   308.52 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   259    dt = 1.16e-12 s    ord = 1    time = 2.97e-07 ms    Tp_s =   308.55 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   260    dt = 1.13e-12 s    ord = 1    time = 2.99e-07 ms    Tp_s =   308.59 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   261    dt = 1.19e-12 s    ord = 1    time = 3.00e-07 ms    Tp_s =   308.62 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   262    dt = 1.33e-12 s    ord = 1    time = 3.01e-07 ms    Tp_s =   308.66 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   263    dt = 1.49e-12 s    ord = 1    time = 3.03e-07 ms    Tp_s =   308.70 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   264    dt = 1.60e-12 s    ord = 1    time = 3.04e-07 ms    Tp_s =   308.75 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   265    dt = 1.57e-12 s    ord = 1    time = 3.06e-07 ms    Tp_s =   308.80 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   266    dt = 1.57e-12 s    ord = 1    time = 3.07e-07 ms    Tp_s =   308.84 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   267    dt = 1.45e-12 s    ord = 1    time = 3.09e-07 ms    Tp_s =   308.89 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   268    dt = 1.29e-12 s    ord = 1    time = 3.10e-07 ms    Tp_s =   308.92 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   269    dt = 1.17e-12 s    ord = 1    time = 3.11e-07 ms    Tp_s =   308.96 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   270    dt = 1.14e-12 s    ord = 1    time = 3.12e-07 ms    Tp_s =   308.99 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   271    dt = 1.20e-12 s    ord = 1    time = 3.14e-07 ms    Tp_s =   309.03 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   272    dt = 1.34e-12 s    ord = 1    time = 3.15e-07 ms    Tp_s =   309.07 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   273    dt = 1.50e-12 s    ord = 1    time = 3.16e-07 ms    Tp_s =   309.11 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   274    dt = 1.60e-12 s    ord = 1    time = 3.18e-07 ms    Tp_s =   309.16 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   275    dt = 1.57e-12 s    ord = 1    time = 3.20e-07 ms    Tp_s =   309.20 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   276    dt = 1.42e-12 s    ord = 1    time = 3.21e-07 ms    Tp_s =   309.25 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   277    dt = 1.26e-12 s    ord = 1    time = 3.22e-07 ms    Tp_s =   309.28 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   278    dt = 1.16e-12 s    ord = 1    time = 3.23e-07 ms    Tp_s =   309.32 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   279    dt = 1.15e-12 s    ord = 1    time = 3.25e-07 ms    Tp_s =   309.35 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   280    dt = 1.24e-12 s    ord = 1    time = 3.26e-07 ms    Tp_s =   309.39 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   281    dt = 1.39e-12 s    ord = 1    time = 3.27e-07 ms    Tp_s =   309.43 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   282    dt = 1.55e-12 s    ord = 1    time = 3.29e-07 ms    Tp_s =   309.47 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   283    dt = 1.63e-12 s    ord = 1    time = 3.30e-07 ms    Tp_s =   309.52 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   284    dt = 1.56e-12 s    ord = 1    time = 3.32e-07 ms    Tp_s =   309.57 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   285    dt = 1.56e-12 s    ord = 1    time = 3.34e-07 ms    Tp_s =   309.61 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   286    dt = 1.46e-12 s    ord = 1    time = 3.35e-07 ms    Tp_s =   309.66 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   287    dt = 1.31e-12 s    ord = 1    time = 3.36e-07 ms    Tp_s =   309.70 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   288    dt = 1.21e-12 s    ord = 1    time = 3.38e-07 ms    Tp_s =   309.73 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   289    dt = 1.18e-12 s    ord = 1    time = 3.39e-07 ms    Tp_s =   309.77 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   290    dt = 1.24e-12 s    ord = 1    time = 3.40e-07 ms    Tp_s =   309.80 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   291    dt = 1.36e-12 s    ord = 1    time = 3.41e-07 ms    Tp_s =   309.84 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   292    dt = 1.51e-12 s    ord = 1    time = 3.43e-07 ms    Tp_s =   309.89 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   293    dt = 1.59e-12 s    ord = 1    time = 3.44e-07 ms    Tp_s =   309.94 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   294    dt = 1.57e-12 s    ord = 1    time = 3.46e-07 ms    Tp_s =   309.98 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   295    dt = 1.44e-12 s    ord = 1    time = 3.47e-07 ms    Tp_s =   310.02 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   296    dt = 1.29e-12 s    ord = 1    time = 3.49e-07 ms    Tp_s =   310.06 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   297    dt = 1.20e-12 s    ord = 1    time = 3.50e-07 ms    Tp_s =   310.10 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   298    dt = 1.19e-12 s    ord = 1    time = 3.51e-07 ms    Tp_s =   310.13 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   299    dt = 1.27e-12 s    ord = 1    time = 3.52e-07 ms    Tp_s =   310.17 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   300    dt = 1.41e-12 s    ord = 1    time = 3.54e-07 ms    Tp_s =   310.21 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   301    dt = 1.56e-12 s    ord = 1    time = 3.55e-07 ms    Tp_s =   310.26 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   302    dt = 1.62e-12 s    ord = 1    time = 3.57e-07 ms    Tp_s =   310.31 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   303    dt = 1.56e-12 s    ord = 1    time = 3.58e-07 ms    Tp_s =   310.35 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   304    dt = 1.41e-12 s    ord = 1    time = 3.60e-07 ms    Tp_s =   310.39 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   305    dt = 1.26e-12 s    ord = 1    time = 3.61e-07 ms    Tp_s =   310.43 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   306    dt = 1.19e-12 s    ord = 1    time = 3.62e-07 ms    Tp_s =   310.47 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   307    dt = 1.21e-12 s    ord = 1    time = 3.64e-07 ms    Tp_s =   310.50 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   308    dt = 1.31e-12 s    ord = 1    time = 3.65e-07 ms    Tp_s =   310.54 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   309    dt = 1.47e-12 s    ord = 1    time = 3.66e-07 ms    Tp_s =   310.58 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   310    dt = 1.61e-12 s    ord = 1    time = 3.68e-07 ms    Tp_s =   310.63 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   311    dt = 1.64e-12 s    ord = 1    time = 3.70e-07 ms    Tp_s =   310.68 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   312    dt = 1.54e-12 s    ord = 1    time = 3.71e-07 ms    Tp_s =   310.72 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   313    dt = 1.38e-12 s    ord = 1    time = 3.73e-07 ms    Tp_s =   310.77 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   314    dt = 1.24e-12 s    ord = 1    time = 3.74e-07 ms    Tp_s =   310.80 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   315    dt = 1.19e-12 s    ord = 1    time = 3.75e-07 ms    Tp_s =   310.84 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   316    dt = 1.23e-12 s    ord = 1    time = 3.76e-07 ms    Tp_s =   310.87 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   317    dt = 1.36e-12 s    ord = 1    time = 3.78e-07 ms    Tp_s =   310.91 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   318    dt = 1.52e-12 s    ord = 1    time = 3.79e-07 ms    Tp_s =   310.96 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   319    dt = 1.65e-12 s    ord = 1    time = 3.81e-07 ms    Tp_s =   311.01 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   320    dt = 1.65e-12 s    ord = 1    time = 3.82e-07 ms    Tp_s =   311.06 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   321    dt = 1.52e-12 s    ord = 1    time = 3.84e-07 ms    Tp_s =   311.10 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   322    dt = 1.35e-12 s    ord = 1    time = 3.85e-07 ms    Tp_s =   311.14 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   323    dt = 1.22e-12 s    ord = 1    time = 3.86e-07 ms    Tp_s =   311.18 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   324    dt = 1.19e-12 s    ord = 1    time = 3.88e-07 ms    Tp_s =   311.21 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   325    dt = 1.26e-12 s    ord = 1    time = 3.89e-07 ms    Tp_s =   311.25 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   326    dt = 1.41e-12 s    ord = 1    time = 3.90e-07 ms    Tp_s =   311.29 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   327    dt = 1.58e-12 s    ord = 1    time = 3.92e-07 ms    Tp_s =   311.34 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   328    dt = 1.69e-12 s    ord = 1    time = 3.94e-07 ms    Tp_s =   311.39 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   329    dt = 1.65e-12 s    ord = 1    time = 3.95e-07 ms    Tp_s =   311.44 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   330    dt = 1.65e-12 s    ord = 1    time = 3.97e-07 ms    Tp_s =   311.49 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   331    dt = 1.53e-12 s    ord = 1    time = 3.98e-07 ms    Tp_s =   311.53 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   332    dt = 1.36e-12 s    ord = 1    time = 4.00e-07 ms    Tp_s =   311.57 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   333    dt = 1.24e-12 s    ord = 1    time = 4.01e-07 ms    Tp_s =   311.61 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   334    dt = 1.21e-12 s    ord = 1    time = 4.02e-07 ms    Tp_s =   311.64 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   335    dt = 1.28e-12 s    ord = 1    time = 4.03e-07 ms    Tp_s =   311.68 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   336    dt = 1.42e-12 s    ord = 1    time = 4.05e-07 ms    Tp_s =   311.72 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   337    dt = 1.59e-12 s    ord = 1    time = 4.07e-07 ms    Tp_s =   311.77 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   338    dt = 1.69e-12 s    ord = 1    time = 4.08e-07 ms    Tp_s =   311.82 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   339    dt = 1.66e-12 s    ord = 1    time = 4.10e-07 ms    Tp_s =   311.87 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   340    dt = 1.50e-12 s    ord = 1    time = 4.11e-07 ms    Tp_s =   311.92 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   341    dt = 1.33e-12 s    ord = 1    time = 4.13e-07 ms    Tp_s =   311.95 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   342    dt = 1.23e-12 s    ord = 1    time = 4.14e-07 ms    Tp_s =   311.99 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   343    dt = 1.22e-12 s    ord = 1    time = 4.15e-07 ms    Tp_s =   312.03 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   344    dt = 1.32e-12 s    ord = 1    time = 4.16e-07 ms    Tp_s =   312.07 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   345    dt = 1.48e-12 s    ord = 1    time = 4.18e-07 ms    Tp_s =   312.11 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   346    dt = 1.65e-12 s    ord = 1    time = 4.20e-07 ms    Tp_s =   312.16 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   347    dt = 1.73e-12 s    ord = 1    time = 4.21e-07 ms    Tp_s =   312.21 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   348    dt = 1.65e-12 s    ord = 1    time = 4.23e-07 ms    Tp_s =   312.26 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   349    dt = 1.65e-12 s    ord = 1    time = 4.25e-07 ms    Tp_s =   312.31 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   350    dt = 1.54e-12 s    ord = 1    time = 4.26e-07 ms    Tp_s =   312.35 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   351    dt = 1.40e-12 s    ord = 1    time = 4.28e-07 ms    Tp_s =   312.39 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   352    dt = 1.29e-12 s    ord = 1    time = 4.29e-07 ms    Tp_s =   312.43 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   353    dt = 1.26e-12 s    ord = 1    time = 4.30e-07 ms    Tp_s =   312.47 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   354    dt = 1.32e-12 s    ord = 1    time = 4.31e-07 ms    Tp_s =   312.51 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   355    dt = 1.45e-12 s    ord = 1    time = 4.33e-07 ms    Tp_s =   312.55 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   356    dt = 1.59e-12 s    ord = 1    time = 4.34e-07 ms    Tp_s =   312.60 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   357    dt = 1.68e-12 s    ord = 1    time = 4.36e-07 ms    Tp_s =   312.65 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   358    dt = 1.65e-12 s    ord = 1    time = 4.38e-07 ms    Tp_s =   312.70 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   359    dt = 1.52e-12 s    ord = 1    time = 4.39e-07 ms    Tp_s =   312.74 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   360    dt = 1.37e-12 s    ord = 1    time = 4.41e-07 ms    Tp_s =   312.78 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   361    dt = 1.28e-12 s    ord = 1    time = 4.42e-07 ms    Tp_s =   312.82 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   362    dt = 1.27e-12 s    ord = 1    time = 4.43e-07 ms    Tp_s =   312.86 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   363    dt = 1.36e-12 s    ord = 1    time = 4.45e-07 ms    Tp_s =   312.90 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   364    dt = 1.50e-12 s    ord = 1    time = 4.46e-07 ms    Tp_s =   312.94 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   365    dt = 1.65e-12 s    ord = 1    time = 4.48e-07 ms    Tp_s =   312.99 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   366    dt = 1.71e-12 s    ord = 1    time = 4.49e-07 ms    Tp_s =   313.04 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   367    dt = 1.65e-12 s    ord = 1    time = 4.51e-07 ms    Tp_s =   313.09 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   368    dt = 1.49e-12 s    ord = 1    time = 4.53e-07 ms    Tp_s =   313.14 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   369    dt = 1.35e-12 s    ord = 1    time = 4.54e-07 ms    Tp_s =   313.18 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   370    dt = 1.27e-12 s    ord = 1    time = 4.55e-07 ms    Tp_s =   313.21 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   371    dt = 1.29e-12 s    ord = 1    time = 4.57e-07 ms    Tp_s =   313.25 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   372    dt = 1.40e-12 s    ord = 1    time = 4.58e-07 ms    Tp_s =   313.29 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   373    dt = 1.56e-12 s    ord = 1    time = 4.59e-07 ms    Tp_s =   313.34 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   374    dt = 1.70e-12 s    ord = 1    time = 4.61e-07 ms    Tp_s =   313.39 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   375    dt = 1.73e-12 s    ord = 1    time = 4.63e-07 ms    Tp_s =   313.44 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   376    dt = 1.63e-12 s    ord = 1    time = 4.65e-07 ms    Tp_s =   313.49 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   377    dt = 1.46e-12 s    ord = 1    time = 4.66e-07 ms    Tp_s =   313.53 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   378    dt = 1.33e-12 s    ord = 1    time = 4.67e-07 ms    Tp_s =   313.57 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   379    dt = 1.28e-12 s    ord = 1    time = 4.69e-07 ms    Tp_s =   313.61 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   380    dt = 1.32e-12 s    ord = 1    time = 4.70e-07 ms    Tp_s =   313.65 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   381    dt = 1.45e-12 s    ord = 1    time = 4.71e-07 ms    Tp_s =   313.69 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   382    dt = 1.62e-12 s    ord = 1    time = 4.73e-07 ms    Tp_s =   313.74 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   383    dt = 1.75e-12 s    ord = 1    time = 4.75e-07 ms    Tp_s =   313.79 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   384    dt = 1.74e-12 s    ord = 1    time = 4.76e-07 ms    Tp_s =   313.85 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   385    dt = 1.61e-12 s    ord = 1    time = 4.78e-07 ms    Tp_s =   313.89 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   386    dt = 1.43e-12 s    ord = 1    time = 4.80e-07 ms    Tp_s =   313.94 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   387    dt = 1.31e-12 s    ord = 1    time = 4.81e-07 ms    Tp_s =   313.97 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   388    dt = 1.29e-12 s    ord = 1    time = 4.82e-07 ms    Tp_s =   314.01 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   389    dt = 1.36e-12 s    ord = 1    time = 4.83e-07 ms    Tp_s =   314.05 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   390    dt = 1.51e-12 s    ord = 1    time = 4.85e-07 ms    Tp_s =   314.10 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   391    dt = 1.69e-12 s    ord = 1    time = 4.87e-07 ms    Tp_s =   314.15 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   392    dt = 1.79e-12 s    ord = 1    time = 4.88e-07 ms    Tp_s =   314.20 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   393    dt = 1.74e-12 s    ord = 1    time = 4.90e-07 ms    Tp_s =   314.25 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   394    dt = 1.63e-12 s    ord = 1    time = 4.92e-07 ms    Tp_s =   314.30 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   395    dt = 1.52e-12 s    ord = 1    time = 4.93e-07 ms    Tp_s =   314.35 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   396    dt = 1.52e-12 s    ord = 1    time = 4.95e-07 ms    Tp_s =   314.39 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   397    dt = 1.37e-12 s    ord = 1    time = 4.96e-07 ms    Tp_s =   314.43 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   398    dt = 1.37e-12 s    ord = 1    time = 4.98e-07 ms    Tp_s =   314.47 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   399    dt = 1.37e-12 s    ord = 1    time = 4.99e-07 ms    Tp_s =   314.51 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   400    dt = 1.37e-12 s    ord = 1    time = 5.00e-07 ms    Tp_s =   314.55 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   401    dt = 1.48e-12 s    ord = 1    time = 5.02e-07 ms    Tp_s =   314.60 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   402    dt = 1.43e-12 s    ord = 1    time = 5.03e-07 ms    Tp_s =   314.64 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   403    dt = 1.50e-12 s    ord = 1    time = 5.05e-07 ms    Tp_s =   314.68 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   404    dt = 1.58e-12 s    ord = 1    time = 5.06e-07 ms    Tp_s =   314.73 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   405    dt = 1.64e-12 s    ord = 1    time = 5.08e-07 ms    Tp_s =   314.78 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   406    dt = 1.65e-12 s    ord = 1    time = 5.10e-07 ms    Tp_s =   314.83 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   407    dt = 1.59e-12 s    ord = 1    time = 5.11e-07 ms    Tp_s =   314.88 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   408    dt = 1.50e-12 s    ord = 1    time = 5.13e-07 ms    Tp_s =   314.92 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   409    dt = 1.44e-12 s    ord = 1    time = 5.14e-07 ms    Tp_s =   314.96 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   410    dt = 1.42e-12 s    ord = 1    time = 5.16e-07 ms    Tp_s =   315.00 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   411    dt = 1.46e-12 s    ord = 1    time = 5.17e-07 ms    Tp_s =   315.05 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   412    dt = 1.54e-12 s    ord = 1    time = 5.19e-07 ms    Tp_s =   315.09 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   413    dt = 1.62e-12 s    ord = 1    time = 5.20e-07 ms    Tp_s =   315.14 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   414    dt = 1.67e-12 s    ord = 1    time = 5.22e-07 ms    Tp_s =   315.19 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   415    dt = 1.65e-12 s    ord = 1    time = 5.24e-07 ms    Tp_s =   315.24 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   416    dt = 1.58e-12 s    ord = 1    time = 5.25e-07 ms    Tp_s =   315.29 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   417    dt = 1.49e-12 s    ord = 1    time = 5.27e-07 ms    Tp_s =   315.33 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   418    dt = 1.44e-12 s    ord = 1    time = 5.28e-07 ms    Tp_s =   315.37 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   419    dt = 1.44e-12 s    ord = 1    time = 5.29e-07 ms    Tp_s =   315.42 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   420    dt = 3.73e-13 s    ord = 1    time = 5.30e-07 ms    Tp_s =   315.43 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   421    dt = 3.73e-13 s    ord = 1    time = 5.30e-07 ms    Tp_s =   315.44 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   422    dt = 3.03e-13 s    ord = 1    time = 5.31e-07 ms    Tp_s =   315.45 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   423    dt = 6.06e-13 s    ord = 1    time = 5.31e-07 ms    Tp_s =   315.47 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   424    dt = 6.06e-13 s    ord = 1    time = 5.32e-07 ms    Tp_s =   315.48 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   425    dt = 6.06e-13 s    ord = 1    time = 5.32e-07 ms    Tp_s =   315.50 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   426    dt = 6.06e-13 s    ord = 1    time = 5.33e-07 ms    Tp_s =   315.52 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   427    dt = 1.21e-12 s    ord = 1    time = 5.34e-07 ms    Tp_s =   315.56 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   428    dt = 1.01e-12 s    ord = 1    time = 5.35e-07 ms    Tp_s =   315.59 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   429    dt = 7.54e-13 s    ord = 1    time = 5.36e-07 ms    Tp_s =   315.61 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   430    dt = 6.78e-13 s    ord = 1    time = 5.37e-07 ms    Tp_s =   315.63 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   431    dt = 6.78e-13 s    ord = 1    time = 5.37e-07 ms    Tp_s =   315.65 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   432    dt = 6.78e-13 s    ord = 1    time = 5.38e-07 ms    Tp_s =   315.67 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   433    dt = 1.36e-12 s    ord = 1    time = 5.39e-07 ms    Tp_s =   315.71 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   434    dt = 1.36e-12 s    ord = 1    time = 5.41e-07 ms    Tp_s =   315.75 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   435    dt = 1.36e-12 s    ord = 1    time = 5.42e-07 ms    Tp_s =   315.79 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   436    dt = 1.42e-12 s    ord = 1    time = 5.43e-07 ms    Tp_s =   315.83 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   437    dt = 1.42e-12 s    ord = 1    time = 5.45e-07 ms    Tp_s =   315.87 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   438    dt = 1.42e-12 s    ord = 1    time = 5.46e-07 ms    Tp_s =   315.91 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   439    dt = 1.56e-12 s    ord = 1    time = 5.48e-07 ms    Tp_s =   315.96 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   440    dt = 1.56e-12 s    ord = 1    time = 5.49e-07 ms    Tp_s =   316.01 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   441    dt = 1.56e-12 s    ord = 1    time = 5.51e-07 ms    Tp_s =   316.05 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   442    dt = 1.57e-12 s    ord = 1    time = 5.53e-07 ms    Tp_s =   316.10 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   443    dt = 1.59e-12 s    ord = 1    time = 5.54e-07 ms    Tp_s =   316.15 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   444    dt = 1.59e-12 s    ord = 1    time = 5.56e-07 ms    Tp_s =   316.19 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   445    dt = 1.60e-12 s    ord = 1    time = 5.57e-07 ms    Tp_s =   316.24 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   446    dt = 1.59e-12 s    ord = 1    time = 5.59e-07 ms    Tp_s =   316.29 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   447    dt = 1.58e-12 s    ord = 1    time = 5.60e-07 ms    Tp_s =   316.34 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   448    dt = 1.58e-12 s    ord = 1    time = 5.62e-07 ms    Tp_s =   316.38 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   449    dt = 1.58e-12 s    ord = 1    time = 5.64e-07 ms    Tp_s =   316.43 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   450    dt = 1.58e-12 s    ord = 1    time = 5.65e-07 ms    Tp_s =   316.48 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   451    dt = 1.59e-12 s    ord = 1    time = 5.67e-07 ms    Tp_s =   316.52 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   452    dt = 1.61e-12 s    ord = 1    time = 5.68e-07 ms    Tp_s =   316.57 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   453    dt = 1.61e-12 s    ord = 1    time = 5.70e-07 ms    Tp_s =   316.62 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   454    dt = 1.61e-12 s    ord = 1    time = 5.72e-07 ms    Tp_s =   316.67 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   455    dt = 1.61e-12 s    ord = 1    time = 5.73e-07 ms    Tp_s =   316.71 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   456    dt = 1.60e-12 s    ord = 1    time = 5.75e-07 ms    Tp_s =   316.76 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   457    dt = 1.59e-12 s    ord = 1    time = 5.76e-07 ms    Tp_s =   316.81 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   458    dt = 1.60e-12 s    ord = 1    time = 5.78e-07 ms    Tp_s =   316.86 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   459    dt = 1.60e-12 s    ord = 1    time = 5.80e-07 ms    Tp_s =   316.90 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   460    dt = 1.62e-12 s    ord = 1    time = 5.81e-07 ms    Tp_s =   316.95 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   461    dt = 1.63e-12 s    ord = 1    time = 5.83e-07 ms    Tp_s =   317.00 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   462    dt = 1.63e-12 s    ord = 1    time = 5.85e-07 ms    Tp_s =   317.05 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   463    dt = 1.63e-12 s    ord = 1    time = 5.86e-07 ms    Tp_s =   317.10 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   464    dt = 1.62e-12 s    ord = 1    time = 5.88e-07 ms    Tp_s =   317.14 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   465    dt = 1.61e-12 s    ord = 1    time = 5.89e-07 ms    Tp_s =   317.19 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   466    dt = 1.61e-12 s    ord = 1    time = 5.91e-07 ms    Tp_s =   317.24 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   467    dt = 1.62e-12 s    ord = 1    time = 5.93e-07 ms    Tp_s =   317.29 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   468    dt = 1.62e-12 s    ord = 1    time = 5.94e-07 ms    Tp_s =   317.34 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   469    dt = 1.64e-12 s    ord = 1    time = 5.96e-07 ms    Tp_s =   317.38 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   470    dt = 1.65e-12 s    ord = 1    time = 5.98e-07 ms    Tp_s =   317.43 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   471    dt = 1.65e-12 s    ord = 1    time = 5.99e-07 ms    Tp_s =   317.48 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   472    dt = 1.65e-12 s    ord = 1    time = 6.01e-07 ms    Tp_s =   317.53 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   473    dt = 1.64e-12 s    ord = 1    time = 6.02e-07 ms    Tp_s =   317.58 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   474    dt = 1.63e-12 s    ord = 1    time = 6.04e-07 ms    Tp_s =   317.63 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   475    dt = 1.63e-12 s    ord = 1    time = 6.06e-07 ms    Tp_s =   317.68 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   476    dt = 1.64e-12 s    ord = 1    time = 6.07e-07 ms    Tp_s =   317.72 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   477    dt = 1.65e-12 s    ord = 1    time = 6.09e-07 ms    Tp_s =   317.77 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   478    dt = 1.66e-12 s    ord = 1    time = 6.11e-07 ms    Tp_s =   317.82 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   479    dt = 1.67e-12 s    ord = 1    time = 6.12e-07 ms    Tp_s =   317.87 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   480    dt = 1.67e-12 s    ord = 1    time = 6.14e-07 ms    Tp_s =   317.92 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   481    dt = 1.66e-12 s    ord = 1    time = 6.16e-07 ms    Tp_s =   317.97 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   482    dt = 1.65e-12 s    ord = 1    time = 6.17e-07 ms    Tp_s =   318.02 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   483    dt = 1.65e-12 s    ord = 1    time = 6.19e-07 ms    Tp_s =   318.07 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   484    dt = 1.65e-12 s    ord = 1    time = 6.21e-07 ms    Tp_s =   318.12 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   485    dt = 1.66e-12 s    ord = 1    time = 6.22e-07 ms    Tp_s =   318.16 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   486    dt = 1.67e-12 s    ord = 1    time = 6.24e-07 ms    Tp_s =   318.21 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   487    dt = 1.68e-12 s    ord = 1    time = 6.26e-07 ms    Tp_s =   318.26 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   488    dt = 1.69e-12 s    ord = 1    time = 6.27e-07 ms    Tp_s =   318.31 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   489    dt = 1.69e-12 s    ord = 1    time = 6.29e-07 ms    Tp_s =   318.36 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   490    dt = 1.68e-12 s    ord = 1    time = 6.31e-07 ms    Tp_s =   318.41 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   491    dt = 1.67e-12 s    ord = 1    time = 6.32e-07 ms    Tp_s =   318.46 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   492    dt = 1.67e-12 s    ord = 1    time = 6.34e-07 ms    Tp_s =   318.51 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   493    dt = 1.67e-12 s    ord = 1    time = 6.36e-07 ms    Tp_s =   318.56 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   494    dt = 1.68e-12 s    ord = 1    time = 6.37e-07 ms    Tp_s =   318.61 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   495    dt = 1.69e-12 s    ord = 1    time = 6.39e-07 ms    Tp_s =   318.66 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   496    dt = 1.70e-12 s    ord = 1    time = 6.41e-07 ms    Tp_s =   318.71 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   497    dt = 1.71e-12 s    ord = 1    time = 6.42e-07 ms    Tp_s =   318.76 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   498    dt = 1.70e-12 s    ord = 1    time = 6.44e-07 ms    Tp_s =   318.81 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   499    dt = 1.70e-12 s    ord = 1    time = 6.46e-07 ms    Tp_s =   318.86 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   500    dt = 1.69e-12 s    ord = 1    time = 6.48e-07 ms    Tp_s =   318.91 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   501    dt = 1.69e-12 s    ord = 1    time = 6.49e-07 ms    Tp_s =   318.96 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   502    dt = 1.69e-12 s    ord = 1    time = 6.51e-07 ms    Tp_s =   319.01 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   503    dt = 1.70e-12 s    ord = 1    time = 6.53e-07 ms    Tp_s =   319.06 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   504    dt = 1.72e-12 s    ord = 1    time = 6.54e-07 ms    Tp_s =   319.11 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   505    dt = 1.73e-12 s    ord = 1    time = 6.56e-07 ms    Tp_s =   319.16 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   506    dt = 1.73e-12 s    ord = 1    time = 6.58e-07 ms    Tp_s =   319.22 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   507    dt = 1.72e-12 s    ord = 1    time = 6.60e-07 ms    Tp_s =   319.27 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   508    dt = 1.71e-12 s    ord = 1    time = 6.61e-07 ms    Tp_s =   319.32 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   509    dt = 1.71e-12 s    ord = 1    time = 6.63e-07 ms    Tp_s =   319.37 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   510    dt = 1.71e-12 s    ord = 1    time = 6.65e-07 ms    Tp_s =   319.42 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   511    dt = 1.72e-12 s    ord = 1    time = 6.66e-07 ms    Tp_s =   319.47 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   512    dt = 1.73e-12 s    ord = 1    time = 6.68e-07 ms    Tp_s =   319.52 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   513    dt = 1.74e-12 s    ord = 1    time = 6.70e-07 ms    Tp_s =   319.57 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   514    dt = 1.75e-12 s    ord = 1    time = 6.72e-07 ms    Tp_s =   319.62 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   515    dt = 1.75e-12 s    ord = 1    time = 6.73e-07 ms    Tp_s =   319.67 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   516    dt = 1.74e-12 s    ord = 1    time = 6.75e-07 ms    Tp_s =   319.73 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   517    dt = 1.73e-12 s    ord = 1    time = 6.77e-07 ms    Tp_s =   319.78 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   518    dt = 1.73e-12 s    ord = 1    time = 6.79e-07 ms    Tp_s =   319.83 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   519    dt = 1.73e-12 s    ord = 1    time = 6.80e-07 ms    Tp_s =   319.88 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   520    dt = 1.74e-12 s    ord = 1    time = 6.82e-07 ms    Tp_s =   319.93 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   521    dt = 1.75e-12 s    ord = 1    time = 6.84e-07 ms    Tp_s =   319.98 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   522    dt = 1.77e-12 s    ord = 1    time = 6.86e-07 ms    Tp_s =   320.03 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   523    dt = 1.77e-12 s    ord = 1    time = 6.87e-07 ms    Tp_s =   320.09 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   524    dt = 1.77e-12 s    ord = 1    time = 6.89e-07 ms    Tp_s =   320.14 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   525    dt = 1.76e-12 s    ord = 1    time = 6.91e-07 ms    Tp_s =   320.19 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   526    dt = 1.75e-12 s    ord = 1    time = 6.93e-07 ms    Tp_s =   320.24 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   527    dt = 1.75e-12 s    ord = 1    time = 6.94e-07 ms    Tp_s =   320.29 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   528    dt = 1.75e-12 s    ord = 1    time = 6.96e-07 ms    Tp_s =   320.34 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   529    dt = 1.77e-12 s    ord = 1    time = 6.98e-07 ms    Tp_s =   320.40 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   530    dt = 1.78e-12 s    ord = 1    time = 7.00e-07 ms    Tp_s =   320.45 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   531    dt = 1.79e-12 s    ord = 1    time = 7.01e-07 ms    Tp_s =   320.50 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   532    dt = 1.79e-12 s    ord = 1    time = 7.03e-07 ms    Tp_s =   320.55 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   533    dt = 1.79e-12 s    ord = 1    time = 7.05e-07 ms    Tp_s =   320.61 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   534    dt = 1.78e-12 s    ord = 1    time = 7.07e-07 ms    Tp_s =   320.66 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   535    dt = 1.77e-12 s    ord = 1    time = 7.09e-07 ms    Tp_s =   320.71 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   536    dt = 1.77e-12 s    ord = 1    time = 7.10e-07 ms    Tp_s =   320.76 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   537    dt = 1.78e-12 s    ord = 1    time = 7.12e-07 ms    Tp_s =   320.82 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   538    dt = 1.79e-12 s    ord = 1    time = 7.14e-07 ms    Tp_s =   320.87 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   539    dt = 1.81e-12 s    ord = 1    time = 7.16e-07 ms    Tp_s =   320.92 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   540    dt = 1.82e-12 s    ord = 1    time = 7.18e-07 ms    Tp_s =   320.98 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   541    dt = 1.82e-12 s    ord = 1    time = 7.19e-07 ms    Tp_s =   321.03 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   542    dt = 1.81e-12 s    ord = 1    time = 7.21e-07 ms    Tp_s =   321.08 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   543    dt = 1.80e-12 s    ord = 1    time = 7.23e-07 ms    Tp_s =   321.14 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   544    dt = 1.80e-12 s    ord = 1    time = 7.25e-07 ms    Tp_s =   321.19 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   545    dt = 1.80e-12 s    ord = 1    time = 7.27e-07 ms    Tp_s =   321.24 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   546    dt = 1.81e-12 s    ord = 1    time = 7.28e-07 ms    Tp_s =   321.29 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   547    dt = 1.82e-12 s    ord = 1    time = 7.30e-07 ms    Tp_s =   321.35 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   548    dt = 1.83e-12 s    ord = 1    time = 7.32e-07 ms    Tp_s =   321.40 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   549    dt = 1.84e-12 s    ord = 1    time = 7.34e-07 ms    Tp_s =   321.46 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   550    dt = 1.84e-12 s    ord = 1    time = 7.36e-07 ms    Tp_s =   321.51 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   551    dt = 1.83e-12 s    ord = 1    time = 7.38e-07 ms    Tp_s =   321.56 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   552    dt = 1.82e-12 s    ord = 1    time = 7.39e-07 ms    Tp_s =   321.62 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   553    dt = 1.82e-12 s    ord = 1    time = 7.41e-07 ms    Tp_s =   321.67 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   554    dt = 1.82e-12 s    ord = 1    time = 7.43e-07 ms    Tp_s =   321.72 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   555    dt = 1.84e-12 s    ord = 1    time = 7.45e-07 ms    Tp_s =   321.78 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   556    dt = 1.85e-12 s    ord = 1    time = 7.47e-07 ms    Tp_s =   321.83 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   557    dt = 1.86e-12 s    ord = 1    time = 7.49e-07 ms    Tp_s =   321.89 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   558    dt = 1.87e-12 s    ord = 1    time = 7.50e-07 ms    Tp_s =   321.94 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   559    dt = 1.86e-12 s    ord = 1    time = 7.52e-07 ms    Tp_s =   322.00 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   560    dt = 1.85e-12 s    ord = 1    time = 7.54e-07 ms    Tp_s =   322.05 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   561    dt = 1.85e-12 s    ord = 1    time = 7.56e-07 ms    Tp_s =   322.10 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   562    dt = 1.84e-12 s    ord = 1    time = 7.58e-07 ms    Tp_s =   322.16 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   563    dt = 1.85e-12 s    ord = 1    time = 7.60e-07 ms    Tp_s =   322.21 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   564    dt = 1.86e-12 s    ord = 1    time = 7.62e-07 ms    Tp_s =   322.27 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   565    dt = 1.88e-12 s    ord = 1    time = 7.63e-07 ms    Tp_s =   322.32 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   566    dt = 1.89e-12 s    ord = 1    time = 7.65e-07 ms    Tp_s =   322.38 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   567    dt = 1.89e-12 s    ord = 1    time = 7.67e-07 ms    Tp_s =   322.43 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   568    dt = 1.88e-12 s    ord = 1    time = 7.69e-07 ms    Tp_s =   322.49 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   569    dt = 1.88e-12 s    ord = 1    time = 7.71e-07 ms    Tp_s =   322.54 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   570    dt = 1.87e-12 s    ord = 1    time = 7.73e-07 ms    Tp_s =   322.60 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   571    dt = 1.87e-12 s    ord = 1    time = 7.75e-07 ms    Tp_s =   322.65 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   572    dt = 1.88e-12 s    ord = 1    time = 7.77e-07 ms    Tp_s =   322.71 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   573    dt = 1.90e-12 s    ord = 1    time = 7.78e-07 ms    Tp_s =   322.76 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   574    dt = 1.91e-12 s    ord = 1    time = 7.80e-07 ms    Tp_s =   322.82 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   575    dt = 1.92e-12 s    ord = 1    time = 7.82e-07 ms    Tp_s =   322.88 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   576    dt = 1.92e-12 s    ord = 1    time = 7.84e-07 ms    Tp_s =   322.93 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   577    dt = 1.91e-12 s    ord = 1    time = 7.86e-07 ms    Tp_s =   322.99 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   578    dt = 1.90e-12 s    ord = 1    time = 7.88e-07 ms    Tp_s =   323.04 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   579    dt = 1.89e-12 s    ord = 1    time = 7.90e-07 ms    Tp_s =   323.10 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   580    dt = 1.90e-12 s    ord = 1    time = 7.92e-07 ms    Tp_s =   323.15 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   581    dt = 1.91e-12 s    ord = 1    time = 7.94e-07 ms    Tp_s =   323.21 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   582    dt = 1.93e-12 s    ord = 1    time = 7.96e-07 ms    Tp_s =   323.27 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   583    dt = 1.94e-12 s    ord = 1    time = 7.98e-07 ms    Tp_s =   323.32 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   584    dt = 1.94e-12 s    ord = 1    time = 8.00e-07 ms    Tp_s =   323.38 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   585    dt = 1.94e-12 s    ord = 1    time = 8.01e-07 ms    Tp_s =   323.44 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   586    dt = 1.93e-12 s    ord = 1    time = 8.03e-07 ms    Tp_s =   323.49 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   587    dt = 1.92e-12 s    ord = 1    time = 8.05e-07 ms    Tp_s =   323.55 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   588    dt = 1.92e-12 s    ord = 1    time = 8.07e-07 ms    Tp_s =   323.61 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   589    dt = 1.93e-12 s    ord = 1    time = 8.09e-07 ms    Tp_s =   323.66 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   590    dt = 1.94e-12 s    ord = 1    time = 8.11e-07 ms    Tp_s =   323.72 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   591    dt = 1.96e-12 s    ord = 1    time = 8.13e-07 ms    Tp_s =   323.78 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   592    dt = 1.97e-12 s    ord = 1    time = 8.15e-07 ms    Tp_s =   323.83 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   593    dt = 1.97e-12 s    ord = 1    time = 8.17e-07 ms    Tp_s =   323.89 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   594    dt = 1.97e-12 s    ord = 1    time = 8.19e-07 ms    Tp_s =   323.95 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   595    dt = 1.96e-12 s    ord = 1    time = 8.21e-07 ms    Tp_s =   324.01 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   596    dt = 1.95e-12 s    ord = 1    time = 8.23e-07 ms    Tp_s =   324.06 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   597    dt = 1.95e-12 s    ord = 1    time = 8.25e-07 ms    Tp_s =   324.12 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   598    dt = 1.96e-12 s    ord = 1    time = 8.27e-07 ms    Tp_s =   324.18 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   599    dt = 1.98e-12 s    ord = 1    time = 8.29e-07 ms    Tp_s =   324.23 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   600    dt = 1.99e-12 s    ord = 1    time = 8.31e-07 ms    Tp_s =   324.29 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   601    dt = 2.00e-12 s    ord = 1    time = 8.33e-07 ms    Tp_s =   324.35 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   602    dt = 2.00e-12 s    ord = 1    time = 8.35e-07 ms    Tp_s =   324.41 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   603    dt = 1.99e-12 s    ord = 1    time = 8.37e-07 ms    Tp_s =   324.47 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   604    dt = 1.98e-12 s    ord = 1    time = 8.39e-07 ms    Tp_s =   324.52 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   605    dt = 1.98e-12 s    ord = 1    time = 8.41e-07 ms    Tp_s =   324.58 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   606    dt = 1.98e-12 s    ord = 1    time = 8.43e-07 ms    Tp_s =   324.64 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   607    dt = 1.99e-12 s    ord = 1    time = 8.45e-07 ms    Tp_s =   324.70 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   608    dt = 2.01e-12 s    ord = 1    time = 8.47e-07 ms    Tp_s =   324.76 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   609    dt = 2.02e-12 s    ord = 1    time = 8.49e-07 ms    Tp_s =   324.81 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   610    dt = 2.03e-12 s    ord = 1    time = 8.51e-07 ms    Tp_s =   324.87 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   611    dt = 2.03e-12 s    ord = 1    time = 8.53e-07 ms    Tp_s =   324.93 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   612    dt = 2.02e-12 s    ord = 1    time = 8.55e-07 ms    Tp_s =   324.99 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   613    dt = 2.01e-12 s    ord = 1    time = 8.57e-07 ms    Tp_s =   325.05 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   614    dt = 2.01e-12 s    ord = 1    time = 8.59e-07 ms    Tp_s =   325.11 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   615    dt = 2.01e-12 s    ord = 1    time = 8.61e-07 ms    Tp_s =   325.17 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   616    dt = 2.03e-12 s    ord = 1    time = 8.63e-07 ms    Tp_s =   325.23 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   617    dt = 2.05e-12 s    ord = 1    time = 8.65e-07 ms    Tp_s =   325.29 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   618    dt = 2.06e-12 s    ord = 1    time = 8.67e-07 ms    Tp_s =   325.35 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   619    dt = 2.06e-12 s    ord = 1    time = 8.69e-07 ms    Tp_s =   325.41 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   620    dt = 2.06e-12 s    ord = 1    time = 8.71e-07 ms    Tp_s =   325.46 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   621    dt = 2.05e-12 s    ord = 1    time = 8.73e-07 ms    Tp_s =   325.52 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   622    dt = 2.04e-12 s    ord = 1    time = 8.75e-07 ms    Tp_s =   325.58 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   623    dt = 2.04e-12 s    ord = 1    time = 8.77e-07 ms    Tp_s =   325.64 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   624    dt = 2.05e-12 s    ord = 1    time = 8.79e-07 ms    Tp_s =   325.70 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   625    dt = 2.07e-12 s    ord = 1    time = 8.81e-07 ms    Tp_s =   325.76 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   626    dt = 2.08e-12 s    ord = 1    time = 8.83e-07 ms    Tp_s =   325.82 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   627    dt = 2.09e-12 s    ord = 1    time = 8.86e-07 ms    Tp_s =   325.88 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   628    dt = 2.09e-12 s    ord = 1    time = 8.88e-07 ms    Tp_s =   325.94 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   629    dt = 2.08e-12 s    ord = 1    time = 8.90e-07 ms    Tp_s =   326.00 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   630    dt = 2.07e-12 s    ord = 1    time = 8.92e-07 ms    Tp_s =   326.06 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   631    dt = 2.07e-12 s    ord = 1    time = 8.94e-07 ms    Tp_s =   326.12 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   632    dt = 2.07e-12 s    ord = 1    time = 8.96e-07 ms    Tp_s =   326.18 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   633    dt = 2.09e-12 s    ord = 1    time = 8.98e-07 ms    Tp_s =   326.24 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   634    dt = 2.10e-12 s    ord = 1    time = 9.00e-07 ms    Tp_s =   326.31 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   635    dt = 2.12e-12 s    ord = 1    time = 9.02e-07 ms    Tp_s =   326.37 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   636    dt = 2.13e-12 s    ord = 1    time = 9.04e-07 ms    Tp_s =   326.43 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   637    dt = 2.12e-12 s    ord = 1    time = 9.06e-07 ms    Tp_s =   326.49 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   638    dt = 2.11e-12 s    ord = 1    time = 9.09e-07 ms    Tp_s =   326.55 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   639    dt = 2.11e-12 s    ord = 1    time = 9.11e-07 ms    Tp_s =   326.61 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   640    dt = 2.10e-12 s    ord = 1    time = 9.13e-07 ms    Tp_s =   326.67 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   641    dt = 2.11e-12 s    ord = 1    time = 9.15e-07 ms    Tp_s =   326.73 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   642    dt = 2.12e-12 s    ord = 1    time = 9.17e-07 ms    Tp_s =   326.79 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   643    dt = 2.14e-12 s    ord = 1    time = 9.19e-07 ms    Tp_s =   326.86 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   644    dt = 2.15e-12 s    ord = 1    time = 9.21e-07 ms    Tp_s =   326.92 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   645    dt = 2.16e-12 s    ord = 1    time = 9.23e-07 ms    Tp_s =   326.98 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   646    dt = 2.15e-12 s    ord = 1    time = 9.26e-07 ms    Tp_s =   327.04 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   647    dt = 2.14e-12 s    ord = 1    time = 9.28e-07 ms    Tp_s =   327.11 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   648    dt = 2.14e-12 s    ord = 1    time = 9.30e-07 ms    Tp_s =   327.17 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   649    dt = 2.14e-12 s    ord = 1    time = 9.32e-07 ms    Tp_s =   327.23 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   650    dt = 2.15e-12 s    ord = 1    time = 9.34e-07 ms    Tp_s =   327.29 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   651    dt = 2.16e-12 s    ord = 1    time = 9.36e-07 ms    Tp_s =   327.35 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   652    dt = 2.18e-12 s    ord = 1    time = 9.39e-07 ms    Tp_s =   327.42 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   653    dt = 2.19e-12 s    ord = 1    time = 9.41e-07 ms    Tp_s =   327.48 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   654    dt = 2.19e-12 s    ord = 1    time = 9.43e-07 ms    Tp_s =   327.54 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   655    dt = 2.19e-12 s    ord = 1    time = 9.45e-07 ms    Tp_s =   327.61 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   656    dt = 2.18e-12 s    ord = 1    time = 9.47e-07 ms    Tp_s =   327.67 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   657    dt = 2.17e-12 s    ord = 1    time = 9.49e-07 ms    Tp_s =   327.73 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   658    dt = 2.17e-12 s    ord = 1    time = 9.52e-07 ms    Tp_s =   327.79 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   659    dt = 2.19e-12 s    ord = 1    time = 9.54e-07 ms    Tp_s =   327.86 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   660    dt = 2.21e-12 s    ord = 1    time = 9.56e-07 ms    Tp_s =   327.92 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   661    dt = 2.22e-12 s    ord = 1    time = 9.58e-07 ms    Tp_s =   327.98 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   662    dt = 2.23e-12 s    ord = 1    time = 9.60e-07 ms    Tp_s =   328.05 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   663    dt = 2.23e-12 s    ord = 1    time = 9.63e-07 ms    Tp_s =   328.11 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   664    dt = 2.22e-12 s    ord = 1    time = 9.65e-07 ms    Tp_s =   328.18 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   665    dt = 2.21e-12 s    ord = 1    time = 9.67e-07 ms    Tp_s =   328.24 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   666    dt = 2.21e-12 s    ord = 1    time = 9.69e-07 ms    Tp_s =   328.30 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   667    dt = 2.21e-12 s    ord = 1    time = 9.72e-07 ms    Tp_s =   328.37 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   668    dt = 2.23e-12 s    ord = 1    time = 9.74e-07 ms    Tp_s =   328.43 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   669    dt = 2.25e-12 s    ord = 1    time = 9.76e-07 ms    Tp_s =   328.49 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   670    dt = 2.26e-12 s    ord = 1    time = 9.78e-07 ms    Tp_s =   328.56 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   671    dt = 2.27e-12 s    ord = 1    time = 9.81e-07 ms    Tp_s =   328.62 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   672    dt = 2.26e-12 s    ord = 1    time = 9.83e-07 ms    Tp_s =   328.69 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   673    dt = 2.25e-12 s    ord = 1    time = 9.85e-07 ms    Tp_s =   328.75 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   674    dt = 2.25e-12 s    ord = 1    time = 9.87e-07 ms    Tp_s =   328.82 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   675    dt = 2.25e-12 s    ord = 1    time = 9.90e-07 ms    Tp_s =   328.88 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   676    dt = 2.26e-12 s    ord = 1    time = 9.92e-07 ms    Tp_s =   328.95 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   677    dt = 2.27e-12 s    ord = 1    time = 9.94e-07 ms    Tp_s =   329.01 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   678    dt = 2.29e-12 s    ord = 1    time = 9.96e-07 ms    Tp_s =   329.08 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   679    dt = 2.30e-12 s    ord = 1    time = 9.99e-07 ms    Tp_s =   329.14 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   680    dt = 2.31e-12 s    ord = 1    time = 1.00e-06 ms    Tp_s =   329.21 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   681    dt = 2.30e-12 s    ord = 1    time = 1.00e-06 ms    Tp_s =   329.28 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   682    dt = 2.29e-12 s    ord = 1    time = 1.01e-06 ms    Tp_s =   329.34 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   683    dt = 2.28e-12 s    ord = 1    time = 1.01e-06 ms    Tp_s =   329.41 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   684    dt = 2.29e-12 s    ord = 1    time = 1.01e-06 ms    Tp_s =   329.47 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   685    dt = 2.30e-12 s    ord = 1    time = 1.01e-06 ms    Tp_s =   329.54 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   686    dt = 2.32e-12 s    ord = 1    time = 1.01e-06 ms    Tp_s =   329.60 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   687    dt = 2.34e-12 s    ord = 1    time = 1.02e-06 ms    Tp_s =   329.67 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   688    dt = 2.35e-12 s    ord = 1    time = 1.02e-06 ms    Tp_s =   329.74 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   689    dt = 2.34e-12 s    ord = 1    time = 1.02e-06 ms    Tp_s =   329.81 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   690    dt = 2.34e-12 s    ord = 1    time = 1.02e-06 ms    Tp_s =   329.87 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   691    dt = 2.33e-12 s    ord = 1    time = 1.03e-06 ms    Tp_s =   329.94 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   692    dt = 2.32e-12 s    ord = 1    time = 1.03e-06 ms    Tp_s =   330.00 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   693    dt = 2.33e-12 s    ord = 1    time = 1.03e-06 ms    Tp_s =   330.07 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   694    dt = 2.35e-12 s    ord = 1    time = 1.03e-06 ms    Tp_s =   330.14 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   695    dt = 2.37e-12 s    ord = 1    time = 1.04e-06 ms    Tp_s =   330.21 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   696    dt = 2.38e-12 s    ord = 1    time = 1.04e-06 ms    Tp_s =   330.27 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   697    dt = 2.39e-12 s    ord = 1    time = 1.04e-06 ms    Tp_s =   330.34 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   698    dt = 2.38e-12 s    ord = 1    time = 1.04e-06 ms    Tp_s =   330.41 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   699    dt = 2.37e-12 s    ord = 1    time = 1.05e-06 ms    Tp_s =   330.48 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   700    dt = 2.37e-12 s    ord = 1    time = 1.05e-06 ms    Tp_s =   330.54 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   701    dt = 2.37e-12 s    ord = 1    time = 1.05e-06 ms    Tp_s =   330.61 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   702    dt = 2.38e-12 s    ord = 1    time = 1.05e-06 ms    Tp_s =   330.68 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   703    dt = 2.40e-12 s    ord = 1    time = 1.05e-06 ms    Tp_s =   330.75 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   704    dt = 2.41e-12 s    ord = 1    time = 1.06e-06 ms    Tp_s =   330.82 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   705    dt = 2.43e-12 s    ord = 1    time = 1.06e-06 ms    Tp_s =   330.88 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   706    dt = 2.43e-12 s    ord = 1    time = 1.06e-06 ms    Tp_s =   330.95 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   707    dt = 2.42e-12 s    ord = 1    time = 1.06e-06 ms    Tp_s =   331.02 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   708    dt = 2.41e-12 s    ord = 1    time = 1.07e-06 ms    Tp_s =   331.09 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   709    dt = 2.41e-12 s    ord = 1    time = 1.07e-06 ms    Tp_s =   331.16 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   710    dt = 2.41e-12 s    ord = 1    time = 1.07e-06 ms    Tp_s =   331.23 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   711    dt = 2.43e-12 s    ord = 1    time = 1.07e-06 ms    Tp_s =   331.30 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   712    dt = 2.45e-12 s    ord = 1    time = 1.08e-06 ms    Tp_s =   331.37 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   713    dt = 2.46e-12 s    ord = 1    time = 1.08e-06 ms    Tp_s =   331.44 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   714    dt = 2.47e-12 s    ord = 1    time = 1.08e-06 ms    Tp_s =   331.51 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   715    dt = 2.47e-12 s    ord = 1    time = 1.08e-06 ms    Tp_s =   331.58 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   716    dt = 2.47e-12 s    ord = 1    time = 1.09e-06 ms    Tp_s =   331.65 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   717    dt = 2.46e-12 s    ord = 1    time = 1.09e-06 ms    Tp_s =   331.72 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   718    dt = 2.45e-12 s    ord = 1    time = 1.09e-06 ms    Tp_s =   331.79 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   719    dt = 2.46e-12 s    ord = 1    time = 1.09e-06 ms    Tp_s =   331.85 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   720    dt = 2.48e-12 s    ord = 1    time = 1.10e-06 ms    Tp_s =   331.92 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   721    dt = 2.50e-12 s    ord = 1    time = 1.10e-06 ms    Tp_s =   332.00 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   722    dt = 2.51e-12 s    ord = 1    time = 1.10e-06 ms    Tp_s =   332.07 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   723    dt = 2.52e-12 s    ord = 1    time = 1.10e-06 ms    Tp_s =   332.14 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   724    dt = 2.52e-12 s    ord = 1    time = 1.11e-06 ms    Tp_s =   332.21 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   725    dt = 2.51e-12 s    ord = 1    time = 1.11e-06 ms    Tp_s =   332.28 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   726    dt = 2.50e-12 s    ord = 1    time = 1.11e-06 ms    Tp_s =   332.35 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   727    dt = 2.51e-12 s    ord = 1    time = 1.11e-06 ms    Tp_s =   332.42 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   728    dt = 2.48e-12 s    ord = 1    time = 1.12e-06 ms    Tp_s =   332.49 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   729    dt = 2.48e-12 s    ord = 1    time = 1.12e-06 ms    Tp_s =   332.56 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   730    dt = 2.48e-12 s    ord = 1    time = 1.12e-06 ms    Tp_s =   332.63 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   731    dt = 2.48e-12 s    ord = 1    time = 1.12e-06 ms    Tp_s =   332.70 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   732    dt = 2.48e-12 s    ord = 1    time = 1.13e-06 ms    Tp_s =   332.77 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   733    dt = 2.52e-12 s    ord = 1    time = 1.13e-06 ms    Tp_s =   332.84 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   734    dt = 2.58e-12 s    ord = 1    time = 1.13e-06 ms    Tp_s =   332.92 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   735    dt = 2.63e-12 s    ord = 1    time = 1.13e-06 ms    Tp_s =   332.99 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   736    dt = 2.64e-12 s    ord = 1    time = 1.14e-06 ms    Tp_s =   333.06 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   737    dt = 2.62e-12 s    ord = 1    time = 1.14e-06 ms    Tp_s =   333.14 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   738    dt = 2.58e-12 s    ord = 1    time = 1.14e-06 ms    Tp_s =   333.21 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   739    dt = 2.54e-12 s    ord = 1    time = 1.14e-06 ms    Tp_s =   333.28 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   740    dt = 2.53e-12 s    ord = 1    time = 1.15e-06 ms    Tp_s =   333.35 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   741    dt = 2.55e-12 s    ord = 1    time = 1.15e-06 ms    Tp_s =   333.42 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   742    dt = 2.60e-12 s    ord = 1    time = 1.15e-06 ms    Tp_s =   333.50 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   743    dt = 2.65e-12 s    ord = 1    time = 1.15e-06 ms    Tp_s =   333.57 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   744    dt = 2.69e-12 s    ord = 1    time = 1.16e-06 ms    Tp_s =   333.65 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   745    dt = 2.69e-12 s    ord = 1    time = 1.16e-06 ms    Tp_s =   333.72 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   746    dt = 2.66e-12 s    ord = 1    time = 1.16e-06 ms    Tp_s =   333.80 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   747    dt = 2.61e-12 s    ord = 1    time = 1.17e-06 ms    Tp_s =   333.87 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   748    dt = 2.58e-12 s    ord = 1    time = 1.17e-06 ms    Tp_s =   333.94 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   749    dt = 2.58e-12 s    ord = 1    time = 1.17e-06 ms    Tp_s =   334.01 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   750    dt = 2.61e-12 s    ord = 1    time = 1.17e-06 ms    Tp_s =   334.09 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   751    dt = 2.67e-12 s    ord = 1    time = 1.18e-06 ms    Tp_s =   334.16 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   752    dt = 2.72e-12 s    ord = 1    time = 1.18e-06 ms    Tp_s =   334.24 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   753    dt = 2.74e-12 s    ord = 1    time = 1.18e-06 ms    Tp_s =   334.31 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   754    dt = 2.69e-12 s    ord = 1    time = 1.18e-06 ms    Tp_s =   334.39 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   755    dt = 6.58e-13 s    ord = 1    time = 1.18e-06 ms    Tp_s =   334.41 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   756    dt = 6.58e-13 s    ord = 1    time = 1.19e-06 ms    Tp_s =   334.43 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   757    dt = 4.78e-13 s    ord = 1    time = 1.19e-06 ms    Tp_s =   334.44 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   758    dt = 2.28e-13 s    ord = 1    time = 1.19e-06 ms    Tp_s =   334.45 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   759    dt = 2.05e-13 s    ord = 1    time = 1.19e-06 ms    Tp_s =   334.45 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   760    dt = 2.05e-13 s    ord = 1    time = 1.19e-06 ms    Tp_s =   334.46 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   761    dt = 4.11e-13 s    ord = 1    time = 1.19e-06 ms    Tp_s =   334.47 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   762    dt = 8.22e-13 s    ord = 1    time = 1.19e-06 ms    Tp_s =   334.49 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   763    dt = 1.64e-12 s    ord = 1    time = 1.19e-06 ms    Tp_s =   334.54 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   764    dt = 3.29e-12 s    ord = 1    time = 1.19e-06 ms    Tp_s =   334.63 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   765    dt = 6.57e-12 s    ord = 1    time = 1.20e-06 ms    Tp_s =   334.81 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   766    dt = 1.31e-11 s    ord = 1    time = 1.21e-06 ms    Tp_s =   335.18 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   767    dt = 2.63e-11 s    ord = 1    time = 1.24e-06 ms    Tp_s =   335.91 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   768    dt = 4.45e-13 s    ord = 1    time = 1.24e-06 ms    Tp_s =   335.92 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   769    dt = 2.78e-14 s    ord = 1    time = 1.24e-06 ms    Tp_s =   335.92 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   770    dt = 5.56e-14 s    ord = 1    time = 1.24e-06 ms    Tp_s =   335.92 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   771    dt = 5.56e-14 s    ord = 1    time = 1.24e-06 ms    Tp_s =   335.93 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   772    dt = 1.11e-13 s    ord = 1    time = 1.24e-06 ms    Tp_s =   335.93 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   773    dt = 2.22e-13 s    ord = 1    time = 1.24e-06 ms    Tp_s =   335.93 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   774    dt = 4.45e-13 s    ord = 1    time = 1.24e-06 ms    Tp_s =   335.95 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   775    dt = 8.90e-13 s    ord = 1    time = 1.24e-06 ms    Tp_s =   335.97 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   776    dt = 1.78e-12 s    ord = 1    time = 1.24e-06 ms    Tp_s =   336.02 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   777    dt = 3.56e-12 s    ord = 1    time = 1.25e-06 ms    Tp_s =   336.12 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   778    dt = 7.12e-12 s    ord = 1    time = 1.25e-06 ms    Tp_s =   336.32 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   779    dt = 1.42e-11 s    ord = 1    time = 1.27e-06 ms    Tp_s =   336.71 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   780    dt = 2.85e-11 s    ord = 1    time = 1.30e-06 ms    Tp_s =   337.50 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   781    dt = 4.76e-13 s    ord = 1    time = 1.30e-06 ms    Tp_s =   337.51 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   782    dt = 2.97e-14 s    ord = 1    time = 1.30e-06 ms    Tp_s =   337.51 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   783    dt = 5.95e-14 s    ord = 1    time = 1.30e-06 ms    Tp_s =   337.51 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   784    dt = 5.35e-14 s    ord = 1    time = 1.30e-06 ms    Tp_s =   337.51 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   785    dt = 1.07e-13 s    ord = 1    time = 1.30e-06 ms    Tp_s =   337.52 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   786    dt = 2.14e-13 s    ord = 1    time = 1.30e-06 ms    Tp_s =   337.52 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   787    dt = 4.28e-13 s    ord = 1    time = 1.30e-06 ms    Tp_s =   337.53 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   788    dt = 8.56e-13 s    ord = 1    time = 1.30e-06 ms    Tp_s =   337.56 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   789    dt = 4.28e-13 s    ord = 1    time = 1.30e-06 ms    Tp_s =   337.57 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   790    dt = 4.28e-13 s    ord = 1    time = 1.30e-06 ms    Tp_s =   337.58 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   791    dt = 4.28e-13 s    ord = 1    time = 1.30e-06 ms    Tp_s =   337.59 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   792    dt = 8.56e-13 s    ord = 1    time = 1.30e-06 ms    Tp_s =   337.62 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   793    dt = 8.56e-13 s    ord = 1    time = 1.30e-06 ms    Tp_s =   337.64 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   794    dt = 8.56e-13 s    ord = 1    time = 1.30e-06 ms    Tp_s =   337.66 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   795    dt = 1.71e-12 s    ord = 1    time = 1.30e-06 ms    Tp_s =   337.71 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   796    dt = 1.71e-12 s    ord = 1    time = 1.31e-06 ms    Tp_s =   337.76 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   797    dt = 1.71e-12 s    ord = 1    time = 1.31e-06 ms    Tp_s =   337.80 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   798    dt = 3.43e-12 s    ord = 1    time = 1.31e-06 ms    Tp_s =   337.90 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   799    dt = 2.51e-12 s    ord = 1    time = 1.31e-06 ms    Tp_s =   337.97 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   800    dt = 2.09e-12 s    ord = 1    time = 1.32e-06 ms    Tp_s =   338.02 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   801    dt = 2.09e-12 s    ord = 1    time = 1.32e-06 ms    Tp_s =   338.08 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   802    dt = 2.09e-12 s    ord = 1    time = 1.32e-06 ms    Tp_s =   338.14 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   803    dt = 4.17e-12 s    ord = 1    time = 1.32e-06 ms    Tp_s =   338.25 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   804    dt = 3.76e-12 s    ord = 1    time = 1.33e-06 ms    Tp_s =   338.36 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   805    dt = 3.76e-12 s    ord = 1    time = 1.33e-06 ms    Tp_s =   338.46 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   806    dt = 3.76e-12 s    ord = 1    time = 1.33e-06 ms    Tp_s =   338.56 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   807    dt = 3.76e-12 s    ord = 1    time = 1.34e-06 ms    Tp_s =   338.66 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   808    dt = 3.46e-12 s    ord = 1    time = 1.34e-06 ms    Tp_s =   338.76 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   809    dt = 3.46e-12 s    ord = 1    time = 1.35e-06 ms    Tp_s =   338.85 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   810    dt = 3.46e-12 s    ord = 1    time = 1.35e-06 ms    Tp_s =   338.95 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   811    dt = 3.26e-12 s    ord = 1    time = 1.35e-06 ms    Tp_s =   339.04 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   812    dt = 3.01e-12 s    ord = 1    time = 1.36e-06 ms    Tp_s =   339.12 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   813    dt = 2.82e-12 s    ord = 1    time = 1.36e-06 ms    Tp_s =   339.19 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   814    dt = 2.77e-12 s    ord = 1    time = 1.36e-06 ms    Tp_s =   339.27 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   815    dt = 2.89e-12 s    ord = 1    time = 1.36e-06 ms    Tp_s =   339.35 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   816    dt = 3.13e-12 s    ord = 1    time = 1.37e-06 ms    Tp_s =   339.43 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   817    dt = 3.40e-12 s    ord = 1    time = 1.37e-06 ms    Tp_s =   339.53 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   818    dt = 3.55e-12 s    ord = 1    time = 1.37e-06 ms    Tp_s =   339.62 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   819    dt = 3.49e-12 s    ord = 1    time = 1.38e-06 ms    Tp_s =   339.72 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   820    dt = 3.26e-12 s    ord = 1    time = 1.38e-06 ms    Tp_s =   339.81 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   821    dt = 3.00e-12 s    ord = 1    time = 1.38e-06 ms    Tp_s =   339.89 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   822    dt = 2.85e-12 s    ord = 1    time = 1.39e-06 ms    Tp_s =   339.97 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   823    dt = 2.86e-12 s    ord = 1    time = 1.39e-06 ms    Tp_s =   340.04 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   824    dt = 3.03e-12 s    ord = 1    time = 1.39e-06 ms    Tp_s =   340.13 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   825    dt = 3.30e-12 s    ord = 1    time = 1.40e-06 ms    Tp_s =   340.21 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   826    dt = 3.55e-12 s    ord = 1    time = 1.40e-06 ms    Tp_s =   340.31 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   827    dt = 3.63e-12 s    ord = 1    time = 1.40e-06 ms    Tp_s =   340.41 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   828    dt = 3.50e-12 s    ord = 1    time = 1.41e-06 ms    Tp_s =   340.50 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   829    dt = 3.24e-12 s    ord = 1    time = 1.41e-06 ms    Tp_s =   340.59 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   830    dt = 3.01e-12 s    ord = 1    time = 1.41e-06 ms    Tp_s =   340.67 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   831    dt = 2.91e-12 s    ord = 1    time = 1.42e-06 ms    Tp_s =   340.75 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   832    dt = 2.98e-12 s    ord = 1    time = 1.42e-06 ms    Tp_s =   340.83 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   833    dt = 3.19e-12 s    ord = 1    time = 1.42e-06 ms    Tp_s =   340.92 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   834    dt = 3.47e-12 s    ord = 1    time = 1.43e-06 ms    Tp_s =   341.01 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   835    dt = 3.68e-12 s    ord = 1    time = 1.43e-06 ms    Tp_s =   341.11 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   836    dt = 3.69e-12 s    ord = 1    time = 1.43e-06 ms    Tp_s =   341.21 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   837    dt = 3.50e-12 s    ord = 1    time = 1.44e-06 ms    Tp_s =   341.30 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   838    dt = 3.23e-12 s    ord = 1    time = 1.44e-06 ms    Tp_s =   341.39 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   839    dt = 3.03e-12 s    ord = 1    time = 1.44e-06 ms    Tp_s =   341.47 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   840    dt = 2.99e-12 s    ord = 1    time = 1.45e-06 ms    Tp_s =   341.55 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   841    dt = 3.11e-12 s    ord = 1    time = 1.45e-06 ms    Tp_s =   341.64 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   842    dt = 3.36e-12 s    ord = 1    time = 1.45e-06 ms    Tp_s =   341.73 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   843    dt = 3.64e-12 s    ord = 1    time = 1.46e-06 ms    Tp_s =   341.83 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   844    dt = 3.79e-12 s    ord = 1    time = 1.46e-06 ms    Tp_s =   341.93 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   845    dt = 3.73e-12 s    ord = 1    time = 1.46e-06 ms    Tp_s =   342.03 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   846    dt = 3.49e-12 s    ord = 1    time = 1.47e-06 ms    Tp_s =   342.12 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   847    dt = 3.23e-12 s    ord = 1    time = 1.47e-06 ms    Tp_s =   342.21 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   848    dt = 3.08e-12 s    ord = 1    time = 1.47e-06 ms    Tp_s =   342.29 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   849    dt = 3.09e-12 s    ord = 1    time = 1.48e-06 ms    Tp_s =   342.37 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   850    dt = 3.27e-12 s    ord = 1    time = 1.48e-06 ms    Tp_s =   342.46 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   851    dt = 3.55e-12 s    ord = 1    time = 1.48e-06 ms    Tp_s =   342.56 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   852    dt = 3.80e-12 s    ord = 1    time = 1.49e-06 ms    Tp_s =   342.66 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   853    dt = 3.88e-12 s    ord = 1    time = 1.49e-06 ms    Tp_s =   342.76 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   854    dt = 3.75e-12 s    ord = 1    time = 1.49e-06 ms    Tp_s =   342.86 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   855    dt = 3.48e-12 s    ord = 1    time = 1.50e-06 ms    Tp_s =   342.95 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   856    dt = 3.24e-12 s    ord = 1    time = 1.50e-06 ms    Tp_s =   343.04 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   857    dt = 3.14e-12 s    ord = 1    time = 1.50e-06 ms    Tp_s =   343.12 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   858    dt = 3.22e-12 s    ord = 1    time = 1.51e-06 ms    Tp_s =   343.21 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   859    dt = 3.44e-12 s    ord = 1    time = 1.51e-06 ms    Tp_s =   343.30 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   860    dt = 3.73e-12 s    ord = 1    time = 1.51e-06 ms    Tp_s =   343.40 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   861    dt = 3.94e-12 s    ord = 1    time = 1.52e-06 ms    Tp_s =   343.51 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   862    dt = 3.95e-12 s    ord = 1    time = 1.52e-06 ms    Tp_s =   343.61 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   863    dt = 3.75e-12 s    ord = 1    time = 1.53e-06 ms    Tp_s =   343.71 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   864    dt = 3.48e-12 s    ord = 1    time = 1.53e-06 ms    Tp_s =   343.80 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   865    dt = 3.28e-12 s    ord = 1    time = 1.53e-06 ms    Tp_s =   343.89 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   866    dt = 3.24e-12 s    ord = 1    time = 1.54e-06 ms    Tp_s =   343.98 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   867    dt = 3.37e-12 s    ord = 1    time = 1.54e-06 ms    Tp_s =   344.06 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   868    dt = 3.63e-12 s    ord = 1    time = 1.54e-06 ms    Tp_s =   344.16 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   869    dt = 3.92e-12 s    ord = 1    time = 1.55e-06 ms    Tp_s =   344.26 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   870    dt = 4.07e-12 s    ord = 1    time = 1.55e-06 ms    Tp_s =   344.37 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   871    dt = 4.00e-12 s    ord = 1    time = 1.55e-06 ms    Tp_s =   344.48 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   872    dt = 3.76e-12 s    ord = 1    time = 1.56e-06 ms    Tp_s =   344.58 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   873    dt = 3.37e-12 s    ord = 1    time = 1.56e-06 ms    Tp_s =   344.67 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   874    dt = 8.28e-13 s    ord = 1    time = 1.56e-06 ms    Tp_s =   344.69 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   875    dt = 4.52e-13 s    ord = 1    time = 1.56e-06 ms    Tp_s =   344.70 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   876    dt = 4.07e-13 s    ord = 1    time = 1.56e-06 ms    Tp_s =   344.71 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   877    dt = 4.07e-13 s    ord = 1    time = 1.56e-06 ms    Tp_s =   344.72 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   878    dt = 8.14e-13 s    ord = 1    time = 1.57e-06 ms    Tp_s =   344.74 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   879    dt = 8.14e-13 s    ord = 1    time = 1.57e-06 ms    Tp_s =   344.76 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   880    dt = 4.07e-13 s    ord = 1    time = 1.57e-06 ms    Tp_s =   344.77 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   881    dt = 4.07e-13 s    ord = 1    time = 1.57e-06 ms    Tp_s =   344.79 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   882    dt = 3.27e-13 s    ord = 1    time = 1.57e-06 ms    Tp_s =   344.79 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   883    dt = 3.27e-13 s    ord = 1    time = 1.57e-06 ms    Tp_s =   344.80 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   884    dt = 6.54e-13 s    ord = 1    time = 1.57e-06 ms    Tp_s =   344.82 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   885    dt = 1.31e-12 s    ord = 1    time = 1.57e-06 ms    Tp_s =   344.85 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   886    dt = 2.62e-12 s    ord = 1    time = 1.57e-06 ms    Tp_s =   344.92 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   887    dt = 1.31e-12 s    ord = 1    time = 1.57e-06 ms    Tp_s =   344.96 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   888    dt = 1.31e-12 s    ord = 1    time = 1.57e-06 ms    Tp_s =   344.99 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   889    dt = 1.31e-12 s    ord = 1    time = 1.58e-06 ms    Tp_s =   345.03 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   890    dt = 2.62e-12 s    ord = 1    time = 1.58e-06 ms    Tp_s =   345.10 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   891    dt = 2.35e-12 s    ord = 1    time = 1.58e-06 ms    Tp_s =   345.16 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   892    dt = 2.35e-12 s    ord = 1    time = 1.58e-06 ms    Tp_s =   345.22 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   893    dt = 2.35e-12 s    ord = 1    time = 1.59e-06 ms    Tp_s =   345.28 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   894    dt = 4.71e-12 s    ord = 1    time = 1.59e-06 ms    Tp_s =   345.41 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   895    dt = 3.37e-12 s    ord = 1    time = 1.59e-06 ms    Tp_s =   345.49 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   896    dt = 2.79e-12 s    ord = 1    time = 1.60e-06 ms    Tp_s =   345.57 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   897    dt = 2.65e-12 s    ord = 1    time = 1.60e-06 ms    Tp_s =   345.64 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   898    dt = 2.65e-12 s    ord = 1    time = 1.60e-06 ms    Tp_s =   345.71 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   899    dt = 3.17e-12 s    ord = 1    time = 1.60e-06 ms    Tp_s =   345.79 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   900    dt = 3.17e-12 s    ord = 1    time = 1.61e-06 ms    Tp_s =   345.87 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   901    dt = 3.17e-12 s    ord = 1    time = 1.61e-06 ms    Tp_s =   345.96 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   902    dt = 3.49e-12 s    ord = 1    time = 1.61e-06 ms    Tp_s =   346.05 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   903    dt = 4.05e-12 s    ord = 1    time = 1.62e-06 ms    Tp_s =   346.15 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   904    dt = 4.62e-12 s    ord = 1    time = 1.62e-06 ms    Tp_s =   346.27 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   905    dt = 4.85e-12 s    ord = 1    time = 1.63e-06 ms    Tp_s =   346.40 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   906    dt = 4.55e-12 s    ord = 1    time = 1.63e-06 ms    Tp_s =   346.52 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   907    dt = 4.55e-12 s    ord = 1    time = 1.64e-06 ms    Tp_s =   346.64 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   908    dt = 4.20e-12 s    ord = 1    time = 1.64e-06 ms    Tp_s =   346.75 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   909    dt = 3.77e-12 s    ord = 1    time = 1.65e-06 ms    Tp_s =   346.85 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   910    dt = 3.46e-12 s    ord = 1    time = 1.65e-06 ms    Tp_s =   346.94 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   911    dt = 3.41e-12 s    ord = 1    time = 1.65e-06 ms    Tp_s =   347.03 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   912    dt = 3.61e-12 s    ord = 1    time = 1.66e-06 ms    Tp_s =   347.12 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   913    dt = 4.01e-12 s    ord = 1    time = 1.66e-06 ms    Tp_s =   347.22 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   914    dt = 4.46e-12 s    ord = 1    time = 1.66e-06 ms    Tp_s =   347.34 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   915    dt = 4.71e-12 s    ord = 1    time = 1.67e-06 ms    Tp_s =   347.46 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   916    dt = 4.58e-12 s    ord = 1    time = 1.67e-06 ms    Tp_s =   347.58 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   917    dt = 4.17e-12 s    ord = 1    time = 1.68e-06 ms    Tp_s =   347.69 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   918    dt = 3.75e-12 s    ord = 1    time = 1.68e-06 ms    Tp_s =   347.79 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   919    dt = 3.52e-12 s    ord = 1    time = 1.68e-06 ms    Tp_s =   347.88 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   920    dt = 3.56e-12 s    ord = 1    time = 1.69e-06 ms    Tp_s =   347.97 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   921    dt = 3.84e-12 s    ord = 1    time = 1.69e-06 ms    Tp_s =   348.07 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   922    dt = 4.29e-12 s    ord = 1    time = 1.70e-06 ms    Tp_s =   348.18 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   923    dt = 4.70e-12 s    ord = 1    time = 1.70e-06 ms    Tp_s =   348.30 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   924    dt = 4.83e-12 s    ord = 1    time = 1.71e-06 ms    Tp_s =   348.42 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   925    dt = 4.57e-12 s    ord = 1    time = 1.71e-06 ms    Tp_s =   348.54 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   926    dt = 4.13e-12 s    ord = 1    time = 1.71e-06 ms    Tp_s =   348.65 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   927    dt = 3.75e-12 s    ord = 1    time = 1.72e-06 ms    Tp_s =   348.75 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   928    dt = 3.61e-12 s    ord = 1    time = 1.72e-06 ms    Tp_s =   348.84 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   929    dt = 3.74e-12 s    ord = 1    time = 1.73e-06 ms    Tp_s =   348.93 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   930    dt = 4.11e-12 s    ord = 1    time = 1.73e-06 ms    Tp_s =   349.04 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   931    dt = 4.57e-12 s    ord = 1    time = 1.73e-06 ms    Tp_s =   349.16 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   932    dt = 4.91e-12 s    ord = 1    time = 1.74e-06 ms    Tp_s =   349.28 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   933    dt = 4.90e-12 s    ord = 1    time = 1.74e-06 ms    Tp_s =   349.41 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   934    dt = 4.55e-12 s    ord = 1    time = 1.75e-06 ms    Tp_s =   349.53 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   935    dt = 4.05e-12 s    ord = 1    time = 1.75e-06 ms    Tp_s =   349.63 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   936    dt = 3.74e-12 s    ord = 1    time = 1.76e-06 ms    Tp_s =   349.73 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   937    dt = 3.72e-12 s    ord = 1    time = 1.76e-06 ms    Tp_s =   349.82 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   938    dt = 3.98e-12 s    ord = 1    time = 1.76e-06 ms    Tp_s =   349.92 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   939    dt = 4.44e-12 s    ord = 1    time = 1.77e-06 ms    Tp_s =   350.04 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   940    dt = 4.97e-12 s    ord = 1    time = 1.77e-06 ms    Tp_s =   350.16 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   941    dt = 5.19e-12 s    ord = 1    time = 1.78e-06 ms    Tp_s =   350.30 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   942    dt = 4.98e-12 s    ord = 1    time = 1.78e-06 ms    Tp_s =   350.42 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   943    dt = 4.56e-12 s    ord = 1    time = 1.79e-06 ms    Tp_s =   350.54 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   944    dt = 4.03e-12 s    ord = 1    time = 1.79e-06 ms    Tp_s =   350.64 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   945    dt = 3.76e-12 s    ord = 1    time = 1.80e-06 ms    Tp_s =   350.74 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   946    dt = 3.80e-12 s    ord = 1    time = 1.80e-06 ms    Tp_s =   350.83 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   947    dt = 4.16e-12 s    ord = 1    time = 1.80e-06 ms    Tp_s =   350.94 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   948    dt = 4.73e-12 s    ord = 1    time = 1.81e-06 ms    Tp_s =   351.06 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   949    dt = 5.26e-12 s    ord = 1    time = 1.81e-06 ms    Tp_s =   351.19 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   950    dt = 5.42e-12 s    ord = 1    time = 1.82e-06 ms    Tp_s =   351.33 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   951    dt = 5.09e-12 s    ord = 1    time = 1.82e-06 ms    Tp_s =   351.46 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   952    dt = 4.51e-12 s    ord = 1    time = 1.83e-06 ms    Tp_s =   351.57 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   953    dt = 4.04e-12 s    ord = 1    time = 1.83e-06 ms    Tp_s =   351.67 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   954    dt = 3.86e-12 s    ord = 1    time = 1.84e-06 ms    Tp_s =   351.77 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   955    dt = 4.03e-12 s    ord = 1    time = 1.84e-06 ms    Tp_s =   351.87 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   956    dt = 4.48e-12 s    ord = 1    time = 1.85e-06 ms    Tp_s =   351.99 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   957    dt = 5.08e-12 s    ord = 1    time = 1.85e-06 ms    Tp_s =   352.11 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   958    dt = 5.52e-12 s    ord = 1    time = 1.86e-06 ms    Tp_s =   352.25 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   959    dt = 5.51e-12 s    ord = 1    time = 1.86e-06 ms    Tp_s =   352.39 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   960    dt = 5.04e-12 s    ord = 1    time = 1.87e-06 ms    Tp_s =   352.52 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   961    dt = 4.46e-12 s    ord = 1    time = 1.87e-06 ms    Tp_s =   352.63 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   962    dt = 4.07e-12 s    ord = 1    time = 1.88e-06 ms    Tp_s =   352.73 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   963    dt = 4.01e-12 s    ord = 1    time = 1.88e-06 ms    Tp_s =   352.83 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   964    dt = 4.29e-12 s    ord = 1    time = 1.88e-06 ms    Tp_s =   352.94 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   965    dt = 4.83e-12 s    ord = 1    time = 1.89e-06 ms    Tp_s =   353.06 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   966    dt = 5.42e-12 s    ord = 1    time = 1.89e-06 ms    Tp_s =   353.20 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   967    dt = 5.73e-12 s    ord = 1    time = 1.90e-06 ms    Tp_s =   353.34 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   968    dt = 5.53e-12 s    ord = 1    time = 1.91e-06 ms    Tp_s =   353.48 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   969    dt = 4.98e-12 s    ord = 1    time = 1.91e-06 ms    Tp_s =   353.60 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   970    dt = 4.43e-12 s    ord = 1    time = 1.91e-06 ms    Tp_s =   353.71 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   971    dt = 4.15e-12 s    ord = 1    time = 1.92e-06 ms    Tp_s =   353.82 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   972    dt = 4.22e-12 s    ord = 1    time = 1.92e-06 ms    Tp_s =   353.92 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   973    dt = 4.61e-12 s    ord = 1    time = 1.93e-06 ms    Tp_s =   354.04 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   974    dt = 5.20e-12 s    ord = 1    time = 1.93e-06 ms    Tp_s =   354.17 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   975    dt = 5.74e-12 s    ord = 1    time = 1.94e-06 ms    Tp_s =   354.31 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   976    dt = 5.88e-12 s    ord = 1    time = 1.94e-06 ms    Tp_s =   354.45 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   977    dt = 5.52e-12 s    ord = 1    time = 1.95e-06 ms    Tp_s =   354.59 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   978    dt = 4.92e-12 s    ord = 1    time = 1.95e-06 ms    Tp_s =   354.71 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   979    dt = 4.45e-12 s    ord = 1    time = 1.96e-06 ms    Tp_s =   354.82 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   980    dt = 4.29e-12 s    ord = 1    time = 1.96e-06 ms    Tp_s =   354.93 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   981    dt = 4.48e-12 s    ord = 1    time = 1.97e-06 ms    Tp_s =   355.04 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   982    dt = 4.97e-12 s    ord = 1    time = 1.97e-06 ms    Tp_s =   355.16 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   983    dt = 5.59e-12 s    ord = 1    time = 1.98e-06 ms    Tp_s =   355.30 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   984    dt = 6.02e-12 s    ord = 1    time = 1.98e-06 ms    Tp_s =   355.45 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   985    dt = 5.96e-12 s    ord = 1    time = 1.99e-06 ms    Tp_s =   355.60 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   986    dt = 5.47e-12 s    ord = 1    time = 2.00e-06 ms    Tp_s =   355.73 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   987    dt = 4.88e-12 s    ord = 1    time = 2.00e-06 ms    Tp_s =   355.85 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   988    dt = 4.51e-12 s    ord = 1    time = 2.01e-06 ms    Tp_s =   355.96 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   989    dt = 4.48e-12 s    ord = 1    time = 2.01e-06 ms    Tp_s =   356.07 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   990    dt = 4.79e-12 s    ord = 1    time = 2.01e-06 ms    Tp_s =   356.19 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   991    dt = 5.36e-12 s    ord = 1    time = 2.02e-06 ms    Tp_s =   356.32 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   992    dt = 5.94e-12 s    ord = 1    time = 2.03e-06 ms    Tp_s =   356.47 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   993    dt = 6.22e-12 s    ord = 1    time = 2.03e-06 ms    Tp_s =   356.62 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   994    dt = 5.99e-12 s    ord = 1    time = 2.04e-06 ms    Tp_s =   356.76 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   995    dt = 5.42e-12 s    ord = 1    time = 2.04e-06 ms    Tp_s =   356.90 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   996    dt = 4.89e-12 s    ord = 1    time = 2.05e-06 ms    Tp_s =   357.02 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   997    dt = 4.63e-12 s    ord = 1    time = 2.05e-06 ms    Tp_s =   357.13 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   998    dt = 4.73e-12 s    ord = 1    time = 2.06e-06 ms    Tp_s =   357.24 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =   999    dt = 5.16e-12 s    ord = 1    time = 2.06e-06 ms    Tp_s =   357.37 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =  1000    dt = 5.77e-12 s    ord = 1    time = 2.07e-06 ms    Tp_s =   357.51 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =  1001    dt = 6.28e-12 s    ord = 1    time = 2.08e-06 ms    Tp_s =   357.66 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =  1002    dt = 6.37e-12 s    ord = 1    time = 2.08e-06 ms    Tp_s =   357.82 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =  1003    dt = 5.98e-12 s    ord = 1    time = 2.09e-06 ms    Tp_s =   357.96 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =  1004    dt = 5.39e-12 s    ord = 1    time = 2.09e-06 ms    Tp_s =   358.09 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =  1005    dt = 4.94e-12 s    ord = 1    time = 2.10e-06 ms    Tp_s =   358.21 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =  1006    dt = 4.81e-12 s    ord = 1    time = 2.10e-06 ms    Tp_s =   358.33 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =  1007    dt = 5.05e-12 s    ord = 1    time = 2.11e-06 ms    Tp_s =   358.45 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =  1008    dt = 5.57e-12 s    ord = 1    time = 2.11e-06 ms    Tp_s =   358.58 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =  1009    dt = 6.18e-12 s    ord = 1    time = 2.12e-06 ms    Tp_s =   358.73 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =  1010    dt = 6.57e-12 s    ord = 1    time = 2.13e-06 ms    Tp_s =   358.89 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =  1011    dt = 6.47e-12 s    ord = 1    time = 2.13e-06 ms    Tp_s =   359.05 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =  1012    dt = 5.96e-12 s    ord = 1    time = 2.14e-06 ms    Tp_s =   359.19 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =  1013    dt = 5.39e-12 s    ord = 1    time = 2.14e-06 ms    Tp_s =   359.32 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =  1014    dt = 5.05e-12 s    ord = 1    time = 2.15e-06 ms    Tp_s =   359.44 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =  1015    dt = 5.06e-12 s    ord = 1    time = 2.15e-06 ms    Tp_s =   359.56 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =  1016    dt = 5.42e-12 s    ord = 1    time = 2.16e-06 ms    Tp_s =   359.69 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =  1017    dt = 6.00e-12 s    ord = 1    time = 2.17e-06 ms    Tp_s =   359.83 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =  1018    dt = 6.57e-12 s    ord = 1    time = 2.17e-06 ms    Tp_s =   359.99 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =  1019    dt = 6.79e-12 s    ord = 1    time = 2.18e-06 ms    Tp_s =   360.15 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =  1020    dt = 6.51e-12 s    ord = 1    time = 2.19e-06 ms    Tp_s =   360.31 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =  1021    dt = 5.94e-12 s    ord = 1    time = 2.19e-06 ms    Tp_s =   360.45 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =  1022    dt = 5.43e-12 s    ord = 1    time = 2.20e-06 ms    Tp_s =   360.58 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =  1023    dt = 5.22e-12 s    ord = 1    time = 2.20e-06 ms    Tp_s =   360.70 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =  1024    dt = 5.37e-12 s    ord = 1    time = 2.21e-06 ms    Tp_s =   360.83 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =  1025    dt = 5.84e-12 s    ord = 1    time = 2.21e-06 ms    Tp_s =   360.97 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =  1026    dt = 6.45e-12 s    ord = 1    time = 2.22e-06 ms    Tp_s =   361.12 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =  1027    dt = 6.93e-12 s    ord = 1    time = 2.23e-06 ms    Tp_s =   361.29 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =  1028    dt = 6.96e-12 s    ord = 1    time = 2.23e-06 ms    Tp_s =   361.45 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =  1029    dt = 6.53e-12 s    ord = 1    time = 2.24e-06 ms    Tp_s =   361.61 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =  1030    dt = 5.94e-12 s    ord = 1    time = 2.25e-06 ms    Tp_s =   361.75 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =  1031    dt = 5.53e-12 s    ord = 1    time = 2.25e-06 ms    Tp_s =   361.88 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =  1032    dt = 5.46e-12 s    ord = 1    time = 2.26e-06 ms    Tp_s =   362.01 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =  1033    dt = 5.74e-12 s    ord = 1    time = 2.26e-06 ms    Tp_s =   362.14 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =  1034    dt = 6.30e-12 s    ord = 1    time = 2.27e-06 ms    Tp_s =   362.29 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =  1035    dt = 6.90e-12 s    ord = 1    time = 2.28e-06 ms    Tp_s =   362.45 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =  1036    dt = 7.22e-12 s    ord = 1    time = 2.28e-06 ms    Tp_s =   362.62 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =  1037    dt = 7.06e-12 s    ord = 1    time = 2.29e-06 ms    Tp_s =   362.79 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =  1038    dt = 6.53e-12 s    ord = 1    time = 2.30e-06 ms    Tp_s =   362.94 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =  1039    dt = 5.99e-12 s    ord = 1    time = 2.30e-06 ms    Tp_s =   363.08 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =  1040    dt = 5.70e-12 s    ord = 1    time = 2.31e-06 ms    Tp_s =   363.21 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =  1041    dt = 5.77e-12 s    ord = 1    time = 2.31e-06 ms    Tp_s =   363.35 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =  1042    dt = 6.18e-12 s    ord = 1    time = 2.32e-06 ms    Tp_s =   363.49 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =  1043    dt = 6.78e-12 s    ord = 1    time = 2.33e-06 ms    Tp_s =   363.65 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =  1044    dt = 7.31e-12 s    ord = 1    time = 2.33e-06 ms    Tp_s =   363.82 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =  1045    dt = 7.46e-12 s    ord = 1    time = 2.34e-06 ms    Tp_s =   363.99 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =  1046    dt = 7.13e-12 s    ord = 1    time = 2.35e-06 ms    Tp_s =   364.16 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =  1047    dt = 6.56e-12 s    ord = 1    time = 2.36e-06 ms    Tp_s =   364.31 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =  1048    dt = 6.09e-12 s    ord = 1    time = 2.36e-06 ms    Tp_s =   364.45 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =  1049    dt = 5.94e-12 s    ord = 1    time = 2.37e-06 ms    Tp_s =   364.59 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =  1050    dt = 6.15e-12 s    ord = 1    time = 2.37e-06 ms    Tp_s =   364.73 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =  1051    dt = 6.66e-12 s    ord = 1    time = 2.38e-06 ms    Tp_s =   364.88 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =  1052    dt = 7.27e-12 s    ord = 1    time = 2.39e-06 ms    Tp_s =   365.05 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =  1053    dt = 7.68e-12 s    ord = 1    time = 2.40e-06 ms    Tp_s =   365.23 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =  1054    dt = 7.63e-12 s    ord = 1    time = 2.40e-06 ms    Tp_s =   365.40 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =  1055    dt = 7.17e-12 s    ord = 1    time = 2.41e-06 ms    Tp_s =   365.57 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =  1056    dt = 6.62e-12 s    ord = 1    time = 2.42e-06 ms    Tp_s =   365.72 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =  1057    dt = 6.26e-12 s    ord = 1    time = 2.42e-06 ms    Tp_s =   365.86 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =  1058    dt = 6.26e-12 s    ord = 1    time = 2.43e-06 ms    Tp_s =   366.01 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =  1059    dt = 6.61e-12 s    ord = 1    time = 2.44e-06 ms    Tp_s =   366.16 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =  1060    dt = 7.13e-12 s    ord = 1    time = 2.44e-06 ms    Tp_s =   366.32 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =  1061    dt = 7.63e-12 s    ord = 1    time = 2.45e-06 ms    Tp_s =   366.50 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =  1062    dt = 7.84e-12 s    ord = 1    time = 2.46e-06 ms    Tp_s =   366.67 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =  1063    dt = 7.97e-12 s    ord = 1    time = 2.47e-06 ms    Tp_s =   366.86 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =  1064    dt = 7.97e-12 s    ord = 1    time = 2.47e-06 ms    Tp_s =   367.04 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =  1065    dt = 7.97e-12 s    ord = 1    time = 2.48e-06 ms    Tp_s =   367.22 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =  1066    dt = 1.92e-12 s    ord = 1    time = 2.48e-06 ms    Tp_s =   367.26 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =  1067    dt = 1.20e-12 s    ord = 1    time = 2.49e-06 ms    Tp_s =   367.29 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =  1068    dt = 1.20e-12 s    ord = 1    time = 2.49e-06 ms    Tp_s =   367.32 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =  1069    dt = 1.20e-12 s    ord = 1    time = 2.49e-06 ms    Tp_s =   367.34 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+stp =  1070    dt = 1.20e-12 s    ord = 1    time = 2.49e-06 ms    Tp_s =   367.37 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+ ***MESSAGE FROM ROUTINE DDASSL IN LIBRARY SLATEC.
+ ***POTENTIALLY RECOVERABLE ERROR, PROGRAM CONTINUES.
+ *  AT T =    2.580709D-02  AND STEPSIZE H =    3.207668D-17  THE CORRECTOR
+ *  COULD NOT CONVERGE.  ALSO, THE ERROR TEST FAILED REPEATEDLY.
+ *  ERROR NUMBER = -9
+ *   
+ ***END OF MESSAGE
+ 
+stp =  1070    dt = 1.20e-12 s    ord = 1    time = 2.49e-06 ms    Tp_s =   367.37 K    Tp_c =   300.00 K   temp =  1500.00 K    mCoal = 0.0000e+00 mg	
+#error: ddassl error no. -9 occured at timestep no. 1070
+number of error test failures is 931
+number of convergence test failures is 18
+dassl suggested order 1 and stepsize 3.20767e-17 for the next step
+t 1 = 1.00e-08 
+t 2 = 1.00e-08 
+dump output
+done
+Mon Aug 30 23:10:57 CEST 2021
+### Nodes assigned to job #####################################
+lnih065
+### Number of cores per node ################################
+1
+### Total number of tasks for job ##############################
+1
+------------------------------------------------------------------------------
