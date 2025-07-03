@@ -1,0 +1,161 @@
+/rwthfs/rz/cluster/hpcwork/p0021020/Pooria/SINGLES/PostProcessing/VolatileFlameStandOffDistance/Data/Coal/AIR10-DP125
+ContourLineMinimum
+Simulation data
+Average:     1.503
+Max (Total): 4.891
+Smoothed data
+Average:     1.511
+Max (Total): 3.599
+/rwthfs/rz/cluster/hpcwork/p0021020/Pooria/SINGLES/PostProcessing/VolatileFlameStandOffDistance/Data/Coal/AIR20-DP125
+ContourLineMinimum
+Simulation data
+Average:     0.619
+Max (Total): 3.869
+Smoothed data
+Average:     0.627
+Max (Total): 2.111
+/rwthfs/rz/cluster/hpcwork/p0021020/Pooria/SINGLES/PostProcessing/VolatileFlameStandOffDistance/Data/Coal/AIR20-DP160
+ContourLineMinimum
+Simulation data
+Average:     0.668
+Max (Total): 3.134
+Smoothed data
+Average:     0.676
+Max (Total): 2.054
+/rwthfs/rz/cluster/hpcwork/p0021020/Pooria/SINGLES/PostProcessing/VolatileFlameStandOffDistance/Data/Coal/AIR20-DP160-GRID125
+ContourLineMinimum
+Simulation data
+Average:     1.128
+Max (Total): 3.903
+Smoothed data
+Average:     1.143
+Max (Total): 2.986
+/rwthfs/rz/cluster/hpcwork/p0021020/Pooria/SINGLES/PostProcessing/VolatileFlameStandOffDistance/Data/Coal/AIR20-DP90
+ContourLineMinimum
+Simulation data
+Average:     0.577
+Max (Total): 3.221
+Smoothed data
+Average:     0.581
+Max (Total): 2.356
+/rwthfs/rz/cluster/hpcwork/p0021020/Pooria/SINGLES/PostProcessing/VolatileFlameStandOffDistance/Data/Coal/AIR20-DP90-GRID125
+ContourLineMinimum
+Simulation data
+Average:     0.360
+Max (Total): 2.262
+Smoothed data
+Average:     0.361
+Max (Total): 1.441
+/rwthfs/rz/cluster/hpcwork/p0021020/Pooria/SINGLES/PostProcessing/VolatileFlameStandOffDistance/Data/Coal/AIR40-DP125
+ContourLineMinimum
+Simulation data
+Average:     0.298
+Max (Total): 2.326
+Smoothed data
+Average:     0.306
+Max (Total): 1.242
+/rwthfs/rz/cluster/hpcwork/p0021020/Pooria/SINGLES/PostProcessing/VolatileFlameStandOffDistance/Data/Coal/OXY20-DP125
+ContourLineMinimum
+Simulation data
+Average:     0.685
+Max (Total): 3.105
+Smoothed data
+Average:     0.694
+Max (Total): 2.039
+/rwthfs/rz/cluster/hpcwork/p0021020/Pooria/SINGLES/PostProcessing/VolatileFlameStandOffDistance/Data/Coal/OXY20-DP160
+ContourLineMinimum
+Simulation data
+Average:     0.777
+Max (Total): 3.234
+Smoothed data
+Average:     0.784
+Max (Total): 2.233
+/rwthfs/rz/cluster/hpcwork/p0021020/Pooria/SINGLES/PostProcessing/VolatileFlameStandOffDistance/Data/Coal/OXY20-DP90
+ContourLineMinimum
+Simulation data
+Average:     0.685
+Max (Total): 4.341
+Smoothed data
+Average:     0.696
+Max (Total): 2.239
+WS
+/rwthfs/rz/cluster/hpcwork/p0021020/Pooria/SINGLES/PostProcessing/VolatileFlameStandOffDistance/Data/WS/AIR10-DP125
+ContourLineMinimum
+Simulation data
+Average:     0.889
+Max (Total): 3.384
+Smoothed data
+Average:     0.892
+Max (Total): 3.076
+/rwthfs/rz/cluster/hpcwork/p0021020/Pooria/SINGLES/PostProcessing/VolatileFlameStandOffDistance/Data/WS/AIR20-DP125
+ContourLineMinimum
+Simulation data
+Average:     0.423
+Max (Total): 2.043
+Smoothed data
+Average:     0.422
+Max (Total): 1.936
+/rwthfs/rz/cluster/hpcwork/p0021020/Pooria/SINGLES/PostProcessing/VolatileFlameStandOffDistance/Data/WS/AIR20-DP160
+ContourLineMinimum
+Simulation data
+Average:     0.637
+Max (Total): 2.482
+Smoothed data
+Average:     0.630
+Max (Total): 2.362
+/rwthfs/rz/cluster/hpcwork/p0021020/Pooria/SINGLES/PostProcessing/VolatileFlameStandOffDistance/Data/WS/AIR20-DP160-GRID125
+ContourLineMinimum
+Simulation data
+Average:     0.886
+Max (Total): 3.687
+Smoothed data
+Average:     0.885
+Max (Total): 2.772
+/rwthfs/rz/cluster/hpcwork/p0021020/Pooria/SINGLES/PostProcessing/VolatileFlameStandOffDistance/Data/WS/AIR20-DP90
+ContourLineMinimum
+Simulation data
+Average:     0.385
+Max (Total): 2.500
+Smoothed data
+Average:     0.382
+Max (Total): 1.637
+/rwthfs/rz/cluster/hpcwork/p0021020/Pooria/SINGLES/PostProcessing/VolatileFlameStandOffDistance/Data/WS/AIR20-DP90-GRID125
+ContourLineMinimum
+Simulation data
+Average:     0.251
+Max (Total): 1.383
+Smoothed data
+Average:     0.251
+Max (Total): 1.011
+/rwthfs/rz/cluster/hpcwork/p0021020/Pooria/SINGLES/PostProcessing/VolatileFlameStandOffDistance/Data/WS/AIR40-DP125
+ContourLineMinimum
+Simulation data
+Average:     0.235
+Max (Total): 2.304
+Smoothed data
+Average:     0.235
+Max (Total): 1.152
+/rwthfs/rz/cluster/hpcwork/p0021020/Pooria/SINGLES/PostProcessing/VolatileFlameStandOffDistance/Data/WS/OXY20-DP125
+ContourLineMinimum
+Simulation data
+Average:     0.538
+Max (Total): 2.373
+Smoothed data
+Average:     0.531
+Max (Total): 2.134
+/rwthfs/rz/cluster/hpcwork/p0021020/Pooria/SINGLES/PostProcessing/VolatileFlameStandOffDistance/Data/WS/OXY20-DP160
+ContourLineMinimum
+Simulation data
+Average:     0.920
+Max (Total): 2.614
+Smoothed data
+Average:     0.907
+Max (Total): 2.436
+/rwthfs/rz/cluster/hpcwork/p0021020/Pooria/SINGLES/PostProcessing/VolatileFlameStandOffDistance/Data/WS/OXY20-DP90
+ContourLineMinimum
+Simulation data
+Average:     0.461
+Max (Total): 2.418
+Smoothed data
+Average:     0.454
+Max (Total): 2.186

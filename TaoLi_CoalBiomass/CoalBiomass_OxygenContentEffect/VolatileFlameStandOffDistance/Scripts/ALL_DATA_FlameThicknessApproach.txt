@@ -1,0 +1,481 @@
+/rwthfs/rz/cluster/hpcwork/p0021020/Pooria/SINGLES/PostProcessing/VolatileFlameStandOffDistance/Data/Coal/AIR10-DP125
+FlameThicknessApproach
+Simulation data
+CASE:  Min
+Average:     2.747
+Max (Total): 9.000
+CASE:  Mid
+Average:     3.089
+Max (Total): 9.000
+CASE:  Max
+Average:     4.582
+Max (Total): 9.000
+Smoothed data: Min
+CASE:  Min
+Average:     2.764
+Max (Total): 6.179
+Smoothed data: Mid
+CASE:  Mid
+Average:     3.106
+Max (Total): 6.403
+Smoothed data: Max
+CASE:  Max
+Average:     4.609
+Max (Total): 7.983
+/rwthfs/rz/cluster/hpcwork/p0021020/Pooria/SINGLES/PostProcessing/VolatileFlameStandOffDistance/Data/Coal/AIR20-DP125
+FlameThicknessApproach
+Simulation data
+CASE:  Min
+Average:     1.273
+Max (Total): 7.000
+CASE:  Mid
+Average:     1.623
+Max (Total): 7.000
+CASE:  Max
+Average:     2.571
+Max (Total): 9.000
+Smoothed data: Min
+CASE:  Min
+Average:     1.288
+Max (Total): 4.442
+Smoothed data: Mid
+CASE:  Mid
+Average:     1.640
+Max (Total): 4.791
+Smoothed data: Max
+CASE:  Max
+Average:     2.595
+Max (Total): 6.661
+/rwthfs/rz/cluster/hpcwork/p0021020/Pooria/SINGLES/PostProcessing/VolatileFlameStandOffDistance/Data/Coal/AIR20-DP160
+FlameThicknessApproach
+Simulation data
+CASE:  Min
+Average:     1.352
+Max (Total): 7.000
+CASE:  Mid
+Average:     1.806
+Max (Total): 7.000
+CASE:  Max
+Average:     2.741
+Max (Total): 9.000
+Smoothed data: Min
+CASE:  Min
+Average:     1.369
+Max (Total): 4.217
+Smoothed data: Mid
+CASE:  Mid
+Average:     1.825
+Max (Total): 4.900
+Smoothed data: Max
+CASE:  Max
+Average:     2.768
+Max (Total): 6.305
+/rwthfs/rz/cluster/hpcwork/p0021020/Pooria/SINGLES/PostProcessing/VolatileFlameStandOffDistance/Data/Coal/AIR20-DP160-GRID125
+FlameThicknessApproach
+Simulation data
+CASE:  Min
+Average:     1.653
+Max (Total): 7.031
+CASE:  Mid
+Average:     2.117
+Max (Total): 7.031
+CASE:  Max
+Average:     3.125
+Max (Total): 7.031
+Smoothed data: Min
+CASE:  Min
+Average:     1.674
+Max (Total): 5.138
+Smoothed data: Mid
+CASE:  Mid
+Average:     2.140
+Max (Total): 5.255
+Smoothed data: Max
+CASE:  Max
+Average:     3.151
+Max (Total): 5.791
+/rwthfs/rz/cluster/hpcwork/p0021020/Pooria/SINGLES/PostProcessing/VolatileFlameStandOffDistance/Data/Coal/AIR20-DP90
+FlameThicknessApproach
+Simulation data
+CASE:  Min
+Average:     1.141
+Max (Total): 7.007
+CASE:  Mid
+Average:     1.461
+Max (Total): 7.007
+CASE:  Max
+Average:     2.382
+Max (Total): 9.009
+Smoothed data: Min
+CASE:  Min
+Average:     1.145
+Max (Total): 4.576
+Smoothed data: Mid
+CASE:  Mid
+Average:     1.465
+Max (Total): 5.272
+Smoothed data: Max
+CASE:  Max
+Average:     2.384
+Max (Total): 7.266
+/rwthfs/rz/cluster/hpcwork/p0021020/Pooria/SINGLES/PostProcessing/VolatileFlameStandOffDistance/Data/Coal/AIR20-DP90-GRID125
+FlameThicknessApproach
+Simulation data
+CASE:  Min
+Average:     1.153
+Max (Total): 5.556
+CASE:  Mid
+Average:     1.520
+Max (Total): 6.944
+CASE:  Max
+Average:     2.227
+Max (Total): 8.333
+Smoothed data: Min
+CASE:  Min
+Average:     1.152
+Max (Total): 4.226
+Smoothed data: Mid
+CASE:  Mid
+Average:     1.516
+Max (Total): 4.906
+Smoothed data: Max
+CASE:  Max
+Average:     2.217
+Max (Total): 6.800
+/rwthfs/rz/cluster/hpcwork/p0021020/Pooria/SINGLES/PostProcessing/VolatileFlameStandOffDistance/Data/Coal/AIR40-DP125
+FlameThicknessApproach
+Simulation data
+CASE:  Min
+Average:     0.684
+Max (Total): 4.000
+CASE:  Mid
+Average:     0.763
+Max (Total): 5.000
+CASE:  Max
+Average:     1.382
+Max (Total): 7.000
+Smoothed data: Min
+CASE:  Min
+Average:     0.701
+Max (Total): 2.640
+Smoothed data: Mid
+CASE:  Mid
+Average:     0.781
+Max (Total): 2.919
+Smoothed data: Max
+CASE:  Max
+Average:     1.409
+Max (Total): 4.362
+/rwthfs/rz/cluster/hpcwork/p0021020/Pooria/SINGLES/PostProcessing/VolatileFlameStandOffDistance/Data/Coal/OXY20-DP125
+FlameThicknessApproach
+Simulation data
+CASE:  Min
+Average:     1.620
+Max (Total): 7.000
+CASE:  Mid
+Average:     1.975
+Max (Total): 7.000
+CASE:  Max
+Average:     2.924
+Max (Total): 9.000
+Smoothed data: Min
+CASE:  Min
+Average:     1.639
+Max (Total): 5.433
+Smoothed data: Mid
+CASE:  Mid
+Average:     1.996
+Max (Total): 5.705
+Smoothed data: Max
+CASE:  Max
+Average:     2.950
+Max (Total): 6.597
+/rwthfs/rz/cluster/hpcwork/p0021020/Pooria/SINGLES/PostProcessing/VolatileFlameStandOffDistance/Data/Coal/OXY20-DP160
+FlameThicknessApproach
+Simulation data
+CASE:  Min
+Average:     1.587
+Max (Total): 7.000
+CASE:  Mid
+Average:     2.037
+Max (Total): 7.000
+CASE:  Max
+Average:     3.101
+Max (Total): 9.000
+Smoothed data: Min
+CASE:  Min
+Average:     1.600
+Max (Total): 5.452
+Smoothed data: Mid
+CASE:  Mid
+Average:     2.048
+Max (Total): 5.555
+Smoothed data: Max
+CASE:  Max
+Average:     3.118
+Max (Total): 6.841
+/rwthfs/rz/cluster/hpcwork/p0021020/Pooria/SINGLES/PostProcessing/VolatileFlameStandOffDistance/Data/Coal/OXY20-DP90
+FlameThicknessApproach
+Simulation data
+CASE:  Min
+Average:     1.394
+Max (Total): 6.006
+CASE:  Mid
+Average:     1.747
+Max (Total): 6.006
+CASE:  Max
+Average:     2.944
+Max (Total): 9.009
+Smoothed data: Min
+CASE:  Min
+Average:     1.409
+Max (Total): 4.925
+Smoothed data: Mid
+CASE:  Mid
+Average:     1.765
+Max (Total): 5.333
+Smoothed data: Max
+CASE:  Max
+Average:     2.974
+Max (Total): 7.572
+WS
+/rwthfs/rz/cluster/hpcwork/p0021020/Pooria/SINGLES/PostProcessing/VolatileFlameStandOffDistance/Data/WS/AIR10-DP125
+FlameThicknessApproach
+Simulation data
+CASE:  Min
+Average:     1.771
+Max (Total): 7.000
+CASE:  Mid
+Average:     2.100
+Max (Total): 7.000
+CASE:  Max
+Average:     3.343
+Max (Total): 9.000
+Smoothed data: Min
+CASE:  Min
+Average:     1.774
+Max (Total): 6.462
+Smoothed data: Mid
+CASE:  Mid
+Average:     2.106
+Max (Total): 6.689
+Smoothed data: Max
+CASE:  Max
+Average:     3.354
+Max (Total): 7.547
+/rwthfs/rz/cluster/hpcwork/p0021020/Pooria/SINGLES/PostProcessing/VolatileFlameStandOffDistance/Data/WS/AIR20-DP125
+FlameThicknessApproach
+Simulation data
+CASE:  Min
+Average:     0.985
+Max (Total): 5.000
+CASE:  Mid
+Average:     1.269
+Max (Total): 5.000
+CASE:  Max
+Average:     2.030
+Max (Total): 7.000
+Smoothed data: Min
+CASE:  Min
+Average:     0.986
+Max (Total): 4.170
+Smoothed data: Mid
+CASE:  Mid
+Average:     1.272
+Max (Total): 4.640
+Smoothed data: Max
+CASE:  Max
+Average:     2.034
+Max (Total): 6.704
+/rwthfs/rz/cluster/hpcwork/p0021020/Pooria/SINGLES/PostProcessing/VolatileFlameStandOffDistance/Data/WS/AIR20-DP160
+FlameThicknessApproach
+Simulation data
+CASE:  Min
+Average:     1.260
+Max (Total): 5.000
+CASE:  Mid
+Average:     1.712
+Max (Total): 6.000
+CASE:  Max
+Average:     2.685
+Max (Total): 8.000
+Smoothed data: Min
+CASE:  Min
+Average:     1.248
+Max (Total): 4.397
+Smoothed data: Mid
+CASE:  Mid
+Average:     1.699
+Max (Total): 5.101
+Smoothed data: Max
+CASE:  Max
+Average:     2.668
+Max (Total): 7.448
+/rwthfs/rz/cluster/hpcwork/p0021020/Pooria/SINGLES/PostProcessing/VolatileFlameStandOffDistance/Data/WS/AIR20-DP160-GRID125
+FlameThicknessApproach
+Simulation data
+CASE:  Min
+Average:     0.950
+Max (Total): 4.688
+CASE:  Mid
+Average:     1.707
+Max (Total): 4.688
+CASE:  Max
+Average:     2.933
+Max (Total): 7.031
+Smoothed data: Min
+CASE:  Min
+Average:     0.943
+Max (Total): 4.234
+Smoothed data: Mid
+CASE:  Mid
+Average:     1.700
+Max (Total): 4.830
+Smoothed data: Max
+CASE:  Max
+Average:     2.938
+Max (Total): 6.707
+/rwthfs/rz/cluster/hpcwork/p0021020/Pooria/SINGLES/PostProcessing/VolatileFlameStandOffDistance/Data/WS/AIR20-DP90
+FlameThicknessApproach
+Simulation data
+CASE:  Min
+Average:     0.805
+Max (Total): 4.004
+CASE:  Mid
+Average:     1.001
+Max (Total): 5.005
+CASE:  Max
+Average:     1.719
+Max (Total): 7.007
+Smoothed data: Min
+CASE:  Min
+Average:     0.798
+Max (Total): 3.964
+Smoothed data: Mid
+CASE:  Mid
+Average:     0.997
+Max (Total): 4.176
+Smoothed data: Max
+CASE:  Max
+Average:     1.705
+Max (Total): 6.279
+/rwthfs/rz/cluster/hpcwork/p0021020/Pooria/SINGLES/PostProcessing/VolatileFlameStandOffDistance/Data/WS/AIR20-DP90-GRID125
+FlameThicknessApproach
+Simulation data
+CASE:  Min
+Average:     0.794
+Max (Total): 4.167
+CASE:  Mid
+Average:     0.935
+Max (Total): 4.167
+CASE:  Max
+Average:     1.531
+Max (Total): 6.944
+Smoothed data: Min
+CASE:  Min
+Average:     0.788
+Max (Total): 4.194
+Smoothed data: Mid
+CASE:  Mid
+Average:     0.932
+Max (Total): 4.341
+Smoothed data: Max
+CASE:  Max
+Average:     1.522
+Max (Total): 6.801
+/rwthfs/rz/cluster/hpcwork/p0021020/Pooria/SINGLES/PostProcessing/VolatileFlameStandOffDistance/Data/WS/AIR40-DP125
+FlameThicknessApproach
+Simulation data
+CASE:  Min
+Average:     0.362
+Max (Total): 3.000
+CASE:  Mid
+Average:     0.565
+Max (Total): 3.000
+CASE:  Max
+Average:     1.014
+Max (Total): 4.000
+Smoothed data: Min
+CASE:  Min
+Average:     0.362
+Max (Total): 1.460
+Smoothed data: Mid
+CASE:  Mid
+Average:     0.564
+Max (Total): 2.643
+Smoothed data: Max
+CASE:  Max
+Average:     1.012
+Max (Total): 4.109
+/rwthfs/rz/cluster/hpcwork/p0021020/Pooria/SINGLES/PostProcessing/VolatileFlameStandOffDistance/Data/WS/OXY20-DP125
+FlameThicknessApproach
+Simulation data
+CASE:  Min
+Average:     1.239
+Max (Total): 5.000
+CASE:  Mid
+Average:     1.463
+Max (Total): 6.000
+CASE:  Max
+Average:     2.507
+Max (Total): 8.000
+Smoothed data: Min
+CASE:  Min
+Average:     1.224
+Max (Total): 4.732
+Smoothed data: Mid
+CASE:  Mid
+Average:     1.446
+Max (Total): 5.005
+Smoothed data: Max
+CASE:  Max
+Average:     2.476
+Max (Total): 7.772
+/rwthfs/rz/cluster/hpcwork/p0021020/Pooria/SINGLES/PostProcessing/VolatileFlameStandOffDistance/Data/WS/OXY20-DP160
+FlameThicknessApproach
+Simulation data
+CASE:  Min
+Average:     2.000
+Max (Total): 5.000
+CASE:  Mid
+Average:     2.450
+Max (Total): 6.000
+CASE:  Max
+Average:     3.983
+Max (Total): 8.000
+Smoothed data: Min
+CASE:  Min
+Average:     1.981
+Max (Total): 4.763
+Smoothed data: Mid
+CASE:  Mid
+Average:     2.430
+Max (Total): 5.523
+Smoothed data: Max
+CASE:  Max
+Average:     3.948
+Max (Total): 7.881
+/rwthfs/rz/cluster/hpcwork/p0021020/Pooria/SINGLES/PostProcessing/VolatileFlameStandOffDistance/Data/WS/OXY20-DP90
+FlameThicknessApproach
+Simulation data
+CASE:  Min
+Average:     1.023
+Max (Total): 4.004
+CASE:  Mid
+Average:     1.262
+Max (Total): 5.005
+CASE:  Max
+Average:     2.154
+Max (Total): 7.007
+Smoothed data: Min
+CASE:  Min
+Average:     1.006
+Max (Total): 4.256
+Smoothed data: Mid
+CASE:  Mid
+Average:     1.240
+Max (Total): 4.982
+Smoothed data: Max
+CASE:  Max
+Average:     2.115
+Max (Total): 7.461

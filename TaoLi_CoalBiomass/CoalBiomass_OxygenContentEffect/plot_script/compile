@@ -1,0 +1,10 @@
+#!/bin/bash
+file_list=(Moisture DevRate)
+
+for i in ${file_list[@]}; do
+    echo $i
+    gnuplot $i.gnu
+    latex $i.tex
+    dvips -E  $i.dvi -o $i.eps
+done
+exit 0

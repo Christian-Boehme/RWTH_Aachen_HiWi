@@ -1,0 +1,41 @@
+/home/cb376114/p0021020/Pooria/SINGLES/PostProcessing/VolatileFlameStandOffDistance/Data/Coal/AIR10-DP125
+Max (Total): 8.540
+/home/cb376114/p0021020/Pooria/SINGLES/PostProcessing/VolatileFlameStandOffDistance/Data/Coal/AIR20-DP125
+Max (Total): 5.635
+/home/cb376114/p0021020/Pooria/SINGLES/PostProcessing/VolatileFlameStandOffDistance/Data/Coal/AIR20-DP160
+Max (Total): 4.966
+/home/cb376114/p0021020/Pooria/SINGLES/PostProcessing/VolatileFlameStandOffDistance/Data/Coal/AIR20-DP160-GRID125
+Max (Total): 5.335
+/home/cb376114/p0021020/Pooria/SINGLES/PostProcessing/VolatileFlameStandOffDistance/Data/Coal/AIR20-DP90
+Max (Total): 6.460
+/home/cb376114/p0021020/Pooria/SINGLES/PostProcessing/VolatileFlameStandOffDistance/Data/Coal/AIR20-DP90-GRID125
+Max (Total): 6.404
+/home/cb376114/p0021020/Pooria/SINGLES/PostProcessing/VolatileFlameStandOffDistance/Data/Coal/AIR40-DP125
+Max (Total): 3.983
+/home/cb376114/p0021020/Pooria/SINGLES/PostProcessing/VolatileFlameStandOffDistance/Data/Coal/OXY20-DP125
+Max (Total): 5.678
+/home/cb376114/p0021020/Pooria/SINGLES/PostProcessing/VolatileFlameStandOffDistance/Data/Coal/OXY20-DP160
+Max (Total): 5.602
+/home/cb376114/p0021020/Pooria/SINGLES/PostProcessing/VolatileFlameStandOffDistance/Data/Coal/OXY20-DP90
+Max (Total): 6.878
+WS
+/home/cb376114/p0021020/Pooria/SINGLES/PostProcessing/VolatileFlameStandOffDistance/Data/WS/AIR10-DP125
+Max (Total): 6.973
+/home/cb376114/p0021020/Pooria/SINGLES/PostProcessing/VolatileFlameStandOffDistance/Data/WS/AIR20-DP125
+Max (Total): 4.895
+/home/cb376114/p0021020/Pooria/SINGLES/PostProcessing/VolatileFlameStandOffDistance/Data/WS/AIR20-DP160
+Max (Total): 5.522
+/home/cb376114/p0021020/Pooria/SINGLES/PostProcessing/VolatileFlameStandOffDistance/Data/WS/AIR20-DP160-GRID125
+Max (Total): 5.219
+/home/cb376114/p0021020/Pooria/SINGLES/PostProcessing/VolatileFlameStandOffDistance/Data/WS/AIR20-DP90
+Max (Total): 4.618
+/home/cb376114/p0021020/Pooria/SINGLES/PostProcessing/VolatileFlameStandOffDistance/Data/WS/AIR20-DP90-GRID125
+Max (Total): 4.374
+/home/cb376114/p0021020/Pooria/SINGLES/PostProcessing/VolatileFlameStandOffDistance/Data/WS/AIR40-DP125
+Max (Total): 1.851
+/home/cb376114/p0021020/Pooria/SINGLES/PostProcessing/VolatileFlameStandOffDistance/Data/WS/OXY20-DP125
+Max (Total): 4.831
+/home/cb376114/p0021020/Pooria/SINGLES/PostProcessing/VolatileFlameStandOffDistance/Data/WS/OXY20-DP160
+Max (Total): 5.602
+/home/cb376114/p0021020/Pooria/SINGLES/PostProcessing/VolatileFlameStandOffDistance/Data/WS/OXY20-DP90
+Max (Total): 5.588

@@ -1,0 +1,9 @@
+#!/usr/bin bash
+
+gnuplot VolatileFlameStandOffDistance_EffectOfOxygenContent.gnu
+gnuplot VolatileFlameStandOffDistance_EffectOfSize_AirOxy.gnu
+gnuplot VolatileFlameStandOffDistance_EffectOfSize.gnu
+cd figures
+ps2pdf -dEPSCrop VolatileFlameStandOffDistance_EffectOfOxygenContent.eps
+ps2pdf -dEPSCrop VolatileFlameStandOffDistance_EffectOfSize_AirOxy.eps
+ps2pdf -dEPSCrop VolatileFlameStandOffDistance_EffectOfSize.eps
