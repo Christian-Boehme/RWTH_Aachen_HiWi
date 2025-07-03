@@ -1,0 +1,81 @@
+/home/cb376114/p0021020/Pooria/SINGLES/PostProcessing/VolatileFlameStandOffDistance/Data/Coal/AIR10-DP125
+Average:   6.404
+Max (Range): 10.476
+Max (Total): 10.476
+/home/cb376114/p0021020/Pooria/SINGLES/PostProcessing/VolatileFlameStandOffDistance/Data/Coal/AIR20-DP125
+Average:   3.724
+Max (Range): 7.237
+Max (Total): 7.237
+/home/cb376114/p0021020/Pooria/SINGLES/PostProcessing/VolatileFlameStandOffDistance/Data/Coal/AIR20-DP160
+Average:   3.161
+Max (Range): 7.237
+Max (Total): 7.237
+/home/cb376114/p0021020/Pooria/SINGLES/PostProcessing/VolatileFlameStandOffDistance/Data/Coal/AIR20-DP160-GRID125
+Average:   3.489
+Max (Range): 6.804
+Max (Total): 6.804
+/home/cb376114/p0021020/Pooria/SINGLES/PostProcessing/VolatileFlameStandOffDistance/Data/Coal/AIR20-DP90
+Average:   4.323
+Max (Range): 7.484
+Max (Total): 7.484
+/home/cb376114/p0021020/Pooria/SINGLES/PostProcessing/VolatileFlameStandOffDistance/Data/Coal/AIR20-DP90-GRID125
+Average:   3.629
+Max (Range): 7.774
+Max (Total): 7.774
+/home/cb376114/p0021020/Pooria/SINGLES/PostProcessing/VolatileFlameStandOffDistance/Data/Coal/AIR40-DP125
+Average:   3.637
+Max (Range): 6.991
+Max (Total): 6.991
+/home/cb376114/p0021020/Pooria/SINGLES/PostProcessing/VolatileFlameStandOffDistance/Data/Coal/OXY20-DP125
+Average:   3.596
+Max (Range): 7.237
+Max (Total): 7.237
+/home/cb376114/p0021020/Pooria/SINGLES/PostProcessing/VolatileFlameStandOffDistance/Data/Coal/OXY20-DP160
+Average:   3.249
+Max (Range): 6.475
+Max (Total): 6.475
+/home/cb376114/p0021020/Pooria/SINGLES/PostProcessing/VolatileFlameStandOffDistance/Data/Coal/OXY20-DP90
+Average:   4.087
+Max (Range): 7.717
+Max (Total): 7.717
+WS
+/home/cb376114/p0021020/Pooria/SINGLES/PostProcessing/VolatileFlameStandOffDistance/Data/WS/AIR10-DP125
+Average:   4.722
+Max (Range): 7.708
+Max (Total): 7.708
+/home/cb376114/p0021020/Pooria/SINGLES/PostProcessing/VolatileFlameStandOffDistance/Data/WS/AIR20-DP125
+Average:   3.037
+Max (Range): 6.991
+Max (Total): 6.991
+/home/cb376114/p0021020/Pooria/SINGLES/PostProcessing/VolatileFlameStandOffDistance/Data/WS/AIR20-DP160
+Average:   2.923
+Max (Range): 6.203
+Max (Total): 6.203
+/home/cb376114/p0021020/Pooria/SINGLES/PostProcessing/VolatileFlameStandOffDistance/Data/WS/AIR20-DP160-GRID125
+Average:   2.839
+Max (Range): 5.435
+Max (Total): 5.435
+/home/cb376114/p0021020/Pooria/SINGLES/PostProcessing/VolatileFlameStandOffDistance/Data/WS/AIR20-DP90
+Average:   3.661
+Max (Range): 5.927
+Max (Total): 5.927
+/home/cb376114/p0021020/Pooria/SINGLES/PostProcessing/VolatileFlameStandOffDistance/Data/WS/AIR20-DP90-GRID125
+Average:   2.974
+Max (Range): 5.796
+Max (Total): 5.796
+/home/cb376114/p0021020/Pooria/SINGLES/PostProcessing/VolatileFlameStandOffDistance/Data/WS/AIR40-DP125
+Average:   1.477
+Max (Range): 4.993
+Max (Total): 4.993
+/home/cb376114/p0021020/Pooria/SINGLES/PostProcessing/VolatileFlameStandOffDistance/Data/WS/OXY20-DP125
+Average:   3.619
+Max (Range): 5.920
+Max (Total): 5.920
+/home/cb376114/p0021020/Pooria/SINGLES/PostProcessing/VolatileFlameStandOffDistance/Data/WS/OXY20-DP160
+Average:   3.470
+Max (Range): 6.203
+Max (Total): 6.203
+/home/cb376114/p0021020/Pooria/SINGLES/PostProcessing/VolatileFlameStandOffDistance/Data/WS/OXY20-DP90
+Average:   4.086
+Max (Range): 6.999
+Max (Total): 6.999

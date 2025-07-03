@@ -1,0 +1,178 @@
+clc
+clear all
+close all
+addpath('/home/cb376114/master-thesis/ReadCIAOBinaryFiles');
+addpath('/home/cb376114/master-thesis/CIAO_PostProcessingScripts/MATLAB_scripts');
+
+%=====
+% INPUTS
+%=====
+% name of the output directory
+output_file = "FlameDistance_BasedOnContour.txt";
+%=====
+
+home = pwd;
+
+% path to the simulation folder (data.out files)
+loc= {'~/p0021020/Pooria/SINGLES/COL/AIR10-DP125'; 
+    '~/p0021020/Pooria/SINGLES/COL/AIR20-DP90'; 
+    '~/p0021020/Pooria/SINGLES/COL/AIR20-DP90-GRID125'; 
+    '~/p0021020/Pooria/SINGLES/COL/AIR20-DP125'; 
+    '~/p0021020/Pooria/SINGLES/COL/AIR20-DP160'; 
+    '~/p0021020/Pooria/SINGLES/COL/AIR20-DP160-GRID125'; 
+    '~/p0021020/Pooria/SINGLES/COL/AIR40-DP125'; 
+    '~/p0021020/Pooria/SINGLES/COL/OXY20-DP90'; 
+    '~/p0021020/Pooria/SINGLES/COL/OXY20-DP125'; 
+    '~/p0021020/Pooria/SINGLES/COL/OXY20-DP160'; 
+    '~/p0021020/Pooria/SINGLES/WS/AIR10-DP125'; 
+    '~/p0021020/Pooria/SINGLES/WS/AIR20-DP90'; 
+    '~/p0021020/Pooria/SINGLES/WS/AIR20-DP90-GRID125'; 
+    '~/p0021020/Pooria/SINGLES/WS/AIR20-DP125'; 
+    '~/p0021020/Pooria/SINGLES/WS/AIR20-DP160'; 
+    '~/p0021020/Pooria/SINGLES/WS/AIR20-DP160-GRID125'; 
+    '~/p0021020/Pooria/SINGLES/WS/AIR40-DP125'; 
+    '~/p0021020/Pooria/SINGLES/WS/OXY20-DP90'; 
+    '~/p0021020/Pooria/SINGLES/WS/OXY20-DP125'; 
+    '~/p0021020/Pooria/SINGLES/WS/OXY20-DP160'};
+loc= {'~/p0021020/Pooria/SINGLES/WS/AIR20-DP125/TEST'};
+loc = loc';
+
+% input: particle diameter
+diameter = {125e-06; 90e-06; 90e-06; 125e-06; 160e-06; 160e-06; 
+    125e-06; 90e-06; 125e-06; 160e-06; 125e-06; 90e-06; 90e-06; 
+    125e-06; 160e-06; 160e-06; 125e-06; 90e-06; 125e-06; 160e-06}; % [µm]
+diameter = diameter';
+dp = 125e-06;
+
+% data format
+headers = {'time', 'Dpar', 'tmin_flame', 'tmid_flame', 'tmax_flame'};
+num_col = numel(headers);
+col_width = max(cellfun(@length, headers)) + 2;
+if col_width <= 12
+    col_width = 12;
+end
+
+header_format = '';
+data_format = '';
+for col = 1:num_col
+    header_format = [header_format, '%', num2str(col_width), 's'];
+    data_format = [data_format, repmat(' ', 1, col_width - 12), '%6E'];
+    if col ~= num_col
+        header_format = [header_format, '\t'];
+        data_format = [data_format, '\t'];
+    else
+        header_format = [header_format, '\n'];
+        data_format = [data_format, '\n'];
+    end
+end
+
+%
+for path = 1:length(loc)
+
+    location = loc{path};
+    disp(location);
+    cd ( location )
+    %dp = diameter( path );
+
+    % read in data.out files
+    dirFiles = dir(fullfile(location, 'data.out_*'));
+    files = {dirFiles.name};
+
+    % sort files numerically
+    filenum = cellfun(@(x)sscanf(x, 'data.out_%e'), files);
+    [~,Sidx] = sort(filenum) ;
+    filenames = files(Sidx);
+
+    % determine max variable (upper limit)
+    for fname = 1:length(filenames)
+        files = dir(fullfile(location, filenames{fname}));
+        filename = files(1).name;
+
+        % read data
+        OH = CIAO_read_real(filename,'OH');
+        
+        if fname == 1
+            YOH_abs_min = 0;
+            YOH_abs_max = 0;
+        end
+        YOH_min = min(min(min(OH)));
+        YOH_max = max(max(max(OH)));
+        if YOH_min < YOH_abs_min
+            YOH_abs_min = YOH_min;
+        end
+        if YOH_max > YOH_abs_max
+            YOH_abs_max = YOH_max;
+        end
+    
+    end
+
+    %fprintf('\nYOH_min  = %e and YOH_max  = %e', YOH_abs_min, YOH_abs_max);
+
+    % generate plots for each file/time
+    for fname = 1:length(filenames)
+        fprintf('%s\n', filenames{fname});
+        files = dir(fullfile(location, filenames{fname}));
+        filename = files(1).name;
+
+        grid  = CIAO_read_grid(filename);
+        xm = grid.xm;
+        ym = grid.ym;
+        zm = grid.zm;
+        nx = size(xm,1);
+        ny = size(ym,1);
+        nz = size(zm,1);
+        % determine grid lenght (x-direction)
+        grid_length = xm(nx) / nx;
+
+        % read data
+        time(1) = CIAO_read_real(filename,'time');
+        OH = CIAO_read_real(filename,'OH');
+        ND_COAL = CIAO_read_real(filename, 'ND_COAL');
+
+        [time_1,ii] = sort(time);
+        time = time_1;
+        clear time_1
+
+        time = num2str(time * 1E+3);
+        
+        % write header
+        if fname == 1                                                                                                                                                                                                                     
+            fid = fopen(output_file, 'a+');
+            fprintf(fid, header_format, headers{:});
+            fclose(fid);
+        end
+        % particle must be in front!
+        zplain = 1;
+        % particle-plain
+        for i = 1:nx
+            for j = 1:ny
+                for k = 1:nz
+                    if ND_COAL(i,j,k) == 1
+                        xplain = i;
+                        yplain = j;
+                        zplain = k;
+                        break
+                    end
+                end
+            end
+        end
+
+        threshold = 0.75 * YOH_abs_max;
+        [X, Y, Z] = meshgrid(1:size(OH, 2), 1:size(OH, 1), 1:size(OH, 3));
+        isosurface_handle = isosurface(X, Y, Z, OH, threshold);
+        vertices = isosurface_handle.vertices;
+        distances = sqrt((vertices(:,1) - xplain).^2 + (vertices(:,2) - yplain).^2 + (vertices(:,3) - zplain).^2) * grid_length / dp/2);
+        disp(distances);
+        min_flame_loc = min(distances);
+        mid_flame_loc = 0; % ??? HOW max OH, or?
+        max_flame_loc = max(distances);
+        disp(max_flame_loc);
+        disp(min_flame_loc);
+        data = {time, dp, min_flame_loc, mid_flame_loc, max_flame_loc};
+        fid = fopen(output_file, 'a+');
+        fprintf(fid, data_format, data{:});
+        fclose(fid);
+    end
+end
+
+cd( home )

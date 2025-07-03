@@ -1,0 +1,13 @@
+#!/usr/bin bash
+
+echo 'START'
+sbatch Submit_SINGLE_DVC_COL_AIR_90_O2_20_totVol_omega.sh
+sbatch Submit_SINGLE_DVC_COL_OXY_90_O2_20_totVol_omega.sh
+sbatch Submit_SINGLE_DVC_WS_AIR_90_O2_20_totVol_omega.sh
+sbatch Submit_SINGLE_DVC_WS_OXY_90_O2_20_totVol_omega.sh
+sbatch Submit_SINGLE_FVC0_MIS_AIR_90_O2_20_totVol_omega.sh
+sbatch Submit_SINGLE_FVC0_MIS_OXY_90_O2_20_totVol_omega.sh
+sbatch Submit_SINGLE_FVC0_MIS_OXY_90_O2_30_totVol_omega.sh
+sbatch Submit_SINGLE_FVC1_MIS_AIR_90_O2_20_totVol_omega.sh
+sbatch Submit_SINGLE_FVC2_MIS_AIR_90_O2_20_totVol_omega.sh
+echo 'DONE'

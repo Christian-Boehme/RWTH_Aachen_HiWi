@@ -1,0 +1,41 @@
+/rwthfs/rz/cluster/hpcwork/p0021020/Pooria/SINGLES/COL/AIR10-DP125
+Volatile combustion time: 7.151ms
+/rwthfs/rz/cluster/hpcwork/p0021020/Pooria/SINGLES/COL/AIR20-DP125
+Volatile combustion time: 6.513ms
+/rwthfs/rz/cluster/hpcwork/p0021020/Pooria/SINGLES/COL/AIR20-DP160
+Volatile combustion time: 10.166ms
+/rwthfs/rz/cluster/hpcwork/p0021020/Pooria/SINGLES/COL/AIR20-DP160-GRID125
+Volatile combustion time: 10.117ms
+/rwthfs/rz/cluster/hpcwork/p0021020/Pooria/SINGLES/COL/AIR20-DP90
+Volatile combustion time: 3.623ms
+/rwthfs/rz/cluster/hpcwork/p0021020/Pooria/SINGLES/COL/AIR20-DP90-GRID125
+Volatile combustion time: 11.807ms
+/rwthfs/rz/cluster/hpcwork/p0021020/Pooria/SINGLES/COL/AIR40-DP125
+Volatile combustion time: 17.288ms
+/rwthfs/rz/cluster/hpcwork/p0021020/Pooria/SINGLES/COL/OXY20-DP125
+Volatile combustion time: 6.848ms
+/rwthfs/rz/cluster/hpcwork/p0021020/Pooria/SINGLES/COL/OXY20-DP160
+Volatile combustion time: 10.701ms
+/rwthfs/rz/cluster/hpcwork/p0021020/Pooria/SINGLES/COL/OXY20-DP90
+Volatile combustion time: 3.959ms
+WS
+/rwthfs/rz/cluster/hpcwork/p0021020/Pooria/SINGLES/WS/AIR10-DP125
+Volatile combustion time: 15.759ms
+/rwthfs/rz/cluster/hpcwork/p0021020/Pooria/SINGLES/WS/AIR20-DP125
+Volatile combustion time: 12.939ms
+/rwthfs/rz/cluster/hpcwork/p0021020/Pooria/SINGLES/WS/AIR20-DP160
+Volatile combustion time: 19.749ms
+/rwthfs/rz/cluster/hpcwork/p0021020/Pooria/SINGLES/WS/AIR20-DP160-GRID125
+Volatile combustion time: 14.510ms
+/rwthfs/rz/cluster/hpcwork/p0021020/Pooria/SINGLES/WS/AIR20-DP90
+Volatile combustion time: 7.588ms
+/rwthfs/rz/cluster/hpcwork/p0021020/Pooria/SINGLES/WS/AIR20-DP90-GRID125
+Volatile combustion time: 5.511ms
+/rwthfs/rz/cluster/hpcwork/p0021020/Pooria/SINGLES/WS/AIR40-DP125
+Volatile combustion time: 6.517ms
+/rwthfs/rz/cluster/hpcwork/p0021020/Pooria/SINGLES/WS/OXY20-DP125
+Volatile combustion time: 14.395ms
+/rwthfs/rz/cluster/hpcwork/p0021020/Pooria/SINGLES/WS/OXY20-DP160
+Volatile combustion time: 21.753ms
+/rwthfs/rz/cluster/hpcwork/p0021020/Pooria/SINGLES/WS/OXY20-DP90
+Volatile combustion time: 8.513ms

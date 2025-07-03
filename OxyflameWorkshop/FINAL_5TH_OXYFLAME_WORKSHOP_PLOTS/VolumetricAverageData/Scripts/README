@@ -1,0 +1,8 @@
+# How to calculate the integrated average
+
+The post-processing script creates a new file with the integrated average data to the respective sub-folder
+bash IntegratedAverageDataCalculation_ValidationSingle.sh
+
+# optional
+create data for gnuplot
+python3 CreateGnuplotInput.py -i1 ../Validation_SINGLE/Panahi2019_DTF90_288_40_40_Tgas1300K/LastPlain_x288/IntegratedAverageX_FtT.txt -i2 ../Validation_SINGLE/Panahi2019_DTF90_288_40_40_Tgas1400K/LastPlain_x288/IntegratedAverageX_FtT.txt -i3 ../Validation_SINGLE/Panahi2019_DTF90_288_40_40_Tgas1500K/LastPlain_x288/IntegratedAverageX_FtT.txt

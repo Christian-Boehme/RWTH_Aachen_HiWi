@@ -1,0 +1,7 @@
+#!/usr/bin bash
+
+gnuplot VolatileFlameStandOffDistance_EffectOfOxygenContent_CoalBio.gnu
+gnuplot VolatileFlameStandOffDistance_EffectOfSize_CoalBio_Air.gnu
+cd figures
+ps2pdf -dEPSCrop VolatileFlameStandOffDistance_EffectOfOxygenContent_CoalBio.eps
+ps2pdf -dEPSCrop VolatileFlameStandOffDistance_EffectOfSize_CoalBio_Air.eps
