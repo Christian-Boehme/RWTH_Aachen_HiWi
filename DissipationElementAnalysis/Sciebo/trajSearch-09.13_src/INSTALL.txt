@@ -1,0 +1,24 @@
+This software is tested with Intel Compiler Suite and IBM Compiler Suite.
+
+1. compile HDF5
+---------------
+	export CC=icc     
+	export CXX=icc      
+	export FC=ifort
+	export CFLAGS='-O3'
+	export CXXFLAGS='-O3'
+	export FCFLAGS='-O3'
+
+	./configure \
+        --enable-fortran \
+        --enable-production \
+        --enable-shared=no \
+        --enable-static-exec
+
+2. compile trajSearch
+---------------------
+	check+read src/Makefile
+	Keep the default settings as long as you do not know exactly how a change effects the results. 
+ 
+
+
