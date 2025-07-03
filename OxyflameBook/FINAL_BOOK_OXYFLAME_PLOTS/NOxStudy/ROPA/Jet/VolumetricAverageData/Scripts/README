@@ -1,0 +1,16 @@
+# How to calculate the integrated average
+
+1. calculate the volumetric average
+cd ~/NHR/NOx_JETS_ICNC24/Post/FluxAnalysis/Scripts/ComputeVolumetricAverageData/SubmitJobs/ScalarCalulation
+cp Panahi2019_DTF90_288_40_40_Tgas1300K_LastPlain_scalar_vol.m New.m
+modify the path and the last plain (x-direction)
+run it on the front end (~1h to 2h) or submit it
+
+2. move the VolumetricAverageData folder (generated in step 1) to the Validation_SINGLE folder
+mv VolumetricAverageData ~/NHR/NOx_JETS_ICNC24/VolumetricAverageData/Validation_SINGLE
+
+3. add the new folders to the IntegratedAverageDataCalculation_ValidationSingle.sh script and run it
+bash IntegratedAverageDataCalculation_ValidationSingle.sh
+
+4. the integrated average data will be saved in the respective folder => open the file or use the following script
+python3 CreateGnuplotInput.py -i1 ../Validation_SINGLE/Panahi2019_DTF90_288_40_40_Tgas1300K/LastPlain_x288/IntegratedAverageX_FtT.txt -i2 ../Validation_SINGLE/Panahi2019_DTF90_288_40_40_Tgas1400K/LastPlain_x288/IntegratedAverageX_FtT.txt -i3 ../Validation_SINGLE/Panahi2019_DTF90_288_40_40_Tgas1500K/LastPlain_x288/IntegratedAverageX_FtT.txt
