@@ -1,0 +1,45 @@
+% This file was created by matlab2tikz.
+%
+%The latest updates can be retrieved from
+%  http://www.mathworks.com/matlabcentral/fileexchange/22022-matlab2tikz-matlab2tikz
+%where you can also make suggestions and rate matlab2tikz.
+%
+\begin{tikzpicture}
+
+\begin{axis}[%
+width=5.53in,
+height=3.693in,
+at={(1.069in,1.125in)},
+scale only axis,
+xmin=80,
+xmax=180,
+xlabel style={font=\color{white!15!black}},
+xlabel={$D_\mathrm{p} \mathrm{[\mu m]}$},
+ymin=0,
+ymax=15,
+ytick={ 0,  3,  6,  9, 12, 15},
+ylabel style={font=\color{white!15!black}},
+ylabel={$r_\mathrm{f}/r_\mathrm{p}$ [-]},
+axis background/.style={fill=white},
+legend style={legend cell align=left, align=left, fill=none, draw=none}
+]
+\addplot [color=blue, line width=2.0pt, mark=square*, mark options={solid, fill=blue, blue}]
+  table[row sep=crcr]{%
+90	9.723611\\
+125	7\\
+160	5.46875\\
+};
+\addlegendentry{Coal}
+
+\addplot [color=red, line width=2.0pt, mark=square*, mark options={solid, fill=red, red}]
+  table[row sep=crcr]{%
+90	6.945833\\
+125	6\\
+160	4.6875\\
+};
+\addlegendentry{WS}
+
+\node[right, align=left, inner sep=0]
+at (axis cs:167,1.5) {(a)};
+\end{axis}
+\end{tikzpicture}%

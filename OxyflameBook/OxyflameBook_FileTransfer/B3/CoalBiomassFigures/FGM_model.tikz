@@ -1,0 +1,86 @@
+% This file was created by matlab2tikz.
+%
+%The latest updates can be retrieved from
+%  http://www.mathworks.com/matlabcentral/fileexchange/22022-matlab2tikz-matlab2tikz
+%where you can also make suggestions and rate matlab2tikz.
+%
+\definecolor{mycolor1}{rgb}{1.00000,0.00000,1.00000}%
+%
+\begin{tikzpicture}
+
+\begin{axis}[%
+width=5.53in,
+height=3.659in,
+at={(1.069in,1.159in)},
+scale only axis,
+xmin=0,
+xmax=10,
+xtick={ 0,  2,  4,  6,  8, 10},
+xlabel style={font=\bfseries\color{white!15!black}},
+xlabel={$\dot{N}_\mathrm{inj} \mathrm{[prt/ms]}$},
+ymin=5,
+ymax=25,
+ylabel style={font=\bfseries\color{white!15!black}},
+ylabel={$\tau_\mathrm{ign} \mathrm{[ms]}$},
+axis background/.style={fill=white},
+legend style={at={(0.03,0.97)}, anchor=north west, legend cell align=left, align=left, fill=none, draw=none}
+]
+\addplot [color=red, dashed, line width=1.0pt]
+  table[row sep=crcr]{%
+0	7.191\\
+10	7.191\\
+};
+\addlegendentry{SP}
+
+\addplot [color=black, line width=2.0pt, only marks, mark size=8.6pt, mark=diamond*, mark options={solid, fill=black, black}]
+ plot [error bars/.cd, y dir=both, y explicit, error bar style={line width=2.0pt}, error mark options={line width=2.0pt, mark size=6.0pt, rotate=90}]
+ table[row sep=crcr, y error plus index=2, y error minus index=3]{%
+1	7.6873	2.5462	2.5462\\
+3	9.904	3.5325	3.5325\\
+6	12.9294	3.7439	3.7439\\
+9	14.2375	2.5701	2.5701\\
+};
+\addlegendentry{Exp.}
+
+\addplot [color=red, line width=2.0pt, mark size=5.0pt, mark=*, mark options={solid, fill=red, red}]
+ plot [error bars/.cd, y dir=both, y explicit, error bar style={line width=2.0pt}, error mark options={line width=2.0pt, mark size=6.0pt, rotate=90}]
+ table[row sep=crcr, y error plus index=2, y error minus index=3]{%
+1	8.685	0.8505	0.8505\\
+3	9.379	0.7765	0.7765\\
+6	12.524	0.8695	0.8695\\
+9	14.812	1.207	1.207\\
+};
+\addlegendentry{FC-CPD}
+
+\addplot [color=blue, line width=2.0pt, mark size=5.0pt, mark=*, mark options={solid, fill=blue, blue}]
+ plot [error bars/.cd, y dir=both, y explicit, error bar style={line width=2.0pt}, error mark options={line width=2.0pt, mark size=6.0pt, rotate=90}]
+ table[row sep=crcr, y error plus index=2, y error minus index=3]{%
+1	7.02	1.345	1.345\\
+3	9.12	1.553	1.553\\
+6	10.62	2.405	2.405\\
+9	12.41	3.368	3.368\\
+};
+\addlegendentry{FGM-CPD}
+
+\addplot [color=green, line width=2.0pt, mark size=5.0pt, mark=*, mark options={solid, fill=green, green}]
+ plot [error bars/.cd, y dir=both, y explicit, error bar style={line width=2.0pt}, error mark options={line width=2.0pt, mark size=6.0pt, rotate=90}]
+ table[row sep=crcr, y error plus index=2, y error minus index=3]{%
+1	7.49	2.024	2.024\\
+3	9.77	2.322	2.322\\
+6	11.26	3.099	3.099\\
+9	12.95	3.338	3.338\\
+};
+\addlegendentry{FGM-CPD}
+
+\addplot [color=mycolor1, line width=2.0pt, mark size=3.5pt, mark=square*, mark options={solid, fill=mycolor1, mycolor1}]
+ plot [error bars/.cd, y dir=both, y explicit, error bar style={line width=2.0pt}, error mark options={line width=2.0pt, mark size=6.0pt, rotate=90}]
+ table[row sep=crcr, y error plus index=2, y error minus index=3]{%
+1	7.15	1.778	1.778\\
+3	9.23	2.082	2.082\\
+6	10.47	2.577	2.577\\
+9	12.13	3.145	3.145\\
+};
+\addlegendentry{FGM-CPD}
+
+\end{axis}
+\end{tikzpicture}%

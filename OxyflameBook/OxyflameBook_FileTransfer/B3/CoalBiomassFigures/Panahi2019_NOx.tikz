@@ -1,0 +1,48 @@
+% This file was created by matlab2tikz.
+%
+%The latest updates can be retrieved from
+%  http://www.mathworks.com/matlabcentral/fileexchange/22022-matlab2tikz-matlab2tikz
+%where you can also make suggestions and rate matlab2tikz.
+%
+\begin{tikzpicture}
+
+\begin{axis}[%
+width=5.321in,
+height=3.693in,
+at={(1.278in,1.125in)},
+scale only axis,
+clip=false,
+xmin=1250,
+xmax=1550,
+xtick={1300, 1400, 1500},
+xlabel style={font=\bfseries\color{white!15!black}},
+xlabel={T$_\mathrm{Furnace} \mathrm{[K]}$},
+ymin=0,
+ymax=800,
+ytick={  0, 200, 400, 600, 800},
+ylabel style={font=\bfseries\color{white!15!black}},
+ylabel={X$_\mathrm{NO_x} \mathrm{[ppm]}$},
+axis background/.style={fill=white},
+legend style={at={(0.97,0.03)}, anchor=south east, legend cell align=left, align=left, fill=none, draw=none}
+]
+\addplot [color=blue, line width=2.0pt, mark size=5.0pt, mark=x, mark options={solid, fill=black, blue}]
+ plot [error bars/.cd, y dir=both, y explicit, error bar style={line width=2.0pt}, error mark options={line width=2.0pt, mark size=6.0pt, rotate=90}]
+ table[row sep=crcr, y error plus index=2, y error minus index=3]{%
+1300	409.441	-72.727	57.343\\
+1400	515.734	-25.175	16.783\\
+1500	620.629	-33.567	20.979\\
+};
+\addlegendentry{Panahi et al.}
+
+\addplot [color=red, line width=2.0pt, mark size=3.5pt, mark=square*, mark options={solid, fill=red, red}]
+  table[row sep=crcr]{%
+1300	553.373107228\\
+1400	650.465415086\\
+1500	722.1184799491\\
+};
+\addlegendentry{SP simulation}
+
+\node[right, align=left, inner sep=0, font=\bfseries]
+at (axis cs:175,22) {(a) Coal};
+\end{axis}
+\end{tikzpicture}%
