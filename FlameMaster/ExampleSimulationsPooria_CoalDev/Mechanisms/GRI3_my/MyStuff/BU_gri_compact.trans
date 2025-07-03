@@ -1,0 +1,79 @@
+!Transport data for: gri.30.mech
+H2
+H
+O
+O2
+OH
+H2O
+HO2
+H2O2
+C
+CH
+CH2
+CH2(S)
+CH3
+CH4
+CO
+CO2
+HCO
+CH2O
+CH2OH
+CH3O
+CH3OH
+C2H
+C2H2
+C2H3
+C2H4
+C2H5
+C2H6
+HCCO
+CH2CO
+HCCOH
+N
+NH
+NH2
+NH3
+NNH
+NO
+NO2
+N2O
+HNO
+CN
+HCN
+H2CN
+HCNN
+HCNO
+HOCN
+HNCO
+NCO
+N2
+AR
+C3H7
+C3H8
+CH2CHO
+CH3CHO
+COALSOLIDGCOAL1               2   620.102     6.122     0.000     0.000     0.000
+COALSOLIDGCH2                 2   171.862     2.950     0.000     0.000     0.000
+COALSOLIDCHAR                 0   157.070     2.803     0.000     0.000     0.000
+COALSOLIDCHARH                2   240.462     3.571     0.000     0.000     0.000
+COALSOLIDTAR1                 2   620.102     6.122     0.000     0.000     0.000
+VTAR1                         2   417.000     3.690     1.700     0.000     2.000
+COALSOLIDCOAL2                2   789.168     7.022     0.000     0.000     0.000
+COALSOLIDGBTX2                2   731.101     6.723     0.000     0.000     0.000
+COALSOLIDGCH4                 2   185.784     3.084     0.000     0.000     0.000
+COALSOLIDGCH2                 2   171.862     2.950     0.000     0.000     0.000
+COALSOLIDGCOH2                2   267.244     3.792     0.000     0.000     0.000
+COALSOLIDGCO2S                2   333.594     4.302     0.000     0.000     0.000
+COALSOLIDGH2O                 2   198.720     3.204     0.000     0.000     0.000
+COALSOLIDGCOL                 1   256.685     3.706     0.000     0.000     0.000
+COALSOLIDTAR2                 2   789.168     7.022     0.000     0.000     0.000
+VTAR2                         2   417.000     3.690     1.700     0.000     2.000
+COALSOLIDGCO2TS               2   333.594     4.302     0.000     0.000     0.000
+COALSOLIDCOAL3                2   884.053     7.490     0.000     0.000     0.000
+COALSOLIDGCOAL3               2   884.053     7.490     0.000     0.000     0.000
+COALSOLIDTAR3                 2   740.888     6.774     0.000     0.000     0.000
+COALSOLIDGCO2                 2   333.594     4.302     0.000     0.000     0.000
+VTAR3                         2   417.000     3.690     1.700     0.000     2.000
+BTX2                          2   417.000     3.690     1.700     0.000     2.000
+COALSOLIDCHARG                0   157.070     2.803     0.000     0.000     0.000
+

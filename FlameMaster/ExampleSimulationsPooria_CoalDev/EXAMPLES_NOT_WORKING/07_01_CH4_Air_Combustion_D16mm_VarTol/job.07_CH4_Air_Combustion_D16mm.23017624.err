@@ -1,0 +1,8 @@
+(OK) Unloading intelmpi 2018.4.274
+(OK) Unloading Intel Suite 19.0.1.144
+(WW) ATTENTION!!! Unloading this module can result in inoperable software!!!
+(OK) Loading DEVELOP environment
+(OK) Loading DEPRECATED environment
+(OK) Loading Intel suite, Version 19.0.1.144: compilers (C/C++/FORTRAN), MKL, TBB, IPP and DAAL
+(OK) Intel MPI Suite 2018.3.222 loaded.
+slurmstepd: error: *** JOB 23017624 ON lnih075 CANCELLED AT 2021-09-06T01:14:39 ***
