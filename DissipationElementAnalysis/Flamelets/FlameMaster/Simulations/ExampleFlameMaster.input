@@ -1,0 +1,124 @@
+# Generated from: GenerateLBVInputFile.py
+#Inputs - global
+#mech = ./ITVSkeletalCoal56.pre
+#Pres = 101325.0
+#Dist = 0.15
+#Startprofile = CH4_p01_0a00100_0tf0300to0300#a = 100
+
+#Inputs - fuel side:
+#YCO = 0.057
+#YCO2 = 0.072
+#YCH4  = 0.087
+#YH2O = 0.268                
+#YC2H2 = 0.516
+#Temp = 0.0
+#mdot = -0.8
+
+#Inputs - oxidizer side
+#YOH2O = 0.0856
+#YOCO2 = 0.1042
+#YOO2 = 0.2242
+#YON2 = 0.586                
+#Temp = 300.0
+#mdot = 0.8
+
+############
+# Numerics #
+############
+
+UseNumericalJac is TRUE
+UseModifiedNewton = TRUE
+
+DampFlag = TRUE
+LambdaMin = 5.0e-3
+
+DeltaTStart = 1.0e-4
+DeltaTMax = 1.0e5
+
+MaxIter = 100
+TolRes = 1.0e-14
+TolDy = 1e-6
+
+#######
+# Grid#
+#######
+
+DeltaNewGrid = 15
+OneSolutionOneGrid = TRUE
+initialgridpoints = 495
+maxgridpoints = 500
+q = -0.25
+R = 60
+
+left = 0.0
+right = 0.15
+
+#######
+# I/O #
+#######
+
+WriteEverySolution = TRUE
+PrintMolarFractions is TRUE
+#AdditionalOutput is TRUE
+
+Boundaries_at_inner_grid_points = TRUE
+
+OutputPath is ./output
+StartProfilesFile is CH4_p01_0a00100_0tf0300to0300
+
+#############
+# Chemistry #
+#############
+
+MechanismFile is ./ITVSkeletalCoal56.pre
+globalReaction is C2H2 +2.5 O2 == 2 CO2 + 1 H2O;
+
+fuel is C2H2
+oxidizer is O2
+
+#########
+# Flame #
+#########
+
+Flame is CounterFlowDiffusion
+StrainRate = 100
+FlameIsAxisymmetric = TRUE
+ExactBackward is TRUE
+
+pressure = 101325.0
+
+ComputeWithRadiation is FALSE
+ArclengthCont = TRUE
+ConstLewisNumber is TRUE
+LewisNumberFile is LewisNumberOne
+ThermoDiffusion is TRUE
+TransModel is MultiGeom
+
+#######################
+# Boundary conditions #
+#######################
+
+Fuel Side {
+     dirichlet {
+         T  = 300.00
+         #Y->CO   = 0.05700
+         #Y->CO2  = 0.07200
+         #Y->CH4  = 0.08700
+         #Y->H2O  = 0.26800
+         #Y->C2H2 = 0.51600
+         Y->CH4   = 1.0
+         }
+}
+
+Oxidizer Side {
+     dirichlet {
+         T  = 300.00
+         #Y->H2O = 0.08560
+         #Y->CO2 = 0.10420
+         #Y->O2  = 0.22420
+         #Y->N2  = 0.58600
+         Y->O2 = 0.23
+         Y->N2  = 0.77
+         }
+}
+
