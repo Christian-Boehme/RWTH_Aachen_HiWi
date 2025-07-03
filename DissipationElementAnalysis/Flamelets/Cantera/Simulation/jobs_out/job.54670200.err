@@ -1,0 +1,980 @@
+[INFO] Module intel/2022a loaded.
+[INFO] Module imkl/2022.1.0 loaded.
+[INFO] Module GCC/11.3.0 loaded.
+[INFO] Module binutils/2.38 loaded.
+[INFO] Module zlib/1.2.13 loaded.
+[INFO] Module GCCcore/.11.3.0 loaded.
+[INFO] Module binutils/2.38 loaded.
+[INFO] Module numactl/2.0.16 loaded.
+[INFO] Module UCX/1.17.0 loaded.
+[INFO] Module binutils/2.42 loaded.
+
+The following have been reloaded with a version change:
+  1) binutils/2.38 => binutils/2.42
+
+[INFO] Module Szip/2.1.1 loaded.
+[INFO] Module numactl/2.0.16 loaded.
+[INFO] Module impi/2021.6.0 loaded.
+[INFO] Module imkl-FFTW/2022.1.0 loaded.
+[INFO] Module OpenSSL/3 loaded.
+
+Modules based on Lua: Version 8.7.37 (8.7.37-3-g7940a1c1) 2024-05-17 13:15 +02:00
+    by Robert McLay mclay@tacc.utexas.edu
+
+module [options] sub-command [args ...]
+
+Help sub-commands:
+------------------
+  help                              prints this message
+  help                module [...]  print help message from module(s)
+
+Loading/Unloading sub-commands:
+-------------------------------
+  load | add          module [...]  load module(s)
+  try-load | try-add  module [...]  Add module(s), do not complain if not
+                                    found
+  del | unload        module [...]  Remove module(s), do not complain if not
+                                    found
+  swap | sw | switch  m1 m2         unload m1 and load m2
+  purge                             unload all modules
+  refresh                           reload aliases from current list of
+                                    modules.
+  update                            reload all currently loaded modules.
+
+Listing / Searching sub-commands:
+---------------------------------
+  list                              List loaded modules
+  list                s1 s2 ...     List loaded modules that match the
+                                    pattern
+  avail | av                        List available modules
+  avail | av          string        List available modules that contain
+                                    "string".
+  category | cat                    List all categories
+  category | cat      s1 s2 ...     List all categories that match the
+                                    pattern and display their modules
+  overview | ov                     List all available modules by short
+                                    names with number of versions
+  overview | ov       string        List available modules by short names
+                                    with number of versions that contain
+                                    "string"
+  spider                            List all possible modules
+  spider              module        List all possible version of that module
+                                    file
+  spider              string        List all module that contain the
+                                    "string".
+  spider              name/version  Detailed information about that version
+                                    of the module.
+  whatis              module        Print whatis information about module
+  keyword | key       string        Search all name and whatis that contain
+                                    "string".
+
+Searching with Lmod:
+--------------------
+  All searching (spider, list, avail, keyword) support regular expressions:
+  
+
+  -r spider           '^p'          Finds all the modules that start with
+                                    `p' or `P'
+  -r spider           mpi           Finds all modules that have "mpi" in
+                                    their name.
+  -r spider           'mpi$         Finds all modules that end with "mpi" in
+                                    their name.
+
+Handling a collection of modules:
+--------------------------------
+  save | s                          Save the current list of modules to a
+                                    user defined "default" collection.
+  save | s            name          Save the current list of modules to
+                                    "name" collection.
+  reset                             The same as "restore system"
+  restore | r                       Restore modules from the user's
+                                    "default" or system default.
+  restore | r         name          Restore modules from "name" collection.
+  restore             system        Restore module state to system defaults.
+  savelist                          List of saved collections.
+  describe | mcc      name          Describe the contents of a module
+                                    collection.
+  disable             name          Disable (i.e. remove) a collection.
+
+Deprecated commands:
+--------------------
+  getdefault          [name]        load name collection of modules or
+                                    user's "default" if no name given.
+                                    ===> Use "restore" instead <====
+  setdefault          [name]        Save current list of modules to name if
+                                    given, otherwise save as the default
+                                    list for you the user.
+                                    ===> Use "save" instead. <====
+
+Miscellaneous sub-commands:
+---------------------------
+  is-loaded           modulefile    return a true status if module is loaded
+  is-avail            modulefile    return a true status if module can be
+                                    loaded
+  show                modulefile    show the commands in the module file.
+  use [-a]            path          Prepend or Append path to MODULEPATH.
+  unuse               path          remove path from MODULEPATH.
+  tablelist                         output list of active modules as a lua
+                                    table.
+
+Important Environment Variables:
+--------------------------------
+  LMOD_COLORIZE                     If defined to be "YES" then Lmod prints
+                                    properties and warning in color.
+
+    --------------------------------------------------------------------------
+
+Lmod Web Sites
+
+  Documentation:    https://lmod.readthedocs.org
+  GitHub:           https://github.com/TACC/Lmod
+  SourceForge:      https://lmod.sf.net
+  TACC Homepage:    https://www.tacc.utexas.edu/research-development/tacc-projects/lmod
+
+  To report a bug please read https://lmod.readthedocs.io/en/latest/075_bug_reporting.html
+    --------------------------------------------------------------------------
+
+
+[INFO] Module intel-compilers/2022.1.0 loaded.
+[INFO] Module impi/2021.6.0 loaded.
+[INFO] Module imkl-FFTW/2022.1.0 loaded.
+
+The following have been reloaded with a version change:
+  1) binutils/2.42 => binutils/2.38
+
+[INFO] Module libevent/2.1.12 loaded.
+
+The following have been reloaded with a version change:
+  1) OpenSSL/3 => OpenSSL/1.1     2) zlib/1.2.13 => zlib/1.2.12
+
+[INFO] Module UCX/1.17.0 loaded.
+
+The following have been reloaded with a version change:
+  1) zlib/1.2.12 => zlib/1.2.13
+
+[INFO] Module HDF5/1.14.0 loaded.
+[INFO] Module Python/3.10.4 loaded.
+
+The following have been reloaded with a version change:
+  1) zlib/1.2.13 => zlib/1.2.12
+
+
+Currently Loaded Modules:
+  1) intel/2022a              (TC)   13) UCX/1.17.0
+  2) imkl/2022.1.0            (m)    14) HDF5/1.14.0
+  3) GCC/11.3.0               (TC)   15) bzip2/1.0.8
+  4) GCCcore/.11.3.0          (H,C)  16) zlib/1.2.12
+  5) Szip/2.1.1                      17) ncurses/6.3
+  6) numactl/2.0.16                  18) libreadline/8.1.2
+  7) binutils/2.38                   19) Tcl/8.6.12
+  8) intel-compilers/2022.1.0 (C)    20) SQLite/3.38.3
+  9) impi/2021.6.0            (M)    21) XZ/5.2.5
+ 10) imkl-FFTW/2022.1.0              22) GMP/6.2.1
+ 11) OpenSSL/1.1                     23) libffi/3.4.2
+ 12) libevent/2.1.12                 24) Python/3.10.4
+
+  Where:
+   C:   	Compiler
+   H:   Hidden Module
+   M:   	MPI implementation
+   TC:  	Toolchain, comprising a compiler, possibly an MPI implementation, and optional mathematical libraries
+   m:   	mathematical libraries
+
+ 
+
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+Traceback (most recent call last):
+  File "/rwthfs/rz/cluster/hpcwork/p0021020/DE_Analysis/Flamelets/Cantera/Simulation/./DiffusionFlame_CH4_batch_T_mix2_Cantera_v3.py", line 20, in <module>
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+    os.makedirs(data_directory)
+  File "/cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/Python/3.10.4-GCCcore-11.3.0/lib/python3.10/os.py", line 225, in makedirs
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'Vol_diffusion_flame_batch_Cantera_v3_0.0/'
+srun: error: n23m0029: tasks 97-99,101-105,108,111-117,119,121,123-125,127-128,131,133-134,136-139,141-152,155-162,164,166-169,171-172,175-177,180,182,184-185,187-191: Exited with exit code 1
+srun: error: n23m0028: tasks 0,2-10,12-15,17,22,24-28,30-32,34,38-40,42-44,46-48,50-52,56,59,62,64-65,67-70,72,74-75,79-81,83-84,86-87,89-92,94-95: Exited with exit code 1
+srun: First task exited 5s ago
+srun: StepId=54670200.0 tasks 1,11,16,18-21,23,29,33,35-37,41,45,49,53-55,57-58,60-61,63,66,71,73,76-78,82,85,88,93,96,100,106-107,109-110,118,120,122,126,129-130,132,135,140,153-154,163,165,170,173-174,178-179,181,183,186: running
+srun: StepId=54670200.0 tasks 0,2-10,12-15,17,22,24-28,30-32,34,38-40,42-44,46-48,50-52,56,59,62,64-65,67-70,72,74-75,79-81,83-84,86-87,89-92,94-95,97-99,101-105,108,111-117,119,121,123-125,127-128,131,133-134,136-139,141-152,155-162,164,166-169,171-172,175-177,180,182,184-185,187-191: exited abnormally
+srun: launch/slurm: _step_signal: Terminating StepId=54670200.0
+slurmstepd: error: *** STEP 54670200.0 ON n23m0028 CANCELLED AT 2025-03-07T17:52:39 ***
+srun: Job step aborted: Waiting up to 62 seconds for job step to finish.
+srun: error: n23m0029: tasks 96,100,106-107,109-110,118,120,122,126,129-130,132,135,140,153-154,163,165,170,173-174,178-179,181,183,186: Killed
+srun: error: n23m0028: tasks 1,11,16,18-21,23,29,33,35-37,41,45,49,53-55,57-58,60-61,63,66,71,73,76-78,82,85,88,93: Killed
